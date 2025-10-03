@@ -1,0 +1,281 @@
+import { Link, NavLink, useNavigate } from "react-router-dom";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination } from 'swiper/modules';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import { FaLightbulb, FaMessage } from "react-icons/fa6";
+import { FaPencilRuler } from "react-icons/fa";
+import FAQS from '../Legal/FAQs'
+
+export default function Sell() {
+    const navigate = useNavigate()
+
+    const testimonal = [
+        {
+            title: "How artists are finding success with Muse Tales Art",
+            description: "The opportunity to reach a huge audience of art lovers through Muse Tales Art is extraordinary, it has opened doors for me and sales have allowed me to develop as an artist.",
+            author: 'Sandy Dooley',
+            country: 'London, UK'
+        },
+        {
+            title: 'How artists are finding success with Muse Tales Art',
+            description: 'Muse Tales Art has afforded me two solo shows, collaborations and countless introductions to collectors, opening up my work to an international audience',
+            author: 'Hormazd Narielwalla',
+            country: 'London, UK'
+        },
+        {
+            title: 'How artists are finding success with Muse Tales Art',
+            description: "It's hard to overstate how important Muse Tales Art has been to my creative development. Since joining in 2010, Muse Tales Art has been with me every step of the way as I've launched what now seems like a career.",
+            author: 'Thomas Hammer',
+            country: 'New York, USA'
+        },
+        {
+            title: 'How artists are finding success with Muse Tales Art',
+            description: "Recently a woman purchased one of my pieces through Muse Tales Art and it was her first original work. Being directly involved in that process reminded me why I love to do what I do.",
+            author: 'Annie Terrazzo',
+            country: 'Los Angeles, USA'
+        },
+        {
+            title: 'How artists are finding success with Muse Tales Art',
+            description: "Without Muse Tales Art sales I would not be able to do my M.A. at The Royal College of Art London",
+            author: 'Ben Edmunds',
+            country: 'London, UK'
+        }
+    ]
+
+    return (
+        <>
+            <div>
+                <div className="grid grid-cols-3 gap-10 mt-10 mb-10">
+                    <div className="relative  bg-teal-600 w-screen h-96 ">
+                        <img
+                            src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501316/Green_Flower_Oil_Paint_Mockup_Instagram_Post_iqrugv.png"
+                            alt="Why Sell"
+                            className="w-full h-full object-cover"
+                        />
+
+                        <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+                            <div className="text-center">
+                                <h1 className="text-white text-6xl font-semibold hover:text-teal-600" >
+                                    Sell your art to a global
+                                </h1>
+                                <h1 className="text-white text-6xl font-semibold hover:text-teal-600" >
+                                    community of art lovers
+                                </h1>
+                                <button className="pl-20 pr-20 text-white pt-2 pb-2 bg-black hover:bg-teal-600 mt-20"  onClick={()=>navigate("/support")}>Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="text-center ml-40 mr-40">
+                    <h1>Why Sell on Muse Tales Art?</h1>
+                    <p>As the world's leading online gallery...</p>
+
+                    <div className="grid grid-cols-4 mt-10 mb-5">
+                        <div>
+                            <p className="pb-2">Artists Represented</p>
+                            <p className="text-2xl">110+ Countries</p>
+                        </div>
+                        <div className="flex">
+                            <div className="w-[1px] h-full bg-[#ccc]"></div>
+                            <div className="mx-auto">
+                                <p className="pb-2">Works Sold to Collectors in</p>
+                                <p className="text-2xl">140+ Countries</p>
+                            </div>
+                        </div>
+                        <div className="flex">
+                            <div className="w-[1px] h-full bg-[#ccc]"></div>
+                            <div className="mx-auto">
+                                <p className="text-2xl pb-2">~12M+</p>
+                                <p>Monthly Page Views</p>
+                            </div>
+                        </div>
+                        <div className="flex">
+                            <div className="w-[1px] h-full bg-[#ccc]"></div>
+                            <div className="mx-auto">
+                                <p className="text-2xl pb-2">~2M+</p>
+                                <p>Monthly Visits</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr></hr>
+
+                    <div className="grid grid-cols-[20%,30%,50%] mb-10 mt-5">
+                        <div>
+                            <p className="text-2xl pb-2">~2M+</p>
+                            <p>Social Followers</p>
+                        </div>
+                        <div className="flex">
+                            <div className="w-[1px] h-full bg-[#ccc]"></div>
+                            <div className="mx-auto">
+                                <p>Printed Catalog Sent to</p>
+                                <p className="text-2xl pt-2">1M+ Households</p>
+                            </div>
+                        </div>
+                        <div className="flex">
+                            <div className="w-[1px] h-full bg-[#ccc]"></div>
+                            <div className="mx-auto">
+                                <p className="text-2xl ">14 International Shows & Fairs Annually Reaching 100K People</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="bg-teal-50 text-center pt-20">
+                    <h1 className="text-6xl font-semibold">Create and Verify Your</h1>
+                    <h1 className="text-6xl font-semibold"> Account to Get Started</h1>
+                    <button className="pl-20 pr-20 pt-3 pb-3 bg-black text-white hover:bg-teal-600 mt-10 mb-16"  onClick={()=>navigate("/support")}>Get Started</button>
+                </div>
+
+                <div className="relative bg-teal-600 w-screen h-screen brightness-50">
+                    <img
+                        src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501316/Green_Flower_Oil_Paint_Mockup_Instagram_Post_iqrugv.png"
+                        alt="Why Sell"
+                        className="w-full h-full object-cover blur-sm"
+                    />
+
+                    <div className="absolute top-0 left-10 w-96 h-full flex items-center justify-center">
+                        <Swiper
+                            spaceBetween={20}
+                            slidesPerView={1}
+                            navigation
+                            pagination={{ clickable: true }}
+                            modules={[Navigation, Pagination]}
+                            className="rounded-sm"
+                        >
+                            {
+                                testimonal.map((item, i) => (
+                                    <SwiperSlide key={i} className="w-full h-full">
+                                        <div className="text-center bg-white p-16 w-96 h-[400px]">
+                                            <h1 className="text-xl font-semibold " >
+                                                {item.title}
+                                            </h1>
+                                            <p>{item.description}</p>
+                                            <p className="pt-4 text-black font-medium">{item.author}</p>
+                                            <p className="font-normal text-black">{item.country}</p>
+                                        </div>
+                                    </SwiperSlide>
+                                ))
+                            }
+                        </Swiper>
+                    </div>
+
+                </div>
+
+                <div className="grid grid-cols-2 mt-10 ml-20 mr-20 h-screen items-center">
+                    <div className="w-full h-full bg-blue-100">
+                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501312/hp-toptile1-01062025-large_cgozln.jpg" alt="art love" className="w-full h-full object-cover" />
+                    </div>
+                    <div className="ml-20">
+                        <h2>Fair, Transparent, and Easy</h2>
+                        <p>Choose how and when you get paid. We offer secure payments by check, wire transfer or PayPal. Our support specialists ensure our artists and collectors are financially protected on every sale.</p>
+                        <p>
+                            Free to create an account<br /><br />
+                            We handle shipping - you only pay for packaging<br /><br />
+                            No fees<br /><br />
+                            Receive 60% on every artwork sold<br /><br />
+                            Non-exclusive policy<br /><br />
+                            Secure online payments</p>
+                        <div className="text-center">
+                            <button className="pl-20 pr-20 pt-3 pb-3 bg-black text-white hover:bg-teal-600 mt-16"  onClick={()=>navigate("/support")}>Get Started</button>
+                        </div>
+                    </div>
+                </div>
+
+                <hr className="m-20" ></hr>
+
+                <div className="grid grid-cols-[45%,50%] ml-20 mr-20 items-center gap-10">
+                    <div className="">
+                        <h2>Get Featured by Muse Tales Art</h2>
+                        <p> We are invested into giving you as much exposure as possible. These are just some of the ways we promote our artists every day:
+                            <br /><br />Attention from our expert curators who review all artworks uploaded daily
+                            <br /><br />Art Advisors make recommendations and facilitate sales to private collectors in over 140 countries
+                            <br /><br />Reach new collectors around the world via direct mail catalogs, digital marketing, social media advertising, and more
+                            <br /><br />Dedicated team of art consultants working to source artwork for commercial partners around the globe
+                            <br /><br />Rich editorial initiatives and content features including Rising Stars, New this Week, Digital Exhibitions and Curated Collections</p>
+                    </div>
+                    <div className="w-full h-full bg-blue-100 mr-20">
+                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501312/hp-toptile1-01062025-large_cgozln.jpg" alt="art love" className="w-full h-full object-cover" />
+                    </div>
+                </div>
+
+                <div className="bg-teal-50 p-20 pl-40 pr-40 mt-10 mb-20">
+                    <h1 className="text-center">Dedicated Artitst Support</h1>
+                    <div className="grid grid-cols-3 gap-10">
+                        <div className="text-center">
+                            <Link to={'/support'}>
+                                <FaMessage className="text-5xl mx-auto mb-5 text-gray-500" />
+                                <b>Here to Help</b>
+                                <p className="mt-3">Work with an artist support specialist by email or phone when you have a question, or need assistance fulfilling a sale.</p>
+                            </Link>
+                        </div>
+                        <div className="text-center">
+                            <Link to={'/newsletter'}>
+                                <FaPencilRuler className="text-5xl mx-auto mb-5  text-gray-500" />
+                                <b>Artist Newsletters</b>
+                                <p className="mt-3">Sign up for our artist newsletter and get helpful tips for improving your sales delivered straight to your inbox.</p>
+                            </Link>
+                        </div>
+                        <div className="text-center">
+                            <Link to={'/stories/design-inspiration'}>
+                                <FaLightbulb className="text-5xl mx-auto mb-5  text-gray-500" />
+                                <b>Tips for Success</b>
+                                <p className="mt-3">Best practices, new opportunities for promotion and general inspiration in our Artist Handbook and on the Canvas blog.</p>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className="text-center">
+                        <button className="pl-32 pr-32 pt-3 pb-3 bg-black text-white hover:bg-teal-600 mt-16 mb-16" onClick={()=>navigate("/support")}>Get Started</button>
+                    </div>
+                </div>
+
+                <div className="grid grid-cols-[45%,50%] ml-20  mr-20 items-center gap-10">
+                    <div className="">
+                        <h2>Powerful Tools and a Passionate Team</h2>
+                        <p className="text-black"> Spend less time managing logistics and more time making art.
+                            <br></br><b className="font-semibold">Painless shipping:</b> When you sell your art with Muse Tales Art, shipping is paid for by the collector and is handled by our specialists, saving you time and money — you are only responsible for packaging the work and purchasing the packaging materials.
+                            <br /><br />
+                            <b className="font-semibold">Manage your portfolio anywhere:</b> Our Studio portfolio management tool allows you to add, edit and update artworks and respond to sales from anywhere.
+                            <br /><br />
+                            <b className="font-semibold">Display multiple images of your artwork:</b> Share up to 5 different viewpoints of each of your artworks, enabling Muse Tales Art collectors to get a better sense of your work before purchase.
+                            <br /><br />
+                            <b className="font-semibold">Open Edition prints:</b> Earn additional income by allowing collectors to purchase open edition prints of your original artworks.
+                            <br /><br />
+                            <b className="font-semibold">Unique visuals:</b> Using the power of augmented reality, collectors can take advantage of our “View in Room” feature to see your artwork in their space before purchasing.</p>
+                    </div>
+                    <div className="w-full h-full bg-blue-100 mr-20">
+                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501312/hp-toptile1-01062025-large_cgozln.jpg" alt="art love" className="w-full h-full object-cover" />
+                    </div>
+                </div>
+
+                <hr className="m-20" ></hr>
+
+                <div className="grid grid-cols-2 mt-10 ml-20 mr-20 h-screen items-center">
+                    <div className="w-full h-full bg-blue-100">
+                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501312/hp-toptile1-01062025-large_cgozln.jpg" alt="art love" className="w-full h-full object-cover" />
+                    </div>
+                    <div className="ml-20">
+                        <h2>Share Your Art with a Global Audience in New Ways</h2>
+                        <p>Expand your audience across Muse Tales Art’s channels while managing your portfolio and sales all from one place.
+                            <br /><br />
+                            Create your online profile in minutes: Upload your artworks, complete your profile, and start sharing your portfolio with the Muse Tales Art community and your network instantly.
+                            <br /><br />
+                            Commissions and offers: Accept and negotiate offers from collectors, or work with our curators on original commissions for Art Advisory clients.
+                            <br /><br />
+                            Art Advisory: Get handpicked by our curators for recommendation to a wide range of clients, from designers to architects to emerging and seasoned collectors.</p>
+                    </div>
+                </div>
+
+                <div className="text-center">
+                    <button className="pl-32 pr-32 pt-3 pb-3 bg-black text-white hover:bg-teal-600 mt-16 mb-16"  onClick={()=>navigate("/support")}>Get Started</button>
+                </div>
+
+            </div >
+            <FAQS />
+        </>
+    )
+}

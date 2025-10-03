@@ -1,0 +1,177 @@
+import { useState, useRef, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { FaBackspace, FaGoogle, FaEye, FaEyeSlash } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
+
+export default function Signup({ showSignup, setShowSignup, setShowLogin }) {
+    const [registerPending, setRegisterPending] = useState(false);
+    const [registerResult, setRegisterResult] = useState(null);
+    const [showPassword, setShowPassword] = useState(false);
+    const [notification, setNotification] = useState(null);
+
+    const navigate = useNavigate();
+    const profileRef = useRef();
+
+    useEffect(() => {
+        function onDoc(e) {
+            if (profileRef.current && !profileRef.current.contains(e.target)) {
+                // no-op
+            }
+        }
+        document.addEventListener("click", onDoc);
+        return () => document.removeEventListener("click", onDoc);
+    }, []);
+
+    async function submitRegister(form) {
+        setRegisterPending(true);
+        setRegisterResult(null);
+
+        const firstName = form.get("firstName");
+        const lastName = form.get("lastName");
+        const email = form.get("email");
+        const password = form.get("password");
+
+        try {
+            const res = await fetch("http://localhost:5000/api/auth/register", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ firstName, lastName, email, password }),
+            });
+
+            const data = await res.json();
+
+            if (!res.ok) {
+                setRegisterResult({ error: data.message || "Registration failed" });
+                setNotification({ type: "error", message: data.message || "Registration failed" });
+            } else {
+                setRegisterResult({ message: data.message });
+                setNotification({ type: "success", message: "Registration successful! Please log in." });
+
+                // close signup & open login
+                setShowSignup(false);
+                setShowLogin(true);
+            }
+        } catch (err) {
+            console.error(err);
+            setRegisterResult({ error: "Server error" });
+            setNotification({ type: "error", message: "Server error, please try again." });
+        } finally {
+            setRegisterPending(false);
+        }
+    }
+
+    return (
+        <>
+            {/* Signup Modal */}
+            <AnimatePresence>
+                {showSignup && (
+                    <motion.div className="fixed inset-0 z-50 flex items-center justify-center">
+                        <motion.div
+                            className="absolute inset-0 bg-black/40"
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            onClick={() => setShowSignup(false)}
+                        />
+
+                        <motion.div
+                            initial={{ scale: 0.98, opacity: 0 }}
+                            animate={{ scale: 1, opacity: 1 }}
+                            exit={{ scale: 0.98, opacity: 0 }}
+                            transition={{ duration: 0.18 }}
+                            className="relative bg-white rounded-lg shadow-xl w-[92%] max-w-md p-6 mx-4"
+                        >
+                            <button
+                                onClick={() => setShowSignup(false)}
+                                className="absolute top-3 right-3 text-gray-600"
+                            >
+                                <FaBackspace />
+                            </button>
+                            <h3 className="text-xl font-semibold mb-3">Create account</h3>
+
+                            <button className="w-full border border-blue-600 text-blue-600 rounded py-2 flex items-center justify-center gap-2 mb-4">
+                                <FaGoogle /> <span className="font-medium">Register with Google</span>
+                            </button>
+
+                            <p className="text-sm text-gray-600 mb-3 text-center">OR</p>
+
+                            <form
+                                onSubmit={(e) => {
+                                    e.preventDefault();
+                                    const form = new FormData(e.target);
+                                    submitRegister(form);
+                                }}
+                                className="flex flex-col gap-3"
+                            >
+                                <input name="firstName" placeholder="First name" className="border p-2 rounded" />
+                                <input name="lastName" placeholder="Last name" className="border p-2 rounded" />
+                                <input name="email" type="email" placeholder="Email address" className="border p-2 rounded" />
+
+                                <div className="relative">
+                                    <input
+                                        id="login-password"
+                                        name="password"
+                                        type={showPassword ? "text" : "password"}
+                                        placeholder="Password"
+                                        className="border p-2 rounded w-full"
+                                    />
+                                    <button
+                                        type="button"
+                                        onClick={() => setShowPassword((s) => !s)}
+                                        className="absolute right-3 top-2 text-gray-500"
+                                    >
+                                        {showPassword ? <FaEye /> : <FaEyeSlash />}
+                                    </button>
+                                </div>
+
+                                <button
+                                    className="mt-2 bg-black text-white py-2 rounded disabled:opacity-60"
+                                    disabled={registerPending}
+                                >
+                                    {registerPending ? "Registering..." : "Register"}
+                                </button>
+
+                                <p className="text-sm text-gray-600 text-center mt-3">
+                                    Already have an account?{" "}
+                                    <button
+                                        type="button"
+                                        onClick={() => {
+                                            setShowSignup(false);
+                                            setShowLogin(true);
+                                        }}
+                                        className="underline"
+                                    >
+                                        Log in
+                                    </button>
+                                </p>
+                            </form>
+                        </motion.div>
+                    </motion.div>
+                )}
+            </AnimatePresence>
+
+            {/* Notification */}
+            <AnimatePresence>
+                {notification && (
+                    <motion.div
+                        initial={{ y: -50, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        exit={{ y: -50, opacity: 0 }}
+                        transition={{ duration: 0.3 }}
+                        className={`fixed top-5 right-5 px-4 py-3 rounded shadow-lg text-white ${
+                            notification.type === "error" ? "bg-red-600" : "bg-green-600"
+                        }`}
+                    >
+                        {notification.message}
+                        <button
+                            className="ml-3 text-white font-bold"
+                            onClick={() => setNotification(null)}
+                        >
+                            ×
+                        </button>
+                    </motion.div>
+                )}
+            </AnimatePresence>
+        </>
+    );
+}
