@@ -60,7 +60,7 @@ export default function HowToBuy() {
 
                 <div className="grid md:grid-cols-2 md:ml-52 md:mr-52 md:mt-20 m-10 items-center gap-20">
                     <div className="w-full h-full bg-blue-100">
-                        <img src="/artist.jpeg" alt="art love" className="w-full h-full object-cover" />
+                        <img src="/https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501051/artist_cfyy2c.jpg" alt="art love" className="w-full h-full object-cover" />
                     </div>
                     <div>
                         <p>Next, read the description. This critical piece often includes helpful information to give you a better sense of the work, the artist, their inspiration, and art practice, as well as further information on other works in their portfolio. Read the artist’s name and the city they’re based in—explore their profile and get to know your artist. And if you ever need more context around an artwork you love, reach out to our curators who are happy to advise throughout the art buying process.</p>

@@ -12,7 +12,7 @@ import {
 import Login from "../../components/User/Login"
 
 export default function ArtworkDetail() {
-    const { name } = useParams()
+    const { id } = useParams()
     const [showLogin, setShowLogin] = useState(false);
     const [showSignup, setShowSignup] = useState(false);
     const [showForget, setShowForget] = useState(false);
@@ -76,7 +76,7 @@ export default function ArtworkDetail() {
                     "Content-Type": "application/json",
                 },
                 body: JSON.stringify({
-                    userId: parsedUser._id, // better to send only ID
+                    userId: parsedUser._id,
                     item: selectedArt,
                 }),
             });
@@ -103,7 +103,7 @@ export default function ArtworkDetail() {
         if (!categories.length || !artDetails.length || !authors.length) return
 
         const filteredArt = categories.find(
-            (item) => item.title.toLowerCase() === name.toLowerCase()
+            (item) => item._id === id
         )
         if (!filteredArt) return
 
@@ -111,10 +111,8 @@ export default function ArtworkDetail() {
         setSelectedCategory(filteredArt.author)
         setCategoryType("About Artwork")
 
-        const detail = artDetails.find((d) => d.id === filteredArt.id)
+        const detail = artDetails.find((d) => d.artId === filteredArt._id)
         setArtDetail(detail || null)
-        console.log(filteredArt)
-        console.log(artDetails)
         const authorInfo = authors.find(
             (a) => a.name.toLowerCase() === filteredArt.author.toLowerCase()
         )
@@ -148,7 +146,6 @@ export default function ArtworkDetail() {
         "Detail and Dimensions",
         "Shipping And Returns",
         "Artist Story",
-        "Behind the Scenes",
     ]
 
     return (
@@ -327,10 +324,7 @@ export default function ArtworkDetail() {
                                         : null : categoryType === 'Artist Story' ?
                                         artDetail ? (<div key={artDetail.id}>
                                             <p>{artDetail.artistStory}</p>
-                                        </div>) : null : categoryType === 'Behind the Scenes' ?
-                                            artDetail ? (<div key={artDetail.id}>
-                                                <p>{artDetail.inpirations}</p> </div>)
-                                                : null : null}
+                                        </div>) : null :null}
                         <div className="flex mb-10 mt-5">
                             <p>Need more information?
                             </p> <NavLink className={'underline'} to={'/contact'}>Contact Us</NavLink>
@@ -413,7 +407,7 @@ export default function ArtworkDetail() {
                     {/* Item List */}
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-6 px-10 mb-10">
                         {visibleItems.map((item) => (
-                            <div key={item.id} className="bg-teal-50 p-4 rounded shadow">
+                            <div key={item._id} className="bg-teal-50 p-4 rounded shadow">
                                 <img
                                     src={item.mainImage}
                                     alt={item.title}

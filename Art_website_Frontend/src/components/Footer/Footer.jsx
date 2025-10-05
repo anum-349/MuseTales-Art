@@ -65,7 +65,7 @@ export default function Footer() {
         <>
             <footer>
                 <div className="bg-black ">
-                    <div className="flex overflow-x-auto md:overflow-hidden gap-4 mt-3 p-5 md:justify-center scroll-smooth snap-x snap-mandatory">
+                    <div className="flex overflow-x-auto md:overflow-hidden gap-4 p-5 md:justify-center scroll-smooth snap-x snap-mandatory">
                         <b className=" text-white text-nowrap">TOP CATEGORIES</b>
                         {
                             Object.entries(buttons).map(([name, url]) => (

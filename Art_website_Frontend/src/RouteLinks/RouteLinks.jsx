@@ -26,13 +26,13 @@ import Categories from "../pages/Categories/Categories";
 import Catalog from "../pages/Catalog/Catalog";
 import Artists from "../pages/Artist/Artists";
 import EmergingArtist from "../pages/Artist/EmergingArtists";
-import LivingWithArt from "../pages/Living With Art/LivingWithArt";
 import Exhibitions from "../pages/Exhibition/Exhibitions";
 import Blog from "../pages/Blog/Blog";
 import Header from "../components/Header/Header";
 import Login from "../components/User/Login";
 import Signup from "../components/User/Signup";
 import ForgotPassword from "../components/User/ForgotPasswrod";
+import ArtworkDetail from "../pages/Art/ArtworkDetail";
 export default function RouteLinks() {
     return (
         <>
@@ -42,6 +42,7 @@ export default function RouteLinks() {
                     <Route path="/" element={<Home />} />
                     <Route path="/about-us" element={<About />} />
                     <Route path="/category/:name" element={<Categories />} />
+                    <Route path="/artwork/:id" element={<ArtworkDetail />} />
                     <Route path="/login" element={<Login />} />
                     <Route path="/signup" element={<Signup />} />
                     <Route path="/forgot-password" element={<ForgotPassword />} />
@@ -49,7 +50,6 @@ export default function RouteLinks() {
                     <Route path="/stories" element={<Stories />}>
                         <Route path="exhibition" element={<Exhibitions />} />
                         <Route path="emerging-artist" element={<EmergingArtist />} />
-                        <Route path="living-with-art" element={<LivingWithArt />} />
                     </Route>
                     <Route path="blog" element={<Blog />} />
                     <Route path="art-for-your-style" element={<ArtForYourStyle />} />

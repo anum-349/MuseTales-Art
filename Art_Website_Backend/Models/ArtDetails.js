@@ -79,17 +79,6 @@ const shippingsAndReturns = mongo.Schema({
     },
 })
 
-const BehindTheScenes = mongo.Schema({
-    images: {
-        type: [String],
-        required: true,      
-    },
-    videos: {
-        type: [String],
-        required: true,      
-    },
-})
-
 const artData = mongo.Schema({
     artId: {
         type: String,
@@ -99,14 +88,9 @@ const artData = mongo.Schema({
     detailAndDimensions: detailAndDimensions,
     shippingsAndReturns: shippingsAndReturns,
     artistStory: {
-        type: [String],
+        type: String,
         required: true,      
-    },
-    BehindTheScenes: BehindTheScenes,
-    createdAt: {
-    type: Date,
-    default: Date.now
-  }
+    }
 })
 
 module.exports = mongo.model("ArtData", artData)

@@ -9,43 +9,59 @@ export default function Stories() {
             id: 1,
             image: "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501100/buyart_dcj3hm.jpg",
             title: "How to Buy Art You Love",
-            description: "Find the perfect work of art with our beginner’s guide to buying art you love.",
-            link: "/how-to-buy"
-        }, {
-            id: 2,
-            image: "/artist.jpeg",
-            title: "Artists to Watch",
-            description: "Hear the stories behind some of today’s most fascinating works of art, straight from the mouths of their creators.",
-            link: "/stories//emerging-artist"
+            description:
+                "Explore our simple guide to finding art that truly speaks to you — from discovering your style to building a meaningful collection that inspires you every day.",
+            link: "/how-to-buy",
         },
-    ]
+        {
+            id: 2,
+            image: "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501051/artist_cfyy2c.jpg",
+            title: "Artists to Watch",
+            description:
+                "Get inspired by the visionaries shaping the art world today. Discover their stories, creative journeys, and what makes their work stand out from the rest.",
+            link: "/stories/emerging-artist",
+        },
+    ];
+
     const education = [
         {
             id: 1,
             image: "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501101/curator3_xbg9oc.jpg",
             title: "Collector Favorites",
-            description: "Discover some of the most exciting artists on Muse Tales Art, who are catching the attention of both collectors and curators.",
-            link: "/stories/collector-fav"
-        }, {
+            description:
+                "Discover some of the most exciting artists on Muse Tales Art who are captivating collectors and curators alike.",
+            details:
+                "From rising contemporary creators to established names, these artists have earned their place in the spotlight. Explore their creative processes, what inspires their art, and why collectors see long-term value in their unique styles. This section dives deeper into how artistic vision and emotional connection make certain works unforgettable.",
+        },
+        {
             id: 2,
             image: "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501309/history_hhlcym.webp",
             title: "Art History 101",
-            description: "Learn about how the artists and art movements of the past are inspiring today’s emerging artists in new and exciting ways.",
-            link: "/stories/history"
-        }, {
+            description:
+                "Learn how the masters of the past continue to shape and inspire today’s artists in fresh, innovative ways.",
+            details:
+                "Art is a living language — and its story unfolds through generations. Here, we explore how movements like Impressionism, Cubism, and Abstract Expressionism influence the creative voices of modern-day artists. See how history is reimagined in every brushstroke, connecting timeless beauty with new perspectives.",
+        },
+        {
             id: 3,
             image: "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501093/CollectorFav1_sjas8u.jpg",
             title: "Design Inspiration",
-            description: "Discover new ways to express your personal style through art and home décor.",
-            link: "/stories/design-inspiration"
-        }, {
+            description:
+                "Explore creative ways to blend art and design into your personal space for a harmonious aesthetic.",
+            details:
+                "Art transforms a home into a story. Discover how colors, textures, and compositions can reflect your personality and enhance your interior design. Whether you’re curating a minimalist vibe or a vibrant gallery wall, this section helps you find inspiration to turn everyday spaces into artistic experiences.",
+        },
+        {
             id: 4,
             image: "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501348/losAngeles_aoui0l.jpg",
             title: "Curator’s Notes from Frieze Los Angeles 2025",
-            description: "Learn what new trends stood out this year and which Muse Tales Art artists are at the forefront of these shifts.",
-            link: "/stories/losangles"
-        }
-    ]
+            description:
+                "Insights and highlights from one of the world’s most dynamic art fairs, where creativity meets innovation.",
+            details:
+                "Frieze Los Angeles 2025 showcased emerging voices alongside industry icons, reflecting the ever-evolving energy of the art world. In this section, we spotlight trends such as digital surrealism, eco-conscious art, and emotional storytelling through abstract forms — and how Muse Tales Art creators are leading this wave of change.",
+        },
+    ];
+
     const artists = [
         {
             id: 1,
@@ -117,10 +133,6 @@ export default function Stories() {
             link: "/stories//emerging-artist"
         }, {
             id: 4,
-            name: "Living With Art",
-            link: "/stories/living-with-art"
-        }, {
-            id: 5,
             name: "The Other Art Fair",
             link: "/other-art-fair"
         },
@@ -128,8 +140,8 @@ export default function Stories() {
 
     return (
         <>
-            <div className="ml-32 mr-32 mt-10">
-                <div className="grid grid-cols-[70%,25%] gap-20 items-center mb-10">
+            <div className="md:ml-32 md:mr-32 m-10">
+                <div className="grid md:grid-cols-[70%,25%] gap-20 items-center mb-10">
                     <div className="w-full h-96">
                         <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501050/artOfSummer_bknjcw.png" alt="stories" className="w-full h-full object-fill" />
                     </div>
@@ -140,12 +152,13 @@ export default function Stories() {
                         <a className={'underline'} target="_blank" href={'https://www.artandobject.com/slideshows/10-summer-paintings-great-air-quality'}>Discover</a>
                     </div>
                 </div>
-                <div className="flex justify-center gap-10">
+
+                <div className="grid md:grid-cols-3 justify-center gap-10">
                     {
                         artists.map((item) => (
                             <Link key={item.id} to={item.link} className="hover:scale-110 transition duration-1000 text-center">
-                                <div className="w-[380px] h-[300px]">
-                                    <img src={item.src} alt={item.title} className="w-full h-full object-cover" />
+                                <div className="w-full h-[300px]">
+                                    <img src={item.src} alt={item.title} className="w-full h-[300px] object-cover" />
                                 </div>
                                 <h2 className="font-semibold text-2xl mt-3">{item.title}</h2>
                                 <p className="p-3">{item.description}</p>
@@ -154,9 +167,9 @@ export default function Stories() {
                     }
                 </div>
 
-                <div>
+                <div className="mt-10">
                     <h1>Curated Collections</h1>
-                    <div className="grid grid-cols-3 gap-10 mt-10 mb-10">
+                    <div className="grid md:grid-cols-3 grid-cols-2 gap-10 mt-10 mb-10">
                         {
                             curated.map((item) => (
                                 <Link key={item.id} to={item.link} className="hover:scale-110 transition duration-1000">
@@ -198,29 +211,60 @@ export default function Stories() {
                             ))
                         }
                     </div>
-                    <div className="grid grid-cols-4 justify-center gap-10 mt-10">
-                        {
-                            education.map((item) => (
-                                <Link key={item.id} to={item.link} className="hover:scale-110 transition duration-1000 text-center">
-                                    <div className="w-full h-[300px]">
-                                        <img src={item.image} alt={item.title} className="w-full h-full object-cover" />
+
+                    <div className="grid md:grid-cols-4 grid-cols-2 justify-center gap-10 mt-10">
+                        {education.map((item, index) => (
+                            <div key={index} className="text-center">
+                                <div className="w-full h-[300px]">
+                                    <img
+                                        src={item.image}
+                                        alt={item.title}
+                                        className="w-full h-full object-cover"
+                                    />
+                                </div>
+
+                                <h2 className="font-semibold text-xl mt-3 hover:text-teal-600">
+                                    {item.title}
+                                </h2>
+
+                                <p>{item.description}</p>
+
+                                <details className="group transition-all duration-500 ease-in-out">
+                                    <summary className="cursor-pointer text-teal-600 hover:underline group-open:hidden">
+                                        Read More
+                                    </summary>
+
+                                    <div className="overflow-hidden transition-all duration-500 ease-in-out">
+                                        <p className="text-gray-700">{item.details}</p>
+
+                                        <button
+                                            type="button"
+                                            className=" text-teal-600 hover:underline mt-2 group-open:block hidden"
+                                            onClick={(e) => {
+                                                const details = e.target.closest("details");
+                                                details.removeAttribute("open");
+                                            }}
+                                        >
+                                            <span className="transition-transform duration-300 group-open:rotate-180">▲</span>
+                                            <span className="pl-2">Read Less</span>
+                                        </button>
                                     </div>
-                                    <h2 className="font-semibold text-xl mt-3 hover:text-teal-600">{item.title}</h2>
-                                    <p className="p-3">{item.description}</p>
-                                </Link>
-                            ))
-                        }
+                                </details>
+                            </div>
+                        ))}
                     </div>
+
                 </div>
 
                 <div className="text-center mt-5">
                     <button className="border border-black pl-10 pr-10 mb-10 hover:text-white hover:bg-teal-600" onClick={() => navigate('/stories/blog')}>Read Blog</button>
                 </div>
             </div>
+
             <div className="pl-32 pr-32 bg-teal-50 pt-10 pb-10">
                 <div>
                     <h1>More to Discover</h1>
-                    <div className="grid grid-cols-5 gap-10 mt-10 mb-10">
+                    <div className="grid md:grid-cols-4 grid-cols-2 gap-10 mt-10 mb-10">
                         {
                             discover.map((item) => (
                                 <Link key={item.id} to={`${item.link}`} className="hover:scale-110 transition duration-1000">

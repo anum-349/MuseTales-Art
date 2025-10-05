@@ -14,89 +14,94 @@ export default function Sell() {
 
     const testimonal = [
         {
-            title: "How artists are finding success with Muse Tales Art",
-            description: "The opportunity to reach a huge audience of art lovers through Muse Tales Art is extraordinary, it has opened doors for me and sales have allowed me to develop as an artist.",
-            author: 'Sandy Dooley',
-            country: 'London, UK'
+            title: "Growing Beyond Boundaries with Muse Tales Art",
+            description:
+                "Muse Tales Art has given me the opportunity to showcase my work to a global audience of art lovers. It opened new doors for me, and the sales I’ve made here have allowed me to grow and evolve as an artist.",
+            author: "Sandy Dooley",
+            country: "London, UK",
         },
         {
-            title: 'How artists are finding success with Muse Tales Art',
-            description: 'Muse Tales Art has afforded me two solo shows, collaborations and countless introductions to collectors, opening up my work to an international audience',
-            author: 'Hormazd Narielwalla',
-            country: 'London, UK'
+            title: "Connecting Creativity with the World",
+            description:
+                "Through Muse Tales Art, I’ve had two solo exhibitions, exciting collaborations, and countless introductions to passionate collectors. It has truly helped me reach an international audience I never imagined before.",
+            author: "Hormazd Narielwalla",
+            country: "London, UK",
         },
         {
-            title: 'How artists are finding success with Muse Tales Art',
-            description: "It's hard to overstate how important Muse Tales Art has been to my creative development. Since joining in 2010, Muse Tales Art has been with me every step of the way as I've launched what now seems like a career.",
-            author: 'Thomas Hammer',
-            country: 'New York, USA'
+            title: "Turning Passion into a Lifelong Art Career",
+            description:
+                "Muse Tales Art has played a major role in my creative journey. Since joining in 2010, it has supported me every step of the way — transforming my passion into a thriving art career.",
+            author: "Thomas Hammer",
+            country: "New York, USA",
         },
         {
-            title: 'How artists are finding success with Muse Tales Art',
-            description: "Recently a woman purchased one of my pieces through Muse Tales Art and it was her first original work. Being directly involved in that process reminded me why I love to do what I do.",
-            author: 'Annie Terrazzo',
-            country: 'Los Angeles, USA'
+            title: "Creating Meaningful Connections Through Art",
+            description:
+                "A collector recently purchased one of my pieces through Muse Tales Art — her very first original artwork. Being part of that meaningful experience reminded me exactly why I create art.",
+            author: "Annie Terrazzo",
+            country: "Los Angeles, USA",
         },
         {
-            title: 'How artists are finding success with Muse Tales Art',
-            description: "Without Muse Tales Art sales I would not be able to do my M.A. at The Royal College of Art London",
-            author: 'Ben Edmunds',
-            country: 'London, UK'
-        }
-    ]
+            title: "A Platform That Fuels My Artistic Dreams",
+            description:
+                "Thanks to Muse Tales Art, I’ve been able to fund my Master’s degree at The Royal College of Art in London. The platform’s support and visibility made it all possible.",
+            author: "Ben Edmunds",
+            country: "London, UK",
+        },
+    ];
 
     return (
         <>
             <div>
-                <div className="grid grid-cols-3 gap-10 mt-10 mb-10">
+                <div className="grid grid-cols-3 gap-10 mb-10">
                     <div className="relative  bg-teal-600 w-screen h-96 ">
                         <img
-                            src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501316/Green_Flower_Oil_Paint_Mockup_Instagram_Post_iqrugv.png"
+                            src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501465/visual2_otdxd8.jpg"
                             alt="Why Sell"
                             className="w-full h-full object-cover"
                         />
 
                         <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
                             <div className="text-center">
-                                <h1 className="text-white text-6xl font-semibold hover:text-teal-600" >
+                                <h1 className="text-white md:text-5xl text-4xl font-semibold hover:text-teal-600" >
                                     Sell your art to a global
                                 </h1>
-                                <h1 className="text-white text-6xl font-semibold hover:text-teal-600" >
+                                <h1 className="text-white md:text-6xl text-5xl font-semibold hover:text-teal-600" >
                                     community of art lovers
                                 </h1>
-                                <button className="pl-20 pr-20 text-white pt-2 pb-2 bg-black hover:bg-teal-600 mt-20"  onClick={()=>navigate("/support")}>Get Started</button>
+                                <button className="pl-20 pr-20 text-white pt-2 pb-2 bg-black hover:bg-teal-600 mt-20" onClick={() => navigate("/support")}>Get Started</button>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="text-center ml-40 mr-40">
+                <div className="text-center md:ml-40 md:mr-40 ml-5 mr-5">
                     <h1>Why Sell on Muse Tales Art?</h1>
                     <p>As the world's leading online gallery...</p>
 
                     <div className="grid grid-cols-4 mt-10 mb-5">
                         <div>
                             <p className="pb-2">Artists Represented</p>
-                            <p className="text-2xl">110+ Countries</p>
+                            <p className="md:text-2xl text-xl">110+ Countries</p>
                         </div>
                         <div className="flex">
                             <div className="w-[1px] h-full bg-[#ccc]"></div>
                             <div className="mx-auto">
                                 <p className="pb-2">Works Sold to Collectors in</p>
-                                <p className="text-2xl">140+ Countries</p>
+                                <p className="md:text-2xl text-xl">140+ Countries</p>
                             </div>
                         </div>
                         <div className="flex">
                             <div className="w-[1px] h-full bg-[#ccc]"></div>
                             <div className="mx-auto">
-                                <p className="text-2xl pb-2">~12M+</p>
+                                <p className="md:text-2xl text-xl pb-2">~12M+</p>
                                 <p>Monthly Page Views</p>
                             </div>
                         </div>
                         <div className="flex">
                             <div className="w-[1px] h-full bg-[#ccc]"></div>
                             <div className="mx-auto">
-                                <p className="text-2xl pb-2">~2M+</p>
+                                <p className="md:text-2xl text-xl pb-2">~2M+</p>
                                 <p>Monthly Visits</p>
                             </div>
                         </div>
@@ -106,36 +111,36 @@ export default function Sell() {
 
                     <div className="grid grid-cols-[20%,30%,50%] mb-10 mt-5">
                         <div>
-                            <p className="text-2xl pb-2">~2M+</p>
+                            <p className="md:text-2xl text-xl pb-2">~2M+</p>
                             <p>Social Followers</p>
                         </div>
                         <div className="flex">
                             <div className="w-[1px] h-full bg-[#ccc]"></div>
                             <div className="mx-auto">
                                 <p>Printed Catalog Sent to</p>
-                                <p className="text-2xl pt-2">1M+ Households</p>
+                                <p className="md:text-2xl text-xl pt-2">1M+ Households</p>
                             </div>
                         </div>
                         <div className="flex">
                             <div className="w-[1px] h-full bg-[#ccc]"></div>
                             <div className="mx-auto">
-                                <p className="text-2xl ">14 International Shows & Fairs Annually Reaching 100K People</p>
+                                <p className="md:text-2xl text-xl ">14 International Shows & Fairs Annually Reaching 100K People</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div className="bg-teal-50 text-center pt-20">
-                    <h1 className="text-6xl font-semibold">Create and Verify Your</h1>
-                    <h1 className="text-6xl font-semibold"> Account to Get Started</h1>
-                    <button className="pl-20 pr-20 pt-3 pb-3 bg-black text-white hover:bg-teal-600 mt-10 mb-16"  onClick={()=>navigate("/support")}>Get Started</button>
+                    <h1 className="md:text-5xl text-4xl font-semibold">Create and Verify Your</h1>
+                    <h1 className="md:text-6xl text-5xl font-semibold"> Account to Get Started</h1>
+                    <button className="pl-20 pr-20 pt-3 pb-3 bg-black text-white hover:bg-teal-600 mt-10 mb-16" onClick={() => navigate("/support")}>Get Started</button>
                 </div>
 
                 <div className="relative bg-teal-600 w-screen h-screen brightness-50">
                     <img
-                        src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501316/Green_Flower_Oil_Paint_Mockup_Instagram_Post_iqrugv.png"
+                        src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501051/artist_cfyy2c.jpg"
                         alt="Why Sell"
-                        className="w-full h-full object-cover blur-sm"
+                        className="w-full h-full object-cover "
                     />
 
                     <div className="absolute top-0 left-10 w-96 h-full flex items-center justify-center">
@@ -166,11 +171,11 @@ export default function Sell() {
 
                 </div>
 
-                <div className="grid grid-cols-2 mt-10 ml-20 mr-20 h-screen items-center">
+                <div className="grid md:grid-cols-2 m-10 md:ml-20 md:mr-20 items-center">
                     <div className="w-full h-full bg-blue-100">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501312/hp-toptile1-01062025-large_cgozln.jpg" alt="art love" className="w-full h-full object-cover" />
+                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501045/advisory2_qn3suj.png" alt="art love" className="w-full h-full object-cover" />
                     </div>
-                    <div className="ml-20">
+                    <div className="md:ml-20 mt-5">
                         <h2>Fair, Transparent, and Easy</h2>
                         <p>Choose how and when you get paid. We offer secure payments by check, wire transfer or PayPal. Our support specialists ensure our artists and collectors are financially protected on every sale.</p>
                         <p>
@@ -181,14 +186,14 @@ export default function Sell() {
                             Non-exclusive policy<br /><br />
                             Secure online payments</p>
                         <div className="text-center">
-                            <button className="pl-20 pr-20 pt-3 pb-3 bg-black text-white hover:bg-teal-600 mt-16"  onClick={()=>navigate("/support")}>Get Started</button>
+                            <button className="pl-20 pr-20 pt-3 pb-3 bg-black text-white hover:bg-teal-600 mt-16" onClick={() => navigate("/support")}>Get Started</button>
                         </div>
                     </div>
                 </div>
 
                 <hr className="m-20" ></hr>
 
-                <div className="grid grid-cols-[45%,50%] ml-20 mr-20 items-center gap-10">
+                <div className="grid md:grid-cols-[45%,50%] ml-20 mr-20 items-center gap-10">
                     <div className="">
                         <h2>Get Featured by Muse Tales Art</h2>
                         <p> We are invested into giving you as much exposure as possible. These are just some of the ways we promote our artists every day:
@@ -199,13 +204,13 @@ export default function Sell() {
                             <br /><br />Rich editorial initiatives and content features including Rising Stars, New this Week, Digital Exhibitions and Curated Collections</p>
                     </div>
                     <div className="w-full h-full bg-blue-100 mr-20">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501312/hp-toptile1-01062025-large_cgozln.jpg" alt="art love" className="w-full h-full object-cover" />
+                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501379/Painting_1_by1nlt.jpg" alt="art love" className="w-full h-full object-cover" />
                     </div>
                 </div>
 
                 <div className="bg-teal-50 p-20 pl-40 pr-40 mt-10 mb-20">
                     <h1 className="text-center">Dedicated Artitst Support</h1>
-                    <div className="grid grid-cols-3 gap-10">
+                    <div className="grid md:grid-cols-3 sm:mt-10 gap-10">
                         <div className="text-center">
                             <Link to={'/support'}>
                                 <FaMessage className="text-5xl mx-auto mb-5 text-gray-500" />
@@ -229,11 +234,11 @@ export default function Sell() {
                         </div>
                     </div>
                     <div className="text-center">
-                        <button className="pl-32 pr-32 pt-3 pb-3 bg-black text-white hover:bg-teal-600 mt-16 mb-16" onClick={()=>navigate("/support")}>Get Started</button>
+                        <button className="pl-32 pr-32 pt-3 pb-3 bg-black text-white hover:bg-teal-600 mt-16 mb-16" onClick={() => navigate("/support")}>Get Started</button>
                     </div>
                 </div>
 
-                <div className="grid grid-cols-[45%,50%] ml-20  mr-20 items-center gap-10">
+                <div className="grid md:grid-cols-[45%,50%] ml-20  mr-20 items-center gap-10">
                     <div className="">
                         <h2>Powerful Tools and a Passionate Team</h2>
                         <p className="text-black"> Spend less time managing logistics and more time making art.
@@ -248,15 +253,15 @@ export default function Sell() {
                             <b className="font-semibold">Unique visuals:</b> Using the power of augmented reality, collectors can take advantage of our “View in Room” feature to see your artwork in their space before purchasing.</p>
                     </div>
                     <div className="w-full h-full bg-blue-100 mr-20">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501312/hp-toptile1-01062025-large_cgozln.jpg" alt="art love" className="w-full h-full object-cover" />
+                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501411/Sculpture10_jjqt9v.jpg" alt="art love" className="w-full h-full object-cover" />
                     </div>
                 </div>
 
                 <hr className="m-20" ></hr>
 
-                <div className="grid grid-cols-2 mt-10 ml-20 mr-20 h-screen items-center">
+                <div className="grid md:grid-cols-2 mt-10 ml-20 mr-20 items-center">
                     <div className="w-full h-full bg-blue-100">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501312/hp-toptile1-01062025-large_cgozln.jpg" alt="art love" className="w-full h-full object-cover" />
+                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501382/personal_mpvrwu.jpg" alt="art love" className="w-full h-full object-cover" />
                     </div>
                     <div className="ml-20">
                         <h2>Share Your Art with a Global Audience in New Ways</h2>
@@ -271,7 +276,7 @@ export default function Sell() {
                 </div>
 
                 <div className="text-center">
-                    <button className="pl-32 pr-32 pt-3 pb-3 bg-black text-white hover:bg-teal-600 mt-16 mb-16"  onClick={()=>navigate("/support")}>Get Started</button>
+                    <button className="pl-32 pr-32 pt-3 pb-3 bg-black text-white hover:bg-teal-600 mt-16 mb-16" onClick={() => navigate("/support")}>Get Started</button>
                 </div>
 
             </div >
