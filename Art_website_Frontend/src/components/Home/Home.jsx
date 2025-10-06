@@ -159,8 +159,7 @@ function Home() {
     () => feedback.slice(startIndex, startIndex + itemsPerPage),
     [feedback, startIndex]
   );
-  console.log(visibleItems)
-
+  
   return (
     <>
       {/* Banner */}

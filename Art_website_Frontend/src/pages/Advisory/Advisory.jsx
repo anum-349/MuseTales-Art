@@ -12,9 +12,6 @@ export default function Advisory() {
         let budget = formData.get("budget");
         let detail = formData.get("detail");
 
-        console.log({ email, firstName, lastName, budget, detail });
-
-        // ✅ Send data to backend
         try {
             const res = await fetch("http://localhost:5000/api/inquiries", {
                 method: "POST",

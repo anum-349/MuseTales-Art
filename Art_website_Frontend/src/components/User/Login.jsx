@@ -28,6 +28,7 @@ export default function Login({ showLogin, setShowLogin, setShowSignup, setShowF
                 setTimeout(() => setLoginResult(null), 3000);
             } else {
                 localStorage.setItem("token", data.token); // store JWT
+                window.location.reload();
                 setShowLogin(false);
             }
         } catch (err) {

@@ -4,10 +4,7 @@ exports.uploadAttachment = async (req, res) => {
     try {
         const { userType, email, subject, description, reason, subReason, gallery, artId, buyerCountry, fullName, orderNumber } = req.body;
 
-        console.log(req.body)
         const attachment = req.files ? req.files.map(f => f.filename) : [];
-
-        console.log("Uploaded files:", req.files);
 
         let supportDoc;
         if (userType === "I am an Artist") {

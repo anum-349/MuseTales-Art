@@ -124,7 +124,6 @@ export default function Header() {
                                         >
                                             Sign up
                                         </button>
-                                        <NavLink to="/profile" className="block px-2 py-2 text-sm hover:text-teal-600">My profile</NavLink>
                                     </motion.div>
                                 )}
                             </AnimatePresence>

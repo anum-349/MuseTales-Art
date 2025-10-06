@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { FaBackspace, FaDollarSign, FaLock, FaShoppingCart, FaStar } from "react-icons/fa";
 import { FaShield } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
+import Login from "../../components/User/Login";
 
 export default function Cart() {
     const [empty, setEmpty] = useState(true);
@@ -9,16 +10,31 @@ export default function Cart() {
     const [loading, setLoading] = useState(true);
     const [total, setTotal] = useState(0);
     const [cart, setCart] = useState([]);
+    const [login, setLogin] = useState(false);
 
     const navigate = useNavigate()
 
     useEffect(() => {
         const loadCart = async () => {
+            const token = localStorage.getItem("token")
+
+            if (!token) {
+                setLogin(true)
+                setLoading(false)
+                return
+            }
+
             try {
-                const response = await fetch("http://localhost:5000/api/carts"); 
+                const response = await fetch("http://localhost:5000/api/carts", {
+                    headers: {
+                        "Authorization": `Bearer ${token}`,
+                    },
+                });
                 if (!response.ok) throw new Error("Failed to fetch cart data.");
                 const data = await response.json();
-                setCart(data);
+                const userItems = data.flatMap(cart => cart.items)
+
+                setCart(userItems)
             } catch (err) {
                 console.error("Error: ", err);
                 setError(err.message);
@@ -30,9 +46,19 @@ export default function Cart() {
     }, []);
 
     const handleDeleteItem = async (id) => {
+        const token = localStorage.getItem("token")
+        if (!token) {
+            setLogin(true)
+            setLoading(false)
+            return
+        }
+
         try {
             const response = await fetch(`http://localhost:5000/api/cart/${id}`, {
                 method: "DELETE",
+                headers: {
+                    "Authorization": `Bearer ${token}`
+                },
             });
 
             if (!response.ok) throw new Error("Failed to delete item");
@@ -70,7 +96,7 @@ export default function Cart() {
                         <div className="text-center m-20">
                             <FaShoppingCart className="text-8xl mx-auto mb-3" />
                             <p>Your Cart Is Empty.</p>
-                            <button className="w-full bg-black text-white hover:bg-teal-600 rounded mt-10" onClick={()=>navigate('/category/all')}>
+                            <button className="w-full bg-black text-white hover:bg-teal-600 rounded mt-10" onClick={() => navigate('/category/all')}>
                                 Browse Art
                             </button>
                         </div>
@@ -165,16 +191,25 @@ export default function Cart() {
                     <div className="bg-white rounded p-10">
                         <b className="text-2xl font-semibold">Need More Help?</b>
                         <div className="flex gap-3 mt-10 [&>*]:border [&>*]:border-black [&>*]:rounded [&>*]:p-5 [&>*]:pt-2 [&>*]:pb-2 [&>*]:text-sm">
-                            <button className="hover:bg-teal-600 hover:text-white">
+                            <button className="hover:bg-teal-600 hover:text-white" onClick={()=>navigate("/art-advisory")}>
                                 ENJOY COMPLIMENTARY ART ADVISORY
                             </button>
-                            <button className="hover:bg-teal-600 hover:text-white">
+                            <button className="hover:bg-teal-600 hover:text-white" onClick={()=>navigate("/support")}>
                                 CONTACT CUSTOMER SUPPORT
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
+
+            {login && (
+                <Login
+                    showLogin={login}
+                    setShowLogin={setLogin}
+                    setShowSignup={false}
+                    setShowForget={false}
+                />
+            )}
         </>
     );
 }

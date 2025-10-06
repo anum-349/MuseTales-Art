@@ -112,9 +112,6 @@ export default function Support() {
                 formData.append("attachment", attachment[i]);
             }
         }
-        for (let [key, value] of formData.entries()) {
-            console.log(key, value);
-        }
 
         try {
             const response = await fetch("http://localhost:5000/api/support", {

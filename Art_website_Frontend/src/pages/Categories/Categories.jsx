@@ -11,7 +11,7 @@ export default function Categories() {
     const [loading, setLoading] = useState(false)
     const prices = ['500', '1000', '2000', '3000', '5000'];
 
-    const detail = "Define your data models (Artwork, Artist, Story, FAQ, CTA)..."; // shortened for brevity
+    const detail = "Welcome to MuseTales, a digital space where creativity finds its voice and art meets emotion. Our platform celebrates artists from around the world, showcasing their unique visions through sculptures, paintings, photography, and digital creations. At MuseTales, we believe that every artwork tells a story — of inspiration, culture, passion, and imagination. Whether you are an admirer, collector, or creator, our goal is to connect you to art that speaks to your soul. We’re committed to promoting both emerging and established artists, offering them a platform to exhibit their talent and reach audiences who truly appreciate artistic expression. Explore our curated categories, discover your favorite styles, and let art become a part of your everyday story."
 
     const categories = [
         "all",
@@ -28,7 +28,6 @@ export default function Categories() {
             try {
                 const response = await fetch("http://localhost:5000/api/categories");
                 const result = await response.json();
-                console.log(result);
                 setData(result);
             } catch (error) {
                 console.error("Failed to fetch artworks:", error);

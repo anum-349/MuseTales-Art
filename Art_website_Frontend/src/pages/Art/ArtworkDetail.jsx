@@ -59,26 +59,33 @@ export default function ArtworkDetail() {
 
 
     // Add to Cart functionality
-    const handleAddToCart = async () => {
-        const user = localStorage.getItem("user");
-        if (!user) {
-            setShowLogin(true);   
-            setShowSignup(false); 
-            setShowForget(false); 
-                }
+    const handleAddToCart = async (item) => {
+        const token = localStorage.getItem("token");
+        if (!token) {
+            setShowLogin(true);
+            setShowSignup(false);
+            setShowForget(false);
+            return
+        }
+
+        const cartData = {
+            name: item.title,
+            image: item.mainImage,
+            category: item.category[0],
+            author: item.author,
+            shipping: "Included",
+            delivery: 200,
+            price: item.price
+        }
 
         try {
-            const parsedUser = JSON.parse(user);
-
-            const res = await fetch("http://localhost:5000/api/cart", {
+            const res = await fetch(`http://localhost:5000/api/cart`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
+                    "Authorization": `Bearer ${token}`
                 },
-                body: JSON.stringify({
-                    userId: parsedUser._id,
-                    item: selectedArt,
-                }),
+                body: JSON.stringify(cartData)
             });
 
             const data = await res.json();
@@ -89,7 +96,6 @@ export default function ArtworkDetail() {
                 return;
             }
 
-            // ✅ Success
             alert("Item added to cart!");
             navigate("/cart");
         } catch (err) {
@@ -202,7 +208,7 @@ export default function ArtworkDetail() {
                                 <div className="bg-black pl-3 pt-5 pb-10 -mr-12 pr-3 relative">
                                     <div className="flex">
                                         <h2 className="text-white">${selectedArt.price}</h2>
-                                        <button className="pl-5 pt-2 pb-2 text-white right-5 bg-red-500 absolute rounded" onClick={handleAddToCart}>
+                                        <button className="pl-5 pt-2 pb-2 text-white right-5 bg-red-500 absolute rounded" onClick={()=>handleAddToCart(selectedArt)}>
                                             Add to Cart
                                         </button>
                                     </div>
@@ -324,7 +330,7 @@ export default function ArtworkDetail() {
                                         : null : categoryType === 'Artist Story' ?
                                         artDetail ? (<div key={artDetail.id}>
                                             <p>{artDetail.artistStory}</p>
-                                        </div>) : null :null}
+                                        </div>) : null : null}
                         <div className="flex mb-10 mt-5">
                             <p>Need more information?
                             </p> <NavLink className={'underline'} to={'/contact'}>Contact Us</NavLink>
@@ -417,7 +423,7 @@ export default function ArtworkDetail() {
                                     <p className="text-lg font-semibold">${item.price}</p>
                                     <div className="flex gap-2 text-gray-600">
                                         <FaHeart />
-                                        <FaPlusCircle />
+                                        <FaPlusCircle onClick={()=>handleAddToCart(item)} />
                                         <Link to={"/cart"}>
                                             <FaShoppingBag />
                                         </Link>
