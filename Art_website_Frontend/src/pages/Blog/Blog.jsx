@@ -10,7 +10,7 @@ export default function Blog() {
 
                 <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
                     <div className="text-center ">
-                        <h1 className="text-white text-6xl font-bold">MUSE TALES BLOG</h1>
+                        <h1 className="text-white_web text-6xl font-bold">MUSE TALES BLOG</h1>
                     </div>
                 </div>
             </div>

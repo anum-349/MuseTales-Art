@@ -276,7 +276,7 @@ export default function Support() {
                     id="subreason"
                     value={subReason}
                     onChange={handleChange}
-                    className="w-full p-3 border border-black rounded"
+                    className="w-full p-3 border border-dim_gray rounded"
                 >
                     <option>-</option>
                     {subOptions.map((opt, index) => (
@@ -291,15 +291,15 @@ export default function Support() {
     return (
         <>
             <div className="flex m-10 gap-2">
-                <NavLink to={'/help-center'} className="underline hover:text-teal-600">Help Center</NavLink>
+                <NavLink to={'/help-center'} className="underline hover:text-orange_web">Help Center</NavLink>
                 <p> / </p>
-                <NavLink to={`/support`} className="underline hover:text-teal-600">Submit a request</NavLink>
+                <NavLink to={`/support`} className="underline hover:text-orange_web">Submit a request</NavLink>
             </div>
 
             <div className="lg:w-1/2 sm:w-[70%] md:ml-20 ml-16">
                 <h1 className="mb-5">Submit a request</h1>
                 <label htmlFor="type">Please choose a request type below.</label>
-                <select value={selected} onChange={handleSelected} id="type" className="w-full p-3 border border-black rounded mb-5">
+                <select value={selected} onChange={handleSelected} id="type" className="w-full p-3 border border-dim_gray rounded mb-5">
                     <option>-</option>
                     <option>I am an Artist</option>
                     <option>I am a Buyer</option>
@@ -316,14 +316,14 @@ export default function Support() {
                                 type="email"
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
-                                className="w-full p-3 border border-black rounded"
+                                className="w-full p-3 border border-dim_gray rounded"
                             />
                             {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
                         </div>
 
                         <div className="mb-5">
                             <label htmlFor="reason">{selected} Contact Reason</label>
-                            <select id="reason" value={reason} onChange={handleReason} className="w-full p-3 border border-black rounded">
+                            <select id="reason" value={reason} onChange={handleReason} className="w-full p-3 border border-dim_gray rounded">
                                 <option>-</option>
                                 {selected === "I am an Artist" ? (
                                     <>
@@ -354,11 +354,11 @@ export default function Support() {
                             <>
                                 <div className="mb-5">
                                     <label htmlFor="gallery">Studio / Gallery Name</label>
-                                    <input name="gallery" id="gallery" value={gallery} onChange={(e) => setGallery(e.target.value)} type="text" className="w-full p-3 border border-black rounded" />
+                                    <input name="gallery" id="gallery" value={gallery} onChange={(e) => setGallery(e.target.value)} type="text" className="w-full p-3 border border-dim_gray rounded" />
                                 </div>
                                 <div className="mb-5">
                                     <label htmlFor="art_id" className="flex gap-2">Art ID or Listing URL <p>(optional)</p></label>
-                                    <input name="art_id" id="art_id" value={artId} onChange={(e) => setArtId(e.target.value)} type="text" className="w-full p-3 border border-black rounded" />
+                                    <input name="art_id" id="art_id" value={artId} onChange={(e) => setArtId(e.target.value)} type="text" className="w-full p-3 border border-dim_gray rounded" />
                                 </div>
                             </>
                         )}
@@ -367,7 +367,7 @@ export default function Support() {
                             <>
                                 <div className="mb-5">
                                     <label htmlFor="country">Buyer Contact Country</label>
-                                    <select id="country" className="w-full p-3 border border-black rounded" value={country} onChange={(e) => setCountry(e.target.value)}>
+                                    <select id="country" className="w-full p-3 border border-dim_gray rounded" value={country} onChange={(e) => setCountry(e.target.value)}>
                                         <option>-</option>
                                         <option>Pakistan</option>
                                         <option>USA</option>
@@ -378,11 +378,11 @@ export default function Support() {
                                 </div>
                                 <div className="mb-5">
                                     <label htmlFor="name">Full Name</label>
-                                    <input name="name" id="name" type="text" className="w-full p-3 border border-black rounded" value={name} onChange={(e) => setName(e.target.value)} />
+                                    <input name="name" id="name" type="text" className="w-full p-3 border border-dim_gray rounded" value={name} onChange={(e) => setName(e.target.value)} />
                                 </div>
                                 <div className="mb-5">
                                     <label htmlFor="orderNumber" className="flex gap-2">Order # <p>(optional)</p></label>
-                                    <input name="orderNumber" id="orderNumber" type="text" className="w-full p-3 border border-black rounded" value={orderNo} onChange={(e) => setOrderNo(e.target.value)} />
+                                    <input name="orderNumber" id="orderNumber" type="text" className="w-full p-3 border border-dim_gray rounded" value={orderNo} onChange={(e) => setOrderNo(e.target.value)} />
                                 </div>
                             </>
                         )}
@@ -395,7 +395,7 @@ export default function Support() {
                                 type="text"
                                 value={subject}
                                 onChange={(e) => setSubject(e.target.value)}
-                                className="w-full p-3 border border-black rounded"
+                                className="w-full p-3 border border-dim_gray rounded"
                             />
                         </div>
                         <div className="mb-5">
@@ -405,16 +405,16 @@ export default function Support() {
                                 name="details"
                                 value={details}
                                 onChange={(e) => setDetails(e.target.value)}
-                                className="w-full p-3 border border-black rounded h-32"
+                                className="w-full p-3 border border-dim_gray rounded h-32"
                             />
                             {errors.details && <p className="text-red-500 text-sm">{errors.details}</p>}
                         </div>
                         <div className="mb-5">
                             <label htmlFor="attachments" className="flex gap-2">Attachments <p>(optional)</p></label>
-                            <input type="file" accept=".pdf, .doc, .docx, image/*" id="attachments" name="attachments" className="w-full p-3 border border-black rounded" multiple onChange={(e) => setAttachment(e.target.files)} />
+                            <input type="file" accept=".pdf, .doc, .docx, image/*" id="attachments" name="attachments" className="w-full p-3 border border-dim_gray rounded" multiple onChange={(e) => setAttachment(e.target.files)} />
                         </div>
                         <div>
-                            <button onClick={handleSubmit} className="bg-black text-white pl-20 pr-20 p-2 rounded mb-10 text-center">Submit</button>
+                            <button onClick={handleSubmit} className="bg-black text-white_web pl-20 pr-20 p-2 rounded mb-10 text-center">Submit</button>
                         </div>
                     </>
                 )}
@@ -426,7 +426,7 @@ export default function Support() {
                     <div className="flex flex-wrap gap-10 justify-center">
                         <div className="w-[45%]">
                             <NavLink to={'/support'}>
-                                <button className="border border-gray-500 w-full mb-4 hover:bg-teal-600 hover:text-white p-5 rounded">
+                                <button className="border border-gray-500 w-full mb-4 hover:bg-orange_web hover:text-white_web p-5 rounded">
                                     <span className="font-semibold text-xl">Contact Support</span>
                                     <br />
                                     <span className="text-md">Submit Inquiry Form</span>
@@ -435,7 +435,7 @@ export default function Support() {
                         </div>
                         <div className="w-[45%]">
                             <NavLink to={'/art-advisory'}>
-                                <button className="border border-gray-500 w-full mb-4 hover:bg-teal-600 hover:text-white rounded p-5">
+                                <button className="border border-gray-500 w-full mb-4 hover:bg-orange_web hover:text-white_web rounded p-5">
                                     <span className="font-semibold text-xl">Contact Curators</span>
                                     <br />
                                     <span className="text-md">Art Advisory</span>
@@ -454,12 +454,12 @@ export default function Support() {
                         animate={{ y: 0, opacity: 1 }}
                         exit={{ y: -50, opacity: 0 }}
                         transition={{ duration: 0.3 }}
-                        className={`fixed top-5 right-5 px-4 py-3 rounded shadow-lg text-white ${notification.type === "error" ? "bg-red-600" : "bg-green-600"
+                        className={`fixed top-5 right-5 px-4 py-3 rounded shadow-lg text-white_web ${notification.type === "error" ? "bg-red-600" : "bg-green-600"
                             }`}
                     >
                         {notification.message}
                         <button
-                            className="ml-3 text-white font-bold"
+                            className="ml-3 text-white_web font-bold"
                             onClick={() => setNotification(null)}
                         >
                             ×

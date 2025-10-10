@@ -38,7 +38,7 @@ export default function DoNotSellInfo() {
 
                     <p className="pl-3">To request that we do not sell or share your personal information:</p>
 
-                    <p className="pl-5"><b className="font-semibold">Email us:</b> <a href="mail:privacy@musetaleart.com" className="underline hover:text-teal-600" target="_blank">privacy@musetalesart.com</a></p>
+                    <p className="pl-5"><b className="font-semibold">Email us:</b> <a href="mail:privacy@musetaleart.com" className="underline hover:text-orange_web" target="_blank">privacy@musetalesart.com</a></p>
                     <p className="pl-5"><b className="font-semibold">Mail us:</b> 123 Art Street, Creativity City, Artland 45678</p>
 
                     <p className="pl-3">Please include your full name, email address, and a statement clearly requesting that we not sell your information. We will respond to verified requests within the timeframe required by law.</p>

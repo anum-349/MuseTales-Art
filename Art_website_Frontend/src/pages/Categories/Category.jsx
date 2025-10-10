@@ -23,7 +23,7 @@ export default function Category({ selectedCategory="", filteredItems, grid=4 })
         >
           {filteredItems.length > 0 ? (
             filteredItems.slice(0, visibleCount).map((item) => (
-              <div key={item.id} className="mb-6 bg-white">
+              <div key={item._id} className="mb-6 bg-white_web">
                 <img
                   src={item.mainImage}
                   alt={item.title}
@@ -39,11 +39,11 @@ export default function Category({ selectedCategory="", filteredItems, grid=4 })
                     </Link>
                   </div>
                 </div>
-                <Link to={`/artwork/${item.title}`}>
-                  <b className="block text-xl mb-1 hover:text-teal-600">{item.title}</b>
+                <Link to={`/artwork/${item.artId}`}>
+                  <b className="block text-xl mb-1 hover:text-orange_web">{item.title}</b>
                 </Link>
                 <div className="text-lg text-gray-700 flex">
-                  <Link to={`/artist/${item.author}`}><p className="text-lg font-semibold hover:text-teal-600">{item.author}</p></Link>
+                  <Link to={`/artist/${item.author}`}><p className="text-lg font-semibold hover:text-orange_web">{item.author}</p></Link>
                   , {item.country}</div>
                 <p className="text-sm text-gray-500">{item.detail} . {item.size}</p>
               </div>
@@ -61,7 +61,7 @@ export default function Category({ selectedCategory="", filteredItems, grid=4 })
             <div className="text-center">
               <button
                 onClick={() => setVisibleCount(prev => prev + 12)}
-                className="-translate-y-1/2 bg-white p-2 shadow rounded border-black border z-10 disabled:opacity-50"
+                className="-translate-y-1/2 bg-white_web p-2 shadow rounded border-dim_gray border z-10 disabled:opacity-50"
               >
                 LOAD MORE ARTWORKS
               </button>

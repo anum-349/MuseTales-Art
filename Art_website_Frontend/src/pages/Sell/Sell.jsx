@@ -54,7 +54,7 @@ export default function Sell() {
         <>
             <div>
                 <div className="grid grid-cols-3 gap-10 mb-10">
-                    <div className="relative  bg-teal-600 w-screen h-96 ">
+                    <div className="relative  bg-orange_web w-screen h-96 ">
                         <img
                             src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501465/visual2_otdxd8.jpg"
                             alt="Why Sell"
@@ -63,13 +63,13 @@ export default function Sell() {
 
                         <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
                             <div className="text-center">
-                                <h1 className="text-white md:text-5xl text-4xl font-semibold hover:text-teal-600" >
+                                <h1 className="text-white_web md:text-5xl text-4xl font-semibold hover:text-orange_web" >
                                     Sell your art to a global
                                 </h1>
-                                <h1 className="text-white md:text-6xl text-5xl font-semibold hover:text-teal-600" >
+                                <h1 className="text-white_web md:text-6xl text-5xl font-semibold hover:text-orange_web" >
                                     community of art lovers
                                 </h1>
-                                <button className="pl-20 pr-20 text-white pt-2 pb-2 bg-black hover:bg-teal-600 mt-20" onClick={() => navigate("/support")}>Get Started</button>
+                                <button className="pl-20 pr-20 text-white_web pt-2 pb-2 bg-black hover:bg-orange_web mt-20" onClick={() => navigate("/support")}>Get Started</button>
                             </div>
                         </div>
                     </div>
@@ -130,13 +130,13 @@ export default function Sell() {
                     </div>
                 </div>
 
-                <div className="bg-teal-50 text-center pt-20">
+                <div className="bg-gray-200 text-center pt-20">
                     <h1 className="md:text-5xl text-4xl font-semibold">Create and Verify Your</h1>
                     <h1 className="md:text-6xl text-5xl font-semibold"> Account to Get Started</h1>
-                    <button className="pl-20 pr-20 pt-3 pb-3 bg-black text-white hover:bg-teal-600 mt-10 mb-16" onClick={() => navigate("/support")}>Get Started</button>
+                    <button className="pl-20 pr-20 pt-3 pb-3 bg-black text-white_web hover:bg-orange_web mt-10 mb-16" onClick={() => navigate("/support")}>Get Started</button>
                 </div>
 
-                <div className="relative bg-teal-600 w-screen h-screen brightness-50">
+                <div className="relative bg-orange_web w-screen h-screen brightness-50">
                     <img
                         src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501051/artist_cfyy2c.jpg"
                         alt="Why Sell"
@@ -155,13 +155,13 @@ export default function Sell() {
                             {
                                 testimonal.map((item, i) => (
                                     <SwiperSlide key={i} className="w-full h-full">
-                                        <div className="text-center bg-white p-16 w-96 h-[400px]">
+                                        <div className="text-center bg-white_web p-16 w-96 h-[400px]">
                                             <h1 className="text-xl font-semibold " >
                                                 {item.title}
                                             </h1>
                                             <p>{item.description}</p>
-                                            <p className="pt-4 text-black font-medium">{item.author}</p>
-                                            <p className="font-normal text-black">{item.country}</p>
+                                            <p className="pt-4 text-eerieBlack font-medium">{item.author}</p>
+                                            <p className="font-normal text-eerieBlack">{item.country}</p>
                                         </div>
                                     </SwiperSlide>
                                 ))
@@ -186,7 +186,7 @@ export default function Sell() {
                             Non-exclusive policy<br /><br />
                             Secure online payments</p>
                         <div className="text-center">
-                            <button className="pl-20 pr-20 pt-3 pb-3 bg-black text-white hover:bg-teal-600 mt-16" onClick={() => navigate("/support")}>Get Started</button>
+                            <button className="pl-20 pr-20 pt-3 pb-3 bg-black text-white_web hover:bg-orange_web mt-16" onClick={() => navigate("/support")}>Get Started</button>
                         </div>
                     </div>
                 </div>
@@ -208,7 +208,7 @@ export default function Sell() {
                     </div>
                 </div>
 
-                <div className="bg-teal-50 p-20 pl-40 pr-40 mt-10 mb-20">
+                <div className="bg-gray-200 p-20 pl-40 pr-40 mt-10 mb-20">
                     <h1 className="text-center">Dedicated Artitst Support</h1>
                     <div className="grid md:grid-cols-3 sm:mt-10 gap-10">
                         <div className="text-center">
@@ -234,14 +234,14 @@ export default function Sell() {
                         </div>
                     </div>
                     <div className="text-center">
-                        <button className="pl-32 pr-32 pt-3 pb-3 bg-black text-white hover:bg-teal-600 mt-16 mb-16" onClick={() => navigate("/support")}>Get Started</button>
+                        <button className="pl-32 pr-32 pt-3 pb-3 bg-black text-white_web hover:bg-orange_web mt-16 mb-16" onClick={() => navigate("/support")}>Get Started</button>
                     </div>
                 </div>
 
                 <div className="grid md:grid-cols-[45%,50%] ml-20  mr-20 items-center gap-10">
                     <div className="">
                         <h2>Powerful Tools and a Passionate Team</h2>
-                        <p className="text-black"> Spend less time managing logistics and more time making art.
+                        <p className="text-eerieBlack"> Spend less time managing logistics and more time making art.
                             <br></br><b className="font-semibold">Painless shipping:</b> When you sell your art with Muse Tales Art, shipping is paid for by the collector and is handled by our specialists, saving you time and money — you are only responsible for packaging the work and purchasing the packaging materials.
                             <br /><br />
                             <b className="font-semibold">Manage your portfolio anywhere:</b> Our Studio portfolio management tool allows you to add, edit and update artworks and respond to sales from anywhere.
@@ -276,7 +276,7 @@ export default function Sell() {
                 </div>
 
                 <div className="text-center">
-                    <button className="pl-32 pr-32 pt-3 pb-3 bg-black text-white hover:bg-teal-600 mt-16 mb-16" onClick={() => navigate("/support")}>Get Started</button>
+                    <button className="pl-32 pr-32 pt-3 pb-3 bg-black text-white_web hover:bg-orange_web mt-16 mb-16" onClick={() => navigate("/support")}>Get Started</button>
                 </div>
 
             </div >

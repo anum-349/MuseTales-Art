@@ -21,12 +21,12 @@ export default function Error({ error }) {
                 <img className="w-full h-full" src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501189/error_xhnzsz.png" />
             </div>
             <div className="mb-10 mt-10"> 
-                <p className="text-2xl text-black">{error.name}</p>
+                <p className="text-2xl text-eerieBlack">{error.name}</p>
                 <h1 className="text-red-600 text-7xl">{error.errorNo}</h1>
-                <p className="text-black text-5xl">{error.detail}</p>
+                <p className="text-eerieBlack text-5xl">{error.detail}</p>
                 <p>{error.summary}</p>
                 <hr className="mt-5"/>
-                <p className="text-black mt-10">That's what you can do</p>
+                <p className="text-eerieBlack mt-10">That's what you can do</p>
                 <div className="flex gap-5 mt-5">
                     {error.errorNo === 500 && (
                         <button 

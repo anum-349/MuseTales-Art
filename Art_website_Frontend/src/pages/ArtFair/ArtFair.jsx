@@ -137,7 +137,7 @@ export default function ArtFair() {
                 <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501042/artfair_p3s7nl.png" alt="other art fair" className="w-full h-full object-cover " />
             </div>
 
-            <div className="md:p-40 p-10 justify-center text-center bg-teal-50 mb-20">
+            <div className="md:p-40 p-10 justify-center text-center bg-gray-200 mb-20">
                 <h1>An Accessible and Experiential<br />
                     Way to Discover Art You Love</h1>
                 <div className="grid grid-cols-3 mt-10 mb-5 gap-20 ">
@@ -173,7 +173,7 @@ export default function ArtFair() {
                             <p className="font-semibold">United by our shared mission to help you find art and artists you love, Muse Tales Art proudly presents The Other Art Fair—the definitive place to meet, discover, and collect work from cutting-edge local and independent artists before anyone else. </p>
                             <br />
                             <p>Held in some of the world’s most vibrant cultural hubs, each edition of the Fair presents more than 120 artists carefully chosen by a selection committee of art experts, including Muse Tales Art’s curators, and aims to create an accessible, inclusive, and interactive experience.</p>
-                            <button className="pl-20 pr-20 hover:text-white pt-2 pb-2 border border-black hover:bg-teal-600 mt-10 mb-20" onClick={()=> window.location.href = "https://www.theotherartfair.com/"}>LEARN MORE</button>
+                            <button className="pl-20 pr-20 hover:text-white_web pt-2 pb-2 border border-dim_gray hover:bg-orange_web mt-10 mb-20" onClick={()=> window.location.href = "https://www.theotherartfair.com/"}>LEARN MORE</button>
                         </div>
                     </div>
                 </div>
@@ -242,14 +242,14 @@ export default function ArtFair() {
                 <div className="grid md:grid-cols-4 grid-cols-2 gap-10 md:ml-20 md:mr-20">
                     {
                         fairs.map((item) => (
-                            <Link key={item.id} to={item.link} className="hover:scale-110 transition duration-1000 border border-black">
+                            <Link key={item.id} to={item.link} className="hover:scale-110 transition duration-1000 border border-dim_gray">
                                 <div className="w-full h-56">
                                     <img src={item.image} alt={item.detail} className="w-full h-full object-cover" />
                                 </div>
                                 <div className="text-center mb-5">
-                                    <p className="text-xl font-medium text-black mb-5 mt-2">{item.place}</p>
-                                    <p className="text-black">{item.date}</p>
-                                    <p className="text-black">{item.detail}</p>
+                                    <p className="text-xl font-medium text-eerieBlack mb-5 mt-2">{item.place}</p>
+                                    <p className="text-eerieBlack">{item.date}</p>
+                                    <p className="text-eerieBlack">{item.detail}</p>
                                 </div>
                             </Link>
                         ))
@@ -269,11 +269,11 @@ export default function ArtFair() {
                                     <img src={item.image} alt={item.name} className="w-full h-full object-cover" />
                                 </div>
                                 <div className="text-center mb-5">
-                                    <p className="text-xl font-medium text-black mb-5 mt-2">{item.name}</p>
-                                    <p className="text-black">Exhibited: The Other Art Fair{item.date}</p>
-                                    <p className="text-black">{item.place}</p>
-                                    <p className="text-black mt-5 mb-5">Featured: <Link className="underline" to={`/${item.feature}`}>{item.feature.replace("-", " ").toUpperCase()}</Link></p>
-                                    <button className="border border-black w-full" onClick={()=>navigate(`/artist/${item.name}`)}>View Artist Portfolio</button>
+                                    <p className="text-xl font-medium text-eerieBlack mb-5 mt-2">{item.name}</p>
+                                    <p className="text-eerieBlack">Exhibited: The Other Art Fair{item.date}</p>
+                                    <p className="text-eerieBlack">{item.place}</p>
+                                    <p className="text-eerieBlack mt-5 mb-5">Featured: <Link className="underline" to={`/${item.feature}`}>{item.feature.replace("-", " ").toUpperCase()}</Link></p>
+                                    <button className="border border-dim_gray w-full" onClick={()=>navigate(`/artist/${item.name}`)}>View Artist Portfolio</button>
                                 </div>
                             </div>
                         ))
@@ -299,7 +299,7 @@ export default function ArtFair() {
                                         />
                                     </div>
                                     <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-                                        <div className="text-center px-4 [&>*]:text-white">
+                                        <div className="text-center px-4 [&>*]:text-white_web">
                                             <h2>{item.title}</h2>
                                         </div>
                                     </div>

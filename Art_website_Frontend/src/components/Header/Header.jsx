@@ -36,22 +36,21 @@ export default function Header() {
     }, []);
 
     const links = [
-        ["Paintings", "category/paintings"],
+        ["Paintings", "/category/paintings"],
         ["Photography", "category/photography"],
-        ["Sculpture", "category/sculpture"],
-        ["Drawings", "category/drawings"],
-        ["Modern Art", "category/modern-art"],
-        ["Oil Paintings", "category/oil-paintings"],
-        ["Abstract Art", "category/abstract-art"],
-        ["Curated Collections", "/collections"],
+        ["Sculpture", "/category/sculptures"],
+        ["Drawings", "/category/drawings"],
+        ["Texture Art", "/category/textures"],
+        ["Oil Paintings", "/category/oil-paintings"],
+        ["Abstract Art", "/category/abstracts"],
     ];
 
     return (
         <header className="w-full bg-white shadow-sm">
             {/* Top promo */}
-            <div className="bg-red-600 text-white text-center text-sm py-1 px-3">
+            <div className="bg-caramine text-white_web text-center text-sm py-1 px-3">
                 Limited Time — Collect More, Earn More
-                <NavLink to={'/MuseTales-art'} className="underline ml-2">Learn more</NavLink>
+                <NavLink to={'/about-us'} className="underline ml-2">Learn more</NavLink>
             </div>
 
             {/* Main nav */}
@@ -59,9 +58,9 @@ export default function Header() {
                 <div className="flex items-center justify-between h-16">
                     {/* left: logo */}
                     <div className="flex items-center gap-4">
-                        <Link to="/" className="flex items-center gap-3">
-                            <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501345/logo_y96lpl.png" alt="logo" className="w-10 h-10 object-contain" />
-                            <span className="hidden sm:inline-block font-semibold text-gray-800">MuseTales</span>
+                        <Link to="/" className="flex items-center gap-3 mt-2">
+                            <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1760112520/logo_gunlix.png" alt="logo" width={70} height={70} />
+                            <span className="sm:hidden md:inline-block font-semibold text-xl text-eerieBlack hover:text-orange_web">MuseTales</span>
                         </Link>
                     </div>
 
@@ -78,12 +77,12 @@ export default function Header() {
                             />
                         </div>
 
-                        <Link to="/" className="text-gray-700 hover:text-teal-600 p-2 rounded-md" title="Home">
+                        <Link to="/" className="text-eerieBlack hover:text-orange_web p-2 rounded-md" title="Home">
                             <FaHome className="text-2xl" />
                         </Link>
 
                         <button
-                            className="text-gray-700 hover:text-teal-600 p-2 rounded-md"
+                            className="text-eerieBlack hover:text-orange_web p-2 rounded-md"
                             title="Cart"
                             aria-label="Cart"
                             onClick={() => navigate("/cart")}
@@ -95,7 +94,7 @@ export default function Header() {
                         <div className="relative" ref={profileRef}>
                             <button
                                 onClick={() => setProfileOpen((s) => !s)}
-                                className="flex items-center gap-2 text-gray-700 hover:text-teal-600 p-1 rounded-md"
+                                className="flex items-center gap-2 text-eerieBlack hover:text-orange_web p-1 rounded-md"
                                 aria-haspopup="true"
                                 aria-expanded={profileOpen}
                             >
@@ -114,13 +113,13 @@ export default function Header() {
                                     >
                                         <button
                                             onClick={() => { setShowLogin(true); setProfileOpen(false); }}
-                                            className="w-full text-left px-2 py-2 text-sm hover:text-teal-600"
+                                            className="w-full text-left px-2 py-2 text-sm hover:text-orange_web"
                                         >
                                             Log in
                                         </button>
                                         <button
                                             onClick={() => { setShowSignup(true); setProfileOpen(false); }}
-                                            className="w-full text-left px-2 py-2 text-sm hover:text-teal-600"
+                                            className="w-full text-left px-2 py-2 text-sm hover:text-orange_web"
                                         >
                                             Sign up
                                         </button>
@@ -133,7 +132,7 @@ export default function Header() {
                         <div className="md:hidden">
                             <button
                                 onClick={() => setMobileOpen((s) => !s)}
-                                className="p-2 rounded-md text-gray-700 hover:text-teal-600"
+                                className="p-2 rounded-md text-eerieBlack hover:text-orange_web"
                             >
                                 {mobileOpen ? <FaTimes className="text-2xl" /> : <FaBars className="text-2xl" />}
                             </button>
@@ -162,7 +161,7 @@ export default function Header() {
                                     <NavLink
                                         key={label}
                                         to={to}
-                                        className="py-2 text-gray-700 hover:text-teal-600 border-b last:border-b-0"
+                                        className="py-2 text-eerieBlack hover:text-orange_web border-b last:border-b-0"
                                     >
                                         {label}
                                     </NavLink>
@@ -182,7 +181,7 @@ export default function Header() {
                                     </button>
                                     <button
                                         onClick={() => { setShowSignup(true); setMobileOpen(false); }}
-                                        className="flex-1 py-2 bg-black text-white rounded"
+                                        className="flex-1 py-2 bg-black text-white_web rounded"
                                     >
                                         Sign up
                                     </button>
@@ -200,7 +199,7 @@ export default function Header() {
                         key={label}
                         to={to}
                         className={({ isActive }) =>
-                            `text-xl ${isActive ? 'text-teal-600 font-semibold' : 'text-gray-700 hover:text-teal-600'}`
+                            `text-xl ${isActive ? 'text-orange_web font-semibold' : 'text-eerieBlack hover:text-orange_web'}`
                         }
                     >
                         {label}

@@ -109,7 +109,7 @@ export default function ArtworkDetail() {
         if (!categories.length || !artDetails.length || !authors.length) return
 
         const filteredArt = categories.find(
-            (item) => item._id === id
+            (item) => item.artId === id
         )
         if (!filteredArt) return
 
@@ -117,7 +117,7 @@ export default function ArtworkDetail() {
         setSelectedCategory(filteredArt.author)
         setCategoryType("About Artwork")
 
-        const detail = artDetails.find((d) => d.artId === filteredArt._id)
+        const detail = artDetails.find((d) => d.artId === filteredArt.artId)
         setArtDetail(detail || null)
         const authorInfo = authors.find(
             (a) => a.name.toLowerCase() === filteredArt.author.toLowerCase()
@@ -158,24 +158,24 @@ export default function ArtworkDetail() {
         loading ?
             <>
                 <div className="flex items-center justify-center h-screen">
-                    <div className="w-16 h-16 border-4 border-teal-600 border-t-transparent rounded-full animate-spin"></div>
+                    <div className="w-16 h-16 border-4 border-orange_web border-t-transparent rounded-full animate-spin"></div>
                 </div>
             </> :
             <>
                 {/* Breadcrumb */}
                 <div className="flex m-10 gap-2">
                     <Link to={"/category/all"}>
-                        <p className="underline hover:text-teal-600">category</p>
+                        <p className="underline hover:text-orange_web">category</p>
                     </Link>
                     <p> / </p>
                     <Link to={`/category/${selectedArt?.category?.[0]?.toLowerCase()}`}>
-                        <p className="underline hover:text-teal-600">
+                        <p className="underline hover:text-orange_web">
                             {selectedArt?.category?.[0]?.toLowerCase()?.replace("-", " ")}
                         </p>
                     </Link>
                     <p> / </p>
                     <Link to={`/artwork/${name}`}>
-                        <p className="underline hover:text-teal-600">{name?.toLowerCase()}</p>
+                        <p className="underline hover:text-orange_web">{name?.toLowerCase()}</p>
                     </Link>
                 </div>
 
@@ -207,12 +207,12 @@ export default function ArtworkDetail() {
 
                                 <div className="bg-black pl-3 pt-5 pb-10 -mr-12 pr-3 relative">
                                     <div className="flex">
-                                        <h2 className="text-white">${selectedArt.price}</h2>
-                                        <button className="pl-5 pt-2 pb-2 text-white right-5 bg-red-500 absolute rounded" onClick={()=>handleAddToCart(selectedArt)}>
+                                        <h2 className="text-white_web">${selectedArt.price}</h2>
+                                        <button className="pl-5 pt-2 pb-2 text-white_web right-5 bg-red-500 absolute rounded" onClick={()=>handleAddToCart(selectedArt)}>
                                             Add to Cart
                                         </button>
                                     </div>
-                                    <p className="right-5 text-white flex items-center absolute">
+                                    <p className="right-5 text-white_web flex items-center absolute">
                                         <FaCloud className="text-[15px] mr-2" /> Make an Offer
                                     </p>
                                 </div>
@@ -339,7 +339,7 @@ export default function ArtworkDetail() {
                 </div>
 
                 {/* Author Detail */}
-                < div className="bg-teal-50 sm:m-5 md:m-20 mt-10 mb-10 p-10" id="recognization" >
+                < div className="bg-gray-200 sm:m-5 md:m-20 mt-10 mb-10 p-10" id="recognization" >
                     {authorDetail && (
                         <div className="md:ml-20 md:mr-10 relative">
                             <div className="md:flex items-center gap-5">
@@ -351,14 +351,14 @@ export default function ArtworkDetail() {
                                 </div>
                                 <div>
                                     <Link to={`/artist/${authorDetail?.name}`}>
-                                        <p className="text-lg font-semibold hover:text-teal-600">
+                                        <p className="text-lg font-semibold hover:text-orange_web">
                                             {authorDetail?.name}
                                         </p>
                                     </Link>
                                     <p>{authorDetail.country}</p>
                                 </div>
                                 <button
-                                    className="border border-black md:right-10 md:mt-0 sm:-mt-28 sm:ml-56 absolute hover:bg-teal-600 hover:text-white pl-10 pr-10"
+                                    className="border border-dim_gray md:right-10 md:mt-0 sm:-mt-28 sm:ml-56 absolute hover:bg-orange_web hover:text-white_web pl-10 pr-10"
                                     onClick={() => navigate(`/artist/${authorDetail.name}`)}
                                 >
                                     View Profile
@@ -372,7 +372,7 @@ export default function ArtworkDetail() {
                                     {authorDetail.about.length > 250 && (
                                         <button
                                             onClick={toggle}
-                                            className="border border-black mt-5 mb-5 ml-[40%] pl-10 pr-10 hover:bg-teal-600 hover:text-white"
+                                            className="border border-dim_gray mt-5 mb-5 ml-[40%] pl-10 pr-10 hover:bg-orange_web hover:text-white_web"
                                         >
                                             {expand ? "Read Less" : "Read More"}
                                         </button>
@@ -394,14 +394,14 @@ export default function ArtworkDetail() {
                                     <button
                                         onClick={showPrev}
                                         disabled={startIndex === 0}
-                                        className="bg-teal-50 p-2 shadow rounded-full disabled:opacity-50 mr-5"
+                                        className="bg-gray-200 p-2 shadow rounded-full disabled:opacity-50 mr-5"
                                     >
                                         <FaCaretLeft />
                                     </button>
                                     <button
                                         onClick={showNext}
                                         disabled={startIndex + itemsPerPage >= filteredItems.length}
-                                        className="bg-teal-50 p-2 shadow rounded-full disabled:opacity-50"
+                                        className="bg-gray-200 p-2 shadow rounded-full disabled:opacity-50"
                                     >
                                         <FaCaretRight />
                                     </button>
@@ -413,7 +413,7 @@ export default function ArtworkDetail() {
                     {/* Item List */}
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-6 px-10 mb-10">
                         {visibleItems.map((item) => (
-                            <div key={item._id} className="bg-teal-50 p-4 rounded shadow">
+                            <div key={item._id} className="bg-gray-200 p-4 rounded shadow">
                                 <img
                                     src={item.mainImage}
                                     alt={item.title}
@@ -430,14 +430,14 @@ export default function ArtworkDetail() {
                                     </div>
                                 </div>
                                 <Link to={`/artwork/${item.title}`}>
-                                    <b className="block text-xl mb-1 hover:text-teal-600">
+                                    <b className="block text-xl mb-1 hover:text-orange_web">
                                         {item.title}
                                     </b>
                                 </Link>
                                 <p className="text-sm text-gray-700">
                                     <NavLink
                                         to={`/artist/${item.author}`}
-                                        className="text-lg font-semibold hover:text-teal-600"
+                                        className="text-lg font-semibold hover:text-orange_web"
                                     >
                                         {item.author}
                                     </NavLink>

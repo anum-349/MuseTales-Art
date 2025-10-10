@@ -88,15 +88,15 @@ export default function Cart() {
 
     return (
         <>
-            <div className="grid-cols-1 md:grid-cols-2 grid md:p-20 p-10 bg-teal-50 gap-10">
+            <div className="grid-cols-1 md:grid-cols-2 grid md:p-20 p-10 bg-gray-200 gap-10">
                 {/* Cart Section */}
-                <div className="bg-white rounded p-10">
+                <div className="bg-white_web rounded p-10">
                     <h1 className="font-semibold">Cart</h1>
                     {empty ? (
                         <div className="text-center m-20">
                             <FaShoppingCart className="text-8xl mx-auto mb-3" />
                             <p>Your Cart Is Empty.</p>
-                            <button className="w-full bg-black text-white hover:bg-teal-600 rounded mt-10" onClick={() => navigate('/category/all')}>
+                            <button className="w-full bg-black text-white_web hover:bg-orange_web rounded mt-10" onClick={() => navigate('/category/all')}>
                                 Browse Art
                             </button>
                         </div>
@@ -123,11 +123,11 @@ export default function Cart() {
                                         <p>{item.author}</p>
                                         <p>{item.category}</p>
                                         <div className="flex">
-                                            <p className="text-black font-medium">Shipping</p>
+                                            <p className="text-eerieBlack font-medium">Shipping</p>
                                             <p className="absolute right-5">{item.shipping}</p>
                                         </div>
                                         <div className="flex">
-                                            <p className="text-black font-medium">ArtWorkTotal</p>
+                                            <p className="text-eerieBlack font-medium">ArtWorkTotal</p>
                                             <p className="absolute right-5">${item.price + item.delivery}</p>
                                         </div>
                                     </div>
@@ -140,23 +140,23 @@ export default function Cart() {
                 {/* Order Summary */}
                 <div>
                     {total > 0 && (
-                        <div className="bg-white p-10 rounded mb-5 relative">
+                        <div className="bg-white_web p-10 rounded mb-5 relative">
                             <b className="text-xl font-semibold">Order Summary</b>
                             <div className="flex mb-10">
-                                <p className="text-black font-medium">ESTIMATED TOTAL</p>
+                                <p className="text-eerieBlack font-medium">ESTIMATED TOTAL</p>
                                 <p className="absolute right-10">${total}.00</p>
                             </div>
-                            <button className="w-full bg-green-700 text-white rounded-sm">
+                            <button className="w-full bg-green-700 text-white_web rounded-sm">
                                 CHECKOUT
                             </button>
-                            <button className="w-full mt-5 bg-black text-white rounded-sm">
+                            <button className="w-full mt-5 bg-black text-white_web rounded-sm">
                                 Online Payment
                             </button>
                         </div>
                     )}
 
                     {/* Trust Badges */}
-                    <div className="bg-white p-10 [&>*]:mb-5 rounded mb-5">
+                    <div className="bg-white_web p-10 [&>*]:mb-5 rounded mb-5">
                         <div className="flex gap-3 items-center">
                             <FaStar className="text-3xl" />
                             <div>
@@ -188,13 +188,13 @@ export default function Cart() {
                     </div>
 
                     {/* Help Section */}
-                    <div className="bg-white rounded p-10">
+                    <div className="bg-white_web rounded p-10">
                         <b className="text-2xl font-semibold">Need More Help?</b>
-                        <div className="flex gap-3 mt-10 [&>*]:border [&>*]:border-black [&>*]:rounded [&>*]:p-5 [&>*]:pt-2 [&>*]:pb-2 [&>*]:text-sm">
-                            <button className="hover:bg-teal-600 hover:text-white" onClick={()=>navigate("/art-advisory")}>
+                        <div className="flex gap-3 mt-10 [&>*]:border [&>*]:border-dim_gray [&>*]:rounded [&>*]:p-5 [&>*]:pt-2 [&>*]:pb-2 [&>*]:text-sm">
+                            <button className="hover:bg-orange_web hover:text-white_web" onClick={()=>navigate("/art-advisory")}>
                                 ENJOY COMPLIMENTARY ART ADVISORY
                             </button>
-                            <button className="hover:bg-teal-600 hover:text-white" onClick={()=>navigate("/support")}>
+                            <button className="hover:bg-orange_web hover:text-white_web" onClick={()=>navigate("/support")}>
                                 CONTACT CUSTOMER SUPPORT
                             </button>
                         </div>

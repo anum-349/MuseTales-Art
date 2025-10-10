@@ -32,14 +32,13 @@ const shopByPrice = {
 };
 
 const buttons = {
-  "Paintings": "category/paintings",
-  "Abstract Art": "category/abstract-art",
-  "Oil Paintings": "category/oil-paintings",
-  "Landscapes": "category/landscapes",
+  "Paintings": "/category/paintings",
+  "Abstract Art": "/category/abstracts",
+  "Oil Paintings": "/category/oil-paintings",
+  "Landscapes": "/category/landscapes",
   "Acrylic Paintings": "category/acrylic-paintings",
-  "Curated Collections": "curated",
-  "Modern Art": "category/modern-art",
-  "Sculptures": "category/sculpture",
+  "Modern Art": "/category/modern-arts",
+  "Sculptures": "/category/sculptures",
 };
 
 const images = {
@@ -49,12 +48,12 @@ const images = {
     "Timeless Strokes",
   ],
   "Mark Life’s Moments": [
-    "/stories/design-inspiration",
+    "/exhibition",
     "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501350/marklife_dsesd5.jpg",
     "Visions Beyond Form",
   ],
   "Make a Statement": [
-    "/collections",
+    "/stories",
     "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501171/emotion_hxyv7y.jpg",
     "Works of Emotion",
   ],
@@ -62,55 +61,55 @@ const images = {
 
 const Curators = {
   "Best of 2025": [
-    "/collections",
+    "/best-2025",
     "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501101/curator1_dbestg.jpg",
   ],
   "Arresting Abstracts": [
-    "category/abstract-art",
+    "/category/abstracts",
     "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501102/curator2_asy8sb.jpg",
   ],
   "Featured Sculptures": [
-    "category/scu;pture",
+    "/category/sculptures",
     "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501101/curator3_xbg9oc.jpg",
   ],
   "Powerful Portraits": [
-    "category/portraits",
+    "/category/portraits",
     "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501100/curator_4_gfqtbi.jpg",
   ],
 };
 
 const category = {
-  Paintings: "category/paintings",
-  Photography: "category/photography",
-  Sculpture: "category/sculpture",
-  "Fine Art Paints": "category/fine-art",
+  Paintings: "/category/paintings",
+  Photography: "/category/photography",
+  Sculpture: "/category/sculptures",
+  TextureArt: "/category/textures",
 };
 
 const sculptures = {
-  "Varsity": ["Scott Troxel, United States", "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501387/sculpture1_xlbm10.jpg", "7,123"],
-  "Blue Ice": ["Olga Skorokhod, United States", "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501385/sculpture2_g0jxpg.jpg", "6,870"],
-  "Scribble Mirror": ["Ryan Coleman, United States", "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501386/sculpture3_pgl0k9.jpg", "8,250"],
-  "Abstract Circle": [" Yvonn Zubark, Slovakia", "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501389/sculpture4_dsd1je.jpg", "7,900"],
+  "Varsity": ["Van Linigh", "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501387/sculpture1_xlbm10.jpg", "7,123", "sculpture1"],
+  "Blue Ice": ["Van Linigh", "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501385/sculpture2_g0jxpg.jpg", "6,870", "sculpture2"],
+  "Scribble Mirror": ["Van Linigh", "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501386/sculpture3_pgl0k9.jpg", "8,250", "sculpture3"],
+  "Abstract Circle": ["Van Linigh", "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501389/sculpture4_dsd1je.jpg", "7,900", "sculpture4"],
 };
 
 const bestAbstract = {
-  "Delicate Happiness Photograph": ["Fares Micue, Spain", "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501093/CollectorFav1_sjas8u.jpg", "5,740"],
-  "The Room No: 238": ["Erna Ucar, Luxembourg", "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501097/CollectorFav2_nlmg5i.jpg", "6,100"],
-  "Time Lapse": ["Xan Padron, United States", "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501101/CollectorFav3_snonh2.jpg", "7,420"],
-  "Growing Whisper": ["Fares Micue, Spain", "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501098/CollectorFav4_ddvwgc.jpg", "6,850"],
+  "Delicate Happiness Photograph": ["Van Linigh", "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501093/CollectorFav1_sjas8u.jpg", "5,740", "abstract1"],
+  "The Room No: 238": ["Omar El-Sayed", "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501097/CollectorFav2_nlmg5i.jpg", "6,100", "abstract2"],
+  "Time Lapse": ["Omar El-Sayed", "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501101/CollectorFav3_snonh2.jpg", "7,420", "abstract3"],
+  "Growing Whisper": ["Omar El-Sayed", "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501098/CollectorFav4_ddvwgc.jpg", "6,850", "abstract4"],
 };
 
 const explore = {
   "How to Buy Art You Love": [
     "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501191/findArt_ng3rwh.jpg",
     "VIEW MORE",
-    "/collections",
+    "/how-to-buy",
   ],
   "Collector Stories": [
     "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501100/CollectorStories_quvqku.jpg",
     "LEARN MORE",
     "stories",
-    "/stories/collector-fav"
+    "/stories"
   ],
   "Art for Your Style": ["https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501053/ArtStyle2_grdrv0.jpg", "EXPLORE", "/art-for-your-style"],
 };
@@ -169,7 +168,7 @@ function Home() {
         </div>
         <div className="absolute z-10 top left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <button
-            className="pl-10 pr-10 pb-3 pt-3 bg-black text-white rounded hover:bg-white hover:text-black transition"
+            className="pl-10 pr-10 pb-3 pt-3 bg-eerieBlack text-white_web rounded hover:bg-white hover:text-eerieBlack transition"
             onClick={() => navigate("/category/all")}
           >
             Start Exploring
@@ -182,7 +181,7 @@ function Home() {
         {Object.entries(buttons).map(([key, value]) => (
           <button
             key={key}
-            className="border p-2 px-6 border-black rounded text-nowrap snap-start hover:text-teal-600"
+            className="border p-2 px-6 border-dim_gray rounded text-nowrap snap-start hover:text-orange_web"
             onClick={() => navigate(value)}
           >
             {key}
@@ -202,7 +201,7 @@ function Home() {
           <div key={text} className="w-full h-80 mb-10">
             <img src={source} alt={title} className="w-full h-full object-cover" />
             <p>{title}</p>
-            <NavLink className="underline hover:text-teal-600" to={value}>
+            <NavLink className="underline hover:text-orange_web" to={value}>
               {text}
             </NavLink>
           </div>
@@ -210,11 +209,11 @@ function Home() {
       </div>
 
       {/* Collect More Section */}
-      <div className="m-10 p-10 bg-red-100 text-center">
+      <div className="m-10 p-10 bg-gray-200 text-center">
         <h2>New to Collecting?</h2>
         <p>Discover step-by-step guides on how to find, evaluate, and purchase original art with confidence.</p>
         <button
-          className="border border-black mt-3 rounded hover:bg-teal-600 hover:text-white"
+          className="border border-dim_gray mt-3 rounded hover:bg-orange_web hover:text-eerieBlack"
           onClick={() => navigate("/how-to-buy")}
         >
           Learn How to Buy
@@ -226,7 +225,7 @@ function Home() {
         {Object.entries(Curators).map(([text, [value, source]]) => (
           <div key={text} className="w-full h-80 mb-10">
             <img src={source} alt={text} className="w-full h-full object-cover" />
-            <NavLink className=" hover:text-teal-600" to={value}>
+            <NavLink className=" hover:text-orange_web" to={value}>
               {text}
             </NavLink>
           </div>
@@ -239,7 +238,7 @@ function Home() {
           <h2>Shop By Category</h2>
           <button
             onClick={() => setMobileShopCategory((s) => !s)}
-            className="p-2 rounded-md text-gray-700 hover:text-teal-600"
+            className="p-2 rounded-md text-eerieBlack hover:text-orange_web"
             aria-expanded={mobileShopCategory}
           >
             {mobileShopCategory ? (
@@ -263,7 +262,7 @@ function Home() {
                 {Object.entries(category).map(([key, value]) => (
                   <button
                     key={key}
-                    className="border-b-2 border-0 p-2 border-gray-600 hover:bg-teal-600 hover:text-white w-full md:w-[200px]"
+                    className="border-b-2 border-0 p-2 border-gray-600 hover:bg-orange_web hover:text-white_web w-full md:w-[200px]"
                     onClick={() => navigate(value)}
                   >
                     {key}
@@ -282,7 +281,7 @@ function Home() {
           {Object.entries(category).map(([key, value]) => (
             <button
               key={key}
-              className="border p-2 px-7 border-black rounded hover:bg-teal-600 hover:text-white w-full md:w-[200px]"
+              className="border p-2 px-7 border-dim_gray rounded hover:bg-orange_web hover:text-white_web w-full md:w-[200px]"
               onClick={() => navigate(value)}
             >
               {key}
@@ -295,8 +294,8 @@ function Home() {
       <div className="flex mt-10 ml-10 mr-10 items-center">
         <h2>Sculptural Art</h2>
         <NavLink
-          className="underline absolute right-10 hover:text-teal-600"
-          to="/category/sculpture"
+          className="underline absolute right-10 hover:text-orange_web"
+          to="/category/sculptures"
         >
           Explore Now
         </NavLink>
@@ -304,8 +303,8 @@ function Home() {
 
       {/* Sculptures List */}
       <div className=" grid md:grid-cols-4 grid-cols-2 m-10 gap-10">
-        {Object.entries(sculptures).map(([name, [creator, source, price]]) => (
-          <div key={name}>
+        {Object.entries(sculptures).map(([name, [creator, source, price, id]]) => (
+          <div key={id}>
             <div className="w-full md:h-80 h-56">
               <img
                 src={source}
@@ -314,12 +313,12 @@ function Home() {
               />
             </div>
             <NavLink
-              to={`/artwork/${name}`}
-              className="hover:text-teal-600 block"
+              to={`/artwork/${id}`}
+              className="hover:text-orange_web block"
             >
               {name}
             </NavLink>
-            <NavLink to={`/artist/${creator}`} className="hover:text-teal-600">
+            <NavLink to={`/artist/${creator}`} className="hover:text-orange_web">
               {creator}
             </NavLink>
             <p>${price}</p>
@@ -331,7 +330,7 @@ function Home() {
       <div className="flex mt-10 ml-10 mr-10 items-center">
         <h2>Best Abstract of Summer 2025</h2>
         <NavLink
-          className="underline absolute right-10 hover:text-teal-600"
+          className="underline absolute right-10 hover:text-orange_web"
           to="/collections"
         >
           Explore Now
@@ -340,8 +339,8 @@ function Home() {
 
       {/* Best Abstract List */}
       <div className="grid md:grid-cols-4 grid-cols-2 m-10 gap-10">
-        {Object.entries(bestAbstract).map(([name, [creator, source, price]]) => (
-          <div key={name} >
+        {Object.entries(bestAbstract).map(([name, [creator, source, price, id]]) => (
+          <div key={id} >
             <div className="w-full md:h-80 h-56">
               <img
                 src={source}
@@ -350,12 +349,12 @@ function Home() {
               />
             </div>
             <NavLink
-              to={`/artwork/${name}`}
-              className="hover:text-teal-600 block"
+              to={`/artwork/${id}`}
+              className="hover:text-orange_web block"
             >
               {name}
             </NavLink>
-            <NavLink to={`/artist/${creator}`} className="hover:text-teal-600">
+            <NavLink to={`/artist/${creator}`} className="hover:text-orange_web">
               {creator}
             </NavLink>
             <p>${price}</p>
@@ -369,7 +368,7 @@ function Home() {
           <h2>Shop By Price</h2>
           <button
             onClick={() => setMobileShopPrice((s) => !s)}
-            className="p-2 rounded-md text-gray-700 hover:text-teal-600"
+            className="p-2 rounded-md text-gray-700 hover:text-orange_web"
             aria-expanded={mobileShopPrice}
           >
             {mobileShopPrice ? (
@@ -393,7 +392,7 @@ function Home() {
                 {Object.entries(shopByPrice).map(([price, link]) => (
                   <button
                     key={price}
-                    className="border-b-2 border-0 p-2 border-gray-600 hover:bg-teal-600 hover:text-white w-full md:w-[200px]"
+                    className="border-b-2 border-0 p-2 border-gray-600 hover:bg-orange_web hover:text-white_web w-full md:w-[200px]"
                     onClick={() => navigate(link)}
                   >
                     {price}
@@ -412,7 +411,7 @@ function Home() {
           {Object.entries(shopByPrice).map(([price, link]) => (
             <button
               key={link}
-              className="border p-2 pl-5 pr-5 border-black w-[180px] rounded hover:bg-teal-600 hover:text-white"
+              className="border p-2 pl-5 pr-5 border-dim_gray w-[180px] rounded hover:bg-orange_web hover:text-white_web"
               onClick={() => navigate(link)}
             >
               {price}
@@ -439,7 +438,7 @@ function Home() {
                 <p>{signature}</p>
                 <p>{chief}</p>
                 <Link to={link}>
-                  <p className="underline hover:text-teal-600">{workwith}</p>
+                  <p className="underline hover:text-orange_web">{workwith}</p>
                 </Link>
               </div>
             )
@@ -451,7 +450,7 @@ function Home() {
       < div className="flex m-10 items-center" >
         <h2>More to Explore</h2>
         <NavLink
-          className="underline absolute right-10 hover:text-teal-600"
+          className="underline absolute right-10 hover:text-orange_web"
           to="/category/all"
         >
           View All
@@ -467,7 +466,7 @@ function Home() {
                 <img src={source} alt={name} className="w-full h-full object-cover" />
               </div>
               <p>{name}</p>
-              <NavLink className="underline hover:text-teal-600" to={url}>
+              <NavLink className="underline hover:text-orange_web" to={url}>
                 {title}
               </NavLink>
             </div>
@@ -476,16 +475,16 @@ function Home() {
       </div >
 
       {/* Guarantee Section */}
-      < div className="bg-black sm:block lg:flex p-20 gap-20 justify-center flex-wrap-0" >
+      < div className="bg-eerieBlack sm:block lg:flex p-20 gap-20 justify-center flex-wrap-0" >
         {
           Object.entries(guarantee).map(([title, [Icon, description]]) => (
             <div key={title} className="text-center sm:pb-20">
               <Icon
-                className="text-4xl text-white hover:text-teal-600 mb-4 mx-auto"
+                className="text-4xl text-white_web hover:text-orange_web mb-4 mx-auto"
                 title={title}
               />
-              <p className="text-xl text-white">{title}</p>
-              <p className="text-white">{description}</p>
+              <p className="text-xl text-white_web">{title}</p>
+              <p className="text-white_web">{description}</p>
             </div>
           ))
         }
@@ -498,9 +497,9 @@ function Home() {
             <button
               onClick={showPrev}
               disabled={startIndex === 0}
-              className="-translate-y-1/2 bg-white p-2 shadow rounded-full z-10 disabled:opacity-50 ml-5"
+              className="-translate-y-1/2 bg-white_web p-2 shadow rounded-full z-10 disabled:opacity-50 ml-5"
             >
-              <FaCaretLeft className="text-black" />
+              <FaCaretLeft className="text-eerieBlack" />
             </button>
             <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-10 justify-center p-10 flex-wrap-0">
               {visibleItems.map((item) => (
@@ -523,7 +522,7 @@ function Home() {
             <button
               onClick={showNext}
               disabled={startIndex + itemsPerPage >= feedback.length}
-              className="-translate-y-1/2 bg-white p-2 shadow rounded-full z-10 disabled:opacity-50 mr-5"
+              className="-translate-y-1/2 bg-white_web p-2 shadow rounded-full z-10 disabled:opacity-50 mr-5"
             >
               <FaCaretRight />
             </button>

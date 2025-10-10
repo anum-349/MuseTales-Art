@@ -66,7 +66,7 @@ export default function Commisions() {
                     <div className="mb-3">
                         <b className="text-xl font-semibold">6. Disputes and Support</b>
 
-                        <p>If you have questions or concerns about commission fees, please contact our support team at <a className="font-semibold hover:text-teal-600 " href="mail:support@musetaleart.com" target="_blank">support@musetalesart.com</a>.</p>
+                        <p>If you have questions or concerns about commission fees, please contact our support team at <a className="font-semibold hover:text-orange_web " href="mail:support@musetaleart.com" target="_blank">support@musetalesart.com</a>.</p>
                         <p>We are committed to resolving commission-related disputes fairly and promptly.</p>
                     </div>
                     <div className="mb-3">
@@ -79,8 +79,8 @@ export default function Commisions() {
                     </div>
                 </div>
                 <div className="bg-black mt-5 mb-5">
-                    <p className="text-center text-white text-lg p-10">If you’re unsure where to start, please contact us for assistance.
-                        <br></br>For more information on commissions, please reference our <Link to={"/faqs"} className="underline hover:text-teal-600">FAQ</Link> section.</p>
+                    <p className="text-center text-white_web text-lg p-10">If you’re unsure where to start, please contact us for assistance.
+                        <br></br>For more information on commissions, please reference our <Link to={"/faqs"} className="underline hover:text-orange_web">FAQ</Link> section.</p>
                 </div>
 
                 <p className="text-3xl font-semibold text-center">Endless Creative Possibilities</p>
@@ -92,7 +92,7 @@ export default function Commisions() {
                                 <div className="w-full h-[400px]">
                                     <img src={item.image} alt={item.name} className="w-full h-full object-scale-down" />
                                 </div>
-                                <NavLink to={item.link} className={'ml-56 md:ml-36 font-medium hover:text-teal-600'}>
+                                <NavLink to={item.link} className={'ml-56 md:ml-36 font-medium hover:text-orange_web'}>
                                     Artist {item.name}
                                 </NavLink>
                             </div>

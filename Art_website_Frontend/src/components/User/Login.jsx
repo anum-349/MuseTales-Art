@@ -59,7 +59,7 @@ export default function Login({ showLogin, setShowLogin, setShowSignup, setShowF
                             animate={{ scale: 1, opacity: 1 }}
                             exit={{ scale: 0.98, opacity: 0 }}
                             transition={{ duration: 0.18 }}
-                            className="relative bg-white rounded-lg shadow-xl w-[92%] max-w-md p-6 mx-4"
+                            className="relative bg-white_web rounded-lg shadow-xl w-[92%] max-w-md p-6 mx-4"
                         >
                             <button
                                 onClick={() => setShowLogin(false)}
@@ -122,7 +122,7 @@ export default function Login({ showLogin, setShowLogin, setShowSignup, setShowF
                                 </div>
 
                                 <button
-                                    className="mt-4 bg-black text-white py-2 rounded disabled:opacity-60"
+                                    className="mt-4 bg-black text-white_web py-2 rounded disabled:opacity-60"
                                     disabled={loginPending}
                                 >
                                     {loginPending ? "Logging in..." : "Log in"}
@@ -155,7 +155,7 @@ export default function Login({ showLogin, setShowLogin, setShowSignup, setShowF
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -30 }}
                         transition={{ duration: 0.3 }}
-                        className="fixed top-5 right-5 z-[9999] bg-red-600 text-white px-4 py-2 rounded shadow-lg"
+                        className="fixed top-5 right-5 z-[9999] bg-red-600 text-white_web px-4 py-2 rounded shadow-lg"
                     >
                         {loginResult.error}
                     </motion.div>

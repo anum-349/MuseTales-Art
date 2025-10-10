@@ -25,7 +25,7 @@ export default function HowToBuy() {
                         And if you’ve already made a decision and a purchase, jump to our post on <NavLink className='underline' to={'/category/top'}>enjoying your new artwork</NavLink>.
                     </span>
                     <br />
-                    <p className="font-bold text-black mt-3 text-lg">How to Get Started</p>
+                    <p className="font-bold text-eerieBlack mt-3 text-lg">How to Get Started</p>
                     <ul className="mt-3 list-disc ml-8 [&>*]:underline" >
                         <li><a href="#reading">Reading & Understanding an Artwork Listing</a></li>
                         <li><a href="#accessing">Assessing the Quality of an Artwork</a></li>
@@ -60,7 +60,7 @@ export default function HowToBuy() {
 
                 <div className="grid md:grid-cols-2 md:ml-52 md:mr-52 md:mt-20 m-10 items-center gap-20">
                     <div className="w-full h-full bg-blue-100">
-                        <img src="/https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501051/artist_cfyy2c.jpg" alt="art love" className="w-full h-full object-cover" />
+                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501051/artist_cfyy2c.jpg" alt="art love" className="w-full h-full object-cover" />
                     </div>
                     <div>
                         <p>Next, read the description. This critical piece often includes helpful information to give you a better sense of the work, the artist, their inspiration, and art practice, as well as further information on other works in their portfolio. Read the artist’s name and the city they’re based in—explore their profile and get to know your artist. And if you ever need more context around an artwork you love, reach out to our curators who are happy to advise throughout the art buying process.</p>
@@ -85,7 +85,7 @@ export default function HowToBuy() {
 
                     <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center mt-10">
                         <div className="text-center px-4">
-                            <h1 className="text-white font-semibold mb-4 text-7xl">Assessing the Quality of an Artwork</h1>
+                            <h1 className="text-white_web font-semibold mb-4 text-7xl">Assessing the Quality of an Artwork</h1>
                         </div>
                     </div>
                 </div>
@@ -121,7 +121,7 @@ export default function HowToBuy() {
 
                     <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center mt-10">
                         <div className="text-center px-4">
-                            <h1 className="text-white font-semibold mb-4 text-4xl">Deciding Where to Place the Work</h1>
+                            <h1 className="text-white_web font-semibold mb-4 text-4xl">Deciding Where to Place the Work</h1>
                         </div>
                     </div>
                 </div>
@@ -136,7 +136,7 @@ export default function HowToBuy() {
                     <div>
                         <p className="text-4xl font-semibold mb-3">Size</p>
                         <p>Aim to fill about two-thirds to three-fourths of your available wall space. If you are looking to create a focal point above a piece of furniture—such as your couch, headboard, or dresser—follow the same proportions and find a work two-thirds to three-fourths smaller than your furniture. When in doubt, go big; If you’re buying a work without measurements on hand, it’s typically safer to err on the larger side. You want your artwork to stand out and complement your space—empty wall space can overwhelm a smaller work. Here’s a collection of oversized works to get you thinking.</p>
-                        <button className="border bg-black text-white ml-[25%] mt-5 hover:bg-teal-600 hover:text-white pl-10 pr-10" onClick={() => { navigate('/collections') }}>Explore the Collection</button>
+                        <button className="border bg-black text-white_web ml-[25%] mt-5 hover:bg-orange_web hover:text-white_web pl-10 pr-10" onClick={() => { navigate('/collections') }}>Explore the Collection</button>
                     </div>
                     <div className="w-full h-full bg-blue-100">
                         <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501053/ArtStyle2_grdrv0.jpg" alt="art love" className="w-full h-full object-cover" />
@@ -170,11 +170,11 @@ export default function HowToBuy() {
                     <div>
                         <p className="text-4xl font-semibold mb-3">Salon Walls</p>
                         <p>Consider filling your wall space by grouping multiple works together. Works of equal size can be hung as a grid, but don’t be afraid to cluster works of different sizes into a salon wall, à la the salons of 19th century France, where works in art competitions were hung at many different heights and formations. In general, hang larger artworks on a salon wall two to three inches apart and small works one and a half to two inches apart. Need ideas?</p>
-                        <button className="border bg-black text-white ml-[30%] mt-5 hover:bg-teal-600 hover:text-white pl-10 pr-10" onClick={() => navigate('/stories/design-inspiration')}>Get Inspired</button>
+                        <button className="border bg-black text-white_web ml-[30%] mt-5 hover:bg-orange_web hover:text-white_web pl-10 pr-10" onClick={() => navigate('/stories/design-inspiration')}>Get Inspired</button>
                     </div>
                 </div>
 
-                <div className="grid md:grid-cols-2 md:pl-52 md:pr-52 p-20 mt-20 items-center gap-20 bg-teal-50">
+                <div className="grid md:grid-cols-2 md:pl-52 md:pr-52 p-20 mt-20 items-center gap-20 bg-gray-200">
                      <div className="w-full h-full bg-blue-100">
                         <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501100/curator_4_gfqtbi.jpg" alt="art love" className="w-full h-full object-cover" />
                     </div>
@@ -188,10 +188,10 @@ export default function HowToBuy() {
                     <div>
                         <h1 className="text-7xl font-semibold mb-3">Latest Stories</h1>
                         <div className="flex-wrap m-10 ml-40 mr-40 justify-between">
-                            <p className="font-semibold text-2xl text-black text-nowrap">How-To: Getting Started</p>
-                            <p className="font-semibold text-2xl text-black text-nowrap">How-To: Enjoying Your New Artwork</p>
+                            <p className="font-semibold text-2xl text-eerieBlack text-nowrap">How-To: Getting Started</p>
+                            <p className="font-semibold text-2xl text-eerieBlack text-nowrap">How-To: Enjoying Your New Artwork</p>
                         </div>
-                        <button className="border bg-black text-white mt-5 hover:bg-teal-600 hover:text-white pl-10 pr-10" onClick={() => navigate('/stories')}>Read More Stories</button>
+                        <button className="border bg-black text-white_web mt-5 hover:bg-orange_web hover:text-white_web pl-10 pr-10" onClick={() => navigate('/stories')}>Read More Stories</button>
                     </div>
                 </div>
             </div>

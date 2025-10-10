@@ -22,12 +22,12 @@ export default function NewsLetter() {
                 <div className="w-full h-full">
                     <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501045/advisory2_qn3suj.png" alt="newsletter" className="w-full h-full object-cover " />
                 </div>
-                <div className="p-20 bg-teal-900">
+                <div className="p-20 bg-dim_gray">
                     <div className="flex items-center gap-3 justify-center">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501345/logo_y96lpl.png" alt="logo" className="w-14 h-14 object-cover" />
-                        <h2 className="text-white" >MUSETALES ART</h2>
+                            <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1760112520/logo_gunlix.png" alt="logo" width={70} height={70} />
+                        <h2 className="text-caramine" >MUSETALES ART</h2>
                     </div>
-                    <div className="text-center [&>*]:text-white mt-5">
+                    <div className="text-center [&>*]:text-white_web mt-5">
                         <h1 className="text-5xl">MUSETALES ART</h1>
                         <h1 className="text-5xl">NEWSLETTER SIGNUP</h1>
                         <p className="p-10 mt-6 mb-2 font-semibold text-2xl">Step into a world where art meets imagination.</p>
@@ -37,7 +37,7 @@ export default function NewsLetter() {
                         <p className="mt-6 mb-2">Enter your email to subscribe:</p>
                         <div className="flex gap-2 ml-20 mr-20">
                             <input name="email" type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email Address" className="w-full p-2 border border-white rounded-sm" />
-                            <FaCaretRight className="bg-white text-black rounded-sm w-10 h-11 p-2" onClick={handleSubmit} />
+                            <FaCaretRight className="bg-white_web hover:text-orange_web text-eerieBlack rounded-sm w-10 h-11 p-2" onClick={handleSubmit} />
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ export default function NewsLetter() {
                         animate={{ y: 0, opacity: 1 }}
                         exit={{ y: -50, opacity: 0 }}
                         transition={{ duration: 0.3 }}
-                        className={`fixed top-5 right-5 px-4 py-3 rounded shadow-lg text-white ${notification.type === "error" ? "bg-red-600" : "bg-green-600"
+                        className={`fixed top-5 right-5 px-4 py-3 rounded shadow-lg text-white_web ${notification.type === "error" ? "bg-red-600" : "bg-green-600"
                             }`}
                     >
                         {notification.message}

@@ -83,15 +83,15 @@ export default function Advisory() {
 
                 <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center mt-10">
                     <div className="text-center px-4">
-                        <h1 className="text-white text-6xl font-bold mb-4">COMPLIMENTARY ART ADVISORY</h1>
-                        <p className="text-white text-4xl">Speak with a curator to find one-of-a-kind artworks specially chosen for you.</p>
-                        <button className="pl-10 pr-10 mt-3 rounded border border-black bg-white hover:bg-teal-600 hover:text-white" onClick={() => { navigate('/support') }}>CONTACT US</button>
+                        <h1 className="text-white_web text-6xl font-bold mb-4">COMPLIMENTARY ART ADVISORY</h1>
+                        <p className="text-white_web text-4xl">Speak with a curator to find one-of-a-kind artworks specially chosen for you.</p>
+                        <button className="pl-10 pr-10 mt-3 rounded border border-dim_gray bg-white_web hover:bg-orange_web hover:text-white_web" onClick={() => { navigate('/support') }}>CONTACT US</button>
                     </div>
                 </div>
             </div>
 
             <div className="justify-center flex gap-4 md:ml-44 md:mr-44 m-20">
-                <p className="font-bold text-3xl text-center">Our free and flexible <NavLink to={'art-advisory-service'} className={'text-gray-600 hover:text-teal-600'}>art advisory service</NavLink> connects you with an expert curator to help find art that meets your needs in a smooth and hassle-free process.</p>
+                <p className="font-bold text-3xl text-center">Our free and flexible <NavLink to={'art-advisory-service'} className={'text-gray-600 hover:text-orange_web'}>art advisory service</NavLink> connects you with an expert curator to help find art that meets your needs in a smooth and hassle-free process.</p>
             </div>
 
             <div className="grid md:grid-cols-2 mt-10 ml-20 mr-20 items-center">
@@ -116,7 +116,7 @@ export default function Advisory() {
 
                     <p>All shipments are insured for hassle-free shipping, with safe delivery and smooth communication.</p>
 
-                    <button className="pl-10 pr-10 mt-10 rounded border border-black bg-white hover:bg-teal-600 hover:text-white" onClick={() => { navigate('/support') }}>CONTACT US</button>
+                    <button className="pl-10 pr-10 mt-10 rounded border border-dim_gray bg-white_web hover:bg-orange_web hover:text-white_web" onClick={() => { navigate('/support') }}>CONTACT US</button>
                 </div>
             </div>
 
@@ -154,14 +154,14 @@ export default function Advisory() {
                         </div>
                     </div>
                 </div>
-                <button className="pl-10 pr-10 mt-10 rounded border bg-black text-white hover:bg-teal-600" onClick={() => { navigate('/support') }}>CONTACT US</button>
+                <button className="pl-10 pr-10 mt-10 rounded border bg-black text-white_web hover:bg-orange_web" onClick={() => { navigate('/support') }}>CONTACT US</button>
             </div>
 
             <div className="m-20 text-center">
                 <p className="text-3xl font-bold">Not Sure What You're Looking For?</p>
 
                 <p className="mt-5 mb-5 md:ml-40 md:mr-40">Take a short quiz to share your preferences with our curators. They will then begin building a collection of works that suit your needs. A member of our team will be in touch within 1-2 business days.</p>
-                <button className="pl-10 pr-10 mt-3 rounded border border-black hover:bg-teal-600 hover:text-white">Take The Quiz</button>
+                <button className="pl-10 pr-10 mt-3 rounded border border-dim_gray hover:bg-orange_web hover:text-white_web">Take The Quiz</button>
             </div>
             <hr></hr>
             <div className="ml-40 mr-40 mt-20 mb-20">
@@ -197,14 +197,14 @@ export default function Advisory() {
                                 </div>
                                 <b className="font-semibold">{item.name}</b>
                                 <p className="mt-1 mb-3">{item.role}</p>
-                                <NavLink to={item.link} className={'underline hover:text-teal-600'}>SEE CURATORS FAVOURITES</NavLink>
+                                <NavLink to={item.link} className={'underline hover:text-orange_web'}>SEE CURATORS FAVOURITES</NavLink>
                             </div>
                         ))
                     }
                 </div>
             </div>
 
-            <div className="bg-teal-50 p-10 ">
+            <div className="bg-gray-200 p-10 ">
                 <div className="grid md:grid-cols-2 md:ml-10 md:mr-10 items-center">
                     <div className="w-full h-full ">
                         <img src="/advisory2.jpg" alt="art love" className="w-full h-full object-cover" />
@@ -214,17 +214,17 @@ export default function Advisory() {
                         <div className="">
                             <form action={action}>
                                 <div className="flex gap-5 mb-3">
-                                    <input type="text" name="firstName" defaultValue={data?.firstName} placeholder="First Name*" className="border border-black p-2 w-full rounded" />
-                                    <input type="text" name="lastName" defaultValue={data?.lastName} placeholder="Last Name*" className="border border-black p-2 w-full rounded" />
+                                    <input type="text" name="firstName" defaultValue={data?.firstName} placeholder="First Name*" className="border border-dim_gray p-2 w-full rounded" />
+                                    <input type="text" name="lastName" defaultValue={data?.lastName} placeholder="Last Name*" className="border border-dim_gray p-2 w-full rounded" />
                                 </div>
                                 {data?.firstNameError ? <span style={{ color: "red" }}>{data?.firstNameError}</span> : null}
                                 {data?.lastNameError ? <span style={{ color: "red" }}>{data?.lastNameError}</span> : null}
-                                <input type="email" name="email" defaultValue={data?.email} placeholder="Email Address*" className="border border-black p-2 w-full rounded mb-3" />
+                                <input type="email" name="email" defaultValue={data?.email} placeholder="Email Address*" className="border border-dim_gray p-2 w-full rounded mb-3" />
                                 {data?.emailError ? <span style={{ color: "red" }}><br />{data?.emailError}</span> : null}
-                                <input type="number" defaultValue={data?.budget} min={0} max={99999} name="budget" placeholder="Budget*" className="border border-black p-2 w-full rounded mb-3" />
+                                <input type="number" defaultValue={data?.budget} min={0} max={99999} name="budget" placeholder="Budget*" className="border border-dim_gray p-2 w-full rounded mb-3" />
                                 {data?.budgetError ? <span style={{ color: "red" }}><br />{data?.budgetError}</span> : null}
-                                <textarea name="detail" defaultValue={data?.detail} placeholder="Help us understand your taste! Provide links to artists, artworks, or your favorite design styles so we can assist you more effectively." className="border border-black p-2 w-full h-36 rounded mb-3" />
-                                <button className="w-full bg-black text-white hover:text-teal-600 rounded" disabled={pending}>{pending ? "Submitting..." : "Submit"}</button>
+                                <textarea name="detail" defaultValue={data?.detail} placeholder="Help us understand your taste! Provide links to artists, artworks, or your favorite design styles so we can assist you more effectively." className="border border-dim_gray p-2 w-full h-36 rounded mb-3" />
+                                <button className="w-full bg-black text-white_web hover:text-orange_web rounded" disabled={pending}>{pending ? "Submitting..." : "Submit"}</button>
                                 {data?.message ? <span style={{ color: "green" }}><br />{data?.message}</span> : null}
                                 <p className="mt-2">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.By submitting this form, you will be subscribed to our MuseTales Art newsletter. You may unsubscribe at any time.</p>
                             </form>

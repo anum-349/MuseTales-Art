@@ -5,11 +5,11 @@ export default function PrivacyNotice() {
     return (
         <>
             <div className="m-10">
-                <p className="text-center mb-5 text-3xl font-semibold text-black ">MuseTales Art Privacy Notice</p>
+                <p className="text-center mb-5 text-3xl font-semibold text-eerieBlack ">MuseTales Art Privacy Notice</p>
 
                 <div>
                     <p className="text-center m-5 ml-20 mr-20">We are committed to respecting your privacy and protecting your personal data. This Privacy Notice outlines how we collect, use, share, and safeguard your information when you visit our website or interact with our services.</p>
-                    <p className="pl-10 pr-10 p-2 border border-black mb-3">This Privacy Notice has been updated in order to comply with the new Colorado and Connecticut privacy laws that took effect on July 1, 2023 and the new Utah privacy law that will take effect on December 31, 2023. These 3 states, as well as California and Virginia, which privacy laws took effect earlier, require additional information regarding our privacy practices and your privacy rights. Depending on whether you are a resident of those states, we provide you additional notices about our privacy practices and your privacy rights as a consumer under sections 11, 12 and 13 below.</p>
+                    <p className="pl-10 pr-10 p-2 border border-dim_gray mb-3">This Privacy Notice has been updated in order to comply with the new Colorado and Connecticut privacy laws that took effect on July 1, 2023 and the new Utah privacy law that will take effect on December 31, 2023. These 3 states, as well as California and Virginia, which privacy laws took effect earlier, require additional information regarding our privacy practices and your privacy rights. Depending on whether you are a resident of those states, we provide you additional notices about our privacy practices and your privacy rights as a consumer under sections 11, 12 and 13 below.</p>
                     <p>Last Updated: <b>July 1, 2025</b> </p>
                     <p className="mt-2">This Privacy Notice <b>(Privacy Notice" or "Notice")</b> describes how we collect, use, share, manage or disclose or generally process your personal information as a visitor or customer when you visit or use our websites, mobile apps, applications, digital services, or any related products, services, sites, features or functionalities (each a <b>"Service"</b>, collectively the <b>"Services"</b>) that link to this Privacy Notice, and how Leaf Group collects, uses, shares, processes and manages your personal information.</p>
                 </div>
@@ -72,7 +72,7 @@ export default function PrivacyNotice() {
                         <p>Analyze website traffic</p>
                         <p>Deliver personalized ads (if applicable)</p>
                     </div>
-                    <p className="pb-3">You can control cookie settings through your browser and opt-out of some third-party cookies via <a href="https://optout.aboutads.info/" className="hover:underline hover:text-teal-600">optout.aboutads.info</a>.</p>
+                    <p className="pb-3">You can control cookie settings through your browser and opt-out of some third-party cookies via <a href="https://optout.aboutads.info/" className="hover:underline hover:text-orange_web">optout.aboutads.info</a>.</p>
                 </div>
 
                 <div>
@@ -96,7 +96,7 @@ export default function PrivacyNotice() {
                         <p>Request deletion of your data</p>
                         <p>Withdraw consent for marketing communications</p>
                     </div>
-                    <p className="pb-3">To exercise any of these rights, please contact us at <a href="https://support@musetalesart.com" className="underline hover:text-teal-600"> support@musetalesart.com</a>.</p>
+                    <p className="pb-3">To exercise any of these rights, please contact us at <a href="https://support@musetalesart.com" className="underline hover:text-orange_web"> support@musetalesart.com</a>.</p>
                 </div>
 
                 <div>
@@ -113,7 +113,7 @@ export default function PrivacyNotice() {
                     <b className="text-xl font-semibold">9. Contact Us</b>
                     <p>If you have any questions or concerns about this Privacy Notice or how your data is handled, please contact us at:</p>
                     <div className="pl-5 pb-3">
-                        <p className="flex items-center gap-3"><FaMailBulk /><a href="https://support@musetalesart.com" className="underline hover:text-teal-600"> support@musetalesart.com</a></p>
+                        <p className="flex items-center gap-3"><FaMailBulk /><a href="https://support@musetalesart.com" className="underline hover:text-orange_web"> support@musetalesart.com</a></p>
                         <p className="flex items-center gap-3"><FaPhone /> +92 349 5445560</p>
                         <p className="flex items-center gap-3"><FaMapLocation /> 123 Art Street, Creativity City, Artland 45678</p>
                     </div>

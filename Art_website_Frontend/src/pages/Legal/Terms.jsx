@@ -3,15 +3,15 @@ import { Link } from "react-router-dom";
 export default function Terms() {
     return (
         <>
-            <div className="m-0 text-center p-5 bg-black text-white mb-0">
-                <h1 className="text-2xl font-bold text-white">
+            <div className="m-0 text-center p-5 bg-black text-white_web mb-0">
+                <h1 className="text-2xl font-bold text-white_web">
                     MuseTales Art Terms of Service
                 </h1>
-                <p className="text-white">Last Updated: <b className="text-white">April 22, 2024</b></p>
+                <p className="text-white_web">Last Updated: <b className="text-white_web">April 22, 2024</b></p>
             </div>
             <div className="m-10 text-justify">
                 <p className="mb-4">
-                    Welcome to our platform.MuseTales Online, Inc. <b>(“MuseTales Art,” “we” or “our”)</b> provides a service for viewing, selling and purchasing original works of art and commercially exploiting digital images of works of art through our website, accessible at www.MuseTalesart.com (the <b>“Site”</b>), our mobile application (the <b>“Application”</b>) or our art streaming service (<b>“MuseTales Art on TV”</b>) together with any services, software, tools, features or functionality made available by MuseTales Art (each, a <b>“Service”</b> and collectively, the <b>“Services”</b>). Please read carefully the following terms and conditions (<b>“Terms”</b>), our MuseTales Art on TV Terms and Conditions of Use (“<b>MuseTales Art on TV Terms</b>”), and our Privacy Policy, which may be found at <Link to={'/privacy-notice'} className="hover:text-teal-600 underline">www.musetalesart.com/privacy</Link> (the “<b>Privacy Policy</b>”). These Terms, the MuseTales Art on TV Terms, the Privacy Policy, and any other policies linked to herein, govern your access to and use of the Services, and constitute a binding legal agreement between you and MuseTales Art.
+                    Welcome to our platform.MuseTales Online, Inc. <b>(“MuseTales Art,” “we” or “our”)</b> provides a service for viewing, selling and purchasing original works of art and commercially exploiting digital images of works of art through our website, accessible at www.MuseTalesart.com (the <b>“Site”</b>), our mobile application (the <b>“Application”</b>) or our art streaming service (<b>“MuseTales Art on TV”</b>) together with any services, software, tools, features or functionality made available by MuseTales Art (each, a <b>“Service”</b> and collectively, the <b>“Services”</b>). Please read carefully the following terms and conditions (<b>“Terms”</b>), our MuseTales Art on TV Terms and Conditions of Use (“<b>MuseTales Art on TV Terms</b>”), and our Privacy Policy, which may be found at <Link to={'/privacy-notice'} className="hover:text-orange_web underline">www.musetalesart.com/privacy</Link> (the “<b>Privacy Policy</b>”). These Terms, the MuseTales Art on TV Terms, the Privacy Policy, and any other policies linked to herein, govern your access to and use of the Services, and constitute a binding legal agreement between you and MuseTales Art.
 
                     Certain areas of the Services and your access to certain Services may have different terms and conditions posted or may require you to agree with and accept additional terms and conditions. If there is a conflict between these Terms and the terms and conditions posted for a specific area of the Services or for access to specific Services, the latter terms and conditions shall take precedence with respect to your use of or access to that area of the Services.
                     <b>
@@ -68,7 +68,7 @@ export default function Terms() {
                     <i>Attn: Legal Department</i><br />
                     <i>Suite 200, Pakistan, CA, 90064</i><br />
                     <i>
-                        <a href="https://legal@musetalesart.com" className="hover:text-teal-600">legal@musetalesart.com</a>
+                        <a href="https://legal@musetalesart.com" className="hover:text-orange_web">legal@musetalesart.com</a>
                     </i><br />
                     <i>© ARTIFLECT GROUP LTD. All rights reserved.</i>
                 </p>

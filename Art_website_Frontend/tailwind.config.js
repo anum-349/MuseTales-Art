@@ -7,7 +7,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        orange_web: "#faa916",
+        white_web: "#fbfffe",
+        dim_gray: "#6d676e",
+        eerieBlack: "#1b1b1e",
+        caramine: "#96031a" 
+      }
+    },
   },
   plugins: [
     plugin(function ({ addBase, theme }) {

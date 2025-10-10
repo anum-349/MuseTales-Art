@@ -37,7 +37,7 @@ export default function HelpCenter() {
 
                 <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center mt-10">
                     <div className="text-center px-4">
-                        <h2 className="text-white text-3xl font-bold mb-4">How can we help you?</h2>
+                        <h2 className="text-white_web text-3xl font-bold mb-4">How can we help you?</h2>
                         <input
                             value={search}
                             onChange={(e)=>setSearch(e.target.value)}
@@ -57,7 +57,7 @@ export default function HelpCenter() {
                             buttons.map((item) => (
                                 <div key={item.name} className="w-[45%]">
                                     <NavLink to={item.url}>
-                                        <button className="border border-gray-500 w-full mb-4 hover:bg-teal-600 hover:text-white p-5 rounded">
+                                        <button className="border border-gray-500 w-full mb-4 hover:bg-orange_web hover:text-white_web p-5 rounded">
                                             <span className="font-semibold text-2xl">{item.name}</span>
                                             <br></br>
                                             <span className="text-xl">{item.for}</span>
@@ -75,7 +75,7 @@ export default function HelpCenter() {
                     <div className="m-5 flex flex-wrap gap-10 justify-center">
                         <div className="w-[45%]">
                             <NavLink to={'/support'} >
-                                <button className="border border-gray-500 w-full mb-4  hover:bg-teal-600 hover:text-white p-5 rounded" >
+                                <button className="border border-gray-500 w-full mb-4  hover:bg-orange_web hover:text-white_web p-5 rounded" >
                                     <span className="font-semibold text-2xl">Contact Support</span>
                                     <br></br>
                                     <span className="text-xl">Submit Inquiry Form</span>
@@ -84,7 +84,7 @@ export default function HelpCenter() {
                         </div>
                         <div className="w-[45%]">
                             <NavLink to={'/art-advisory'}>
-                                <button className="border border-gray-500 w-full mb-4  hover:bg-teal-600 hover:text-white rounded p-5">
+                                <button className="border border-gray-500 w-full mb-4  hover:bg-orange_web hover:text-white_web rounded p-5">
                                     <span className="font-semibold text-2xl">Contact Curators</span>
                                     <br></br>
                                     <span className="text-xl text-nowrap">Comprimentary Art Advisory</span>

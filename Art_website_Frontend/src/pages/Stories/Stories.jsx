@@ -173,7 +173,7 @@ export default function Stories() {
                         {
                             curated.map((item) => (
                                 <Link key={item.id} to={item.link} className="hover:scale-110 transition duration-1000">
-                                    <div className="relative  bg-teal-600 w-full h-48 ">
+                                    <div className="relative  bg-orange_web w-full h-48 ">
                                         <img
                                             src={item.src}
                                             alt={item.name}
@@ -182,7 +182,7 @@ export default function Stories() {
 
                                         <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
                                             <div className="text-center">
-                                                <h1 className="text-white text-xl font-semibold hover:text-teal-600" >{item.name}</h1>
+                                                <h1 className="text-white_web text-xl font-semibold hover:text-orange_web" >{item.name}</h1>
                                             </div>
                                         </div>
                                     </div>
@@ -193,7 +193,7 @@ export default function Stories() {
                 </div>
 
                 <div className="text-center">
-                    <button className="border border-black pl-10 pr-10 mb-10 hover:text-white hover:bg-teal-600" onClick={() => navigate('/collections')}>Shop All</button>
+                    <button className="border border-dim_gray pl-10 pr-10 mb-10 hover:text-white_web hover:bg-orange_web" onClick={() => navigate('/collections')}>Shop All</button>
                 </div>
 
                 <div>
@@ -205,7 +205,7 @@ export default function Stories() {
                                     <div className="w-full h-[300px]">
                                         <img src={item.image} alt={item.title} className="w-full h-full object-cover" />
                                     </div>
-                                    <h2 className="font-semibold text-xl mt-3 hover:text-teal-600">{item.title}</h2>
+                                    <h2 className="font-semibold text-xl mt-3 hover:text-orange_web">{item.title}</h2>
                                     <p className="p-3">{item.description}</p>
                                 </Link>
                             ))
@@ -223,14 +223,14 @@ export default function Stories() {
                                     />
                                 </div>
 
-                                <h2 className="font-semibold text-xl mt-3 hover:text-teal-600">
+                                <h2 className="font-semibold text-xl mt-3 hover:text-orange_web">
                                     {item.title}
                                 </h2>
 
                                 <p>{item.description}</p>
 
                                 <details className="group transition-all duration-500 ease-in-out">
-                                    <summary className="cursor-pointer text-teal-600 hover:underline group-open:hidden">
+                                    <summary className="cursor-pointer text-orange_web hover:underline group-open:hidden">
                                         Read More
                                     </summary>
 
@@ -239,7 +239,7 @@ export default function Stories() {
 
                                         <button
                                             type="button"
-                                            className=" text-teal-600 hover:underline mt-2 group-open:block hidden"
+                                            className=" text-orange_web hover:underline mt-2 group-open:block hidden"
                                             onClick={(e) => {
                                                 const details = e.target.closest("details");
                                                 details.removeAttribute("open");
@@ -257,21 +257,21 @@ export default function Stories() {
                 </div>
 
                 <div className="text-center mt-5">
-                    <button className="border border-black pl-10 pr-10 mb-10 hover:text-white hover:bg-teal-600" onClick={() => navigate('/stories/blog')}>Read Blog</button>
+                    <button className="border border-dim_gray pl-10 pr-10 mb-10 hover:text-white_web hover:bg-orange_web" onClick={() => navigate('/stories/blog')}>Read Blog</button>
                 </div>
             </div>
 
-            <div className="pl-32 pr-32 bg-teal-50 pt-10 pb-10">
+            <div className="pl-32 pr-32 bg-gray-200 pt-10 pb-10">
                 <div>
                     <h1>More to Discover</h1>
                     <div className="grid md:grid-cols-4 grid-cols-2 gap-10 mt-10 mb-10">
                         {
                             discover.map((item) => (
                                 <Link key={item.id} to={`${item.link}`} className="hover:scale-110 transition duration-1000">
-                                    <div className="relative  bg-teal-600 w-48 h-48">
+                                    <div className="relative  bg-orange_web w-48 h-48">
                                         <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
                                             <div className="text-center">
-                                                <h1 className="text-white text-xl font-semibold hover:text-teal-900" >{item.name}</h1>
+                                                <h1 className="text-white_web text-xl font-semibold hover:text-caramine" >{item.name}</h1>
                                             </div>
                                         </div>
                                     </div>

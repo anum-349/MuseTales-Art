@@ -2,7 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 export default function Artists() {
-    const [authors, setAuthors] = useState([]); 
+    const [authors, setAuthors] = useState([]);
     const [expand, setExpand] = useState(false);
     const [visibleCount, setVisibleCount] = useState(12);
     const [loading, setLoading] = useState(true);
@@ -10,7 +10,11 @@ export default function Artists() {
 
     const navigate = useNavigate();
 
-    const detail = "Define your data models (Artwork, Artist, Story, FAQ, CTA). Build components: HeroCarousel, GalleryGrid, ArtworkCard, Filters, ProfileCard, StoryPost. Implement routing & state: React Router + React Query / Redux. Add integrations: cart, advisory form, image hosting, blog CMS. Great! If you want to build a basic version of an art gallery site (inspired by Muse Tales Art) without too much detail, here's a simplified structure of what to build — clean, professional, and great for your portfolio.";
+    const detail = ["The Artists page serves as the soul of the art gallery — a curated space celebrating the creators behind every masterpiece. It’s designed to help visitors discover artists, explore their stories, and connect with their creative journeys.",
+        "Each artist profile showcases detailed information including biography, country, artistic style, exhibitions, and signature works. The page highlights their achievements through timelines, recognitions, and current collaborations, giving art enthusiasts a deeper insight into each artist’s evolution.",
+        "The layout features a visually engaging grid or card-based design with high-quality artist portraits, hover effects, and minimalist typography for a museum-like experience. Filters and search options allow users to explore artists by country, category, style, or popularity.",
+        "Each artist card leads to a dedicated profile page, where visitors can view exhibitions, past works, and available artworks. The page can also include an option to “Follow” an artist or view related collections to keep users engaged.",
+        "From timeless masters to emerging talents, this page acts as a bridge between creativity and audience — celebrating diversity, inspiration, and the human stories that shape art. It captures not just the artists’ creations but also their passions, processes, and personalities — making art more personal, relatable, and memorable."]
 
     const toggle = () => setExpand((prev) => !prev);
 
@@ -38,11 +42,11 @@ export default function Artists() {
             {/* Breadcrumb */}
             <div className="flex m-10 gap-2">
                 <Link to={"/"}>
-                    <p className="underline hover:text-teal-600">Home</p>
+                    <p className="underline hover:text-orange_web">Home</p>
                 </Link>
                 <p> / </p>
                 <Link to={`/artists`}>
-                    <p className="underline hover:text-teal-600">Artists</p>
+                    <p className="underline hover:text-orange_web">Artists</p>
                 </Link>
             </div>
 
@@ -52,7 +56,7 @@ export default function Artists() {
                 {error && <p className="text-red-500">{error}</p>}
                 {!loading && !error && authors.length > 0 ? (
                     authors.slice(0, visibleCount).map((item) => (
-                        <div key={item.id} className="mb-6 bg-white">
+                        <div key={item._id} className="mb-6 bg-white_web">
                             <img
                                 src={item.thumbnail}
                                 alt={item.name}
@@ -60,11 +64,11 @@ export default function Artists() {
                             />
                             <div className="mb-2 flex items-center gap-5">
                                 <img
-                                    src={item.image}
+                                    src={item.profileImage}
                                     alt={item.name}
                                     className="w-20 h-20 rounded-full"
                                 />
-                                <div className="[&>*]:text-black">
+                                <div className="[&>*]:text-eerieBlack">
                                     <p>
                                         {item.role}{" "}
                                         <span className="font-medium">{item.name}</span>
@@ -73,7 +77,7 @@ export default function Artists() {
                                 </div>
                             </div>
                             <button
-                                className="border border-black rounded w-full hover:bg-teal-600 hover:text-white mt-5"
+                                className="border border-dim_gray rounded w-full hover:bg-orange_web hover:text-white_web mt-5"
                                 onClick={() => navigate(`/artist/${item.name}`)}
                             >
                                 View Profile
@@ -89,7 +93,7 @@ export default function Artists() {
                     <div className="text-center">
                         <button
                             onClick={() => setVisibleCount((prev) => prev + 12)}
-                            className="-translate-y-1/2 bg-white p-2 shadow rounded border-black border z-10 disabled:opacity-50"
+                            className="-translate-y-1/2 bg-white_web p-2 shadow rounded border-dim_gray border z-10 disabled:opacity-50"
                         >
                             LOAD MORE ARTISTS DETAILS
                         </button>
@@ -100,13 +104,16 @@ export default function Artists() {
             {/* Detail Section */}
             <div className="bg-gray-200 p-20">
                 <p className="font-semibold">Discover Our Emerging Artists</p>
-                {expand ? detail : `${detail.slice(0, 300)}...`}
+                {expand ? detail.map((item, i) => (
+                    <span key={i} className="mb-1 block">{item}</span>
+                ))
+                 : `${detail[0]}...`}
                 <br />
                 <div className="text-center">
                     <button
                         onClick={toggle}
                         className={
-                            "border border-black mt-5 pl-10 pr-10 hover:bg-teal-600 hover:text-white"
+                            "border border-dim_gray mt-5 pl-10 pr-10 hover:bg-orange_web hover:text-white_web"
                         }
                     >
                         {expand ? "Read Less" : "Read More"}

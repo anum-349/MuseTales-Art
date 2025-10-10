@@ -17,31 +17,31 @@ export default function Footer() {
     const [mobileOpenArt, setMobileOpenArt] = useState(false)
     const [email, setEmail] = useState("")
     const footerlinks = {
-        "Terms of Services": "terms-of-services",
-        "Privacy Notice": "privacy-notice",
-        "Frequently Ask Questions": "faqs",
-        "Copyright Policy": "copyright-policy",
-        "Do Not Sell or Share My Personal Information": "do-not-sell-info",
-        "Accessability": "accessibility",
+        "Terms of Services": "/terms-of-services",
+        "Privacy Notice": "/privacy-notice",
+        "Frequently Ask Questions": "/faqs",
+        "Copyright Policy": "/copyright-policy",
+        "Do Not Sell or Share My Personal Information": "/do-not-sell-info",
+        "Accessability": "/accessibility",
     }
 
     const collectorlinks = {
-        "Art Advisory": "art-advisory",
-        "Help Center": "help-center",
-        "Returns": "returns",
-        "Commisions": "commisions",
-        "Curated Collections": "collections",
-        "How to Buy Art": "how-to-buy",
+        "Art Advisory": "/art-advisory",
+        "Help Center": "/help-center",
+        "Returns": "/returns",
+        "Commisions": "/commisions",
+        "Exhibitions": "/exhibition",
+        "How to Buy Art": "/how-to-buy",
     }
 
 
     const artlinks = {
         "About": "/about-us",
         "Mosaic Art Stories": "/stories",
-        "The Other Art Fair": "other-art-fair",
-        "Sell on MuseTales Art": "sell",
+        "The Other Art Fair": "/other-art-fair",
+        "Sell on MuseTales Art": "/sell",
         "Career": "https://www.linkedin.com/in/anum-kousar-984406294/",
-        "Contact Support": "support",
+        "Contact Support": "/support",
     }
 
     const socialMedia = {
@@ -52,25 +52,23 @@ export default function Footer() {
         YouTube: [FaYoutube, "https://youtube.com"]
     };
     const buttons = {
-        "Paintings": "category/paintings",
-        "Abstract Art": "category/abstract-art",
-        "Oil Paintings": "category/oil-paintings",
-        "Landescapes": "category/landscapes",
+        "Paintings": "/category/paintings",
+        "Oil Paintings": "/category/oil-paintings",
+        "Landescapes": "/category/landscapes",
         "Acrylic Painitngs": "category/acrylic-paintings",
-        "Curated Collections": "/collections",
-        "Modern Art": "category/modern-art",
-        "Sculptures": "category/sculpture"
+        "Texture Art": "category/textures",
+        "Sculptures": "/category/sculptures"
     }
     return (
         <>
             <footer>
-                <div className="bg-black ">
+                <div className="bg-eerieBlack ">
                     <div className="flex overflow-x-auto md:overflow-hidden gap-4 p-5 md:justify-center scroll-smooth snap-x snap-mandatory">
-                        <b className=" text-white text-nowrap">TOP CATEGORIES</b>
+                        <b className=" text-white_web text-nowrap">TOP CATEGORIES</b>
                         {
                             Object.entries(buttons).map(([name, url]) => (
                                 <div key={name}>
-                                    <NavLink className="text-white text-nowrap snap-start hover:text-teal-600" to={url}>{name}</NavLink>
+                                    <NavLink className="text-white_web text-nowrap snap-start hover:text-orange_web" to={url}>{name}</NavLink>
                                 </div>
                             ))
                         }
@@ -78,17 +76,24 @@ export default function Footer() {
 
                     <hr className="mb-3" />
 
-                    <div className="grid sm:grid-cols-1 lg:grid-cols-[40%,auto,auto]  mr-10 ml-10 text-white gap-2 md:gap-40 justify-center">
+                    <div className="grid sm:grid-cols-1 lg:grid-cols-[40%,auto,auto]  mr-10 ml-10 text-white_web gap-2 md:gap-40 justify-center">
                         <div>
                             <div className="flex  items-center">
-                                <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501345/logo_y96lpl.png" alt="logo" width={50} height={50} />
-                                <b className="text-white ml-5">MuseTales ART</b>
+                                <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1760112520/logo_gunlix.png" alt="logo" width={50} height={50} />
+                                <b className="text-orange_web ml-5">MuseTales ART</b>
                             </div>
                             <p>Sign Up to Receive 10% off Your First Order</p>
                             <p>
                                 Discover new art and collections added weekely our curators
                             </p>
-                            <input type="text" placeholder="Enter Email address" value={email} onChange={(e) => setEmail(e.target.value)} className="border-black p-2 w-full m-5 ml-0 rounded" />
+                            <input type="email" placeholder="Enter Email address" value={email} onChange={(e) => setEmail(e.target.value)} onKeyDown={(e) => {
+                                if (e.key === 'Enter') {
+                                    e.preventDefault(); // prevents form submit reload (optional)
+                                    alert("Email Successfully Submitted.");
+                                    e.target.value=""
+                                }
+                            }}
+                                className="border-dim_gray text-eerieBlack p-2 w-full m-5 ml-0 rounded" />
                             <div className="flex gap-5">
                                 {Object.entries(socialMedia).map(([name, [Icon, url]]) => (
                                     <div key={name}>
@@ -96,10 +101,10 @@ export default function Footer() {
                                             href={url}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="flex items-center gap-2 text-gray-700 hover:text-teal-600 transition"
+                                            className="flex items-center gap-2 text-gray-700 hover:text-orange_web transition"
                                             title={name}
                                         >
-                                            <Icon className="text-2xl text-white hover:text-teal-600 transition" />
+                                            <Icon className="text-2xl text-white_web hover:text-orange_web transition" />
                                         </a>
                                     </div>
                                 ))}
@@ -109,10 +114,10 @@ export default function Footer() {
                         <>
                             <div className="md:hidden">
                                 <div className="flex items-center justify-between">
-                                    <b className="text-white">For Collectors</b>
+                                    <b className="text-white_web">For Collectors</b>
                                     <div>
-                                        <button onClick={() => setMobileOpenCollector((s) => !s)} className="p-2 rounded-md text-gray-700 hover:text-teal-600">
-                                            {mobileOpenCollector ? <FaMinus className="text-2xl text-white" /> : <FaPlus className="text-2xl text-white" />}
+                                        <button onClick={() => setMobileOpenCollector((s) => !s)} className="p-2 rounded-md text-gray-700 hover:text-orange_web">
+                                            {mobileOpenCollector ? <FaMinus className="text-2xl text-white_web" /> : <FaPlus className="text-2xl text-white_web" />}
                                         </button>
                                     </div>
                                 </div>
@@ -130,7 +135,7 @@ export default function Footer() {
                                                 {
                                                     Object.entries(collectorlinks).map(([name, url]) => (
                                                         <div key={name} className="pb-2 ">
-                                                            <NavLink to={url} className={"hover:text-teal-600"}>{name}</NavLink >
+                                                            <NavLink to={url} className={"hover:text-orange_web"}>{name}</NavLink >
                                                         </div>
                                                     ))
                                                 }
@@ -140,12 +145,12 @@ export default function Footer() {
                                 </AnimatePresence>
                             </div>
                             <div className="mt-3 md:block hidden">
-                                <b className="text-white">For Collectors</b>
+                                <b className="text-white_web">For Collectors</b>
                                 <div className="mt-3">
                                     {
                                         Object.entries(collectorlinks).map(([name, url]) => (
                                             <div key={name} className="pb-2 ">
-                                                <NavLink to={url} className={"hover:text-teal-600"}>{name}</NavLink >
+                                                <NavLink to={url} className={"hover:text-orange_web"}>{name}</NavLink >
                                             </div>
                                         ))
                                     }
@@ -156,10 +161,10 @@ export default function Footer() {
                         <>
                             <div className="md:hidden">
                                 <div className="flex items-center justify-between">
-                                    <b className="text-white">For Muse Tales</b>
+                                    <b className="text-white_web">For Muse Tales</b>
                                     <div>
-                                        <button onClick={() => setMobileOpenArt((s) => !s)} className="p-2 rounded-md text-gray-700 hover:text-teal-600">
-                                            {mobileOpenArt ? <FaMinus className="text-2xl text-white" /> : <FaPlus className="text-2xl text-white" />}
+                                        <button onClick={() => setMobileOpenArt((s) => !s)} className="p-2 rounded-md text-gray-700 hover:text-orange_web">
+                                            {mobileOpenArt ? <FaMinus className="text-2xl text-white_web" /> : <FaPlus className="text-2xl text-white_web" />}
                                         </button>
                                     </div>
                                 </div>
@@ -176,7 +181,7 @@ export default function Footer() {
                                                 {
                                                     Object.entries(artlinks).map(([name, url]) => (
                                                         <div key={name} className="pb-2 ">
-                                                            <NavLink to={url} className={"hover:text-teal-600"}>{name}</NavLink>
+                                                            <NavLink to={url} className={"hover:text-orange_web"}>{name}</NavLink>
                                                         </div>
                                                     ))
                                                 }
@@ -187,12 +192,12 @@ export default function Footer() {
 
                             </div>
                             <div className="mt-3 md:block hidden">
-                                <b className="text-white">For Muse Tales</b>
+                                <b className="text-white_web">For Muse Tales</b>
                                 <div className="mt-3">
                                     {
                                         Object.entries(artlinks).map(([name, url]) => (
                                             <div key={name} className="pb-2 ">
-                                                <NavLink to={url} className={"hover:text-teal-600"}>{name}</NavLink>
+                                                <NavLink to={url} className={"hover:text-orange_web"}>{name}</NavLink>
                                             </div>
                                         ))
                                     }
@@ -203,20 +208,20 @@ export default function Footer() {
 
                     <hr className="mb-3 mt-10" />
 
-                    <div className="md:flex gap-3 p-3 block sm:text-sm md:gap-10 md:p-1 justify-center text-white">
+                    <div className="md:flex gap-3 p-3 block sm:text-sm md:gap-10 md:p-1 justify-center text-white_web">
 
                     </div>
                     <div className="flex overflow-x-auto md:overflow-hidden gap-4 mt-3 p-5 md:justify-center scroll-smooth snap-x snap-mandatory">
                         {
                             Object.entries(footerlinks).map(([name, url]) => (
                                 <div key={name}>
-                                    <NavLink to={url} className={"text-white text-nowrap snap-start hover:text-teal-600"}>{name}</NavLink>
+                                    <NavLink to={url} className={"text-white_web text-nowrap snap-start hover:text-orange_web"}>{name}</NavLink>
                                 </div>
                             ))
                         }
                     </div>
 
-                    <div className="text-white text-center p-3">
+                    <div className="text-white_web text-center p-3">
                         © 2024 - 2025 Mosaic Art. All Rights Reserved
                     </div>
 

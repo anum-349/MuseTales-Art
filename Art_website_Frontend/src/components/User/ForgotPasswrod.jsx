@@ -73,12 +73,12 @@ export default function ForgotPassword({ showForget, setShowForget, setShowLogin
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.95, opacity: 0 }}
               transition={{ duration: 0.2 }}
-              className="relative bg-white rounded-lg shadow-lg w-[92%] max-w-md p-6"
+              className="relative bg-white_web rounded-lg shadow-lg w-[92%] max-w-md p-6"
             >
               {/* Close Button */}
               <button
                 onClick={() => setShowForget(false)}
-                className="absolute top-3 right-3 text-gray-600 hover:text-black"
+                className="absolute top-3 right-3 text-gray-600 hover:text-eerieBlack"
               >
                 <FaTimes />
               </button>
@@ -114,7 +114,7 @@ export default function ForgotPassword({ showForget, setShowForget, setShowLogin
                 <button
                   type="submit"
                   disabled={pending}
-                  className="bg-black text-white py-2 rounded disabled:opacity-50"
+                  className="bg-black text-white_web py-2 rounded disabled:opacity-50"
                 >
                   {pending ? "Sending..." : "Send Reset Link"}
                 </button>
@@ -155,7 +155,7 @@ export default function ForgotPassword({ showForget, setShowForget, setShowLogin
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: -50, opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className={`fixed top-5 right-5 px-4 py-3 rounded shadow-lg text-white ${
+            className={`fixed top-5 right-5 px-4 py-3 rounded shadow-lg text-white_web ${
               notification.type === "error" ? "bg-red-600" : "bg-green-600"
             }`}
           >

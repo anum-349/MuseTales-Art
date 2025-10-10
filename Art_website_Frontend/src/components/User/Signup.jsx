@@ -79,7 +79,7 @@ export default function Signup({ showSignup, setShowSignup, setShowLogin }) {
                             animate={{ scale: 1, opacity: 1 }}
                             exit={{ scale: 0.98, opacity: 0 }}
                             transition={{ duration: 0.18 }}
-                            className="relative bg-white rounded-lg shadow-xl w-[92%] max-w-md p-6 mx-4"
+                            className="relative bg-white_web rounded-lg shadow-xl w-[92%] max-w-md p-6 mx-4"
                         >
                             <button
                                 onClick={() => setShowSignup(false)}
@@ -125,7 +125,7 @@ export default function Signup({ showSignup, setShowSignup, setShowLogin }) {
                                 </div>
 
                                 <button
-                                    className="mt-2 bg-black text-white py-2 rounded disabled:opacity-60"
+                                    className="mt-2 bg-black text-white_web py-2 rounded disabled:opacity-60"
                                     disabled={registerPending}
                                 >
                                     {registerPending ? "Registering..." : "Register"}
@@ -158,13 +158,13 @@ export default function Signup({ showSignup, setShowSignup, setShowLogin }) {
                         animate={{ y: 0, opacity: 1 }}
                         exit={{ y: -50, opacity: 0 }}
                         transition={{ duration: 0.3 }}
-                        className={`fixed top-5 right-5 px-4 py-3 rounded shadow-lg text-white ${
+                        className={`fixed top-5 right-5 px-4 py-3 rounded shadow-lg text-white_web ${
                             notification.type === "error" ? "bg-red-600" : "bg-green-600"
                         }`}
                     >
                         {notification.message}
                         <button
-                            className="ml-3 text-white font-bold"
+                            className="ml-3 text-white_web font-bold"
                             onClick={() => setNotification(null)}
                         >
                             ×

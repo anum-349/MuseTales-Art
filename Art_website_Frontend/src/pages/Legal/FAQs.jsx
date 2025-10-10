@@ -51,7 +51,7 @@ export default function FAQs() {
 
                 <b className="text-xl font-semibold">11. How do I contact customer support?</b>
 
-                <p className="mb-5">You can reach our support team via email at <a href="https://support@musetalesart.com" className="underline hover:text-teal-600">support@musetalesart.com</a> or through the contact form on our website.</p>
+                <p className="mb-5">You can reach our support team via email at <a href="https://support@musetalesart.com" className="underline hover:text-orange_web">support@musetalesart.com</a> or through the contact form on our website.</p>
 
                 <b className="text-xl font-semibold">12. Are the images of artworks accurate?</b>
 
@@ -59,7 +59,7 @@ export default function FAQs() {
 
                 <b className="text-xl font-semibold">13. Can I cancel my order?</b>
 
-                <p className="mb-5">Orders can be canceled within 2 hours of purchase. After this window, please contact <Link to={'/support'} className="underline hover:text-teal-600">support</Link> for assistance.</p>
+                <p className="mb-5">Orders can be canceled within 2 hours of purchase. After this window, please contact <Link to={'/support'} className="underline hover:text-orange_web">support</Link> for assistance.</p>
 
                 <b className="text-xl font-semibold">14. Is the pricing inclusive of taxes?</b>
 
@@ -70,8 +70,8 @@ export default function FAQs() {
                 <div className="mt-16">
                     <p className="text-center text-lg">For More information get started with these artist resources:</p>
                     <div className="text-center">
-                        <button className="border border-black hover:bg-teal-600 hover:text-white m-5 rounded"><a href="https://cdn.bookey.app/files/pdf/book/en/the-artist's-handbook-of-materials-and-techniques.pdf" target="_blank">Artist Handbook</a></button>
-                        <button className="border border-black hover:bg-teal-600 hover:text-white m-5 rounded" onClick={()=>navigate('/newsletter')}>Artist Newsletter</button>
+                        <button className="border border-dim_gray hover:bg-orange_web hover:text-white_web m-5 rounded"><a href="https://cdn.bookey.app/files/pdf/book/en/the-artist's-handbook-of-materials-and-techniques.pdf" target="_blank">Artist Handbook</a></button>
+                        <button className="border border-dim_gray hover:bg-orange_web hover:text-white_web m-5 rounded" onClick={()=>navigate('/newsletter')}>Artist Newsletter</button>
                     </div>
                 </div>
             </div>

@@ -25,7 +25,6 @@ import NewsLetter from "../pages/NewsLetter/NewsLetter";
 import Categories from "../pages/Categories/Categories";
 import Catalog from "../pages/Catalog/Catalog";
 import Artists from "../pages/Artist/Artists";
-import EmergingArtist from "../pages/Artist/EmergingArtists";
 import Exhibitions from "../pages/Exhibition/Exhibitions";
 import Blog from "../pages/Blog/Blog";
 import Header from "../components/Header/Header";
@@ -47,12 +46,10 @@ export default function RouteLinks() {
                     <Route path="/signup" element={<Signup />} />
                     <Route path="/forgot-password" element={<ForgotPassword />} />
                     <Route path="/forgot-password/:token" element={<ForgotPassword />} />
-                    <Route path="/stories" element={<Stories />}>
-                        <Route path="exhibition" element={<Exhibitions />} />
-                        <Route path="emerging-artist" element={<EmergingArtist />} />
-                    </Route>
-                    <Route path="blog" element={<Blog />} />
-                    <Route path="art-for-your-style" element={<ArtForYourStyle />} />
+                    <Route path="/stories" element={<Stories />} />
+                    <Route path="/exhibition" element={<Exhibitions />} />
+                    <Route path="/blog" element={<Blog />} />
+                    <Route path="/art-for-your-style" element={<ArtForYourStyle />} />
                     <Route path="/artists" element={<Artists />} />
                     <Route path="/artist/:author" element={<Author />} />
 

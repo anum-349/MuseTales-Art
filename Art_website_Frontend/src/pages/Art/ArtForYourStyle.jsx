@@ -75,9 +75,9 @@ export default function ArtForYourStyle() {
 
                 <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center mt-10">
                     <div className="text-center px-4">
-                        <h1 className="text-white text-6xl font-semibold mb-4">Every Room, Every Style</h1>
+                        <h1 className="text-white_web text-6xl font-semibold mb-4">Every Room, Every Style</h1>
                         <p>Art Inspiration for Every Space in Your Home</p>
-                        <button className="pl-10 pr-10 mt-3 rounded border border-black bg-white hover:bg-teal-600 hover:text-white" onClick={() => { navigate('/category/all') }}>SHOP BY STYLE</button>
+                        <button className="pl-10 pr-10 mt-3 rounded border border-dim_gray bg-white_web hover:bg-orange_web hover:text-white_web" onClick={() => { navigate('/category/all') }}>SHOP BY STYLE</button>
                     </div>
                 </div>
             </div>
@@ -98,13 +98,13 @@ export default function ArtForYourStyle() {
                         alt={"Art for Every Style"}
                         className="w-screen h-96 object-cover"
                     />
-                    <p className="mr-32 text-black">
+                    <p className="mr-32 text-eerieBlack">
                         <br />
                         {artForYourStyle.detail[0]}
                         <br /><br />
                         {artForYourStyle.detail[1]}
                     </p>
-                    <button className="pl-10 pr-10 mt-7 rounded-sm border border-black bg-white hover:bg-teal-600 hover:text-white" onClick={() => { navigate('/category/all') }}>TAKE THE QUIZ</button>
+                    <button className="pl-10 pr-10 mt-7 rounded-sm border border-dim_gray bg-white_web hover:bg-orange_web hover:text-white_web" onClick={() => { navigate('/category/all') }}>TAKE THE QUIZ</button>
                 </div>
             </div>
 
@@ -116,11 +116,11 @@ export default function ArtForYourStyle() {
                         alt={foyal.name1}
                         className="w-full h-screen object-cover mt-3"
                     />
-                    <p className="mr-32 text-black">
+                    <p className="mr-32 text-eerieBlack">
                         <br />
                         {foyal.detail}
                     </p>
-                    <button className="pl-10 pr-10 mt-10 rounded-sm border border-black bg-white hover:bg-teal-600 hover:text-white" onClick={() => { navigate('/category/all') }}>View the Collection</button>
+                    <button className="pl-10 pr-10 mt-10 rounded-sm border border-dim_gray bg-white_web hover:bg-orange_web hover:text-white_web" onClick={() => { navigate('/category/all') }}>View the Collection</button>
                 </div>
                 <div className="grid grid-rows-2 gap-5 w-full h-full">
                     <div className="w-full h-full">
@@ -132,7 +132,7 @@ export default function ArtForYourStyle() {
                         <p className="mt-5">
                             {foyal.name1}
                         </p>
-                        <p className=" text-black font-medium">
+                        <p className=" text-eerieBlack font-medium">
                             {foyal.author1}
                         </p>
                         <p>
@@ -148,7 +148,7 @@ export default function ArtForYourStyle() {
                         <p className="mt-5">
                             {foyal.name2}
                         </p>
-                        <p className=" text-black font-medium">
+                        <p className=" text-eerieBlack font-medium">
                             {foyal.author2}
                         </p>
                         <p>
@@ -170,7 +170,7 @@ export default function ArtForYourStyle() {
                         <p className="mt-5">
                             {bedRoom.name1}
                         </p>
-                        <p className=" text-black font-medium">
+                        <p className=" text-eerieBlack font-medium">
                             {bedRoom.author1}
                         </p>
                         <p>
@@ -186,7 +186,7 @@ export default function ArtForYourStyle() {
                         <p className="mt-5">
                             {bedRoom.name2}
                         </p>
-                        <p className=" text-black font-medium">
+                        <p className=" text-eerieBlack font-medium">
                             {bedRoom.author2}
                         </p>
                         <p>
@@ -202,11 +202,11 @@ export default function ArtForYourStyle() {
                         alt={bedRoom.name1}
                         className="w-full h-screen object-cover mt-3"
                     />
-                    <p className="mr-32 text-black">
+                    <p className="mr-32 text-eerieBlack">
                         <br />
                         {bedRoom.detail}
                     </p>
-                    <button className="pl-10 pr-10 mt-10 rounded-sm border border-black bg-white hover:bg-teal-600 hover:text-white" onClick={() => { navigate('/category/all') }}>View the Collection</button>
+                    <button className="pl-10 pr-10 mt-10 rounded-sm border border-dim_gray bg-white_web hover:bg-orange_web hover:text-white_web" onClick={() => { navigate('/category/all') }}>View the Collection</button>
                 </div>
             </div>
 
@@ -218,11 +218,11 @@ export default function ArtForYourStyle() {
                         alt={living.name1}
                         className="w-full h-screen object-cover mt-3"
                     />
-                    <p className="mr-32 text-black">
+                    <p className="mr-32 text-eerieBlack">
                         <br />
                         {living.detail}
                     </p>
-                    <button className="pl-10 pr-10 mt-10 rounded-sm border border-black bg-white hover:bg-teal-600 hover:text-white" onClick={() => { navigate('/category/all') }}>View the Collection</button>
+                    <button className="pl-10 pr-10 mt-10 rounded-sm border border-dim_gray bg-white_web hover:bg-orange_web hover:text-white_web" onClick={() => { navigate('/category/all') }}>View the Collection</button>
                 </div>
                 <div className="grid grid-rows-2 gap-5 w-full h-full">
                     <div className="w-full h-full">
@@ -234,7 +234,7 @@ export default function ArtForYourStyle() {
                         <p className="mt-5">
                             {living.name1}
                         </p>
-                        <p className=" text-black font-medium">
+                        <p className=" text-eerieBlack font-medium">
                             {living.author1}
                         </p>
                         <p>
@@ -250,7 +250,7 @@ export default function ArtForYourStyle() {
                         <p className="mt-5">
                             {living.name2}
                         </p>
-                        <p className=" text-black font-medium">
+                        <p className=" text-eerieBlack font-medium">
                             {living.author2}
                         </p>
                         <p>
@@ -271,7 +271,7 @@ export default function ArtForYourStyle() {
                         <p className="mt-5">
                             {dinningRoom.name1}
                         </p>
-                        <p className=" text-black font-medium">
+                        <p className=" text-eerieBlack font-medium">
                             {dinningRoom.author1}
                         </p>
                         <p>
@@ -287,7 +287,7 @@ export default function ArtForYourStyle() {
                         <p className="mt-5">
                             {dinningRoom.name2}
                         </p>
-                        <p className=" text-black font-medium">
+                        <p className=" text-eerieBlack font-medium">
                             {dinningRoom.author2}
                         </p>
                         <p>
@@ -303,17 +303,17 @@ export default function ArtForYourStyle() {
                         alt={dinningRoom.name1}
                         className="w-full h-screen object-cover mt-3"
                     />
-                    <p className="mr-32 text-black">
+                    <p className="mr-32 text-eerieBlack">
                         <br />
                         {dinningRoom.detail}
                     </p>
-                    <button className="pl-10 pr-10 mt-10 rounded-sm border border-black bg-white hover:bg-teal-600 hover:text-white" onClick={() => { navigate('/category/all') }}>View the Collection</button>
+                    <button className="pl-10 pr-10 mt-10 rounded-sm border border-dim_gray bg-white_web hover:bg-orange_web hover:text-white_web" onClick={() => { navigate('/category/all') }}>View the Collection</button>
                 </div>
             </div>
 
             <div className="bg-gray-600 mb-10 mt-10 pl-20 pr-20 p-10 items-center grid md:grid-cols-[20%,70%] gap-10 justify-center">
-                <h2 className="text-white font-medium">Why Muse Tales?</h2>
-                <div className="[&>*]:text-white md:flex gap-10">
+                <h2 className="text-white_web font-medium">Why Muse Tales?</h2>
+                <div className="[&>*]:text-white_web md:flex gap-10">
                     <p className="mb-5"><span className="font-semibold">Discover</span> an unparalleled selection of original art handpicked by our curator.</p>
                     <p className="mb-5"><span className="font-semibold">Enjoy</span> hassle-free deleivery, world-class customer service, and 14 day satisfaction guareentee.</p>
                     <p className="mb-5"><span className="font-semibold">Support</span> emerging artists from around world.</p>

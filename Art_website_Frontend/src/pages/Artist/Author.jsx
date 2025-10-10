@@ -72,7 +72,7 @@ export default function Author() {
     const showNext = () => setVisibleCount((prev) => prev + 12)
 
     if (loading) return <div className="flex items-center justify-center h-screen">
-        <div className="w-16 h-16 border-4 border-teal-600 border-t-transparent rounded-full animate-spin"></div>
+        <div className="w-16 h-16 border-4 border-orange_web border-t-transparent rounded-full animate-spin"></div>
     </div>
     if (error) return <p className="m-10 text-red-500">{error}</p>
 
@@ -87,7 +87,7 @@ export default function Author() {
                         className="w-screen h-96 object-cover"
                     />
                     <div className="-mt-10 justify-center">
-                        <div className=" bg-white rounded md:p-10 md:pl-20 pr-20 sm:p-10 ml-10 mr-10 -mt-20 relative">
+                        <div className=" bg-white_web rounded md:p-10 md:pl-20 pr-20 sm:p-10 ml-10 mr-10 -mt-20 relative">
                             {authorDetail ? (
                                 <div className="grid md:grid-cols-[20%,50%,10%] grid-cols-[35%,50%,10%]">
                                     <div className="w-[150px] h-[150px] rounded-full">
@@ -119,7 +119,7 @@ export default function Author() {
 
                             {/* Tabs */}
                             <div className="p-1 mt-4 bg-gray-200 border w-60 gap-3" id="artworks">
-                                <button className="rounded bg-white ml-3 w-52">
+                                <button className="rounded bg-white_web ml-3 w-52">
                                     All Artworks
                                 </button>
                             </div>
@@ -128,7 +128,7 @@ export default function Author() {
                             <div>
                                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-10 mb-10">
                                     {filteredItems.slice(0, visibleCount).map((item) => (
-                                        <div key={item.id} className="bg-white p-4 rounded shadow">
+                                        <div key={item.id} className="bg-white_web p-4 rounded shadow">
                                             <img
                                                 src={item.mainImage}
                                                 alt={item.title}
@@ -145,7 +145,7 @@ export default function Author() {
                                                 </div>
                                             </div>
                                             <Link to={`/artwork/${item.title}`}>
-                                                <b className="block text-xl mb-1 hover:text-teal-600">{item.title}</b>
+                                                <b className="block text-xl mb-1 hover:text-orange_web">{item.title}</b>
                                             </Link>
                                             <p className="text-sm text-gray-700">
                                                 {item.author}, {item.country}
@@ -162,7 +162,7 @@ export default function Author() {
                                     <div className="text-center">
                                         <button
                                             onClick={showNext}
-                                            className="-translate-y-1/2 bg-white p-2 shadow rounded border-black border z-10 disabled:opacity-50"
+                                            className="-translate-y-1/2 bg-white_web p-2 shadow rounded border-dim_gray border z-10 disabled:opacity-50"
                                         >
                                             LOAD MORE ARTWORKS
                                         </button>
@@ -175,7 +175,7 @@ export default function Author() {
 
                 {/* About the Artist */}
                 {authorDetail ? (
-                    <div className="bg-teal-50 grid grid-cols-[40%,60%] p-10 gap-10" id="about">
+                    <div className="bg-gray-200 grid grid-cols-[40%,60%] p-10 gap-10" id="about">
                         {/* Carousel */}
                         <div>
                             <Swiper
@@ -244,7 +244,7 @@ export default function Author() {
                                 {selectedDetail === "Recognization" && (
                                     <div>
                                         {authorDetail.recognization?.map((rec, i) => (
-                                            <p key={i} className="flex items-center gap-2 text-black p-2 pb-0">
+                                            <p key={i} className="flex items-center gap-2 text-eerieBlack p-2 pb-0">
                                                 {i === 0 ? <FaRegClone /> : <FaLayerGroup />} {rec}
                                             </p>
                                         ))}
@@ -257,7 +257,7 @@ export default function Author() {
             </div>
 
             {/* Explore Artworks Section */}
-            <div className="md:m-20 m-5 p-10 border border-black rounded text-center [&>*]:mb-3">
+            <div className="md:m-20 m-5 p-10 border border-dim_gray rounded text-center [&>*]:mb-3">
                 <h2 className="font-semibold">Explore {authorDetail?.name}'s Artworks</h2>
                 <p>
                     Discover a curated collection of {authorDetail?.name}'s unique creations —
@@ -266,7 +266,7 @@ export default function Author() {
                     and emotions.
                 </p>
                 <button
-                    className="mt-5 border border-black border-t-2 px-10 py-2 hover:bg-teal-600 hover:text-white rounded transition-colors duration-200"
+                    className="mt-5 border border-dim_gray border-t-2 px-10 py-2 hover:bg-orange_web hover:text-white_web rounded transition-colors duration-200"
                 >
                     <a href="#artworks"> EXPLORE  </a>
                 </button>
@@ -283,14 +283,14 @@ export default function Author() {
                                 <button
                                     onClick={showPrev}
                                     disabled={startIndex === 0}
-                                    className=" bg-teal-50 p-2 shadow rounded-full z-10 disabled:opacity-50 mr-5"
+                                    className=" bg-gray-200 p-2 shadow rounded-full z-10 disabled:opacity-50 mr-5"
                                 >
                                     <FaCaretLeft />
                                 </button>
                                 <button
                                     onClick={showNextItems}
                                     disabled={startIndex + itemsPerPage >= artworks.length}
-                                    className=" bg-teal-50 p-2 shadow rounded-full z-10 disabled:opacity-50"
+                                    className=" bg-gray-200 p-2 shadow rounded-full z-10 disabled:opacity-50"
                                 >
                                     <FaCaretRight />
                                 </button>
@@ -318,7 +318,7 @@ export default function Author() {
                                 </div>
                             </div>
                             <Link to={`/artist/${item.name}`} onClick={()=>window.location.reload()}>
-                                <b className="block text-xl mb-1 hover:text-teal-600 font-normal text-center">
+                                <b className="block text-xl mb-1 hover:text-orange_web font-normal text-center">
                                     {item.name}
                                 </b>
                             </Link>

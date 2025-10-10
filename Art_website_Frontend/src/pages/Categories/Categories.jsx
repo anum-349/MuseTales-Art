@@ -68,7 +68,7 @@ export default function Categories() {
     return (
         loading ?
             <div className="flex items-center justify-center h-screen">
-                <div className="w-16 h-16 border-4 border-teal-600 border-t-transparent rounded-full animate-spin"></div>
+                <div className="w-16 h-16 border-4 border-orange_web border-t-transparent rounded-full animate-spin"></div>
             </div>
             :
             <div>
@@ -102,12 +102,12 @@ export default function Categories() {
                     <>
                         <Category selectedCategory={selectedCategory} filteredItems={filteredItems} />
                         <div className="bg-gray-200 p-20">
-                            <p className="font-semibold">Discover MuseTales Art's Original Paintings</p>
+                            <p className="font-semibold"> Discover MuseTales Art's Original Paintings </p>
                             {expand ? detail : `${detail.slice(0, 300)}...`}<br />
                             <div className="text-center">
                                 <button
                                     onClick={toggle}
-                                    className="border border-black mt-5 pl-10 pr-10 hover:bg-teal-600 hover:text-white"
+                                    className="border border-dim_gray mt-5 pl-10 pr-10 hover:bg-orange_web hover:text-white_web"
                                 >
                                     {expand ? 'Read Less' : 'Read More'}
                                 </button>
