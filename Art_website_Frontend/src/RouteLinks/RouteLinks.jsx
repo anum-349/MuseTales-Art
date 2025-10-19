@@ -69,8 +69,8 @@ export default function RouteLinks() {
                     <Route path="/commisions" element={<Commisions />} />
                     <Route path="/how-to-buy" element={<HowToBuy />} />
                     <Route path="/other-art-fair" element={<ArtFair />} />
-                </Route>
                 {/* </Route> */}
+                </Route>
                 <Route path="/catalog" element={<Catalog />} />
                 <Route path="/500" element={<Errors error={500} />} />
                 <Route path="/*" element={<Errors error={404} />} />

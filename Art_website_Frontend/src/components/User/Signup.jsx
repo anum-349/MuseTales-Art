@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaBackspace, FaGoogle, FaEye, FaEyeSlash } from "react-icons/fa";
-import { useNavigate } from "react-router-dom";
+import { useGoogleLogin } from "@react-oauth/google";
 
 export default function Signup({ showSignup, setShowSignup, setShowLogin }) {
     const [registerPending, setRegisterPending] = useState(false);
@@ -9,8 +9,16 @@ export default function Signup({ showSignup, setShowSignup, setShowLogin }) {
     const [showPassword, setShowPassword] = useState(false);
     const [notification, setNotification] = useState(null);
 
-    const navigate = useNavigate();
     const profileRef = useRef();
+
+    useEffect(() => {
+        if (notification) {
+            const timer = setTimeout(() => {
+                setNotification(null);
+            }, 5000);
+            return () => clearTimeout(timer);
+        }
+    }, [notification]);
 
     useEffect(() => {
         function onDoc(e) {
@@ -24,8 +32,6 @@ export default function Signup({ showSignup, setShowSignup, setShowLogin }) {
 
     async function submitRegister(form) {
         setRegisterPending(true);
-        setRegisterResult(null);
-
         const firstName = form.get("firstName");
         const lastName = form.get("lastName");
         const email = form.get("email");
@@ -47,9 +53,7 @@ export default function Signup({ showSignup, setShowSignup, setShowLogin }) {
                 setRegisterResult({ message: data.message });
                 setNotification({ type: "success", message: "Registration successful! Please log in." });
 
-                // close signup & open login
                 setShowSignup(false);
-                setShowLogin(true);
             }
         } catch (err) {
             console.error(err);
@@ -59,6 +63,25 @@ export default function Signup({ showSignup, setShowSignup, setShowLogin }) {
             setRegisterPending(false);
         }
     }
+
+    const googleLogin = useGoogleLogin({
+        onSuccess: async (tokenResponse) => {
+            try {
+                const res = await fetch("http://localhost:5000/api/auth/google", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ token: tokenResponse.credential || tokenResponse.access_token }),
+                });
+                const data = await res.json();
+                if (!res.ok) () => setNotification({ type: "error", message: "Google Login failed" })
+
+                setNotification({ type: "success", message: "Google Login successful" })
+                setShowSignup(false)
+            } catch (err) {
+                setNotification({ type: "error", message: err.message });
+            }
+        }
+    })
 
     return (
         <>
@@ -89,7 +112,7 @@ export default function Signup({ showSignup, setShowSignup, setShowLogin }) {
                             </button>
                             <h3 className="text-xl font-semibold mb-3">Create account</h3>
 
-                            <button className="w-full border border-blue-600 text-blue-600 rounded py-2 flex items-center justify-center gap-2 mb-4">
+                            <button className="w-full border border-blue-600 text-blue-600 rounded py-2 flex items-center justify-center gap-2 mb-4" onClick={() => googleLogin()}>
                                 <FaGoogle /> <span className="font-medium">Register with Google</span>
                             </button>
 
@@ -158,9 +181,8 @@ export default function Signup({ showSignup, setShowSignup, setShowLogin }) {
                         animate={{ y: 0, opacity: 1 }}
                         exit={{ y: -50, opacity: 0 }}
                         transition={{ duration: 0.3 }}
-                        className={`fixed top-5 right-5 px-4 py-3 rounded shadow-lg text-white_web ${
-                            notification.type === "error" ? "bg-red-600" : "bg-green-600"
-                        }`}
+                        className={`fixed top-5 right-5 px-4 py-3 rounded shadow-lg text-white_web ${notification.type === "error" ? "bg-red-600" : "bg-green-600"
+                            }`}
                     >
                         {notification.message}
                         <button

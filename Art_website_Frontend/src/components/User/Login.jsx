@@ -1,15 +1,47 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaBackspace, FaGoogle, FaEye, FaEyeSlash } from "react-icons/fa";
+import { useGoogleLogin } from '@react-oauth/google';
+import { useEffect } from "react";
 
 export default function Login({ showLogin, setShowLogin, setShowSignup, setShowForget }) {
     const [loginPending, setLoginPending] = useState(false);
-    const [loginResult, setLoginResult] = useState(null);
     const [showPassword, setShowPassword] = useState(false);
+    const [notification, setNotification] = useState(null)
+
+    const login = useGoogleLogin({
+        flow: "auth-code",
+        onSuccess: async (tokenResponse) => {
+            try {
+                const code = tokenResponse.code;
+
+                const res = await fetch("http://localhost:5000/api/auth/google-login", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ code }),
+                });
+
+                const data = await res.json();
+
+                if (!res.ok) {
+                    setNotification({ type: "error", message: data.message || "Google login failed" });
+                    return;
+                }
+                localStorage.setItem("token", data.token);
+                setNotification({ type: "success", message: "Google Login successful" })
+                setShowLogin(false);
+            } catch (err) {
+                setNotification({ type: "error", message: `Google login error ${err}` });
+            }
+        },
+        onError: () => {
+            setNotification({ type: "error", message: "Google login failed." });
+        },
+    });
+
 
     async function submitLogin(form) {
         setLoginPending(true);
-        setLoginResult(null);
 
         const email = form.get("email");
         const password = form.get("password");
@@ -24,21 +56,28 @@ export default function Login({ showLogin, setShowLogin, setShowSignup, setShowF
             const data = await res.json();
 
             if (!res.ok) {
-                setLoginResult({ error: data.message || "Login failed" });
-                setTimeout(() => setLoginResult(null), 3000);
+                setNotification({ type: "error", message: data.message || "Login failed" });
             } else {
-                localStorage.setItem("token", data.token); // store JWT
+                localStorage.setItem("token", data.token);
                 window.location.reload();
                 setShowLogin(false);
             }
         } catch (err) {
             console.error(err);
-            setLoginResult({ error: "Server error" });
-            setTimeout(() => setLoginResult(null), 3000);
+            setNotification({ type: "error", message: "Server error" });
         } finally {
             setLoginPending(false);
         }
     }
+
+    useEffect(() => {
+        if (notification) {
+            const timer = setTimeout(() => {
+                setNotification(null);
+            }, 5000);
+            return () => clearTimeout(timer);
+        }
+    }, [notification]);
 
     return (
         <>
@@ -69,7 +108,7 @@ export default function Login({ showLogin, setShowLogin, setShowSignup, setShowF
                             </button>
                             <h3 className="text-xl font-semibold mb-3">Welcome back</h3>
 
-                            <button className="w-full border border-blue-600 text-blue-600 rounded py-2 flex items-center justify-center gap-2 mb-4">
+                            <button className="w-full border border-blue-600 text-blue-600 rounded py-2 flex items-center justify-center gap-2 mb-4" onClick={() => login()}>
                                 <FaGoogle /> <span className="font-medium">Continue with Google</span>
                             </button>
 
@@ -147,17 +186,24 @@ export default function Login({ showLogin, setShowLogin, setShowSignup, setShowF
                 )}
             </AnimatePresence>
 
-            {/* 🔹 Popup Notification */}
+            {/* Notification */}
             <AnimatePresence>
-                {loginResult?.error && (
+                {notification && (
                     <motion.div
-                        initial={{ opacity: 0, y: -30 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, y: -30 }}
+                        initial={{ y: -50, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        exit={{ y: -50, opacity: 0 }}
                         transition={{ duration: 0.3 }}
-                        className="fixed top-5 right-5 z-[9999] bg-red-600 text-white_web px-4 py-2 rounded shadow-lg"
+                        className={`fixed top-5 right-5 px-4 py-3 rounded shadow-lg text-white_web ${notification.type === "error" ? "bg-red-600" : "bg-green-600"
+                            }`}
                     >
-                        {loginResult.error}
+                        {notification.message}
+                        <button
+                            className="ml-3 text-white_web font-bold"
+                            onClick={() => setNotification(null)}
+                        >
+                            ×
+                        </button>
                     </motion.div>
                 )}
             </AnimatePresence>

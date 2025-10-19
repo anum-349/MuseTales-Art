@@ -16,8 +16,11 @@ const userSchema = new mongoose.Schema({
         match: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{2,}$/
     },
     password: {
+        type: String
+    },
+    provider: {
         type: String,
-        required: true,
+        default: "manual"
     },
     createdAt: {
         type: Date,

@@ -10,6 +10,7 @@ import {
 import { FaCaretLeft, FaCaretRight } from "react-icons/fa6";
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState, useMemo } from "react";
+import Map from "../map/Map";
 
 const banner = "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501087/banner_pifjjf.png"
 
@@ -137,6 +138,63 @@ function Home() {
   const [mobileShopCategory, setMobileShopCategory] = useState(false);
   const [mobileShopPrice, setMobileShopPrice] = useState(false);
 
+  const [layerState, setLayerState] = useState([
+      {
+        name: 'Painting',
+        color: '#33a02c',
+        isChecked: true
+      },
+      {
+        name: 'Sculpture',
+        color: '#ffff99',
+        isChecked: true   
+      },
+      {
+        name: 'Abstract',
+        color: '#6a3d9a',
+        isChecked: true
+      },
+      {
+        name: 'Photography',
+        color: '#a6cee3',
+        isChecked: true     
+      },
+      {
+        name: 'Texture',
+        color: '#e31a1c',
+        isChecked: true
+      },
+      {
+        name: 'Sculpture',
+        color: '#cab2d6',
+        isChecked: true
+      },
+      {
+        name: 'Drawing',
+        color: '#1f78b4',
+        isChecked: true
+      },
+      {
+        name: 'Sketching',
+        color: '#fb9a99',
+        isChecked: true
+      },
+      {
+        name: 'Oil',
+        color: '#cab2d6',
+        isChecked: true
+      },
+      {
+        name: 'Landscape',
+        color: '#b2df8a',
+        isChecked: true
+      },
+      {
+        name: 'Modern',
+        color: '#ff7f00',
+        isChecked: true
+      }
+    ])
   useEffect(() => {
     fetch("http://localhost:5000/api/feedbacks")
       .then((res) => res.json())
@@ -158,7 +216,7 @@ function Home() {
     () => feedback.slice(startIndex, startIndex + itemsPerPage),
     [feedback, startIndex]
   );
-  
+
   return (
     <>
       {/* Banner */}
@@ -529,6 +587,10 @@ function Home() {
           </div>
         )
       }
+      < div className="m-10 mb-0 items-center" >
+        <h2>Visit Your Nearest Art Gallery</h2>
+      </div>
+      <Map layerState={layerState} />
     </>
   );
 }
