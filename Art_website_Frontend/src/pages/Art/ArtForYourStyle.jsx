@@ -1,4 +1,5 @@
 import { useNavigate, useParams } from "react-router-dom"
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function ArtForYourStyle() {
 
@@ -67,7 +68,7 @@ export default function ArtForYourStyle() {
     return (
         <>
             <div className="relative mb-10">
-                <img
+                <LazyLoadImage
                     src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501043/art-in-the-home_kevg8t.jpg"
                     alt="Banner"
                     className="w-screen h-full object-cover"
@@ -86,14 +87,14 @@ export default function ArtForYourStyle() {
                 <div className="w-full h-full">
                     <h1 className="font-normal">Art for Every Room</h1>
                     <p>Every room in your home has a distinct purpose and style. Whether you’re searching for an artwork to be the focal point of your living room, or looking for the perfect finishing touch for your favorite reading nook, our curators have put together fresh collections suited to every space.</p>
-                    <img
+                    <LazyLoadImage
                         src={artForYourStyle.image1}
                         alt={"Art for Every Style"}
                         className="w-full h-screen object-cover mt-3"
                     />
                 </div>
                 <div className="w-full h-full">
-                    <img
+                    <LazyLoadImage
                         src={artForYourStyle.image2}
                         alt={"Art for Every Style"}
                         className="w-screen h-96 object-cover"
@@ -111,7 +112,7 @@ export default function ArtForYourStyle() {
             <div className="grid md:grid-cols-2 md:m-20 sm:m-10 gap-20">
                 <div className="w-full h-full">
                     <h1 className="font-normal mb-10">Foyer</h1>
-                    <img
+                    <LazyLoadImage
                         src={foyal.mainImage}
                         alt={foyal.name1}
                         className="w-full h-screen object-cover mt-3"
@@ -124,7 +125,7 @@ export default function ArtForYourStyle() {
                 </div>
                 <div className="grid grid-rows-2 gap-5 w-full h-full">
                     <div className="w-full h-full">
-                        <img
+                        <LazyLoadImage
                             src={foyal.image1}
                             alt={foyal.name1}
                             className="w-screen h-96 object-cover"
@@ -140,7 +141,7 @@ export default function ArtForYourStyle() {
                         </p>
                     </div>
                     <div className="w-full h-full">
-                        <img
+                        <LazyLoadImage
                             src={foyal.image2}
                             alt={foyal.name2}
                             className="w-screen h-96 object-cover"
@@ -162,7 +163,7 @@ export default function ArtForYourStyle() {
             <div className="grid md:grid-cols-2 md:m-20 sm:m-10 gap-20">
                 <div className="grid grid-rows-2 gap-5 w-full h-full">
                     <div className="w-full h-full">
-                        <img
+                        <LazyLoadImage
                             src={bedRoom.image1}
                             alt={bedRoom.name1}
                             className="w-screen h-96 object-cover"
@@ -178,7 +179,7 @@ export default function ArtForYourStyle() {
                         </p>
                     </div>
                     <div className="w-full h-full">
-                        <img
+                        <LazyLoadImage
                             src={bedRoom.image2}
                             alt={bedRoom.name2}
                             className="w-screen h-96 object-cover"
@@ -197,7 +198,7 @@ export default function ArtForYourStyle() {
 
                 <div className="w-full h-full">
                     <h1 className="font-normal mb-10">Bed Room</h1>
-                    <img
+                    <LazyLoadImage
                         src={bedRoom.mainImage}
                         alt={bedRoom.name1}
                         className="w-full h-screen object-cover mt-3"
@@ -213,7 +214,7 @@ export default function ArtForYourStyle() {
             <div className="grid md:grid-cols-2 md:m-20 sm:m-10 gap-20">
                 <div className="w-full h-full">
                     <h1 className="font-normal mb-10">Living Room</h1>
-                    <img
+                    <LazyLoadImage
                         src={living.mainImage}
                         alt={living.name1}
                         className="w-full h-screen object-cover mt-3"
@@ -226,7 +227,7 @@ export default function ArtForYourStyle() {
                 </div>
                 <div className="grid grid-rows-2 gap-5 w-full h-full">
                     <div className="w-full h-full">
-                        <img
+                        <LazyLoadImage
                             src={living.image1}
                             alt={living.name1}
                             className="w-screen h-96 object-cover"
@@ -242,7 +243,7 @@ export default function ArtForYourStyle() {
                         </p>
                     </div>
                     <div className="w-full h-full">
-                        <img
+                        <LazyLoadImage
                             src={living.image2}
                             alt={living.name2}
                             className="w-screen h-96 object-cover"
@@ -263,7 +264,7 @@ export default function ArtForYourStyle() {
             <div className="grid md:grid-cols-2 md:m-20 sm:m-10 gap-20">
                 <div className="grid grid-rows-2 gap-5 w-full h-full">
                     <div className="w-full h-full">
-                        <img
+                        <LazyLoadImage
                             src={dinningRoom.image1}
                             alt={dinningRoom.name1}
                             className="w-screen h-96 object-cover"
@@ -279,7 +280,7 @@ export default function ArtForYourStyle() {
                         </p>
                     </div>
                     <div className="w-full h-full">
-                        <img
+                        <LazyLoadImage
                             src={dinningRoom.image2}
                             alt={dinningRoom.name2}
                             className="w-screen h-96 object-cover"
@@ -298,7 +299,7 @@ export default function ArtForYourStyle() {
 
                 <div className="w-full h-full">
                     <h1 className="font-normal mb-10">Dinning Room</h1>
-                    <img
+                    <LazyLoadImage
                         src={dinningRoom.mainImage}
                         alt={dinningRoom.name1}
                         className="w-full h-screen object-cover mt-3"

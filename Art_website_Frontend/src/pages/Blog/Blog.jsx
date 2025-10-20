@@ -1,8 +1,10 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 export default function Blog() {
     return (
         <>
             <div className="relative mb-10">
-                <img
+                <LazyLoadImage
                     src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501395/Red_and_Dark_Brown_Painting_art_Wall_Frame_Mockup_Instagram_post_vvi4qj.png"
                     alt="art advisory image"
                     className="w-screen md:h-screen h-96 object-cover"

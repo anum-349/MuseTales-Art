@@ -1,5 +1,6 @@
 import { Link, NavLink, useNavigate, useParams } from "react-router-dom"
 import { useEffect, useState } from "react"
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import {
     FaCaretLeft,
     FaCaretRight,
@@ -184,7 +185,7 @@ export default function ArtworkDetail() {
                     {/* Main Image */}
                     <div className="w-full h-full flex bg-slate-200 p-5 justify-center items-center">
                         <div className="w-full h-96">
-                            <img
+                            <LazyLoadImage
                                 src={selectedArt?.mainImage}
                                 alt={selectedArt?.title}
                                 className="object-cover w-full h-full"
@@ -344,7 +345,7 @@ export default function ArtworkDetail() {
                         <div className="md:ml-20 md:mr-10 relative">
                             <div className="md:flex items-center gap-5">
                                 <div className="w-[100px] h-[100px]">
-                                    <img
+                                    <LazyLoadImage
                                         src={authorDetail.image}
                                         className="w-full h-full object-cover rounded-full"
                                     />
@@ -414,7 +415,7 @@ export default function ArtworkDetail() {
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-6 px-10 mb-10">
                         {visibleItems.map((item) => (
                             <div key={item._id} className="bg-gray-200 p-4 rounded shadow">
-                                <img
+                                <LazyLoadImage
                                     src={item.mainImage}
                                     alt={item.title}
                                     className="w-full h-48 object-cover mb-4 rounded"

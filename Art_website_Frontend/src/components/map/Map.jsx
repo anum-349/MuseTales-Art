@@ -5,29 +5,49 @@ import Popup from './Popup'
 import './Map.css'
 import 'mapbox-gl/dist/mapbox-gl.css'
 
-import restaurantsData from './providence-restaurants.json'
-import customMarkerPng from './custom-marker.png'
+import { ArrowPathIcon, ArrowUturnLeftIcon } from '@heroicons/react/24/solid';
 
-export default function Map({ layerState }) {
+import artsData from './providence-arts.json'
+import customMarkerPng from './location_marker.png'
+
+const INITIAL_VIEW = {
+    longitude: 73.0479,
+    latitude: 31.6844,
+    zoom: 5,
+};
+
+export default function Map() {
     const mapContainer = useRef(null)
     const mapRef = useRef(null)
 
     const [popupData, setPopupData] = useState(null)
 
+    const handleResetView = () => {
+        if (mapRef.current) {
+            mapRef.current.flyTo({
+                center: [INITIAL_VIEW.longitude, INITIAL_VIEW.latitude],
+                zoom: 6.5,
+                pitch: 60,
+                bearing: 20,
+                essential: true
+            });
+        }
+    };
+
     const handleMarkerClick = (e) => {
-        setPopupData({ lngLat: e.feature.geometry.coordinates, properties: e.feature.properties });
+        setPopupData({ lngLat: e.features[0].geometry.coordinates, properties: e.features[0].properties });
     }
 
     useEffect(() => {
         if (mapRef.current) return
 
-        mapboxgl.accessToken = "pk.eyJ1IjoiYW51bS00NTAzIiwiYSI6ImNtZ3h3b3FsYTE0dWIybHNiMDdoYWUyOW8ifQ.-ucgmeNZ6PEqMQW7H05aZg"
+        mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN
 
         // creates map instance and centers viewport over Providence, RI, USA
         mapRef.current = new mapboxgl.Map({
             container: mapContainer.current,
-            center: [-71.407, 41.8205],
-            zoom: 15.5
+            center: [INITIAL_VIEW.longitude, INITIAL_VIEW.latitude],
+            zoom: INITIAL_VIEW.zoom,
         })
 
         mapRef.current.on('load', () => {
@@ -37,85 +57,64 @@ export default function Map({ layerState }) {
                 customMarkerPng,
                 (error, image) => {
                     if (error) throw error;
-                    mapRef.current.addImage("custom-marker", image, { sdf: true });
+                    mapRef.current.addImage("custom-marker", image);
                 }
             );
 
             // add a single source for all restaurants
-            mapRef.current.addSource('restaurants', {
+            mapRef.current.addSource('arts', {
                 type: 'geojson',
-                data: restaurantsData
+                data: artsData
             })
 
-            // add a layer for each cuisine
-            for (const layer of layerState) {
-                const { name, color } = layer
+            mapRef.current.addLayer({
+                id: "arts-layer",
+                type: "symbol",
+                source: "arts",
+                layout: {
+                    'icon-image': 'custom-marker',
+                    'icon-size': 0.1,
+                    'icon-allow-overlap': true
+                },
+                paint: {
+                    'icon-opacity': 1
+                },
+            });
 
-                const layerId = `restaurants-${name}-symbol`
+            // add a click interaction for each of the layers to be used to render the popup
+            mapRef.current.on('click', 'arts-layer', handleMarkerClick);
+            mapRef.current.on('mouseenter', 'arts-layer', () => {
+                mapRef.current.getCanvas().style.cursor = 'pointer';
+            })
+            mapRef.current.on("mouseleave", 'arts-layer', () => {
+                mapRef.current.getCanvas().style.cursor = '';
+            })
 
-                // add a circle layer for each cuisine, filtering to only show features with that cuisine.
-                if (!mapRef.current.getLayer(layerId)) {
-                    // add a layer for each cuisine 
-                    for (const layer of layerState) {
-                        const { name, color } = layer
+            mapRef.current.setFog({}); // enables atmospheric effect
 
-                        const layerId = `restaurants-${name}-symbol`
+            mapRef.current.addSource('mapbox-dem', {
+                'type': 'raster-dem',
+                'url': 'mapbox://mapbox.mapbox-terrain-dem-v1',
+                'tileSize': 512,
+                'maxzoom': 14
+            });
 
-                        // add a symbol layer for each cuisine, filtering to only show features with that cuisine.
-                        if (!mapRef.current.getLayer(layerId)) {
-                            mapRef.current.addLayer({
-                                id: layerId,
-                                type: 'symbol',
-                                source: 'restaurants',
+            mapRef.current.setTerrain({ 'source': 'mapbox-dem', 'exaggeration': 1.5 });
 
-                                // Grabs local image for custom marker, allows markers to over lap and colors each marker based on the related cuisine color.
-                                layout: {
-                                    'icon-image': 'custom-marker',
-                                    'icon-size': 1,
-                                    'icon-allow-overlap': true
-                                },
-                                'paint': {
-                                    'icon-color': color,
-                                    'icon-opacity': 0.8,
-                                    'icon-halo-color': '#ffffff',
-                                    'icon-halo-width': 2.5,
-                                    'icon-halo-blur': 1
-                                },
-                                filter: ['in', ['get', 'cuisine'], ['literal', [name]]]
-                            })
-                        }
-                    }
-                }
 
-                // add a click interaction for each of the layers to be used to render the popup
-                mapRef.current.addInteraction(`${layerId}-click`, {
-                    type: 'click',
-                    target: { layerId },
-                    handler: handleMarkerClick
-                })
-                // change the cursor to a pointer when hovering over a marker
-                mapRef.current.addInteraction(`${layerId}-mouse-enter`, {
-                    type: 'mouseenter',
-                    target: { layerId },
-                    handler: () => {
-                        mapRef.current.getCanvas().style.cursor = 'pointer';
-                    }
-                })
-                // reset the cursor to default image when cursor leaves a marker
-                mapRef.current.addInteraction(`${layerId}-mouse-leave`, {
-                    type: 'mouseleave',
-                    target: { layerId },
-                    handler: () => {
-                        mapRef.current.getCanvas().style.cursor = '';
-                    }
-                })
-            }
         })
     })
 
     return (
-        <div ref={mapContainer} id="map-container" className='border-caramine border-2 m-5 w-[97%] h-[500px]'>
+        <div ref={mapContainer} id="map-container" className='border-caramine border-2 m-5 w-[95%] md:w-[97%] h-[500px]'>
             <Popup popupData={popupData} mapRef={mapRef} />
+            <button
+                onClick={handleResetView}
+                title="Reset Map View"
+                className="absolute top-4 right-4 bg-eerieBlack shadow-md rounded-full p-2 hover:bg-gray-200 transition z-50"
+            >
+                <ArrowPathIcon className="h-5 w-5 text-white_web" />
+            </button>
         </div>
     )
 }

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function Art({ data, height="h-64" }) {
     return (
@@ -7,7 +8,7 @@ export default function Art({ data, height="h-64" }) {
                 {
                     data.map((item) => (
                         <div key={item._id} className="relative">
-                            <img src={item.image} alt={item.name} className="w-full ${height}" />
+                            <LazyLoadImage src={item.image} alt={item.name} className="w-full ${height}" />
                             <div className={height}>
                                 <h3 className="text-xl font-semibold mt-5">{item.name}</h3>
                                 <h3 className="text-xl font-normal mt-3 mb-2">{item.detail}</h3>

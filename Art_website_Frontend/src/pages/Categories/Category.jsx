@@ -2,6 +2,7 @@ import { Link} from "react-router-dom";
 import { FaShoppingBag, FaHeart, FaPlusCircle } from "react-icons/fa";
 import Masonry from "react-masonry-css";
 import { useState, useEffect } from "react";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function Category({ selectedCategory="", filteredItems, grid=4 }) {
   const [visibleCount, setVisibleCount] = useState(12)
@@ -24,7 +25,7 @@ export default function Category({ selectedCategory="", filteredItems, grid=4 })
           {filteredItems.length > 0 ? (
             filteredItems.slice(0, visibleCount).map((item) => (
               <div key={item._id} className="mb-6 bg-white_web">
-                <img
+                <LazyLoadImage
                   src={item.mainImage}
                   alt={item.title}
                   className="w-full h-full object-cover mb-4 rounded"

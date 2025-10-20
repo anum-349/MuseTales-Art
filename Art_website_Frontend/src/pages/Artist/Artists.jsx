@@ -1,5 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function Artists() {
     const [authors, setAuthors] = useState([]);
@@ -57,13 +58,13 @@ export default function Artists() {
                 {!loading && !error && authors.length > 0 ? (
                     authors.slice(0, visibleCount).map((item) => (
                         <div key={item._id} className="mb-6 bg-white_web">
-                            <img
+                            <LazyLoadImage
                                 src={item.thumbnail}
                                 alt={item.name}
                                 className="w-full h-80 object-cover mb-4 rounded"
                             />
                             <div className="mb-2 flex items-center gap-5">
-                                <img
+                                <LazyLoadImage
                                     src={item.profileImage}
                                     alt={item.name}
                                     className="w-20 h-20 rounded-full"

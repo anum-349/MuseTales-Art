@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import {
     FaUserCircle,
     FaShoppingCart,
@@ -59,7 +60,7 @@ export default function Header() {
                     {/* left: logo */}
                     <div className="flex items-center gap-4">
                         <Link to="/" className="flex items-center gap-3 mt-2">
-                            <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1760112520/logo_gunlix.png" alt="logo" width={70} height={70} />
+                            <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1760112520/logo_gunlix.png" alt="logo" width={70} height={70} />
                             <span className="sm:hidden md:inline-block font-semibold text-xl text-eerieBlack hover:text-orange_web">MuseTales</span>
                         </Link>
                     </div>

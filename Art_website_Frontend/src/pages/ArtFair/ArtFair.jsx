@@ -1,4 +1,5 @@
 import { Link, useNavigate } from "react-router-dom"
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function ArtFair() {
 
@@ -134,7 +135,7 @@ export default function ArtFair() {
     return (
         <>
             <div className="w-screen h-screen">
-                <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501042/artfair_p3s7nl.png" alt="other art fair" className="w-full h-full object-cover " />
+                <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501042/artfair_p3s7nl.png" alt="other art fair" className="w-full h-full object-cover " />
             </div>
 
             <div className="md:p-40 p-10 justify-center text-center bg-gray-200 mb-20">
@@ -165,7 +166,7 @@ export default function ArtFair() {
             <div className="md:ml-20 md:mr-20 mt-20 mb-20">
                 <div className="grid md:grid-cols-2 mt-10 ml-20 mr-20 items-center">
                     <div className="w-full h-full bg-blue-100">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501348/losAngeles_aoui0l.jpg" alt="art love" className="w-full h-full object-cover" />
+                        <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501348/losAngeles_aoui0l.jpg" alt="art love" className="w-full h-full object-cover" />
                         <p>Artist Natalya Seva at The Other Art Fair, Los Angeles</p>
                     </div>
                     <div className="md:ml-20">
@@ -182,55 +183,55 @@ export default function ArtFair() {
             <div className="w-full h-full grid md:grid-cols-4 sm:grid-cols-2 gap-3 mb-20">
                 <div className="grid grid-rows-2 gap-3 h-96">
                     <div className="w-full h-full">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501352/Moai_Easter_Island_Chile_v38nph.webp" alt="art love" className="w-full h-full object-cover" />
+                        <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501352/Moai_Easter_Island_Chile_v38nph.webp" alt="art love" className="w-full h-full object-cover" />
                     </div>
                     <div className="grid grid-cols-2 gap-3">
                         <div className="w-full h-full">
-                            <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501384/popart_duerlp.jpg" alt="art love" className="w-full h-full object-cover" />
+                            <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501384/popart_duerlp.jpg" alt="art love" className="w-full h-full object-cover" />
                         </div>
                         <div className="w-full h-full">
-                            <img src="Sculpture14.jpg" alt="art love" className="w-full h-full object-cover" />
+                            <LazyLoadImage src="Sculpture14.jpg" alt="art love" className="w-full h-full object-cover" />
                         </div>
                     </div>
                 </div>
 
                 <div className="grid grid-rows-2 gap-3 h-96">
                     <div className="w-full h-full">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501462/visual1_ihukt1.jpg" alt="art love" className="w-full h-full object-cover" />
+                        <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501462/visual1_ihukt1.jpg" alt="art love" className="w-full h-full object-cover" />
                     </div>
                     <div className="w-full h-full">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501412/Sculpture13_e9mv7k.jpg" alt="art love" className="w-full h-full object-cover" />
+                        <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501412/Sculpture13_e9mv7k.jpg" alt="art love" className="w-full h-full object-cover" />
                     </div>
                 </div>
 
                 <div className="grid grid-rows-2 gap-3 h-96">
                     <div className="grid grid-cols-2 gap-3">
                         <div className="w-full h-full">
-                            <img src="/artfair2.png" alt="art love" className="w-full h-full object-cover" />
+                            <LazyLoadImage src="/artfair2.png" alt="art love" className="w-full h-full object-cover" />
                         </div>
                         <div className="w-full h-full">
-                            <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501048/artfair3_bjdxyw.jpg" alt="art love" className="w-full h-full object-cover" />
+                            <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501048/artfair3_bjdxyw.jpg" alt="art love" className="w-full h-full object-cover" />
                         </div>
                     </div>
                     <div className="grid grid-cols-2 gap-3">
                         <div className="w-full h-full">
-                            <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501054/artfair4_u9oqzl.png" alt="art love" className="w-full h-full object-cover" />
+                            <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501054/artfair4_u9oqzl.png" alt="art love" className="w-full h-full object-cover" />
                         </div>
                         <div className="w-full h-full">
-                            <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501335/living1_egigi4.jpg" alt="art love" className="w-full h-full object-cover" />
+                            <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501335/living1_egigi4.jpg" alt="art love" className="w-full h-full object-cover" />
                         </div>
                     </div>
                 </div>
 
                 <div className="grid grid-rows-3 gap-3 h-96">
                     <div className="w-full h-full ">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501320/inspirationArt_ub9emr.webp" alt="art love" className="w-full h-full object-cover " />
+                        <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501320/inspirationArt_ub9emr.webp" alt="art love" className="w-full h-full object-cover " />
                     </div>
                     <div className="w-full h-full">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501339/landscape_vpsgev.jpg" alt="art love" className="w-full h-full object-cover " />
+                        <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501339/landscape_vpsgev.jpg" alt="art love" className="w-full h-full object-cover " />
                     </div>
                     <div className="w-full h-full">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501030/aboutseascapes_szcxbr.jpg" alt="art love" className="w-full h-full object-cover " />
+                        <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501030/aboutseascapes_szcxbr.jpg" alt="art love" className="w-full h-full object-cover " />
                     </div>
                 </div>
             </div>
@@ -244,7 +245,7 @@ export default function ArtFair() {
                         fairs.map((item) => (
                             <Link key={item.id} to={item.link} className="hover:scale-110 transition duration-1000 border border-dim_gray">
                                 <div className="w-full h-56">
-                                    <img src={item.image} alt={item.detail} className="w-full h-full object-cover" />
+                                    <LazyLoadImage src={item.image} alt={item.detail} className="w-full h-full object-cover" />
                                 </div>
                                 <div className="text-center mb-5">
                                     <p className="text-xl font-medium text-eerieBlack mb-5 mt-2">{item.place}</p>
@@ -266,7 +267,7 @@ export default function ArtFair() {
                         artists.map((item) => (
                             <div key={item.id}>
                                 <div className="w-full h-64">
-                                    <img src={item.image} alt={item.name} className="w-full h-full object-cover" />
+                                    <LazyLoadImage src={item.image} alt={item.name} className="w-full h-full object-cover" />
                                 </div>
                                 <div className="text-center mb-5">
                                     <p className="text-xl font-medium text-eerieBlack mb-5 mt-2">{item.name}</p>
@@ -292,7 +293,7 @@ export default function ArtFair() {
                                 <Link key={item.id} to={item.link} className="hover:scale-110 transition duration-1000 text-center">
                                 <div className="relative">
                                     <div className="w-full h-96">
-                                        <img
+                                        <LazyLoadImage
                                             src={item.image}
                                             alt={item.title}
                                             className="w-full h-full object-cover"

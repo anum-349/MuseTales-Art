@@ -1,6 +1,7 @@
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -55,7 +56,7 @@ export default function Sell() {
             <div>
                 <div className="grid grid-cols-3 gap-10 mb-10">
                     <div className="relative  bg-orange_web w-screen h-96 ">
-                        <img
+                        <LazyLoadImage
                             src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501465/visual2_otdxd8.jpg"
                             alt="Why Sell"
                             className="w-full h-full object-cover"
@@ -137,7 +138,7 @@ export default function Sell() {
                 </div>
 
                 <div className="relative bg-orange_web w-screen h-screen brightness-50">
-                    <img
+                    <LazyLoadImage
                         src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501051/artist_cfyy2c.jpg"
                         alt="Why Sell"
                         className="w-full h-full object-cover "
@@ -173,7 +174,7 @@ export default function Sell() {
 
                 <div className="grid md:grid-cols-2 m-10 md:ml-20 md:mr-20 items-center">
                     <div className="w-full h-full bg-blue-100">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501045/advisory2_qn3suj.png" alt="art love" className="w-full h-full object-cover" />
+                        <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501045/advisory2_qn3suj.png" alt="art love" className="w-full h-full object-cover" />
                     </div>
                     <div className="md:ml-20 mt-5">
                         <h2>Fair, Transparent, and Easy</h2>
@@ -204,7 +205,7 @@ export default function Sell() {
                             <br /><br />Rich editorial initiatives and content features including Rising Stars, New this Week, Digital Exhibitions and Curated Collections</p>
                     </div>
                     <div className="w-full h-full bg-blue-100 mr-20">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501379/Painting_1_by1nlt.jpg" alt="art love" className="w-full h-full object-cover" />
+                        <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501379/Painting_1_by1nlt.jpg" alt="art love" className="w-full h-full object-cover" />
                     </div>
                 </div>
 
@@ -253,7 +254,7 @@ export default function Sell() {
                             <b className="font-semibold">Unique visuals:</b> Using the power of augmented reality, collectors can take advantage of our “View in Room” feature to see your artwork in their space before purchasing.</p>
                     </div>
                     <div className="w-full h-full bg-blue-100 mr-20">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501411/Sculpture10_jjqt9v.jpg" alt="art love" className="w-full h-full object-cover" />
+                        <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501411/Sculpture10_jjqt9v.jpg" alt="art love" className="w-full h-full object-cover" />
                     </div>
                 </div>
 
@@ -261,7 +262,7 @@ export default function Sell() {
 
                 <div className="grid md:grid-cols-2 mt-10 ml-20 mr-20 items-center">
                     <div className="w-full h-full bg-blue-100">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501382/personal_mpvrwu.jpg" alt="art love" className="w-full h-full object-cover" />
+                        <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501382/personal_mpvrwu.jpg" alt="art love" className="w-full h-full object-cover" />
                     </div>
                     <div className="ml-20">
                         <h2>Share Your Art with a Global Audience in New Ways</h2>

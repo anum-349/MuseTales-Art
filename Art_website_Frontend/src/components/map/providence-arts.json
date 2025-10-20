@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": 1,
+      "type": "Feature",
+      "properties": {
+        "name": "Islamabad",
+        "cuisine": "Modern Art"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0479, 33.6844]
+      }
+    },
+    {
+      "id": 2,
+      "type": "Feature",
+      "properties": {
+        "name": "Lahore",
+        "cuisine": "Heritage Art"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [74.3587, 31.5204]
+      }
+    },
+    {
+      "id": 3,
+      "type": "Feature",
+      "properties": {
+        "name": "Karachi",
+        "cuisine": "Abstract Art"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [67.0099, 24.8615]
+      }
+    },
+    {
+      "id": 4,
+      "type": "Feature",
+      "properties": {
+        "name": "Peshawar",
+        "cuisine": "Cultural Art"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.5249, 34.0151]
+      }
+    },
+    {
+      "id": 5,
+      "type": "Feature",
+      "properties": {
+        "name": "Quetta",
+        "cuisine": "Traditional Art"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [66.975, 30.1798]
+      }
+    },
+    {
+      "id": 6,
+      "type": "Feature",
+      "properties": {
+        "name": "Faisalabad",
+        "cuisine": "Textile Art"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0845, 31.418]
+      }
+    },
+    {
+      "id": 7,
+      "type": "Feature",
+      "properties": {
+        "name": "Multan",
+        "cuisine": "Sufi Art"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.5249, 30.1575]
+      }
+    },
+    {
+      "id": 8,
+      "type": "Feature",
+      "properties": {
+        "name": "Hyderabad",
+        "cuisine": "Ceramic Art"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [68.3737, 25.3969]
+      }
+    },
+    {
+      "id": 9,
+      "type": "Feature",
+      "properties": {
+        "name": "Rawalpindi",
+        "cuisine": "Contemporary Art"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0551, 33.5651]
+      }
+    },
+    {
+      "id": 10,
+      "type": "Feature",
+      "properties": {
+        "name": "Sialkot",
+        "cuisine": "Sports Art"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [74.5341, 32.4927]
+      }
+    }
+  ]
+}

@@ -3,6 +3,7 @@ import { FaBackspace, FaDollarSign, FaLock, FaShoppingCart, FaStar } from "react
 import { FaShield } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
 import Login from "../../components/User/Login";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function Cart() {
     const [empty, setEmpty] = useState(true);
@@ -108,7 +109,7 @@ export default function Cart() {
                                     className="sm:grid-cols-1 md:grid-cols-1 grid lg:grid-cols-[30%,50%] gap-10 p-5 shadow relative mb-5"
                                 >
                                     <div className="w-36 h-40">
-                                        <img
+                                        <LazyLoadImage
                                             src={item.image}
                                             alt={item.name}
                                             className="w-full h-full object-center"

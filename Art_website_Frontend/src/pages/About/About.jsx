@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function About() {
 
@@ -58,7 +59,7 @@ export default function About() {
         <>
             <div className="grid grid-cols-3 gap-10">
                 <div className="relative  bg-orange_web w-screen h-screen ">
-                    <img
+                    <LazyLoadImage
                         src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501024/aboutBanner2_u4bexs.webp"
                         alt="Why Sell"
                         className="w-full h-full object-cover"
@@ -120,7 +121,7 @@ export default function About() {
                         feature.map((item) => (
                             <div key={item.id}>
                                 <div className="w-full h-80 mb-10">
-                                    <img src={item.image} alt={item.title} className="w-full h-full object-cover" />
+                                    <LazyLoadImage src={item.image} alt={item.title} className="w-full h-full object-cover" />
                                 </div>
                                 <NavLink to={item.link} className={'underline'}>{item.title}</NavLink>
                             </div>
@@ -133,13 +134,13 @@ export default function About() {
             <div id="mission" className="grid sm:grid-cols-1 md:grid-cols-[60%,40%] mt-20 mb-10 ml-3">
                 <div className="grid grid-cols-2 gap-3">
                     <div className="w-full h-80 ">
-                        <img src='https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501023/about1_ujibzc.jpg' alt="Mission Images" className="w-full h-full object-cover" />
+                        <LazyLoadImage src='https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501023/about1_ujibzc.jpg' alt="Mission Images" className="w-full h-full object-cover" />
                     </div><div className="w-full h-80 ">
-                        <img src='https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501023/about2_hlxba9.jpg' alt="Mission Images" className="w-full h-full object-cover" />
+                        <LazyLoadImage src='https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501023/about2_hlxba9.jpg' alt="Mission Images" className="w-full h-full object-cover" />
                     </div><div className="w-full h-80 ">
-                        <img src='https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501023/about3_vzwecn.jpg' alt="Mission Images" className="w-full h-full object-cover" />
+                        <LazyLoadImage src='https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501023/about3_vzwecn.jpg' alt="Mission Images" className="w-full h-full object-cover" />
                     </div><div className="w-full h-80 ">
-                        <img src='https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501023/about4_mpyzrm.jpg' alt="Mission Images" className="w-full h-full object-cover" />
+                        <LazyLoadImage src='https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501023/about4_mpyzrm.jpg' alt="Mission Images" className="w-full h-full object-cover" />
                     </div>
                 </div>
                 <div className="pl-10 pr-10">
@@ -181,7 +182,7 @@ export default function About() {
                     <div className="grid grid-cols-2 gap-3">
                         <div className=" w-full h-full">
                             <div className="relative  bg-orange_web">
-                                <img
+                                <LazyLoadImage
                                     src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501028/aboutfloral_yts1b7.jpg"
                                     alt="Floral"
                                     className="w-full h-[530px] object-cover"
@@ -197,7 +198,7 @@ export default function About() {
                         <div className="">
                             <div className=" mb-4 w-full h-64">
                                 <div className="relative  bg-orange_web w-full h-full">
-                                    <img
+                                    <LazyLoadImage
                                         src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501030/aboutseascapes_szcxbr.jpg"
                                         alt="seascapes"
                                         className="w-full h-full object-cover"
@@ -212,7 +213,7 @@ export default function About() {
                             </div>
                             <div className=" w-full h-64">
                                 <div className="relative  bg-orange_web w-full h-full">
-                                    <img
+                                    <LazyLoadImage
                                         src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501030/aboutmonchrome_pz4rhy.jpg"
                                         alt="monochrome"
                                         className="w-full h-full object-cover"
@@ -233,7 +234,7 @@ export default function About() {
                     <div className="grid grid-cols-2 gap-3">
                         <div className=" w-full h-[200px]">
                             <div className="relative  bg-orange_web">
-                                <img
+                                <LazyLoadImage
                                     src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501463/visual3_dpmmzs.jpg"
                                     alt="Visual"
                                     className="w-full h-[455px] object-cover"
@@ -243,7 +244,7 @@ export default function About() {
                         <div className="">
                             <div className=" mb-2 w-full h-56">
                                 <div className="relative  bg-orange_web w-full h-full">
-                                    <img
+                                    <LazyLoadImage
                                         src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501465/visual2_otdxd8.jpg"
                                         alt="Visual"
                                         className="w-full h-full object-cover"
@@ -252,7 +253,7 @@ export default function About() {
                             </div>
                             <div className=" w-full h-56">
                                 <div className="relative  bg-orange_web w-full h-full">
-                                    <img
+                                    <LazyLoadImage
                                         src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501462/visual1_ihukt1.jpg"
                                         alt="Visual"
                                         className="w-full h-full object-cover"
@@ -277,7 +278,7 @@ export default function About() {
                     <div className="grid grid-cols-2 gap-3">
                         <div className=" w-full h-full">
                             <div className="relative  bg-orange_web">
-                                <img
+                                <LazyLoadImage
                                     src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501036/aboutInterview_my2kkx.jpg"
                                     alt="Interview2"
                                     className="w-full h-[425px] object-cover"
@@ -287,7 +288,7 @@ export default function About() {
                         <div className="">
                             <div className="mb-2 w-full h-52">
                                 <div className="relative  bg-orange_web w-full h-full">
-                                    <img
+                                    <LazyLoadImage
                                         src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501036/aboutInterview_my2kkx.jpg"
                                         alt="Interview"
                                         className="w-full h-full object-cover"
@@ -296,7 +297,7 @@ export default function About() {
                             </div>
                             <div className=" w-full h-52">
                                 <div className="relative  bg-orange_web w-full h-full">
-                                    <img
+                                    <LazyLoadImage
                                         src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501028/aboutinspiration3_lz1bqi.jpg"
                                         alt="Interview"
                                         className="w-full h-full object-cover"
@@ -311,7 +312,7 @@ export default function About() {
             <div id="collectors">
                 <div className="grid grid-cols-3 gap-10 mt-10 mb-10">
                     <div className="relative  bg-orange_web w-screen h-96 ">
-                        <img
+                        <LazyLoadImage
                             src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501024/aboutBanner2_u4bexs.webp"
                             alt="Why Sell"
                             className="w-full h-full object-cover"
@@ -341,7 +342,7 @@ export default function About() {
                     {
                         images.map((item) => (
                             <div key={item.id} className="w-full h-[400px]">
-                                <img src={item.image} alt={item.title} className="w-full h-full object-cover" />
+                                <LazyLoadImage src={item.image} alt={item.title} className="w-full h-full object-cover" />
                             </div>
                         ))
                     }

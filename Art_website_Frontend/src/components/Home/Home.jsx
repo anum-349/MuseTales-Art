@@ -1,4 +1,5 @@
 import { useNavigate, NavLink, Link } from "react-router-dom";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import {
   FaGlobe,
   FaSmile,
@@ -138,63 +139,6 @@ function Home() {
   const [mobileShopCategory, setMobileShopCategory] = useState(false);
   const [mobileShopPrice, setMobileShopPrice] = useState(false);
 
-  const [layerState, setLayerState] = useState([
-      {
-        name: 'Painting',
-        color: '#33a02c',
-        isChecked: true
-      },
-      {
-        name: 'Sculpture',
-        color: '#ffff99',
-        isChecked: true   
-      },
-      {
-        name: 'Abstract',
-        color: '#6a3d9a',
-        isChecked: true
-      },
-      {
-        name: 'Photography',
-        color: '#a6cee3',
-        isChecked: true     
-      },
-      {
-        name: 'Texture',
-        color: '#e31a1c',
-        isChecked: true
-      },
-      {
-        name: 'Sculpture',
-        color: '#cab2d6',
-        isChecked: true
-      },
-      {
-        name: 'Drawing',
-        color: '#1f78b4',
-        isChecked: true
-      },
-      {
-        name: 'Sketching',
-        color: '#fb9a99',
-        isChecked: true
-      },
-      {
-        name: 'Oil',
-        color: '#cab2d6',
-        isChecked: true
-      },
-      {
-        name: 'Landscape',
-        color: '#b2df8a',
-        isChecked: true
-      },
-      {
-        name: 'Modern',
-        color: '#ff7f00',
-        isChecked: true
-      }
-    ])
   useEffect(() => {
     fetch("http://localhost:5000/api/feedbacks")
       .then((res) => res.json())
@@ -222,7 +166,7 @@ function Home() {
       {/* Banner */}
       <div className=" w-full md:h-screen h-96 overflow-hidden">
         <div className="w-full h-full">
-          <img src={banner} className={"w-full h-full object-cover"} />
+          <LazyLoadImage src={banner} className={"w-full h-full object-cover"} />
         </div>
         <div className="absolute z-10 top left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <button
@@ -257,7 +201,7 @@ function Home() {
       <div className=" grid md:grid-cols-3 sm:grid-cols-1 m-10 gap-10">
         {Object.entries(images).map(([text, [value, source, title]]) => (
           <div key={text} className="w-full h-80 mb-10">
-            <img src={source} alt={title} className="w-full h-full object-cover" />
+            <LazyLoadImage src={source} alt={title} className="w-full h-full object-cover" />
             <p>{title}</p>
             <NavLink className="underline hover:text-orange_web" to={value}>
               {text}
@@ -282,7 +226,7 @@ function Home() {
       <div className=" grid md:grid-cols-4 sm:grid-cols-2 m-10 gap-10">
         {Object.entries(Curators).map(([text, [value, source]]) => (
           <div key={text} className="w-full h-80 mb-10">
-            <img src={source} alt={text} className="w-full h-full object-cover" />
+            <LazyLoadImage src={source} alt={text} className="w-full h-full object-cover" />
             <NavLink className=" hover:text-orange_web" to={value}>
               {text}
             </NavLink>
@@ -364,7 +308,7 @@ function Home() {
         {Object.entries(sculptures).map(([name, [creator, source, price, id]]) => (
           <div key={id}>
             <div className="w-full md:h-80 h-56">
-              <img
+              <LazyLoadImage
                 src={source}
                 alt={name}
                 className="object-cover w-full h-full"
@@ -400,7 +344,7 @@ function Home() {
         {Object.entries(bestAbstract).map(([name, [creator, source, price, id]]) => (
           <div key={id} >
             <div className="w-full md:h-80 h-56">
-              <img
+              <LazyLoadImage
                 src={source}
                 alt={name}
                 className="object-cover w-full h-full"
@@ -481,7 +425,7 @@ function Home() {
       {/* Chief Curator Section */}
       < div className="grid md:grid-cols-2  grid-cols-1 jsutify-center gap-10 m-20 h-full items-center" >
         <div className="w-full h-96 bg-blue-100">
-          <img
+          <LazyLoadImage
             src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501036/advisory_ymrmcx.jpg"
             alt="art love"
             className="w-full h-full object-cover"
@@ -521,7 +465,7 @@ function Home() {
           Object.entries(explore).map(([name, [source, title, url]]) => (
             <div key={name} className="mb-5">
               <div className="w-full md:h-96 h-56  ">
-                <img src={source} alt={name} className="w-full h-full object-cover" />
+                <LazyLoadImage src={source} alt={name} className="w-full h-full object-cover" />
               </div>
               <p>{name}</p>
               <NavLink className="underline hover:text-orange_web" to={url}>
@@ -590,7 +534,7 @@ function Home() {
       < div className="m-10 mb-0 items-center" >
         <h2>Visit Your Nearest Art Gallery</h2>
       </div>
-      <Map layerState={layerState} />
+      <Map />
     </>
   );
 }

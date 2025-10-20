@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { NavLink } from "react-router-dom"
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function HelpCenter() {
     const [search, setSearch] = useState("")
@@ -29,7 +30,7 @@ export default function HelpCenter() {
     return (
         <>
             <div className="relative mb-10">
-                <img
+                <LazyLoadImage
                     src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501395/Red_and_Dark_Brown_Painting_art_Wall_Frame_Mockup_Instagram_post_vvi4qj.png"
                     alt="help center image"
                     className="w-screen h-80 object-cover"

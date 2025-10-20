@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function Catalog() {
     const catalogs = [
@@ -53,7 +54,7 @@ export default function Catalog() {
                     catalogs.map((item) => (
                         <div key={item.id}>
                             <div className="w-full h-80 mb-4">
-                                <img src={item.image} alt={item.name} className="w-full h-full object-cover" />
+                                <LazyLoadImage src={item.image} alt={item.name} className="w-full h-full object-cover" />
                             </div>
                             <Link to={item.link} className="hover:text-blue-600 hover:underline">
                                 {item.name}

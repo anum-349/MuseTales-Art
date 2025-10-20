@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function Error({ error }) {
     const navigate = useNavigate();
@@ -18,7 +19,7 @@ export default function Error({ error }) {
     return (
         <div className="grid sm:grid-cols-[0%,90%] md:grid-cols-[40%,50%] gap-10 items-center">
             <div className="w-full h-full">
-                <img className="w-full h-full" src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501189/error_xhnzsz.png" />
+                <LazyLoadImage className="w-full h-full" src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501189/error_xhnzsz.png" />
             </div>
             <div className="mb-10 mt-10"> 
                 <p className="text-2xl text-eerieBlack">{error.name}</p>

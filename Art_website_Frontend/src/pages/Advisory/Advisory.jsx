@@ -1,6 +1,7 @@
 import { useActionState, useState } from "react"
 import { FaCheck, FaQuoteLeft } from "react-icons/fa"
 import { NavLink, useNavigate } from "react-router-dom"
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function Advisory() {
     const navigate = useNavigate()
@@ -75,7 +76,7 @@ export default function Advisory() {
     return (
         <>
             <div className="relative mb-10">
-                <img
+                <LazyLoadImage
                     src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501038/artAdvisoryBanner_senrrb.avif"
                     alt="art advisory image"
                     className="w-screen h-screen object-cover"
@@ -96,7 +97,7 @@ export default function Advisory() {
 
             <div className="grid md:grid-cols-2 mt-10 ml-20 mr-20 items-center">
                 <div className="w-full h-full bg-blue-100">
-                    <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501042/artAdvisory1_gk4oxe.png" alt="art love" className="w-full h-full object-cover" />
+                    <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501042/artAdvisory1_gk4oxe.png" alt="art love" className="w-full h-full object-cover" />
                 </div>
                 <div className="ml-20  sm:mt-10 md:mt-0">
                     <p className="text-2xl font-bold mb-10">Services & Benefits</p>
@@ -167,7 +168,7 @@ export default function Advisory() {
             <div className="ml-40 mr-40 mt-20 mb-20">
                 <div className="grid md:grid-cols-2 md:ml-20 md:mr-20 items-center">
                     <div className="w-full h-full bg-blue-100">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501042/artAdvisory2_b2te2r.png" alt="art love" className="w-full h-full object-cover" />
+                        <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501042/artAdvisory2_b2te2r.png" alt="art love" className="w-full h-full object-cover" />
                     </div>
                     <div className="sm:mt-10 md:ml-20">
                         <FaQuoteLeft className=" text-5xl" />
@@ -189,7 +190,7 @@ export default function Advisory() {
                         team.map((item) => (
                             <div key={item.name} className="text-center">
                                 <div className="w-48 h-48">
-                                    <img
+                                    <LazyLoadImage
                                         src={item.image}
                                         alt={item.name}
                                         className="w-full h-full object-cover mb-4 rounded-full"
@@ -207,7 +208,7 @@ export default function Advisory() {
             <div className="bg-gray-200 p-10 ">
                 <div className="grid md:grid-cols-2 md:ml-10 md:mr-10 items-center">
                     <div className="w-full h-full ">
-                        <img src="/advisory2.jpg" alt="art love" className="w-full h-full object-cover" />
+                        <LazyLoadImage src="/advisory2.jpg" alt="art love" className="w-full h-full object-cover" />
                     </div>
                     <div className="md:ml-10">
                         <h2 className="text-center sm:mt-10 mb-10">Contact Us</h2>

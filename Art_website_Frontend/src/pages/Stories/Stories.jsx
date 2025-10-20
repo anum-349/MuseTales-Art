@@ -1,4 +1,5 @@
 import { Link, NavLink, Outlet, useNavigate } from "react-router-dom"
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function Stories() {
 
@@ -143,7 +144,7 @@ export default function Stories() {
             <div className="md:ml-32 md:mr-32 m-10">
                 <div className="grid md:grid-cols-[70%,25%] gap-20 items-center mb-10">
                     <div className="w-full h-96">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501050/artOfSummer_bknjcw.png" alt="stories" className="w-full h-full object-fill" />
+                        <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501050/artOfSummer_bknjcw.png" alt="stories" className="w-full h-full object-fill" />
                     </div>
                     <div className="text-center">
                         <p>LATEST STORY</p>
@@ -158,7 +159,7 @@ export default function Stories() {
                         artists.map((item) => (
                             <Link key={item.id} to={item.link} className="hover:scale-110 transition duration-1000 text-center">
                                 <div className="w-full h-[300px]">
-                                    <img src={item.src} alt={item.title} className="w-full h-[300px] object-cover" />
+                                    <LazyLoadImage src={item.src} alt={item.title} className="w-full h-[300px] object-cover" />
                                 </div>
                                 <h2 className="font-semibold text-2xl mt-3">{item.title}</h2>
                                 <p className="p-3">{item.description}</p>
@@ -174,7 +175,7 @@ export default function Stories() {
                             curated.map((item) => (
                                 <Link key={item.id} to={item.link} className="hover:scale-110 transition duration-1000">
                                     <div className="relative  bg-orange_web w-full h-48 ">
-                                        <img
+                                        <LazyLoadImage
                                             src={item.src}
                                             alt={item.name}
                                             className="w-full h-full object-cover"
@@ -203,7 +204,7 @@ export default function Stories() {
                             inspirations.map((item) => (
                                 <Link key={item.id} to={item.link} className="hover:scale-110 transition duration-1000 text-center">
                                     <div className="w-full h-[300px]">
-                                        <img src={item.image} alt={item.title} className="w-full h-full object-cover" />
+                                        <LazyLoadImage src={item.image} alt={item.title} className="w-full h-full object-cover" />
                                     </div>
                                     <h2 className="font-semibold text-xl mt-3 hover:text-orange_web">{item.title}</h2>
                                     <p className="p-3">{item.description}</p>
@@ -216,7 +217,7 @@ export default function Stories() {
                         {education.map((item, index) => (
                             <div key={index} className="text-center">
                                 <div className="w-full h-[300px]">
-                                    <img
+                                    <LazyLoadImage
                                         src={item.image}
                                         alt={item.title}
                                         className="w-full h-full object-cover"

@@ -1,4 +1,5 @@
 import { motion, AnimatePresence } from "framer-motion"
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { useState } from "react"
 import {
     FaInstagram,
@@ -79,7 +80,7 @@ export default function Footer() {
                     <div className="grid sm:grid-cols-1 lg:grid-cols-[40%,auto,auto]  mr-10 ml-10 text-white_web gap-2 md:gap-40 justify-center">
                         <div>
                             <div className="flex  items-center">
-                                <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1760112520/logo_gunlix.png" alt="logo" width={50} height={50} />
+                                <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1760112520/logo_gunlix.png" alt="logo" width={50} height={50} />
                                 <b className="text-orange_web ml-5">MuseTales ART</b>
                             </div>
                             <p>Sign Up to Receive 10% off Your First Order</p>

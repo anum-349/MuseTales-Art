@@ -1,7 +1,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 import { FaCaretRight } from "react-icons/fa6";
-import { NavLink } from "react-router-dom";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function NewsLetter() {
     const [email, setEmail] = useState("")
@@ -20,11 +20,11 @@ export default function NewsLetter() {
         <>
             <div className="grid md:grid-cols-2">
                 <div className="w-full h-full">
-                    <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501045/advisory2_qn3suj.png" alt="newsletter" className="w-full h-full object-cover " />
+                    <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501045/advisory2_qn3suj.png" alt="newsletter" className="w-full h-full object-cover " />
                 </div>
                 <div className="p-20 bg-dim_gray">
                     <div className="flex items-center gap-3 justify-center">
-                            <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1760112520/logo_gunlix.png" alt="logo" width={70} height={70} />
+                            <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1760112520/logo_gunlix.png" alt="logo" width={70} height={70} />
                         <h2 className="text-caramine" >MUSETALES ART</h2>
                     </div>
                     <div className="text-center [&>*]:text-white_web mt-5">

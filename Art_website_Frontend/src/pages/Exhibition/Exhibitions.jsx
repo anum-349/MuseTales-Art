@@ -1,3 +1,5 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 export default function Exhibitions() {
     const exhibitions = [
         {
@@ -87,7 +89,7 @@ export default function Exhibitions() {
                             <a href={item.link} target="_blank" className="hover:scale-110 transition duration-1000">
                                 <div className="flex gap-10">
                                     <div className="flex-shrink-0 w-56 h-56">
-                                        <img src={item.image} alt={item.title} className="w-full h-full object-cover" />
+                                        <LazyLoadImage src={item.image} alt={item.title} className="w-full h-full object-cover" />
                                     </div>
                                     <div className="flex-1">
                                         <h3 className="font-semibold text-xl mb-2">{item.title}</h3>

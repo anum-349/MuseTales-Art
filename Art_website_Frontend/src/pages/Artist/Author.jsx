@@ -4,6 +4,7 @@ import { FaCaretDown, FaBookOpen, FaCircle, FaCirclePlus, FaHeart, FaRegClone, F
 import { FaCaretLeft, FaCaretRight, FaCopy, FaPlusCircle, FaShoppingBag } from "react-icons/fa"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Navigation, Pagination } from "swiper/modules"
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import "swiper/css"
 import "swiper/css/navigation"
@@ -81,7 +82,7 @@ export default function Author() {
             <div>
                 {/* Banner */}
                 <div>
-                    <img
+                    <LazyLoadImage
                         src={authorDetail.thumbnail}
                         alt="images"
                         className="w-screen h-96 object-cover"
@@ -91,7 +92,7 @@ export default function Author() {
                             {authorDetail ? (
                                 <div className="grid md:grid-cols-[20%,50%,10%] grid-cols-[35%,50%,10%]">
                                     <div className="w-[150px] h-[150px] rounded-full">
-                                        <img
+                                        <LazyLoadImage
                                             src={authorDetail.profileImage}
                                             className="w-full h-full object-cover rounded-full"
                                         />
@@ -129,7 +130,7 @@ export default function Author() {
                                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-10 mb-10">
                                     {filteredItems.slice(0, visibleCount).map((item) => (
                                         <div key={item.id} className="bg-white_web p-4 rounded shadow">
-                                            <img
+                                            <LazyLoadImage
                                                 src={item.mainImage}
                                                 alt={item.title}
                                                 className="w-full h-48 object-cover mb-4 rounded"
@@ -188,7 +189,7 @@ export default function Author() {
                             >
                                 {authorDetail.images?.map((img, i) => (
                                     <SwiperSlide key={i} className="w-full h-96">
-                                        <img src={img} alt={`art-${i}`} className="w-full h-96 object-contain" />
+                                        <LazyLoadImage src={img} alt={`art-${i}`} className="w-full h-96 object-contain" />
                                     </SwiperSlide>
                                 ))}
                             </Swiper>
@@ -304,14 +305,14 @@ export default function Author() {
                         <div key={item._id}>
                             <div className="mb-5">
                                 <div className="w-full h-96">
-                                    <img
+                                    <LazyLoadImage
                                         src={item.thumbnail}
                                         alt={item.name}
                                         className="w-full h-full object-cover mb-4 rounded"
                                     />
                                 </div>
                                 <div className="w-[100px] h-[100px] rounded-full mx-auto -mt-[20%]">
-                                    <img
+                                    <LazyLoadImage
                                         src={item.profileImage}
                                         className="w-full h-full object-cover rounded-full"
                                     />

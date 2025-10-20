@@ -1,4 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function Commisions() {
     const artist = [
@@ -20,7 +21,7 @@ export default function Commisions() {
     ]
     return (
         <>
-            <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501320/inspirationArt_ub9emr.webp" alt="images" className="w-screen h-screen object-cover" />
+            <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501320/inspirationArt_ub9emr.webp" alt="images" className="w-screen h-screen object-cover" />
             <div>
                 <div className="m-10">
                     <div>
@@ -90,7 +91,7 @@ export default function Commisions() {
                         artist.map((item) => (
                             <div key={item.name} className="gap-5">
                                 <div className="w-full h-[400px]">
-                                    <img src={item.image} alt={item.name} className="w-full h-full object-scale-down" />
+                                    <LazyLoadImage src={item.image} alt={item.name} className="w-full h-full object-scale-down" />
                                 </div>
                                 <NavLink to={item.link} className={'ml-56 md:ml-36 font-medium hover:text-orange_web'}>
                                     Artist {item.name}

@@ -1,6 +1,7 @@
 import { FaClipboard, FaPenFancy, FaQuoteLeft } from "react-icons/fa";
-import { Fa42Group, FaAddressCard } from "react-icons/fa6";
+import { FaAddressCard } from "react-icons/fa6";
 import { NavLink, useNavigate } from "react-router-dom";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function HowToBuy() {
     const navigate = useNavigate()
@@ -8,7 +9,7 @@ export default function HowToBuy() {
     return (
         <>
             <div className="relative mb-10">
-                <img
+                <LazyLoadImage
                     src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501310/how-to-buy_tv754s.webp"
                     alt="art advisory image"
                     className="w-screen h-96 object-left-top"
@@ -33,7 +34,7 @@ export default function HowToBuy() {
                     </ul>
                 </div>
                 <div className="w-full h-full bg-blue-100">
-                    <img src="/artfair2.png" alt="art love" className="w-full h-full object-cover" />
+                    <LazyLoadImage src="/artfair2.png" alt="art love" className="w-full h-full object-cover" />
                 </div>
             </div>
 
@@ -54,13 +55,13 @@ export default function HowToBuy() {
                         <p>Once you understand the artwork’s dimensions, check to see how it’s packaged. For example, if it’s in a tube, it will need to be framed when it arrives. If it’s in a box or crate, it is likely already ready-to-hang.</p>
                     </div>
                     <div className="w-full h-full bg-blue-100">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501100/buyart_dcj3hm.jpg" alt="art love" className="w-full h-full object-cover" />
+                        <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501100/buyart_dcj3hm.jpg" alt="art love" className="w-full h-full object-cover" />
                     </div>
                 </div>
 
                 <div className="grid md:grid-cols-2 md:ml-52 md:mr-52 md:mt-20 m-10 items-center gap-20">
                     <div className="w-full h-full bg-blue-100">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501051/artist_cfyy2c.jpg" alt="art love" className="w-full h-full object-cover" />
+                        <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501051/artist_cfyy2c.jpg" alt="art love" className="w-full h-full object-cover" />
                     </div>
                     <div>
                         <p>Next, read the description. This critical piece often includes helpful information to give you a better sense of the work, the artist, their inspiration, and art practice, as well as further information on other works in their portfolio. Read the artist’s name and the city they’re based in—explore their profile and get to know your artist. And if you ever need more context around an artwork you love, reach out to our curators who are happy to advise throughout the art buying process.</p>
@@ -71,13 +72,13 @@ export default function HowToBuy() {
                     <div>
                         <p>Last but not least, make sure you understand the price, which includes shipping but not taxes, depending on where you are in the world and where the art is coming from. You can always add your work to your shopping cart to calculate an order total after inputting a shipping address. Remember that you can always make an offer on a listing. We recommend making an offer within 80% of the asking price, if you’d like the artist to accept.</p>                </div>
                     <div className="w-full h-full bg-blue-100">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501102/curtural_iyptfm.jpg" alt="art love" className="w-full h-full object-cover" />
+                        <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501102/curtural_iyptfm.jpg" alt="art love" className="w-full h-full object-cover" />
                     </div>
                 </div>
             </div>
             <div id="accessing">
                 <div className="relative mt-10 mb-10">
-                    <img
+                    <LazyLoadImage
                         src="/front-view-man-holding-paint-palette.jpg"
                         alt="art advisory image"
                         className="w-screen h-96 object-left-bottom"
@@ -96,13 +97,13 @@ export default function HowToBuy() {
 
                 <div className="grid md:grid-cols-3 gap-10 m-10">
                     <div className="w-full h-full bg-blue-100">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501392/jar-with-brushes-near-black-wall_s89rkk.jpg" alt="art love" className="w-full h-full object-cover" />
+                        <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501392/jar-with-brushes-near-black-wall_s89rkk.jpg" alt="art love" className="w-full h-full object-cover" />
                     </div>
                     <div className="w-full h-full bg-blue-100">
-                        <img src="/graffiti-children-bicycle.jpg" alt="art love" className="w-full h-full object-cover" />
+                        <LazyLoadImage src="/graffiti-children-bicycle.jpg" alt="art love" className="w-full h-full object-cover" />
                     </div>
                     <div className="w-full h-full bg-blue-100">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501208/flat-lay-paint-brushes_1_dv8ymq.jpg" alt="art love" className="w-full h-full object-cover" />
+                        <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501208/flat-lay-paint-brushes_1_dv8ymq.jpg" alt="art love" className="w-full h-full object-cover" />
                     </div>
                 </div>
 
@@ -113,7 +114,7 @@ export default function HowToBuy() {
 
             <div id="placement">
                 <div className="relative mt-10 mb-10">
-                    <img
+                    <LazyLoadImage
                         src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501024/aboutBanner2_u4bexs.webp"
                         alt="art advisory image"
                         className="w-screen h-96 object-cover"
@@ -139,13 +140,13 @@ export default function HowToBuy() {
                         <button className="border bg-black text-white_web ml-[25%] mt-5 hover:bg-orange_web hover:text-white_web pl-10 pr-10" onClick={() => { navigate('/collections') }}>Explore the Collection</button>
                     </div>
                     <div className="w-full h-full bg-blue-100">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501053/ArtStyle2_grdrv0.jpg" alt="art love" className="w-full h-full object-cover" />
+                        <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501053/ArtStyle2_grdrv0.jpg" alt="art love" className="w-full h-full object-cover" />
                     </div>
                 </div>
 
                 <div className="grid md:grid-cols-2 md:ml-52 md:mr-52 m-10 mt-20 items-center gap-20">
                     <div className="w-full h-72 bg-blue-100">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501071/bedroom1_vntnmy.jpg" alt="art love" className="w-full h-full object-top" />
+                        <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501071/bedroom1_vntnmy.jpg" alt="art love" className="w-full h-full object-top" />
                     </div>
                     <div>
                         <p className="text-4xl font-semibold mb-3">Orientation</p>
@@ -159,13 +160,13 @@ export default function HowToBuy() {
                         <p>In gallery spaces, two-dimensional works are typically hung so that the center of the piece falls at eye level (56 to 60 inches from floor). This standard is a useful rule of thumb for hanging works on blank walls. When there’s a couch, headboard, fireplace mantel, or other piece of furniture involved, ensure that the work has some breathing room while keeping the look cohesive.</p>
                     </div>
                     <div className="w-full h-full bg-blue-100">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501036/advisory_ymrmcx.jpg" alt="art love" className="w-full h-full object-cover" />
+                        <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501036/advisory_ymrmcx.jpg" alt="art love" className="w-full h-full object-cover" />
                     </div>
                 </div>
 
                 <div className="grid md:grid-cols-2 md:ml-52 md:mr-52 m-10 mt-20 items-center gap-20">
                     <div className="w-full h-full bg-blue-100">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501042/artfair_p3s7nl.png" alt="art love" className="w-full h-full object-cover" />
+                        <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501042/artfair_p3s7nl.png" alt="art love" className="w-full h-full object-cover" />
                     </div>
                     <div>
                         <p className="text-4xl font-semibold mb-3">Salon Walls</p>
@@ -176,7 +177,7 @@ export default function HowToBuy() {
 
                 <div className="grid md:grid-cols-2 md:pl-52 md:pr-52 p-20 mt-20 items-center gap-20 bg-gray-200">
                      <div className="w-full h-full bg-blue-100">
-                        <img src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501100/curator_4_gfqtbi.jpg" alt="art love" className="w-full h-full object-cover" />
+                        <LazyLoadImage src="https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501100/curator_4_gfqtbi.jpg" alt="art love" className="w-full h-full object-cover" />
                     </div>
                     <div>
                         <p className="text-4xl font-semibold mb-3">Preview Art on Your Wall</p>
