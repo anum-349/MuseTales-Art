@@ -1,19 +1,19 @@
 # 🎨 Muse Tales
 
-**Muse Tales** is a creative storytelling and art-sharing platform where users can express themselves through stories and art. The platform is designed with a **modern, minimal, and engaging UI** that makes it easy to share experiences, connect with others, and explore inspiring tales.
+**Muse Tales** is a creative storytelling and art-sharing platform where users can express themselves through stories, art, and multimedia content. With a modern, minimal, and engaging UI, the platform makes it easy to share experiences, connect with others, and explore inspiring tales.
 
-This project is currently under development 🚧, and I’m actively building new features to make it a space where creativity meets technology.
+Recent updates include **Google API and Mapbox integration**, allowing users to highlight and explore art galleries on an interactive map, combining creativity with geospatial visualization.
 
 ---
 
 ## ✨ Features
 
-* 🖼️ Portfolio Showcase – Artists can upload and display their artwork.
+* 🖼️ **Portfolio Showcase** – Artists can upload and display their artwork.
 * 🎭 **Art & Expression** – Space for visual storytelling: drawings, calligraphy, and creative sketches.
 * 👥 **Community Engagement** – Read, like, and comment on others’ stories.
 * 🔍 **Search & Explore** – Discover tales based on themes, moods, or genres.
+* 📍 **Gallery Map** – Highlight art galleries using Google API and Mapbox maps.
 * 📱 **Responsive UI** – Built with Tailwind CSS for modern UI and smooth UX.
-* 🔍 Explore & Discover – Visitors can browse through different artists and artworks.
 * 🔒 **Authentication** – Secure sign-up/login with user dashboards.
 
 ---
@@ -22,7 +22,7 @@ This project is currently under development 🚧, and I’m actively building ne
 
 **Frontend:**
 
-* React.js 
+* React.js
 * Tailwind CSS
 
 **Backend:**
@@ -35,6 +35,7 @@ This project is currently under development 🚧, and I’m actively building ne
 
 * JWT Authentication
 * REST APIs
+* Google API & Mapbox integration
 * Git & GitHub for version control
 
 ---
@@ -68,33 +69,28 @@ The-Muse-Tales/
 
 ## 🚀 Installation & Setup
 
-1. **Clone the repository**
+### 1. Clone the repository
 
-   ```bash
-   git clone https://github.com/anum-349/The-Muse-Tales.git
-   cd The-Muse-Tales
-   ```
+```bash
+git clone https://github.com/anum-349/MuseTales-Art.git
+cd MuseTales-Art
+```
 
-2. **Install dependencies**
+### 2. Setup Frontend
 
-   ```bash
-   cd Art_website_Frontend
-   npm install
-   ```
+```bash
+cd Art_website_Frontend
+npm install
+npm run dev
+```
 
-3. **Run the development server**
+### 3. Setup Backend
 
-   ```bash
-   npm run dev
-   ```
-
-4. **Backend Setup**
-
-   ```bash
-   cd Art_Website_Backend
-   npm install
-   node app.js
-   ```
+```bash
+cd Art_Website_Backend
+npm install
+node app.js
+```
 
 ---
 
@@ -104,6 +100,9 @@ The-Muse-Tales/
 * ✅ Frontend setup with React (Vite) + Tailwind
 * 🔲 User authentication (login/signup)
 * 🔲 Artist profile pages
+* 🔲 Google API & Mapbox integration for gallery mapping
+* 🔲 Advanced search & community features
+
 ---
 
 ## 👩‍💻 About Me
@@ -111,14 +110,14 @@ The-Muse-Tales/
 I’m **Anum Kousar**, a Software Engineering undergraduate passionate about:
 
 * 🚀 Full-stack development (React.js, Node.js, Express.js, MongoDB)
-* 🧠 AI/ML (worked on Career Guidance Chatbot, Heart Disease Prediction, Spam SMS detection, etc.)
-* 🎨 Creativity (painting, drawing, calligraphy, poetry, crafting ✨)
+* 🧠 AI/ML (Career Guidance Chatbot, Heart Disease Prediction, Spam SMS detection)
+* 🎨 Creativity (painting, drawing, calligraphy, poetry, crafting)
 
-Muse Tales is a reflection of combining **technology + creativity**, giving people a platform to share and connect through stories.
+Muse Tales combines technology with artistic expression, creating a platform for artists and storytellers to connect and showcase their work.
 
 ---
 
 ## 📬 Contact
 
-📌 [LinkedIn](https://www.linkedin.com/in/anum-kousar-984406294/)
-📌 Email: [anumkousar552@gmail.com](mailto:anumkousar552@gmail.com)
+* **Email:** [anumkousar552@gmail.com](mailto:anumkousar552@gmail.com)
+* **LinkedIn:** [Your LinkedIn Profile]
