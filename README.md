@@ -120,4 +120,4 @@ Muse Tales combines technology with artistic expression, creating a platform for
 ## 📬 Contact
 
 * **Email:** [anumkousar552@gmail.com](mailto:anumkousar552@gmail.com)
-* **LinkedIn:** [Your LinkedIn Profile]
+* **LinkedIn:** [https://www.linkedin.com/in/anum-kousar-984406294/](https://www.linkedin.com/in/anum-kousar-984406294/)
