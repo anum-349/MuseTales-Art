@@ -1,123 +1,74 @@
-# 🎨 Muse Tales
+# Muse Tales Art
 
-**Muse Tales** is a creative storytelling and art-sharing platform where users can express themselves through stories, art, and multimedia content. With a modern, minimal, and engaging UI, the platform makes it easy to share experiences, connect with others, and explore inspiring tales.
+Muse Tales Art is an art discovery and collecting website. Visitors can browse artwork and categories, explore artist profiles and exhibitions, read stories and articles, and view arts locations on an interactive map. The site also includes account sign-in, a cart, and forms for art advice, support, feedback, and accessibility requests.
 
-Recent updates include **Google API and Mapbox integration**, allowing users to highlight and explore art galleries on an interactive map, combining creativity with geospatial visualization.
+## Features
 
----
+- Browse artwork, categories, artists, and artist profiles.
+- Explore stories, blog articles, exhibitions, and art fairs.
+- View locations on a Mapbox-powered map.
+- Register and sign in with email/password or Google.
+- Manage a cart and submit advisory, support, feedback, and accessibility forms.
+- Responsive React interface with dedicated buying, returns, privacy, and help pages.
 
-## ✨ Features
+## Tech stack
 
-* 🖼️ **Portfolio Showcase** – Artists can upload and display their artwork.
-* 🎭 **Art & Expression** – Space for visual storytelling: drawings, calligraphy, and creative sketches.
-* 👥 **Community Engagement** – Read, like, and comment on others’ stories.
-* 🔍 **Search & Explore** – Discover tales based on themes, moods, or genres.
-* 📍 **Gallery Map** – Highlight art galleries using Google API and Mapbox maps.
-* 📱 **Responsive UI** – Built with Tailwind CSS for modern UI and smooth UX.
-* 🔒 **Authentication** – Secure sign-up/login with user dashboards.
+- **Frontend:** React 19, Vite, React Router, Tailwind CSS
+- **Backend:** Node.js, Express 5, MongoDB, Mongoose
+- **Integrations:** Google OAuth, Mapbox
 
----
+## Project layout
 
-## 🛠️ Tech Stack
-
-**Frontend:**
-
-* React.js
-* Tailwind CSS
-
-**Backend:**
-
-* Node.js
-* Express.js
-* MongoDB (Mongoose ODM)
-
-**Other Tools & Libraries:**
-
-* JWT Authentication
-* REST APIs
-* Google API & Mapbox integration
-* Git & GitHub for version control
-
----
-
-## 📂 Project Structure
-
-```
-The-Muse-Tales/
-│
-├── Art_Website_Backend/        # Backend (Node.js + Express)
-│   ├── Config/                 # DB config
-│   ├── Controllers/            # Business logic
-│   ├── Middlewares/            # Authentication, error handling
-│   ├── Models/                 # MongoDB models
-│   ├── Routes/                 # API routes
-│   ├── app.js                  # Backend entry point
-│   ├── package.json
-│
-├── Art_website_Frontend/       # Frontend (React + Vite + Tailwind)
-│   ├── public/                 # Static assets
-│   ├── src/                    # React components, pages
-│   ├── index.html              # Entry HTML
-│   ├── package.json
-│   ├── tailwind.config.js
-│   └── vite.config.js
-│
-└── README.md                   # Documentation
+```text
+MuseTales-Art/
+├── Art_website_Frontend/   # React/Vite application
+└── Art_Website_Backend/    # Express API and MongoDB models
 ```
 
----
+## Requirements
 
-## 🚀 Installation & Setup
+- Node.js and npm
+- A running MongoDB instance or a MongoDB connection URI
+- A Mapbox access token for the map
+- Google OAuth credentials if Google sign-in is required
 
-### 1. Clone the repository
+## Local setup
 
-```bash
-git clone https://github.com/anum-349/MuseTales-Art.git
-cd MuseTales-Art
-```
+### 1. Configure the frontend
 
-### 2. Setup Frontend
-
-```bash
+```powershell
 cd Art_website_Frontend
+Copy-Item .env.example .env
 npm install
 npm run dev
 ```
 
-### 3. Setup Backend
+Set `VITE_MAPBOX_TOKEN` in `Art_website_Frontend/.env` to a Mapbox access token. Vite serves the frontend at `http://localhost:5173` by default.
 
-```bash
+### 2. Configure and run the backend
+
+In a second terminal:
+
+```powershell
 cd Art_Website_Backend
+Copy-Item .env.example .env
 npm install
 node app.js
 ```
 
----
+Set `MONGO_URI` to your MongoDB connection string and `JWT_SECRET` to a strong, private signing secret in `Art_Website_Backend/.env`. The API listens on `http://localhost:5000`; `GET /test` can be used to check that it is running.
 
-## 📌 Roadmap
+To enable Google sign-in, configure `CLIENT_ID`, `GOOGLE_CLIENT_ID`, and `CLIENT_SECRET` with credentials from the same Google OAuth client. The frontend Google OAuth client ID is currently configured in `Art_website_Frontend/src/main.jsx` and must match the backend client ID.
 
-* ✅ Backend setup with Express & MongoDB
-* ✅ Frontend setup with React (Vite) + Tailwind
-* 🔲 User authentication (login/signup)
-* 🔲 Artist profile pages
-* 🔲 Google API & Mapbox integration for gallery mapping
-* 🔲 Advanced search & community features
+## Useful commands
 
----
+From `Art_website_Frontend`:
 
-## 👩‍💻 About Me
+```bash
+npm run dev      # Start the Vite development server
+npm run build    # Build the frontend for production
+npm run preview  # Preview the production build locally
+npm run lint     # Run ESLint
+```
 
-I’m **Anum Kousar**, a Software Engineering undergraduate passionate about:
-
-* 🚀 Full-stack development (React.js, Node.js, Express.js, MongoDB)
-* 🧠 AI/ML (Career Guidance Chatbot, Heart Disease Prediction, Spam SMS detection)
-* 🎨 Creativity (painting, drawing, calligraphy, poetry, crafting)
-
-Muse Tales combines technology with artistic expression, creating a platform for artists and storytellers to connect and showcase their work.
-
----
-
-## 📬 Contact
-
-* **Email:** [anumkousar552@gmail.com](mailto:anumkousar552@gmail.com)
-* **LinkedIn:** [https://www.linkedin.com/in/anum-kousar-984406294/](https://www.linkedin.com/in/anum-kousar-984406294/)
+The backend currently starts with `node app.js`; its `package.json` does not define a start script.

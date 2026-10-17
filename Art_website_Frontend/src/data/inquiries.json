@@ -1,0 +1,132 @@
+[
+  {
+    "firstName": "Bilal",
+    "lastName": "Alvarez",
+    "email": "inquiry1.bilal@example.com",
+    "budget": "Under $500",
+    "detail": "Looking for a large abstract piece for an office lobby.",
+    "createdAt": {
+      "$date": "2026-08-19T20:04:40.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-19T20:04:40.000Z"
+    }
+  },
+  {
+    "firstName": "David",
+    "lastName": "Siddiqui",
+    "email": "inquiry2.david@example.com",
+    "budget": "$500 - $1000",
+    "detail": "I'd like a commissioned portrait of my grandparents.",
+    "createdAt": {
+      "$date": "2026-09-30T19:30:42.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-30T19:30:42.000Z"
+    }
+  },
+  {
+    "firstName": "Farhan",
+    "lastName": "Hughes",
+    "email": "inquiry3.farhan@example.com",
+    "budget": "$1000 - $2000",
+    "detail": "Interested in a pair of matching landscapes for a hallway.",
+    "createdAt": {
+      "$date": "2026-09-06T04:48:22.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-06T04:48:22.000Z"
+    }
+  },
+  {
+    "firstName": "Hamza",
+    "lastName": "Raza",
+    "email": "inquiry4.hamza@example.com",
+    "budget": "$2000 - $5000",
+    "detail": "Do you have sculptures suitable for outdoor use?",
+    "createdAt": {
+      "$date": "2026-10-16T01:58:49.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-16T01:58:49.000Z"
+    }
+  },
+  {
+    "firstName": "Jonas",
+    "lastName": "Ahmed",
+    "email": "inquiry5.jonas@example.com",
+    "budget": "$5000 - $10000",
+    "detail": "I need three small works for a gallery wall in a rented flat.",
+    "createdAt": {
+      "$date": "2026-10-03T08:41:49.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-10-03T08:41:49.000Z"
+    }
+  },
+  {
+    "firstName": "Liam",
+    "lastName": "Alvarez",
+    "email": "inquiry6.liam@example.com",
+    "budget": "Under $500",
+    "detail": "Looking for a monochrome piece to match a grey living room.",
+    "createdAt": {
+      "$date": "2026-08-23T04:06:40.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-23T04:06:40.000Z"
+    }
+  },
+  {
+    "firstName": "Nikolai",
+    "lastName": "Siddiqui",
+    "email": "inquiry7.nikolai@example.com",
+    "budget": "$500 - $1000",
+    "detail": "Can an artist paint a custom seascape in blue and cream?",
+    "createdAt": {
+      "$date": "2026-09-03T23:14:01.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-03T23:14:01.000Z"
+    }
+  },
+  {
+    "firstName": "Ayesha",
+    "lastName": "Hughes",
+    "email": "inquiry8.ayesha@example.com",
+    "budget": "$1000 - $2000",
+    "detail": "Searching for a limited-edition photograph as a wedding gift.",
+    "createdAt": {
+      "$date": "2026-09-17T03:04:12.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-17T03:04:12.000Z"
+    }
+  },
+  {
+    "firstName": "Carmen",
+    "lastName": "Raza",
+    "email": "inquiry9.carmen@example.com",
+    "budget": "$2000 - $5000",
+    "detail": "I'd like to start a collection and need advice on where to begin.",
+    "createdAt": {
+      "$date": "2026-08-29T05:57:07.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-29T05:57:07.000Z"
+    }
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Ahmed",
+    "email": "inquiry10.emily@example.com",
+    "budget": "$5000 - $10000",
+    "detail": "Interested in textured works for a restaurant dining room.",
+    "createdAt": {
+      "$date": "2026-09-27T11:30:52.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-27T11:30:52.000Z"
+    }
+  }
+]

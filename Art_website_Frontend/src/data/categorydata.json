@@ -1,0 +1,3712 @@
+[
+  {
+    "artId": "PNT-001",
+    "title": "Morning Light on Quiet Water",
+    "price": 360,
+    "author": "Daniel Moreau",
+    "detail": "Morning Light on Quiet Water is an original oil on canvas by Daniel Moreau, made in a expressionism style. A confident, painterly piece with visible brushwork and a balanced palette.",
+    "size": "18 x 24 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/paintings-1-1/800/1000",
+      "https://picsum.photos/seed/paintings-1-2/800/1000",
+      "https://picsum.photos/seed/paintings-1-3/800/1000",
+      "https://picsum.photos/seed/paintings-1-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/paintings-1-1/800/1000",
+    "country": "France",
+    "shipping": "Included",
+    "trustScore": "95%",
+    "category": [
+      "paintings"
+    ],
+    "likes": 157,
+    "created_at": {
+      "$date": "2026-02-06T14:49:09.000Z"
+    }
+  },
+  {
+    "artId": "PNT-002",
+    "title": "The Long Way Home",
+    "price": 860,
+    "author": "Isabella Rossi",
+    "detail": "The Long Way Home is an original mixed media on canvas by Isabella Rossi, made in a realism style. A confident, painterly piece with visible brushwork and a balanced palette.",
+    "size": "18 x 24 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/paintings-2-1/800/1000",
+      "https://picsum.photos/seed/paintings-2-2/800/1000",
+      "https://picsum.photos/seed/paintings-2-3/800/1000",
+      "https://picsum.photos/seed/paintings-2-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/paintings-2-1/800/1000",
+    "country": "Italy",
+    "shipping": "Included",
+    "trustScore": "99%",
+    "category": [
+      "paintings"
+    ],
+    "likes": 2070,
+    "created_at": {
+      "$date": "2026-04-05T03:29:01.000Z"
+    }
+  },
+  {
+    "artId": "PNT-003",
+    "title": "Terracotta Afternoon",
+    "price": 1240,
+    "author": "Mateo Silva",
+    "detail": "Terracotta Afternoon is an original acrylic on canvas by Mateo Silva, made in a impressionism style. A confident, painterly piece with visible brushwork and a balanced palette.",
+    "size": "24 x 30 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/paintings-3-1/800/1000",
+      "https://picsum.photos/seed/paintings-3-2/800/1000",
+      "https://picsum.photos/seed/paintings-3-3/800/1000",
+      "https://picsum.photos/seed/paintings-3-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/paintings-3-1/800/1000",
+    "country": "Portugal",
+    "shipping": "Included",
+    "trustScore": "99%",
+    "category": [
+      "paintings"
+    ],
+    "likes": 385,
+    "created_at": {
+      "$date": "2026-06-21T16:38:22.000Z"
+    }
+  },
+  {
+    "artId": "PNT-004",
+    "title": "Between Two Rains",
+    "price": 2730,
+    "author": "Chloe Dubois",
+    "detail": "Between Two Rains is an original acrylic on canvas by Chloe Dubois, made in a impressionism style. A confident, painterly piece with visible brushwork and a balanced palette.",
+    "size": "30 x 40 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/paintings-4-1/800/1000",
+      "https://picsum.photos/seed/paintings-4-2/800/1000",
+      "https://picsum.photos/seed/paintings-4-3/800/1000",
+      "https://picsum.photos/seed/paintings-4-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/paintings-4-1/800/1000",
+    "country": "Canada",
+    "shipping": "Included",
+    "trustScore": "98%",
+    "category": [
+      "paintings"
+    ],
+    "likes": 2223,
+    "created_at": {
+      "$date": "2026-05-24T08:10:32.000Z"
+    }
+  },
+  {
+    "artId": "PNT-005",
+    "title": "Harvest of Small Things",
+    "price": 5880,
+    "author": "Kenji Watanabe",
+    "detail": "Harvest of Small Things is an original oil on canvas by Kenji Watanabe, made in a realism style. A confident, painterly piece with visible brushwork and a balanced palette.",
+    "size": "40 x 60 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/paintings-5-1/800/1000",
+      "https://picsum.photos/seed/paintings-5-2/800/1000",
+      "https://picsum.photos/seed/paintings-5-3/800/1000",
+      "https://picsum.photos/seed/paintings-5-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/paintings-5-1/800/1000",
+    "country": "Japan",
+    "shipping": "$40",
+    "trustScore": "97%",
+    "category": [
+      "paintings"
+    ],
+    "likes": 248,
+    "created_at": {
+      "$date": "2026-04-01T01:04:36.000Z"
+    }
+  },
+  {
+    "artId": "PNT-006",
+    "title": "Blue Hour Market",
+    "price": 220,
+    "author": "Sofia Lindqvist",
+    "detail": "Blue Hour Market is an original mixed media on canvas by Sofia Lindqvist, made in a impressionism style. A confident, painterly piece with visible brushwork and a balanced palette.",
+    "size": "12 x 16 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/paintings-6-1/800/1000",
+      "https://picsum.photos/seed/paintings-6-2/800/1000",
+      "https://picsum.photos/seed/paintings-6-3/800/1000",
+      "https://picsum.photos/seed/paintings-6-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/paintings-6-1/800/1000",
+    "country": "Sweden",
+    "shipping": "Included",
+    "trustScore": "97%",
+    "category": [
+      "paintings"
+    ],
+    "likes": 440,
+    "created_at": {
+      "$date": "2025-12-14T21:26:23.000Z"
+    }
+  },
+  {
+    "artId": "PNT-007",
+    "title": "Window Seat, Late Train",
+    "price": 630,
+    "author": "Oliver Bennett",
+    "detail": "Window Seat, Late Train is an original mixed media on canvas by Oliver Bennett, made in a contemporary style. A confident, painterly piece with visible brushwork and a balanced palette.",
+    "size": "40 x 60 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/paintings-7-1/800/1000",
+      "https://picsum.photos/seed/paintings-7-2/800/1000",
+      "https://picsum.photos/seed/paintings-7-3/800/1000",
+      "https://picsum.photos/seed/paintings-7-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/paintings-7-1/800/1000",
+    "country": "United Kingdom",
+    "shipping": "Included",
+    "trustScore": "94%",
+    "category": [
+      "paintings"
+    ],
+    "likes": 172,
+    "created_at": {
+      "$date": "2026-01-23T15:49:19.000Z"
+    }
+  },
+  {
+    "artId": "PNT-008",
+    "title": "Orchard in Memory",
+    "price": 1350,
+    "author": "Zainab Qureshi",
+    "detail": "Orchard in Memory is an original oil on canvas by Zainab Qureshi, made in a impressionism style. A confident, painterly piece with visible brushwork and a balanced palette.",
+    "size": "36 x 48 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/paintings-8-1/800/1000",
+      "https://picsum.photos/seed/paintings-8-2/800/1000",
+      "https://picsum.photos/seed/paintings-8-3/800/1000",
+      "https://picsum.photos/seed/paintings-8-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/paintings-8-1/800/1000",
+    "country": "Pakistan",
+    "shipping": "Included",
+    "trustScore": "97%",
+    "category": [
+      "paintings"
+    ],
+    "likes": 186,
+    "created_at": {
+      "$date": "2026-08-27T05:22:41.000Z"
+    }
+  },
+  {
+    "artId": "PNT-009",
+    "title": "Salt and Ember",
+    "price": 4160,
+    "author": "Arjun Mehta",
+    "detail": "Salt and Ember is an original mixed media on canvas by Arjun Mehta, made in a contemporary style. A confident, painterly piece with visible brushwork and a balanced palette.",
+    "size": "12 x 16 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/paintings-9-1/800/1000",
+      "https://picsum.photos/seed/paintings-9-2/800/1000",
+      "https://picsum.photos/seed/paintings-9-3/800/1000",
+      "https://picsum.photos/seed/paintings-9-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/paintings-9-1/800/1000",
+    "country": "India",
+    "shipping": "Included",
+    "trustScore": "92%",
+    "category": [
+      "paintings"
+    ],
+    "likes": 1924,
+    "created_at": {
+      "$date": "2026-04-23T21:58:37.000Z"
+    }
+  },
+  {
+    "artId": "PNT-010",
+    "title": "A Room Without Walls",
+    "price": 5740,
+    "author": "Layla Rahman",
+    "detail": "A Room Without Walls is an original oil on canvas by Layla Rahman, made in a impressionism style. A confident, painterly piece with visible brushwork and a balanced palette.",
+    "size": "24 x 36 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/paintings-10-1/800/1000",
+      "https://picsum.photos/seed/paintings-10-2/800/1000",
+      "https://picsum.photos/seed/paintings-10-3/800/1000",
+      "https://picsum.photos/seed/paintings-10-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/paintings-10-1/800/1000",
+    "country": "Bangladesh",
+    "shipping": "$40",
+    "trustScore": "96%",
+    "category": [
+      "paintings"
+    ],
+    "likes": 672,
+    "created_at": {
+      "$date": "2026-03-16T06:18:30.000Z"
+    }
+  },
+  {
+    "artId": "PHO-001",
+    "title": "Fog Over Terraced Fields",
+    "price": 290,
+    "author": "Tomas Novak",
+    "detail": "Fog Over Terraced Fields is an original silver gelatin print by Tomas Novak, made in a documentary style. Printed on museum-grade paper, with deep tonal range and sharp detail.",
+    "size": "36 x 48 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/photography-1-1/800/1000",
+      "https://picsum.photos/seed/photography-1-2/800/1000",
+      "https://picsum.photos/seed/photography-1-3/800/1000",
+      "https://picsum.photos/seed/photography-1-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/photography-1-1/800/1000",
+    "country": "Czech Republic",
+    "shipping": "Included",
+    "trustScore": "100%",
+    "category": [
+      "photography"
+    ],
+    "likes": 241,
+    "created_at": {
+      "$date": "2026-04-28T06:29:52.000Z"
+    }
+  },
+  {
+    "artId": "PHO-002",
+    "title": "Neon Rain, Empty Street",
+    "price": 950,
+    "author": "Hannah Fischer",
+    "detail": "Neon Rain, Empty Street is an original digital c-type print by Hannah Fischer, made in a documentary style. Printed on museum-grade paper, with deep tonal range and sharp detail.",
+    "size": "12 x 16 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/photography-2-1/800/1000",
+      "https://picsum.photos/seed/photography-2-2/800/1000",
+      "https://picsum.photos/seed/photography-2-3/800/1000",
+      "https://picsum.photos/seed/photography-2-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/photography-2-1/800/1000",
+    "country": "Germany",
+    "shipping": "Included",
+    "trustScore": "95%",
+    "category": [
+      "photography"
+    ],
+    "likes": 1932,
+    "created_at": {
+      "$date": "2026-03-05T09:01:22.000Z"
+    }
+  },
+  {
+    "artId": "PHO-003",
+    "title": "Last Ferry at Dusk",
+    "price": 1080,
+    "author": "Noah Andersen",
+    "detail": "Last Ferry at Dusk is an original silver gelatin print by Noah Andersen, made in a documentary style. Printed on museum-grade paper, with deep tonal range and sharp detail.",
+    "size": "16 x 20 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/photography-3-1/800/1000",
+      "https://picsum.photos/seed/photography-3-2/800/1000",
+      "https://picsum.photos/seed/photography-3-3/800/1000",
+      "https://picsum.photos/seed/photography-3-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/photography-3-1/800/1000",
+    "country": "Denmark",
+    "shipping": "$40",
+    "trustScore": "97%",
+    "category": [
+      "photography"
+    ],
+    "likes": 1419,
+    "created_at": {
+      "$date": "2026-04-14T02:35:24.000Z"
+    }
+  },
+  {
+    "artId": "PHO-004",
+    "title": "Concrete Cathedral",
+    "price": 4060,
+    "author": "Elena Marchetti",
+    "detail": "Concrete Cathedral is an original archival pigment print by Elena Marchetti, made in a street photography style. Printed on museum-grade paper, with deep tonal range and sharp detail.",
+    "size": "12 x 16 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/photography-4-1/800/1000",
+      "https://picsum.photos/seed/photography-4-2/800/1000",
+      "https://picsum.photos/seed/photography-4-3/800/1000",
+      "https://picsum.photos/seed/photography-4-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/photography-4-1/800/1000",
+    "country": "Italy",
+    "shipping": "Included",
+    "trustScore": "95%",
+    "category": [
+      "photography"
+    ],
+    "likes": 1781,
+    "created_at": {
+      "$date": "2026-02-14T07:42:42.000Z"
+    }
+  },
+  {
+    "artId": "PHO-005",
+    "title": "Desert Road, 5 a.m.",
+    "price": 6130,
+    "author": "Lucas Ferreira",
+    "detail": "Desert Road, 5 a.m. is an original digital c-type print by Lucas Ferreira, made in a documentary style. Printed on museum-grade paper, with deep tonal range and sharp detail.",
+    "size": "12 x 16 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/photography-5-1/800/1000",
+      "https://picsum.photos/seed/photography-5-2/800/1000",
+      "https://picsum.photos/seed/photography-5-3/800/1000",
+      "https://picsum.photos/seed/photography-5-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/photography-5-1/800/1000",
+    "country": "Brazil",
+    "shipping": "Included",
+    "trustScore": "92%",
+    "category": [
+      "photography"
+    ],
+    "likes": 1809,
+    "created_at": {
+      "$date": "2026-02-18T09:53:14.000Z"
+    }
+  },
+  {
+    "artId": "PHO-006",
+    "title": "Laundry Lines of the Old Town",
+    "price": 330,
+    "author": "Nadia Haddad",
+    "detail": "Laundry Lines of the Old Town is an original archival pigment print by Nadia Haddad, made in a street photography style. Printed on museum-grade paper, with deep tonal range and sharp detail.",
+    "size": "36 x 48 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/photography-6-1/800/1000",
+      "https://picsum.photos/seed/photography-6-2/800/1000",
+      "https://picsum.photos/seed/photography-6-3/800/1000",
+      "https://picsum.photos/seed/photography-6-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/photography-6-1/800/1000",
+    "country": "Lebanon",
+    "shipping": "Included",
+    "trustScore": "99%",
+    "category": [
+      "photography"
+    ],
+    "likes": 1294,
+    "created_at": {
+      "$date": "2026-05-15T00:49:59.000Z"
+    }
+  },
+  {
+    "artId": "PHO-007",
+    "title": "Winter Light in the Station",
+    "price": 600,
+    "author": "Daniel Moreau",
+    "detail": "Winter Light in the Station is an original digital c-type print by Daniel Moreau, made in a minimalism style. Printed on museum-grade paper, with deep tonal range and sharp detail.",
+    "size": "24 x 30 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/photography-7-1/800/1000",
+      "https://picsum.photos/seed/photography-7-2/800/1000",
+      "https://picsum.photos/seed/photography-7-3/800/1000",
+      "https://picsum.photos/seed/photography-7-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/photography-7-1/800/1000",
+    "country": "France",
+    "shipping": "Included",
+    "trustScore": "93%",
+    "category": [
+      "photography"
+    ],
+    "likes": 922,
+    "created_at": {
+      "$date": "2026-01-23T22:20:02.000Z"
+    }
+  },
+  {
+    "artId": "PHO-008",
+    "title": "Salt Flats Mirror",
+    "price": 1330,
+    "author": "Isabella Rossi",
+    "detail": "Salt Flats Mirror is an original silver gelatin print by Isabella Rossi, made in a documentary style. Printed on museum-grade paper, with deep tonal range and sharp detail.",
+    "size": "24 x 30 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/photography-8-1/800/1000",
+      "https://picsum.photos/seed/photography-8-2/800/1000",
+      "https://picsum.photos/seed/photography-8-3/800/1000",
+      "https://picsum.photos/seed/photography-8-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/photography-8-1/800/1000",
+    "country": "Italy",
+    "shipping": "$40",
+    "trustScore": "99%",
+    "category": [
+      "photography"
+    ],
+    "likes": 656,
+    "created_at": {
+      "$date": "2026-07-24T19:02:42.000Z"
+    }
+  },
+  {
+    "artId": "PHO-009",
+    "title": "The Fisherman's Hands",
+    "price": 4350,
+    "author": "Mateo Silva",
+    "detail": "The Fisherman's Hands is an original digital c-type print by Mateo Silva, made in a minimalism style. Printed on museum-grade paper, with deep tonal range and sharp detail.",
+    "size": "24 x 30 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/photography-9-1/800/1000",
+      "https://picsum.photos/seed/photography-9-2/800/1000",
+      "https://picsum.photos/seed/photography-9-3/800/1000",
+      "https://picsum.photos/seed/photography-9-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/photography-9-1/800/1000",
+    "country": "Portugal",
+    "shipping": "$40",
+    "trustScore": "95%",
+    "category": [
+      "photography"
+    ],
+    "likes": 448,
+    "created_at": {
+      "$date": "2026-01-29T02:13:54.000Z"
+    }
+  },
+  {
+    "artId": "PHO-010",
+    "title": "Rooftops After Snow",
+    "price": 7930,
+    "author": "Chloe Dubois",
+    "detail": "Rooftops After Snow is an original digital c-type print by Chloe Dubois, made in a minimalism style. Printed on museum-grade paper, with deep tonal range and sharp detail.",
+    "size": "30 x 40 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/photography-10-1/800/1000",
+      "https://picsum.photos/seed/photography-10-2/800/1000",
+      "https://picsum.photos/seed/photography-10-3/800/1000",
+      "https://picsum.photos/seed/photography-10-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/photography-10-1/800/1000",
+    "country": "Canada",
+    "shipping": "Included",
+    "trustScore": "95%",
+    "category": [
+      "photography"
+    ],
+    "likes": 557,
+    "created_at": {
+      "$date": "2026-01-17T14:16:34.000Z"
+    }
+  },
+  {
+    "artId": "SCU-001",
+    "title": "Rising Tide Form",
+    "price": 360,
+    "author": "Zainab Qureshi",
+    "detail": "Rising Tide Form is an original cast resin by Zainab Qureshi, made in a abstract style. A tactile three-dimensional work that changes with the light and the viewing angle.",
+    "size": "H 24 x W 12 x D 12 in",
+    "quantity": 4,
+    "image": [
+      "https://picsum.photos/seed/sculptures-1-1/800/1000",
+      "https://picsum.photos/seed/sculptures-1-2/800/1000",
+      "https://picsum.photos/seed/sculptures-1-3/800/1000",
+      "https://picsum.photos/seed/sculptures-1-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/sculptures-1-1/800/1000",
+    "country": "Pakistan",
+    "shipping": "Included",
+    "trustScore": "96%",
+    "category": [
+      "sculptures"
+    ],
+    "likes": 733,
+    "created_at": {
+      "$date": "2026-08-06T22:33:24.000Z"
+    }
+  },
+  {
+    "artId": "SCU-002",
+    "title": "Lattice No. 4",
+    "price": 720,
+    "author": "Arjun Mehta",
+    "detail": "Lattice No. 4 is an original glazed ceramic by Arjun Mehta, made in a contemporary style. A tactile three-dimensional work that changes with the light and the viewing angle.",
+    "size": "H 18 x W 10 x D 8 in",
+    "quantity": 4,
+    "image": [
+      "https://picsum.photos/seed/sculptures-2-1/800/1000",
+      "https://picsum.photos/seed/sculptures-2-2/800/1000",
+      "https://picsum.photos/seed/sculptures-2-3/800/1000",
+      "https://picsum.photos/seed/sculptures-2-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/sculptures-2-1/800/1000",
+    "country": "India",
+    "shipping": "$40",
+    "trustScore": "97%",
+    "category": [
+      "sculptures"
+    ],
+    "likes": 2247,
+    "created_at": {
+      "$date": "2026-10-06T15:09:24.000Z"
+    }
+  },
+  {
+    "artId": "SCU-003",
+    "title": "The Listening Stone",
+    "price": 1860,
+    "author": "Layla Rahman",
+    "detail": "The Listening Stone is an original glazed ceramic by Layla Rahman, made in a organic modernism style. A tactile three-dimensional work that changes with the light and the viewing angle.",
+    "size": "H 18 x W 10 x D 8 in",
+    "quantity": 3,
+    "image": [
+      "https://picsum.photos/seed/sculptures-3-1/800/1000",
+      "https://picsum.photos/seed/sculptures-3-2/800/1000",
+      "https://picsum.photos/seed/sculptures-3-3/800/1000",
+      "https://picsum.photos/seed/sculptures-3-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/sculptures-3-1/800/1000",
+    "country": "Bangladesh",
+    "shipping": "Included",
+    "trustScore": "100%",
+    "category": [
+      "sculptures"
+    ],
+    "likes": 368,
+    "created_at": {
+      "$date": "2025-10-14T07:22:14.000Z"
+    }
+  },
+  {
+    "artId": "SCU-004",
+    "title": "Fold in Bronze",
+    "price": 2550,
+    "author": "Samuel Adeyemi",
+    "detail": "Fold in Bronze is an original glazed ceramic by Samuel Adeyemi, made in a minimalism style. A tactile three-dimensional work that changes with the light and the viewing angle.",
+    "size": "H 24 x W 12 x D 12 in",
+    "quantity": 5,
+    "image": [
+      "https://picsum.photos/seed/sculptures-4-1/800/1000",
+      "https://picsum.photos/seed/sculptures-4-2/800/1000",
+      "https://picsum.photos/seed/sculptures-4-3/800/1000",
+      "https://picsum.photos/seed/sculptures-4-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/sculptures-4-1/800/1000",
+    "country": "Nigeria",
+    "shipping": "$40",
+    "trustScore": "95%",
+    "category": [
+      "sculptures"
+    ],
+    "likes": 1144,
+    "created_at": {
+      "$date": "2026-03-24T09:08:07.000Z"
+    }
+  },
+  {
+    "artId": "SCU-005",
+    "title": "Balanced Departure",
+    "price": 9900,
+    "author": "Amara Okafor",
+    "detail": "Balanced Departure is an original bronze by Amara Okafor, made in a contemporary style. A tactile three-dimensional work that changes with the light and the viewing angle.",
+    "size": "H 30 x W 14 x D 10 in",
+    "quantity": 2,
+    "image": [
+      "https://picsum.photos/seed/sculptures-5-1/800/1000",
+      "https://picsum.photos/seed/sculptures-5-2/800/1000",
+      "https://picsum.photos/seed/sculptures-5-3/800/1000",
+      "https://picsum.photos/seed/sculptures-5-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/sculptures-5-1/800/1000",
+    "country": "Nigeria",
+    "shipping": "Included",
+    "trustScore": "94%",
+    "category": [
+      "sculptures"
+    ],
+    "likes": 1909,
+    "created_at": {
+      "$date": "2026-01-31T01:54:42.000Z"
+    }
+  },
+  {
+    "artId": "SCU-006",
+    "title": "Hollow Bloom",
+    "price": 420,
+    "author": "Rafael Ortega",
+    "detail": "Hollow Bloom is an original cast resin by Rafael Ortega, made in a contemporary style. A tactile three-dimensional work that changes with the light and the viewing angle.",
+    "size": "H 30 x W 14 x D 10 in",
+    "quantity": 5,
+    "image": [
+      "https://picsum.photos/seed/sculptures-6-1/800/1000",
+      "https://picsum.photos/seed/sculptures-6-2/800/1000",
+      "https://picsum.photos/seed/sculptures-6-3/800/1000",
+      "https://picsum.photos/seed/sculptures-6-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/sculptures-6-1/800/1000",
+    "country": "Spain",
+    "shipping": "Included",
+    "trustScore": "93%",
+    "category": [
+      "sculptures"
+    ],
+    "likes": 1148,
+    "created_at": {
+      "$date": "2026-08-03T16:58:40.000Z"
+    }
+  },
+  {
+    "artId": "SCU-007",
+    "title": "Quiet Monolith",
+    "price": 750,
+    "author": "Mei Lin Zhao",
+    "detail": "Quiet Monolith is an original glazed ceramic by Mei Lin Zhao, made in a minimalism style. A tactile three-dimensional work that changes with the light and the viewing angle.",
+    "size": "H 30 x W 14 x D 10 in",
+    "quantity": 5,
+    "image": [
+      "https://picsum.photos/seed/sculptures-7-1/800/1000",
+      "https://picsum.photos/seed/sculptures-7-2/800/1000",
+      "https://picsum.photos/seed/sculptures-7-3/800/1000",
+      "https://picsum.photos/seed/sculptures-7-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/sculptures-7-1/800/1000",
+    "country": "China",
+    "shipping": "Included",
+    "trustScore": "93%",
+    "category": [
+      "sculptures"
+    ],
+    "likes": 718,
+    "created_at": {
+      "$date": "2026-02-24T08:59:46.000Z"
+    }
+  },
+  {
+    "artId": "SCU-008",
+    "title": "Spiral of Hours",
+    "price": 1720,
+    "author": "Tomas Novak",
+    "detail": "Spiral of Hours is an original carrara marble by Tomas Novak, made in a minimalism style. A tactile three-dimensional work that changes with the light and the viewing angle.",
+    "size": "H 12 x W 6 x D 6 in",
+    "quantity": 2,
+    "image": [
+      "https://picsum.photos/seed/sculptures-8-1/800/1000",
+      "https://picsum.photos/seed/sculptures-8-2/800/1000",
+      "https://picsum.photos/seed/sculptures-8-3/800/1000",
+      "https://picsum.photos/seed/sculptures-8-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/sculptures-8-1/800/1000",
+    "country": "Czech Republic",
+    "shipping": "Included",
+    "trustScore": "98%",
+    "category": [
+      "sculptures"
+    ],
+    "likes": 819,
+    "created_at": {
+      "$date": "2026-02-01T18:14:43.000Z"
+    }
+  },
+  {
+    "artId": "SCU-009",
+    "title": "Woven Steel Heron",
+    "price": 3310,
+    "author": "Hannah Fischer",
+    "detail": "Woven Steel Heron is an original carrara marble by Hannah Fischer, made in a abstract style. A tactile three-dimensional work that changes with the light and the viewing angle.",
+    "size": "H 18 x W 10 x D 8 in",
+    "quantity": 3,
+    "image": [
+      "https://picsum.photos/seed/sculptures-9-1/800/1000",
+      "https://picsum.photos/seed/sculptures-9-2/800/1000",
+      "https://picsum.photos/seed/sculptures-9-3/800/1000",
+      "https://picsum.photos/seed/sculptures-9-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/sculptures-9-1/800/1000",
+    "country": "Germany",
+    "shipping": "Included",
+    "trustScore": "96%",
+    "category": [
+      "sculptures"
+    ],
+    "likes": 1848,
+    "created_at": {
+      "$date": "2026-07-26T16:55:21.000Z"
+    }
+  },
+  {
+    "artId": "SCU-010",
+    "title": "Weight of Air",
+    "price": 7290,
+    "author": "Noah Andersen",
+    "detail": "Weight of Air is an original glazed ceramic by Noah Andersen, made in a contemporary style. A tactile three-dimensional work that changes with the light and the viewing angle.",
+    "size": "H 12 x W 6 x D 6 in",
+    "quantity": 3,
+    "image": [
+      "https://picsum.photos/seed/sculptures-10-1/800/1000",
+      "https://picsum.photos/seed/sculptures-10-2/800/1000",
+      "https://picsum.photos/seed/sculptures-10-3/800/1000",
+      "https://picsum.photos/seed/sculptures-10-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/sculptures-10-1/800/1000",
+    "country": "Denmark",
+    "shipping": "$40",
+    "trustScore": "94%",
+    "category": [
+      "sculptures"
+    ],
+    "likes": 199,
+    "created_at": {
+      "$date": "2026-08-12T13:11:36.000Z"
+    }
+  },
+  {
+    "artId": "DRW-001",
+    "title": "Study of Hands at Rest",
+    "price": 330,
+    "author": "Mei Lin Zhao",
+    "detail": "Study of Hands at Rest is an original pastel on paper by Mei Lin Zhao, made in a figurative style. A direct, confident drawing where every line is visible and intentional.",
+    "size": "36 x 48 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/drawings-1-1/800/1000",
+      "https://picsum.photos/seed/drawings-1-2/800/1000",
+      "https://picsum.photos/seed/drawings-1-3/800/1000",
+      "https://picsum.photos/seed/drawings-1-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/drawings-1-1/800/1000",
+    "country": "China",
+    "shipping": "$40",
+    "trustScore": "94%",
+    "category": [
+      "drawings"
+    ],
+    "likes": 194,
+    "created_at": {
+      "$date": "2025-09-26T07:01:39.000Z"
+    }
+  },
+  {
+    "artId": "DRW-002",
+    "title": "Sleeping City, Ink",
+    "price": 610,
+    "author": "Tomas Novak",
+    "detail": "Sleeping City, Ink is an original charcoal on paper by Tomas Novak, made in a line art style. A direct, confident drawing where every line is visible and intentional.",
+    "size": "24 x 30 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/drawings-2-1/800/1000",
+      "https://picsum.photos/seed/drawings-2-2/800/1000",
+      "https://picsum.photos/seed/drawings-2-3/800/1000",
+      "https://picsum.photos/seed/drawings-2-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/drawings-2-1/800/1000",
+    "country": "Czech Republic",
+    "shipping": "Included",
+    "trustScore": "99%",
+    "category": [
+      "drawings"
+    ],
+    "likes": 794,
+    "created_at": {
+      "$date": "2025-12-24T06:06:51.000Z"
+    }
+  },
+  {
+    "artId": "DRW-003",
+    "title": "Charcoal Horses",
+    "price": 1870,
+    "author": "Hannah Fischer",
+    "detail": "Charcoal Horses is an original ink on paper by Hannah Fischer, made in a line art style. A direct, confident drawing where every line is visible and intentional.",
+    "size": "24 x 30 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/drawings-3-1/800/1000",
+      "https://picsum.photos/seed/drawings-3-2/800/1000",
+      "https://picsum.photos/seed/drawings-3-3/800/1000",
+      "https://picsum.photos/seed/drawings-3-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/drawings-3-1/800/1000",
+    "country": "Germany",
+    "shipping": "$40",
+    "trustScore": "95%",
+    "category": [
+      "drawings"
+    ],
+    "likes": 1470,
+    "created_at": {
+      "$date": "2026-09-18T17:25:58.000Z"
+    }
+  },
+  {
+    "artId": "DRW-004",
+    "title": "Branches in Winter Wind",
+    "price": 2630,
+    "author": "Noah Andersen",
+    "detail": "Branches in Winter Wind is an original ink on paper by Noah Andersen, made in a line art style. A direct, confident drawing where every line is visible and intentional.",
+    "size": "30 x 40 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/drawings-4-1/800/1000",
+      "https://picsum.photos/seed/drawings-4-2/800/1000",
+      "https://picsum.photos/seed/drawings-4-3/800/1000",
+      "https://picsum.photos/seed/drawings-4-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/drawings-4-1/800/1000",
+    "country": "Denmark",
+    "shipping": "Included",
+    "trustScore": "98%",
+    "category": [
+      "drawings"
+    ],
+    "likes": 2313,
+    "created_at": {
+      "$date": "2025-10-11T06:13:30.000Z"
+    }
+  },
+  {
+    "artId": "DRW-005",
+    "title": "The Tailor's Table",
+    "price": 6090,
+    "author": "Elena Marchetti",
+    "detail": "The Tailor's Table is an original pastel on paper by Elena Marchetti, made in a realism style. A direct, confident drawing where every line is visible and intentional.",
+    "size": "30 x 40 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/drawings-5-1/800/1000",
+      "https://picsum.photos/seed/drawings-5-2/800/1000",
+      "https://picsum.photos/seed/drawings-5-3/800/1000",
+      "https://picsum.photos/seed/drawings-5-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/drawings-5-1/800/1000",
+    "country": "Italy",
+    "shipping": "Included",
+    "trustScore": "97%",
+    "category": [
+      "drawings"
+    ],
+    "likes": 393,
+    "created_at": {
+      "$date": "2026-04-02T20:40:24.000Z"
+    }
+  },
+  {
+    "artId": "DRW-006",
+    "title": "Cross-Hatched Harbor",
+    "price": 310,
+    "author": "Lucas Ferreira",
+    "detail": "Cross-Hatched Harbor is an original graphite on paper by Lucas Ferreira, made in a line art style. A direct, confident drawing where every line is visible and intentional.",
+    "size": "18 x 24 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/drawings-6-1/800/1000",
+      "https://picsum.photos/seed/drawings-6-2/800/1000",
+      "https://picsum.photos/seed/drawings-6-3/800/1000",
+      "https://picsum.photos/seed/drawings-6-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/drawings-6-1/800/1000",
+    "country": "Brazil",
+    "shipping": "Included",
+    "trustScore": "94%",
+    "category": [
+      "drawings"
+    ],
+    "likes": 258,
+    "created_at": {
+      "$date": "2025-10-29T19:07:52.000Z"
+    }
+  },
+  {
+    "artId": "DRW-007",
+    "title": "Figure Leaning",
+    "price": 820,
+    "author": "Nadia Haddad",
+    "detail": "Figure Leaning is an original graphite on paper by Nadia Haddad, made in a line art style. A direct, confident drawing where every line is visible and intentional.",
+    "size": "36 x 48 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/drawings-7-1/800/1000",
+      "https://picsum.photos/seed/drawings-7-2/800/1000",
+      "https://picsum.photos/seed/drawings-7-3/800/1000",
+      "https://picsum.photos/seed/drawings-7-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/drawings-7-1/800/1000",
+    "country": "Lebanon",
+    "shipping": "Included",
+    "trustScore": "97%",
+    "category": [
+      "drawings"
+    ],
+    "likes": 687,
+    "created_at": {
+      "$date": "2025-12-05T04:41:27.000Z"
+    }
+  },
+  {
+    "artId": "DRW-008",
+    "title": "Pencil Garden",
+    "price": 1640,
+    "author": "Daniel Moreau",
+    "detail": "Pencil Garden is an original graphite on paper by Daniel Moreau, made in a gestural style. A direct, confident drawing where every line is visible and intentional.",
+    "size": "24 x 30 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/drawings-8-1/800/1000",
+      "https://picsum.photos/seed/drawings-8-2/800/1000",
+      "https://picsum.photos/seed/drawings-8-3/800/1000",
+      "https://picsum.photos/seed/drawings-8-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/drawings-8-1/800/1000",
+    "country": "France",
+    "shipping": "$40",
+    "trustScore": "98%",
+    "category": [
+      "drawings"
+    ],
+    "likes": 1850,
+    "created_at": {
+      "$date": "2025-11-06T07:58:42.000Z"
+    }
+  },
+  {
+    "artId": "DRW-009",
+    "title": "Market Crowd, Quick Lines",
+    "price": 2230,
+    "author": "Isabella Rossi",
+    "detail": "Market Crowd, Quick Lines is an original charcoal on paper by Isabella Rossi, made in a gestural style. A direct, confident drawing where every line is visible and intentional.",
+    "size": "36 x 48 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/drawings-9-1/800/1000",
+      "https://picsum.photos/seed/drawings-9-2/800/1000",
+      "https://picsum.photos/seed/drawings-9-3/800/1000",
+      "https://picsum.photos/seed/drawings-9-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/drawings-9-1/800/1000",
+    "country": "Italy",
+    "shipping": "Included",
+    "trustScore": "95%",
+    "category": [
+      "drawings"
+    ],
+    "likes": 828,
+    "created_at": {
+      "$date": "2026-06-08T16:36:48.000Z"
+    }
+  },
+  {
+    "artId": "DRW-010",
+    "title": "Night Train Sketch",
+    "price": 7390,
+    "author": "Mateo Silva",
+    "detail": "Night Train Sketch is an original pastel on paper by Mateo Silva, made in a line art style. A direct, confident drawing where every line is visible and intentional.",
+    "size": "30 x 40 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/drawings-10-1/800/1000",
+      "https://picsum.photos/seed/drawings-10-2/800/1000",
+      "https://picsum.photos/seed/drawings-10-3/800/1000",
+      "https://picsum.photos/seed/drawings-10-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/drawings-10-1/800/1000",
+    "country": "Portugal",
+    "shipping": "Included",
+    "trustScore": "99%",
+    "category": [
+      "drawings"
+    ],
+    "likes": 958,
+    "created_at": {
+      "$date": "2026-04-28T22:57:08.000Z"
+    }
+  },
+  {
+    "artId": "TEX-001",
+    "title": "Cracked Earth Relief",
+    "price": 340,
+    "author": "Mei Lin Zhao",
+    "detail": "Cracked Earth Relief is an original plaster and pigment on panel by Mei Lin Zhao, made in a abstract style. Built up in heavy layers, the surface casts shifting shadows through the day.",
+    "size": "24 x 30 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/textures-1-1/800/1000",
+      "https://picsum.photos/seed/textures-1-2/800/1000",
+      "https://picsum.photos/seed/textures-1-3/800/1000",
+      "https://picsum.photos/seed/textures-1-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/textures-1-1/800/1000",
+    "country": "China",
+    "shipping": "$40",
+    "trustScore": "94%",
+    "category": [
+      "textures"
+    ],
+    "likes": 2320,
+    "created_at": {
+      "$date": "2026-01-30T08:20:09.000Z"
+    }
+  },
+  {
+    "artId": "TEX-002",
+    "title": "Sandstorm Layers",
+    "price": 640,
+    "author": "Tomas Novak",
+    "detail": "Sandstorm Layers is an original plaster and pigment on panel by Tomas Novak, made in a texture art style. Built up in heavy layers, the surface casts shifting shadows through the day.",
+    "size": "18 x 24 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/textures-2-1/800/1000",
+      "https://picsum.photos/seed/textures-2-2/800/1000",
+      "https://picsum.photos/seed/textures-2-3/800/1000",
+      "https://picsum.photos/seed/textures-2-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/textures-2-1/800/1000",
+    "country": "Czech Republic",
+    "shipping": "Included",
+    "trustScore": "93%",
+    "category": [
+      "textures"
+    ],
+    "likes": 31,
+    "created_at": {
+      "$date": "2026-07-05T07:43:58.000Z"
+    }
+  },
+  {
+    "artId": "TEX-003",
+    "title": "Linen and Lime",
+    "price": 1760,
+    "author": "Hannah Fischer",
+    "detail": "Linen and Lime is an original sand and acrylic on canvas by Hannah Fischer, made in a texture art style. Built up in heavy layers, the surface casts shifting shadows through the day.",
+    "size": "36 x 48 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/textures-3-1/800/1000",
+      "https://picsum.photos/seed/textures-3-2/800/1000",
+      "https://picsum.photos/seed/textures-3-3/800/1000",
+      "https://picsum.photos/seed/textures-3-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/textures-3-1/800/1000",
+    "country": "Germany",
+    "shipping": "Included",
+    "trustScore": "93%",
+    "category": [
+      "textures"
+    ],
+    "likes": 1115,
+    "created_at": {
+      "$date": "2026-03-20T11:37:41.000Z"
+    }
+  },
+  {
+    "artId": "TEX-004",
+    "title": "Oxidized Horizon",
+    "price": 4370,
+    "author": "Noah Andersen",
+    "detail": "Oxidized Horizon is an original mixed media on board by Noah Andersen, made in a minimalism style. Built up in heavy layers, the surface casts shifting shadows through the day.",
+    "size": "16 x 20 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/textures-4-1/800/1000",
+      "https://picsum.photos/seed/textures-4-2/800/1000",
+      "https://picsum.photos/seed/textures-4-3/800/1000",
+      "https://picsum.photos/seed/textures-4-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/textures-4-1/800/1000",
+    "country": "Denmark",
+    "shipping": "Included",
+    "trustScore": "96%",
+    "category": [
+      "textures"
+    ],
+    "likes": 838,
+    "created_at": {
+      "$date": "2026-06-27T23:03:24.000Z"
+    }
+  },
+  {
+    "artId": "TEX-005",
+    "title": "Ridge and Furrow",
+    "price": 5600,
+    "author": "Elena Marchetti",
+    "detail": "Ridge and Furrow is an original mixed media on board by Elena Marchetti, made in a relief style. Built up in heavy layers, the surface casts shifting shadows through the day.",
+    "size": "16 x 20 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/textures-5-1/800/1000",
+      "https://picsum.photos/seed/textures-5-2/800/1000",
+      "https://picsum.photos/seed/textures-5-3/800/1000",
+      "https://picsum.photos/seed/textures-5-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/textures-5-1/800/1000",
+    "country": "Italy",
+    "shipping": "$40",
+    "trustScore": "93%",
+    "category": [
+      "textures"
+    ],
+    "likes": 2269,
+    "created_at": {
+      "$date": "2026-08-19T03:41:19.000Z"
+    }
+  },
+  {
+    "artId": "TEX-006",
+    "title": "Weathered Door Study",
+    "price": 430,
+    "author": "Lucas Ferreira",
+    "detail": "Weathered Door Study is an original mixed media on board by Lucas Ferreira, made in a relief style. Built up in heavy layers, the surface casts shifting shadows through the day.",
+    "size": "40 x 60 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/textures-6-1/800/1000",
+      "https://picsum.photos/seed/textures-6-2/800/1000",
+      "https://picsum.photos/seed/textures-6-3/800/1000",
+      "https://picsum.photos/seed/textures-6-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/textures-6-1/800/1000",
+    "country": "Brazil",
+    "shipping": "Included",
+    "trustScore": "98%",
+    "category": [
+      "textures"
+    ],
+    "likes": 798,
+    "created_at": {
+      "$date": "2026-03-24T04:59:07.000Z"
+    }
+  },
+  {
+    "artId": "TEX-007",
+    "title": "Plaster Waves",
+    "price": 960,
+    "author": "Nadia Haddad",
+    "detail": "Plaster Waves is an original sand and acrylic on canvas by Nadia Haddad, made in a minimalism style. Built up in heavy layers, the surface casts shifting shadows through the day.",
+    "size": "36 x 48 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/textures-7-1/800/1000",
+      "https://picsum.photos/seed/textures-7-2/800/1000",
+      "https://picsum.photos/seed/textures-7-3/800/1000",
+      "https://picsum.photos/seed/textures-7-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/textures-7-1/800/1000",
+    "country": "Lebanon",
+    "shipping": "$40",
+    "trustScore": "93%",
+    "category": [
+      "textures"
+    ],
+    "likes": 571,
+    "created_at": {
+      "$date": "2026-06-23T16:04:56.000Z"
+    }
+  },
+  {
+    "artId": "TEX-008",
+    "title": "Burnt Paper Field",
+    "price": 1700,
+    "author": "Daniel Moreau",
+    "detail": "Burnt Paper Field is an original sand and acrylic on canvas by Daniel Moreau, made in a texture art style. Built up in heavy layers, the surface casts shifting shadows through the day.",
+    "size": "24 x 30 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/textures-8-1/800/1000",
+      "https://picsum.photos/seed/textures-8-2/800/1000",
+      "https://picsum.photos/seed/textures-8-3/800/1000",
+      "https://picsum.photos/seed/textures-8-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/textures-8-1/800/1000",
+    "country": "France",
+    "shipping": "Included",
+    "trustScore": "92%",
+    "category": [
+      "textures"
+    ],
+    "likes": 1966,
+    "created_at": {
+      "$date": "2026-07-05T20:41:23.000Z"
+    }
+  },
+  {
+    "artId": "TEX-009",
+    "title": "Gravel Tide",
+    "price": 3300,
+    "author": "Isabella Rossi",
+    "detail": "Gravel Tide is an original plaster and pigment on panel by Isabella Rossi, made in a relief style. Built up in heavy layers, the surface casts shifting shadows through the day.",
+    "size": "12 x 16 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/textures-9-1/800/1000",
+      "https://picsum.photos/seed/textures-9-2/800/1000",
+      "https://picsum.photos/seed/textures-9-3/800/1000",
+      "https://picsum.photos/seed/textures-9-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/textures-9-1/800/1000",
+    "country": "Italy",
+    "shipping": "Included",
+    "trustScore": "95%",
+    "category": [
+      "textures"
+    ],
+    "likes": 1693,
+    "created_at": {
+      "$date": "2025-12-03T14:35:15.000Z"
+    }
+  },
+  {
+    "artId": "TEX-010",
+    "title": "Stitched Surface No. 7",
+    "price": 5900,
+    "author": "Mateo Silva",
+    "detail": "Stitched Surface No. 7 is an original plaster and pigment on panel by Mateo Silva, made in a relief style. Built up in heavy layers, the surface casts shifting shadows through the day.",
+    "size": "36 x 48 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/textures-10-1/800/1000",
+      "https://picsum.photos/seed/textures-10-2/800/1000",
+      "https://picsum.photos/seed/textures-10-3/800/1000",
+      "https://picsum.photos/seed/textures-10-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/textures-10-1/800/1000",
+    "country": "Portugal",
+    "shipping": "Included",
+    "trustScore": "96%",
+    "category": [
+      "textures"
+    ],
+    "likes": 1302,
+    "created_at": {
+      "$date": "2026-07-24T01:13:56.000Z"
+    }
+  },
+  {
+    "artId": "OIL-001",
+    "title": "Cobalt Evening, Heavy Impasto",
+    "price": 250,
+    "author": "Arjun Mehta",
+    "detail": "Cobalt Evening, Heavy Impasto is an original oil on panel by Arjun Mehta, made in a tonalism style. Rich oil colour with thick impasto passages and a lasting, glossy depth.",
+    "size": "16 x 20 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/oil-paintings-1-1/800/1000",
+      "https://picsum.photos/seed/oil-paintings-1-2/800/1000",
+      "https://picsum.photos/seed/oil-paintings-1-3/800/1000",
+      "https://picsum.photos/seed/oil-paintings-1-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/oil-paintings-1-1/800/1000",
+    "country": "India",
+    "shipping": "$40",
+    "trustScore": "98%",
+    "category": [
+      "oil-paintings",
+      "paintings"
+    ],
+    "likes": 171,
+    "created_at": {
+      "$date": "2026-06-15T18:58:13.000Z"
+    }
+  },
+  {
+    "artId": "OIL-002",
+    "title": "The Violinist's Rest",
+    "price": 670,
+    "author": "Layla Rahman",
+    "detail": "The Violinist's Rest is an original oil on panel by Layla Rahman, made in a classical realism style. Rich oil colour with thick impasto passages and a lasting, glossy depth.",
+    "size": "18 x 24 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/oil-paintings-2-1/800/1000",
+      "https://picsum.photos/seed/oil-paintings-2-2/800/1000",
+      "https://picsum.photos/seed/oil-paintings-2-3/800/1000",
+      "https://picsum.photos/seed/oil-paintings-2-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/oil-paintings-2-1/800/1000",
+    "country": "Bangladesh",
+    "shipping": "Included",
+    "trustScore": "95%",
+    "category": [
+      "oil-paintings",
+      "paintings"
+    ],
+    "likes": 320,
+    "created_at": {
+      "$date": "2025-11-16T22:34:44.000Z"
+    }
+  },
+  {
+    "artId": "OIL-003",
+    "title": "Amber Harvest Table",
+    "price": 1970,
+    "author": "Samuel Adeyemi",
+    "detail": "Amber Harvest Table is an original oil on canvas by Samuel Adeyemi, made in a impressionism style. Rich oil colour with thick impasto passages and a lasting, glossy depth.",
+    "size": "18 x 24 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/oil-paintings-3-1/800/1000",
+      "https://picsum.photos/seed/oil-paintings-3-2/800/1000",
+      "https://picsum.photos/seed/oil-paintings-3-3/800/1000",
+      "https://picsum.photos/seed/oil-paintings-3-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/oil-paintings-3-1/800/1000",
+    "country": "Nigeria",
+    "shipping": "$40",
+    "trustScore": "100%",
+    "category": [
+      "oil-paintings",
+      "paintings"
+    ],
+    "likes": 1299,
+    "created_at": {
+      "$date": "2026-09-18T00:16:05.000Z"
+    }
+  },
+  {
+    "artId": "OIL-004",
+    "title": "Still Life with Pears and Brass",
+    "price": 3680,
+    "author": "Amara Okafor",
+    "detail": "Still Life with Pears and Brass is an original oil on panel by Amara Okafor, made in a classical realism style. Rich oil colour with thick impasto passages and a lasting, glossy depth.",
+    "size": "16 x 20 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/oil-paintings-4-1/800/1000",
+      "https://picsum.photos/seed/oil-paintings-4-2/800/1000",
+      "https://picsum.photos/seed/oil-paintings-4-3/800/1000",
+      "https://picsum.photos/seed/oil-paintings-4-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/oil-paintings-4-1/800/1000",
+    "country": "Nigeria",
+    "shipping": "Included",
+    "trustScore": "98%",
+    "category": [
+      "oil-paintings",
+      "paintings"
+    ],
+    "likes": 2144,
+    "created_at": {
+      "$date": "2025-12-06T06:31:59.000Z"
+    }
+  },
+  {
+    "artId": "OIL-005",
+    "title": "Storm Over the Barley",
+    "price": 6800,
+    "author": "Rafael Ortega",
+    "detail": "Storm Over the Barley is an original oil on panel by Rafael Ortega, made in a classical realism style. Rich oil colour with thick impasto passages and a lasting, glossy depth.",
+    "size": "18 x 24 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/oil-paintings-5-1/800/1000",
+      "https://picsum.photos/seed/oil-paintings-5-2/800/1000",
+      "https://picsum.photos/seed/oil-paintings-5-3/800/1000",
+      "https://picsum.photos/seed/oil-paintings-5-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/oil-paintings-5-1/800/1000",
+    "country": "Spain",
+    "shipping": "Included",
+    "trustScore": "97%",
+    "category": [
+      "oil-paintings",
+      "paintings"
+    ],
+    "likes": 68,
+    "created_at": {
+      "$date": "2025-09-16T16:32:34.000Z"
+    }
+  },
+  {
+    "artId": "OIL-006",
+    "title": "Portrait in Umber",
+    "price": 150,
+    "author": "Mei Lin Zhao",
+    "detail": "Portrait in Umber is an original oil on panel by Mei Lin Zhao, made in a impressionism style. Rich oil colour with thick impasto passages and a lasting, glossy depth.",
+    "size": "12 x 16 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/oil-paintings-6-1/800/1000",
+      "https://picsum.photos/seed/oil-paintings-6-2/800/1000",
+      "https://picsum.photos/seed/oil-paintings-6-3/800/1000",
+      "https://picsum.photos/seed/oil-paintings-6-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/oil-paintings-6-1/800/1000",
+    "country": "China",
+    "shipping": "$40",
+    "trustScore": "100%",
+    "category": [
+      "oil-paintings",
+      "paintings"
+    ],
+    "likes": 2200,
+    "created_at": {
+      "$date": "2026-08-01T13:50:24.000Z"
+    }
+  },
+  {
+    "artId": "OIL-007",
+    "title": "Lamplight on Wet Cobbles",
+    "price": 890,
+    "author": "Tomas Novak",
+    "detail": "Lamplight on Wet Cobbles is an original oil on linen by Tomas Novak, made in a classical realism style. Rich oil colour with thick impasto passages and a lasting, glossy depth.",
+    "size": "40 x 60 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/oil-paintings-7-1/800/1000",
+      "https://picsum.photos/seed/oil-paintings-7-2/800/1000",
+      "https://picsum.photos/seed/oil-paintings-7-3/800/1000",
+      "https://picsum.photos/seed/oil-paintings-7-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/oil-paintings-7-1/800/1000",
+    "country": "Czech Republic",
+    "shipping": "Included",
+    "trustScore": "98%",
+    "category": [
+      "oil-paintings",
+      "paintings"
+    ],
+    "likes": 1038,
+    "created_at": {
+      "$date": "2025-09-17T18:45:08.000Z"
+    }
+  },
+  {
+    "artId": "OIL-008",
+    "title": "Winter Orchard, Thick Palette",
+    "price": 1920,
+    "author": "Hannah Fischer",
+    "detail": "Winter Orchard, Thick Palette is an original oil on canvas by Hannah Fischer, made in a tonalism style. Rich oil colour with thick impasto passages and a lasting, glossy depth.",
+    "size": "36 x 48 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/oil-paintings-8-1/800/1000",
+      "https://picsum.photos/seed/oil-paintings-8-2/800/1000",
+      "https://picsum.photos/seed/oil-paintings-8-3/800/1000",
+      "https://picsum.photos/seed/oil-paintings-8-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/oil-paintings-8-1/800/1000",
+    "country": "Germany",
+    "shipping": "Included",
+    "trustScore": "99%",
+    "category": [
+      "oil-paintings",
+      "paintings"
+    ],
+    "likes": 287,
+    "created_at": {
+      "$date": "2026-10-02T18:43:03.000Z"
+    }
+  },
+  {
+    "artId": "OIL-009",
+    "title": "Harbor in Ochre",
+    "price": 2760,
+    "author": "Noah Andersen",
+    "detail": "Harbor in Ochre is an original oil on linen by Noah Andersen, made in a classical realism style. Rich oil colour with thick impasto passages and a lasting, glossy depth.",
+    "size": "30 x 40 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/oil-paintings-9-1/800/1000",
+      "https://picsum.photos/seed/oil-paintings-9-2/800/1000",
+      "https://picsum.photos/seed/oil-paintings-9-3/800/1000",
+      "https://picsum.photos/seed/oil-paintings-9-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/oil-paintings-9-1/800/1000",
+    "country": "Denmark",
+    "shipping": "Included",
+    "trustScore": "93%",
+    "category": [
+      "oil-paintings",
+      "paintings"
+    ],
+    "likes": 1230,
+    "created_at": {
+      "$date": "2026-04-14T23:40:50.000Z"
+    }
+  },
+  {
+    "artId": "OIL-010",
+    "title": "The Quiet Kitchen",
+    "price": 5560,
+    "author": "Elena Marchetti",
+    "detail": "The Quiet Kitchen is an original oil on linen by Elena Marchetti, made in a classical realism style. Rich oil colour with thick impasto passages and a lasting, glossy depth.",
+    "size": "30 x 40 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/oil-paintings-10-1/800/1000",
+      "https://picsum.photos/seed/oil-paintings-10-2/800/1000",
+      "https://picsum.photos/seed/oil-paintings-10-3/800/1000",
+      "https://picsum.photos/seed/oil-paintings-10-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/oil-paintings-10-1/800/1000",
+    "country": "Italy",
+    "shipping": "Included",
+    "trustScore": "98%",
+    "category": [
+      "oil-paintings",
+      "paintings"
+    ],
+    "likes": 1631,
+    "created_at": {
+      "$date": "2025-09-18T17:34:39.000Z"
+    }
+  },
+  {
+    "artId": "ABS-001",
+    "title": "Fragments of Tuesday",
+    "price": 260,
+    "author": "Daniel Moreau",
+    "detail": "Fragments of Tuesday is an original oil and cold wax on panel by Daniel Moreau, made in a abstract expressionism style. An abstract composition that rewards slow looking, with layered colour and rhythm.",
+    "size": "36 x 48 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/abstracts-1-1/800/1000",
+      "https://picsum.photos/seed/abstracts-1-2/800/1000",
+      "https://picsum.photos/seed/abstracts-1-3/800/1000",
+      "https://picsum.photos/seed/abstracts-1-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/abstracts-1-1/800/1000",
+    "country": "France",
+    "shipping": "$40",
+    "trustScore": "95%",
+    "category": [
+      "abstracts",
+      "paintings"
+    ],
+    "likes": 558,
+    "created_at": {
+      "$date": "2025-11-25T19:51:33.000Z"
+    }
+  },
+  {
+    "artId": "ABS-002",
+    "title": "Tension in Magenta",
+    "price": 730,
+    "author": "Isabella Rossi",
+    "detail": "Tension in Magenta is an original mixed media on canvas by Isabella Rossi, made in a abstract expressionism style. An abstract composition that rewards slow looking, with layered colour and rhythm.",
+    "size": "30 x 40 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/abstracts-2-1/800/1000",
+      "https://picsum.photos/seed/abstracts-2-2/800/1000",
+      "https://picsum.photos/seed/abstracts-2-3/800/1000",
+      "https://picsum.photos/seed/abstracts-2-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/abstracts-2-1/800/1000",
+    "country": "Italy",
+    "shipping": "Included",
+    "trustScore": "99%",
+    "category": [
+      "abstracts",
+      "paintings"
+    ],
+    "likes": 854,
+    "created_at": {
+      "$date": "2025-10-03T15:03:29.000Z"
+    }
+  },
+  {
+    "artId": "ABS-003",
+    "title": "Orbit No. 12",
+    "price": 1280,
+    "author": "Mateo Silva",
+    "detail": "Orbit No. 12 is an original acrylic on canvas by Mateo Silva, made in a abstract expressionism style. An abstract composition that rewards slow looking, with layered colour and rhythm.",
+    "size": "40 x 60 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/abstracts-3-1/800/1000",
+      "https://picsum.photos/seed/abstracts-3-2/800/1000",
+      "https://picsum.photos/seed/abstracts-3-3/800/1000",
+      "https://picsum.photos/seed/abstracts-3-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/abstracts-3-1/800/1000",
+    "country": "Portugal",
+    "shipping": "Included",
+    "trustScore": "100%",
+    "category": [
+      "abstracts",
+      "paintings"
+    ],
+    "likes": 1896,
+    "created_at": {
+      "$date": "2026-08-02T09:01:56.000Z"
+    }
+  },
+  {
+    "artId": "ABS-004",
+    "title": "Static Garden",
+    "price": 4370,
+    "author": "Chloe Dubois",
+    "detail": "Static Garden is an original mixed media on canvas by Chloe Dubois, made in a colour field style. An abstract composition that rewards slow looking, with layered colour and rhythm.",
+    "size": "24 x 30 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/abstracts-4-1/800/1000",
+      "https://picsum.photos/seed/abstracts-4-2/800/1000",
+      "https://picsum.photos/seed/abstracts-4-3/800/1000",
+      "https://picsum.photos/seed/abstracts-4-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/abstracts-4-1/800/1000",
+    "country": "Canada",
+    "shipping": "$40",
+    "trustScore": "98%",
+    "category": [
+      "abstracts",
+      "paintings"
+    ],
+    "likes": 2288,
+    "created_at": {
+      "$date": "2025-12-29T05:14:12.000Z"
+    }
+  },
+  {
+    "artId": "ABS-005",
+    "title": "The Color of Almost",
+    "price": 5490,
+    "author": "Kenji Watanabe",
+    "detail": "The Color of Almost is an original oil and cold wax on panel by Kenji Watanabe, made in a lyrical abstraction style. An abstract composition that rewards slow looking, with layered colour and rhythm.",
+    "size": "18 x 24 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/abstracts-5-1/800/1000",
+      "https://picsum.photos/seed/abstracts-5-2/800/1000",
+      "https://picsum.photos/seed/abstracts-5-3/800/1000",
+      "https://picsum.photos/seed/abstracts-5-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/abstracts-5-1/800/1000",
+    "country": "Japan",
+    "shipping": "$40",
+    "trustScore": "97%",
+    "category": [
+      "abstracts",
+      "paintings"
+    ],
+    "likes": 391,
+    "created_at": {
+      "$date": "2026-04-24T23:36:53.000Z"
+    }
+  },
+  {
+    "artId": "ABS-006",
+    "title": "Rhythm Section",
+    "price": 230,
+    "author": "Sofia Lindqvist",
+    "detail": "Rhythm Section is an original mixed media on canvas by Sofia Lindqvist, made in a geometric abstraction style. An abstract composition that rewards slow looking, with layered colour and rhythm.",
+    "size": "12 x 16 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/abstracts-6-1/800/1000",
+      "https://picsum.photos/seed/abstracts-6-2/800/1000",
+      "https://picsum.photos/seed/abstracts-6-3/800/1000",
+      "https://picsum.photos/seed/abstracts-6-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/abstracts-6-1/800/1000",
+    "country": "Sweden",
+    "shipping": "Included",
+    "trustScore": "99%",
+    "category": [
+      "abstracts",
+      "paintings"
+    ],
+    "likes": 1070,
+    "created_at": {
+      "$date": "2026-04-30T23:45:24.000Z"
+    }
+  },
+  {
+    "artId": "ABS-007",
+    "title": "Molten Grid",
+    "price": 800,
+    "author": "Oliver Bennett",
+    "detail": "Molten Grid is an original oil and cold wax on panel by Oliver Bennett, made in a geometric abstraction style. An abstract composition that rewards slow looking, with layered colour and rhythm.",
+    "size": "40 x 60 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/abstracts-7-1/800/1000",
+      "https://picsum.photos/seed/abstracts-7-2/800/1000",
+      "https://picsum.photos/seed/abstracts-7-3/800/1000",
+      "https://picsum.photos/seed/abstracts-7-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/abstracts-7-1/800/1000",
+    "country": "United Kingdom",
+    "shipping": "Included",
+    "trustScore": "95%",
+    "category": [
+      "abstracts",
+      "paintings"
+    ],
+    "likes": 929,
+    "created_at": {
+      "$date": "2025-10-29T15:49:36.000Z"
+    }
+  },
+  {
+    "artId": "ABS-008",
+    "title": "Echo Field",
+    "price": 1910,
+    "author": "Zainab Qureshi",
+    "detail": "Echo Field is an original mixed media on canvas by Zainab Qureshi, made in a abstract expressionism style. An abstract composition that rewards slow looking, with layered colour and rhythm.",
+    "size": "30 x 40 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/abstracts-8-1/800/1000",
+      "https://picsum.photos/seed/abstracts-8-2/800/1000",
+      "https://picsum.photos/seed/abstracts-8-3/800/1000",
+      "https://picsum.photos/seed/abstracts-8-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/abstracts-8-1/800/1000",
+    "country": "Pakistan",
+    "shipping": "Included",
+    "trustScore": "99%",
+    "category": [
+      "abstracts",
+      "paintings"
+    ],
+    "likes": 1520,
+    "created_at": {
+      "$date": "2026-03-12T12:56:46.000Z"
+    }
+  },
+  {
+    "artId": "ABS-009",
+    "title": "Blue Collapse",
+    "price": 2380,
+    "author": "Arjun Mehta",
+    "detail": "Blue Collapse is an original acrylic on canvas by Arjun Mehta, made in a colour field style. An abstract composition that rewards slow looking, with layered colour and rhythm.",
+    "size": "18 x 24 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/abstracts-9-1/800/1000",
+      "https://picsum.photos/seed/abstracts-9-2/800/1000",
+      "https://picsum.photos/seed/abstracts-9-3/800/1000",
+      "https://picsum.photos/seed/abstracts-9-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/abstracts-9-1/800/1000",
+    "country": "India",
+    "shipping": "Included",
+    "trustScore": "93%",
+    "category": [
+      "abstracts",
+      "paintings"
+    ],
+    "likes": 466,
+    "created_at": {
+      "$date": "2026-08-19T02:42:56.000Z"
+    }
+  },
+  {
+    "artId": "ABS-010",
+    "title": "Unfinished Symmetry",
+    "price": 5100,
+    "author": "Layla Rahman",
+    "detail": "Unfinished Symmetry is an original oil and cold wax on panel by Layla Rahman, made in a geometric abstraction style. An abstract composition that rewards slow looking, with layered colour and rhythm.",
+    "size": "40 x 60 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/abstracts-10-1/800/1000",
+      "https://picsum.photos/seed/abstracts-10-2/800/1000",
+      "https://picsum.photos/seed/abstracts-10-3/800/1000",
+      "https://picsum.photos/seed/abstracts-10-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/abstracts-10-1/800/1000",
+    "country": "Bangladesh",
+    "shipping": "Included",
+    "trustScore": "94%",
+    "category": [
+      "abstracts",
+      "paintings"
+    ],
+    "likes": 1732,
+    "created_at": {
+      "$date": "2026-07-14T04:51:51.000Z"
+    }
+  },
+  {
+    "artId": "LND-001",
+    "title": "Valley of Slow Mornings",
+    "price": 390,
+    "author": "Zainab Qureshi",
+    "detail": "Valley of Slow Mornings is an original oil on canvas by Zainab Qureshi, made in a romanticism style. A wide, atmospheric landscape that carries the mood of the hour it depicts.",
+    "size": "24 x 36 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/landscapes-1-1/800/1000",
+      "https://picsum.photos/seed/landscapes-1-2/800/1000",
+      "https://picsum.photos/seed/landscapes-1-3/800/1000",
+      "https://picsum.photos/seed/landscapes-1-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/landscapes-1-1/800/1000",
+    "country": "Pakistan",
+    "shipping": "Included",
+    "trustScore": "97%",
+    "category": [
+      "landscapes",
+      "paintings"
+    ],
+    "likes": 1481,
+    "created_at": {
+      "$date": "2026-06-12T18:29:21.000Z"
+    }
+  },
+  {
+    "artId": "LND-002",
+    "title": "Pine Ridge in Mist",
+    "price": 850,
+    "author": "Arjun Mehta",
+    "detail": "Pine Ridge in Mist is an original oil on canvas by Arjun Mehta, made in a realism style. A wide, atmospheric landscape that carries the mood of the hour it depicts.",
+    "size": "30 x 40 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/landscapes-2-1/800/1000",
+      "https://picsum.photos/seed/landscapes-2-2/800/1000",
+      "https://picsum.photos/seed/landscapes-2-3/800/1000",
+      "https://picsum.photos/seed/landscapes-2-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/landscapes-2-1/800/1000",
+    "country": "India",
+    "shipping": "$40",
+    "trustScore": "94%",
+    "category": [
+      "landscapes",
+      "paintings"
+    ],
+    "likes": 2308,
+    "created_at": {
+      "$date": "2025-10-27T22:17:08.000Z"
+    }
+  },
+  {
+    "artId": "LND-003",
+    "title": "Golden Plains, Last Light",
+    "price": 1840,
+    "author": "Layla Rahman",
+    "detail": "Golden Plains, Last Light is an original oil on canvas by Layla Rahman, made in a realism style. A wide, atmospheric landscape that carries the mood of the hour it depicts.",
+    "size": "24 x 30 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/landscapes-3-1/800/1000",
+      "https://picsum.photos/seed/landscapes-3-2/800/1000",
+      "https://picsum.photos/seed/landscapes-3-3/800/1000",
+      "https://picsum.photos/seed/landscapes-3-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/landscapes-3-1/800/1000",
+    "country": "Bangladesh",
+    "shipping": "Included",
+    "trustScore": "92%",
+    "category": [
+      "landscapes",
+      "paintings"
+    ],
+    "likes": 1966,
+    "created_at": {
+      "$date": "2026-01-10T06:09:55.000Z"
+    }
+  },
+  {
+    "artId": "LND-004",
+    "title": "Mountain Pass in Spring",
+    "price": 4540,
+    "author": "Samuel Adeyemi",
+    "detail": "Mountain Pass in Spring is an original watercolour on paper by Samuel Adeyemi, made in a contemporary landscape style. A wide, atmospheric landscape that carries the mood of the hour it depicts.",
+    "size": "12 x 16 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/landscapes-4-1/800/1000",
+      "https://picsum.photos/seed/landscapes-4-2/800/1000",
+      "https://picsum.photos/seed/landscapes-4-3/800/1000",
+      "https://picsum.photos/seed/landscapes-4-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/landscapes-4-1/800/1000",
+    "country": "Nigeria",
+    "shipping": "$40",
+    "trustScore": "93%",
+    "category": [
+      "landscapes",
+      "paintings"
+    ],
+    "likes": 1848,
+    "created_at": {
+      "$date": "2025-12-06T05:44:59.000Z"
+    }
+  },
+  {
+    "artId": "LND-005",
+    "title": "River Bend at Noon",
+    "price": 5170,
+    "author": "Amara Okafor",
+    "detail": "River Bend at Noon is an original watercolour on paper by Amara Okafor, made in a romanticism style. A wide, atmospheric landscape that carries the mood of the hour it depicts.",
+    "size": "40 x 60 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/landscapes-5-1/800/1000",
+      "https://picsum.photos/seed/landscapes-5-2/800/1000",
+      "https://picsum.photos/seed/landscapes-5-3/800/1000",
+      "https://picsum.photos/seed/landscapes-5-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/landscapes-5-1/800/1000",
+    "country": "Nigeria",
+    "shipping": "Included",
+    "trustScore": "97%",
+    "category": [
+      "landscapes",
+      "paintings"
+    ],
+    "likes": 1282,
+    "created_at": {
+      "$date": "2026-01-26T17:22:32.000Z"
+    }
+  },
+  {
+    "artId": "LND-006",
+    "title": "Lake Under Storm Clouds",
+    "price": 420,
+    "author": "Rafael Ortega",
+    "detail": "Lake Under Storm Clouds is an original acrylic on canvas by Rafael Ortega, made in a realism style. A wide, atmospheric landscape that carries the mood of the hour it depicts.",
+    "size": "40 x 60 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/landscapes-6-1/800/1000",
+      "https://picsum.photos/seed/landscapes-6-2/800/1000",
+      "https://picsum.photos/seed/landscapes-6-3/800/1000",
+      "https://picsum.photos/seed/landscapes-6-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/landscapes-6-1/800/1000",
+    "country": "Spain",
+    "shipping": "Included",
+    "trustScore": "95%",
+    "category": [
+      "landscapes",
+      "paintings"
+    ],
+    "likes": 1696,
+    "created_at": {
+      "$date": "2026-01-17T01:50:17.000Z"
+    }
+  },
+  {
+    "artId": "LND-007",
+    "title": "Alpine Meadow",
+    "price": 820,
+    "author": "Mei Lin Zhao",
+    "detail": "Alpine Meadow is an original watercolour on paper by Mei Lin Zhao, made in a realism style. A wide, atmospheric landscape that carries the mood of the hour it depicts.",
+    "size": "24 x 36 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/landscapes-7-1/800/1000",
+      "https://picsum.photos/seed/landscapes-7-2/800/1000",
+      "https://picsum.photos/seed/landscapes-7-3/800/1000",
+      "https://picsum.photos/seed/landscapes-7-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/landscapes-7-1/800/1000",
+    "country": "China",
+    "shipping": "Included",
+    "trustScore": "96%",
+    "category": [
+      "landscapes",
+      "paintings"
+    ],
+    "likes": 1944,
+    "created_at": {
+      "$date": "2025-10-26T18:57:35.000Z"
+    }
+  },
+  {
+    "artId": "LND-008",
+    "title": "Autumn Road to Nowhere",
+    "price": 1780,
+    "author": "Tomas Novak",
+    "detail": "Autumn Road to Nowhere is an original acrylic on canvas by Tomas Novak, made in a contemporary landscape style. A wide, atmospheric landscape that carries the mood of the hour it depicts.",
+    "size": "24 x 36 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/landscapes-8-1/800/1000",
+      "https://picsum.photos/seed/landscapes-8-2/800/1000",
+      "https://picsum.photos/seed/landscapes-8-3/800/1000",
+      "https://picsum.photos/seed/landscapes-8-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/landscapes-8-1/800/1000",
+    "country": "Czech Republic",
+    "shipping": "$40",
+    "trustScore": "98%",
+    "category": [
+      "landscapes",
+      "paintings"
+    ],
+    "likes": 1156,
+    "created_at": {
+      "$date": "2026-09-19T06:37:27.000Z"
+    }
+  },
+  {
+    "artId": "LND-009",
+    "title": "Highland Sheep Fields",
+    "price": 4620,
+    "author": "Hannah Fischer",
+    "detail": "Highland Sheep Fields is an original oil on canvas by Hannah Fischer, made in a contemporary landscape style. A wide, atmospheric landscape that carries the mood of the hour it depicts.",
+    "size": "40 x 60 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/landscapes-9-1/800/1000",
+      "https://picsum.photos/seed/landscapes-9-2/800/1000",
+      "https://picsum.photos/seed/landscapes-9-3/800/1000",
+      "https://picsum.photos/seed/landscapes-9-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/landscapes-9-1/800/1000",
+    "country": "Germany",
+    "shipping": "Included",
+    "trustScore": "93%",
+    "category": [
+      "landscapes",
+      "paintings"
+    ],
+    "likes": 2132,
+    "created_at": {
+      "$date": "2026-08-18T23:27:06.000Z"
+    }
+  },
+  {
+    "artId": "LND-010",
+    "title": "Snowfall on the Ridge",
+    "price": 9500,
+    "author": "Noah Andersen",
+    "detail": "Snowfall on the Ridge is an original watercolour on paper by Noah Andersen, made in a romanticism style. A wide, atmospheric landscape that carries the mood of the hour it depicts.",
+    "size": "24 x 30 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/landscapes-10-1/800/1000",
+      "https://picsum.photos/seed/landscapes-10-2/800/1000",
+      "https://picsum.photos/seed/landscapes-10-3/800/1000",
+      "https://picsum.photos/seed/landscapes-10-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/landscapes-10-1/800/1000",
+    "country": "Denmark",
+    "shipping": "Included",
+    "trustScore": "100%",
+    "category": [
+      "landscapes",
+      "paintings"
+    ],
+    "likes": 28,
+    "created_at": {
+      "$date": "2025-09-24T00:01:01.000Z"
+    }
+  },
+  {
+    "artId": "ACR-001",
+    "title": "Citrus Skies",
+    "price": 370,
+    "author": "Noah Andersen",
+    "detail": "Citrus Skies is an original acrylic on wood panel by Noah Andersen, made in a fauvism style. Bold, fast-drying acrylic colour with crisp edges and a lively surface.",
+    "size": "40 x 60 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/acrylic-paintings-1-1/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-1-2/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-1-3/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-1-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/acrylic-paintings-1-1/800/1000",
+    "country": "Denmark",
+    "shipping": "Included",
+    "trustScore": "95%",
+    "category": [
+      "acrylic-paintings",
+      "paintings"
+    ],
+    "likes": 1568,
+    "created_at": {
+      "$date": "2025-09-21T15:20:08.000Z"
+    }
+  },
+  {
+    "artId": "ACR-002",
+    "title": "Pop of Afternoon",
+    "price": 970,
+    "author": "Elena Marchetti",
+    "detail": "Pop of Afternoon is an original acrylic on wood panel by Elena Marchetti, made in a pop style. Bold, fast-drying acrylic colour with crisp edges and a lively surface.",
+    "size": "36 x 48 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/acrylic-paintings-2-1/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-2-2/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-2-3/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-2-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/acrylic-paintings-2-1/800/1000",
+    "country": "Italy",
+    "shipping": "Included",
+    "trustScore": "92%",
+    "category": [
+      "acrylic-paintings",
+      "paintings"
+    ],
+    "likes": 2393,
+    "created_at": {
+      "$date": "2026-09-19T05:49:10.000Z"
+    }
+  },
+  {
+    "artId": "ACR-003",
+    "title": "Fast Lines, Bright Garden",
+    "price": 1210,
+    "author": "Lucas Ferreira",
+    "detail": "Fast Lines, Bright Garden is an original acrylic and ink on canvas by Lucas Ferreira, made in a fauvism style. Bold, fast-drying acrylic colour with crisp edges and a lively surface.",
+    "size": "12 x 16 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/acrylic-paintings-3-1/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-3-2/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-3-3/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-3-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/acrylic-paintings-3-1/800/1000",
+    "country": "Brazil",
+    "shipping": "Included",
+    "trustScore": "92%",
+    "category": [
+      "acrylic-paintings",
+      "paintings"
+    ],
+    "likes": 1380,
+    "created_at": {
+      "$date": "2026-06-19T04:21:03.000Z"
+    }
+  },
+  {
+    "artId": "ACR-004",
+    "title": "Coral Rooftops",
+    "price": 3820,
+    "author": "Nadia Haddad",
+    "detail": "Coral Rooftops is an original acrylic and ink on canvas by Nadia Haddad, made in a contemporary style. Bold, fast-drying acrylic colour with crisp edges and a lively surface.",
+    "size": "36 x 48 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/acrylic-paintings-4-1/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-4-2/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-4-3/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-4-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/acrylic-paintings-4-1/800/1000",
+    "country": "Lebanon",
+    "shipping": "Included",
+    "trustScore": "100%",
+    "category": [
+      "acrylic-paintings",
+      "paintings"
+    ],
+    "likes": 1588,
+    "created_at": {
+      "$date": "2026-08-01T07:06:05.000Z"
+    }
+  },
+  {
+    "artId": "ACR-005",
+    "title": "Neon Orchard",
+    "price": 7300,
+    "author": "Daniel Moreau",
+    "detail": "Neon Orchard is an original acrylic on canvas by Daniel Moreau, made in a pop style. Bold, fast-drying acrylic colour with crisp edges and a lively surface.",
+    "size": "36 x 48 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/acrylic-paintings-5-1/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-5-2/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-5-3/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-5-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/acrylic-paintings-5-1/800/1000",
+    "country": "France",
+    "shipping": "Included",
+    "trustScore": "98%",
+    "category": [
+      "acrylic-paintings",
+      "paintings"
+    ],
+    "likes": 2060,
+    "created_at": {
+      "$date": "2025-10-15T19:26:18.000Z"
+    }
+  },
+  {
+    "artId": "ACR-006",
+    "title": "Bold Blue Study",
+    "price": 230,
+    "author": "Isabella Rossi",
+    "detail": "Bold Blue Study is an original acrylic on canvas by Isabella Rossi, made in a fauvism style. Bold, fast-drying acrylic colour with crisp edges and a lively surface.",
+    "size": "24 x 36 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/acrylic-paintings-6-1/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-6-2/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-6-3/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-6-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/acrylic-paintings-6-1/800/1000",
+    "country": "Italy",
+    "shipping": "Included",
+    "trustScore": "100%",
+    "category": [
+      "acrylic-paintings",
+      "paintings"
+    ],
+    "likes": 209,
+    "created_at": {
+      "$date": "2025-09-21T05:38:35.000Z"
+    }
+  },
+  {
+    "artId": "ACR-007",
+    "title": "Sunday Market Bursts",
+    "price": 930,
+    "author": "Mateo Silva",
+    "detail": "Sunday Market Bursts is an original acrylic and ink on canvas by Mateo Silva, made in a fauvism style. Bold, fast-drying acrylic colour with crisp edges and a lively surface.",
+    "size": "16 x 20 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/acrylic-paintings-7-1/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-7-2/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-7-3/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-7-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/acrylic-paintings-7-1/800/1000",
+    "country": "Portugal",
+    "shipping": "Included",
+    "trustScore": "99%",
+    "category": [
+      "acrylic-paintings",
+      "paintings"
+    ],
+    "likes": 1185,
+    "created_at": {
+      "$date": "2025-10-16T11:52:44.000Z"
+    }
+  },
+  {
+    "artId": "ACR-008",
+    "title": "Playground at Dusk",
+    "price": 1070,
+    "author": "Chloe Dubois",
+    "detail": "Playground at Dusk is an original acrylic and ink on canvas by Chloe Dubois, made in a contemporary style. Bold, fast-drying acrylic colour with crisp edges and a lively surface.",
+    "size": "18 x 24 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/acrylic-paintings-8-1/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-8-2/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-8-3/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-8-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/acrylic-paintings-8-1/800/1000",
+    "country": "Canada",
+    "shipping": "Included",
+    "trustScore": "95%",
+    "category": [
+      "acrylic-paintings",
+      "paintings"
+    ],
+    "likes": 192,
+    "created_at": {
+      "$date": "2026-01-20T16:53:21.000Z"
+    }
+  },
+  {
+    "artId": "ACR-009",
+    "title": "Saturated Summer",
+    "price": 4610,
+    "author": "Kenji Watanabe",
+    "detail": "Saturated Summer is an original acrylic on wood panel by Kenji Watanabe, made in a naive art style. Bold, fast-drying acrylic colour with crisp edges and a lively surface.",
+    "size": "30 x 40 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/acrylic-paintings-9-1/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-9-2/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-9-3/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-9-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/acrylic-paintings-9-1/800/1000",
+    "country": "Japan",
+    "shipping": "Included",
+    "trustScore": "100%",
+    "category": [
+      "acrylic-paintings",
+      "paintings"
+    ],
+    "likes": 416,
+    "created_at": {
+      "$date": "2026-01-10T08:20:37.000Z"
+    }
+  },
+  {
+    "artId": "ACR-010",
+    "title": "Green Room Variations",
+    "price": 8650,
+    "author": "Sofia Lindqvist",
+    "detail": "Green Room Variations is an original acrylic on wood panel by Sofia Lindqvist, made in a naive art style. Bold, fast-drying acrylic colour with crisp edges and a lively surface.",
+    "size": "24 x 36 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/acrylic-paintings-10-1/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-10-2/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-10-3/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-10-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/acrylic-paintings-10-1/800/1000",
+    "country": "Sweden",
+    "shipping": "Included",
+    "trustScore": "97%",
+    "category": [
+      "acrylic-paintings",
+      "paintings"
+    ],
+    "likes": 181,
+    "created_at": {
+      "$date": "2026-10-10T04:53:47.000Z"
+    }
+  },
+  {
+    "artId": "MOD-001",
+    "title": "Grid of Possibilities",
+    "price": 340,
+    "author": "Tomas Novak",
+    "detail": "Grid of Possibilities is an original acrylic on canvas by Tomas Novak, made in a constructivism style. A clean, graphic composition that sits comfortably in contemporary interiors.",
+    "size": "30 x 40 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/modern-arts-1-1/800/1000",
+      "https://picsum.photos/seed/modern-arts-1-2/800/1000",
+      "https://picsum.photos/seed/modern-arts-1-3/800/1000",
+      "https://picsum.photos/seed/modern-arts-1-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/modern-arts-1-1/800/1000",
+    "country": "Czech Republic",
+    "shipping": "Included",
+    "trustScore": "98%",
+    "category": [
+      "modern-arts"
+    ],
+    "likes": 1629,
+    "created_at": {
+      "$date": "2026-01-12T14:17:05.000Z"
+    }
+  },
+  {
+    "artId": "MOD-002",
+    "title": "Pixel Garden",
+    "price": 970,
+    "author": "Hannah Fischer",
+    "detail": "Pixel Garden is an original digital print on aluminium by Hannah Fischer, made in a constructivism style. A clean, graphic composition that sits comfortably in contemporary interiors.",
+    "size": "40 x 60 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/modern-arts-2-1/800/1000",
+      "https://picsum.photos/seed/modern-arts-2-2/800/1000",
+      "https://picsum.photos/seed/modern-arts-2-3/800/1000",
+      "https://picsum.photos/seed/modern-arts-2-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/modern-arts-2-1/800/1000",
+    "country": "Germany",
+    "shipping": "$40",
+    "trustScore": "96%",
+    "category": [
+      "modern-arts"
+    ],
+    "likes": 755,
+    "created_at": {
+      "$date": "2025-09-25T18:42:58.000Z"
+    }
+  },
+  {
+    "artId": "MOD-003",
+    "title": "Concrete Poetry No. 3",
+    "price": 1850,
+    "author": "Noah Andersen",
+    "detail": "Concrete Poetry No. 3 is an original acrylic on canvas by Noah Andersen, made in a neo-geometric style. A clean, graphic composition that sits comfortably in contemporary interiors.",
+    "size": "12 x 16 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/modern-arts-3-1/800/1000",
+      "https://picsum.photos/seed/modern-arts-3-2/800/1000",
+      "https://picsum.photos/seed/modern-arts-3-3/800/1000",
+      "https://picsum.photos/seed/modern-arts-3-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/modern-arts-3-1/800/1000",
+    "country": "Denmark",
+    "shipping": "Included",
+    "trustScore": "95%",
+    "category": [
+      "modern-arts"
+    ],
+    "likes": 319,
+    "created_at": {
+      "$date": "2026-04-11T22:02:53.000Z"
+    }
+  },
+  {
+    "artId": "MOD-004",
+    "title": "Geometry of Commutes",
+    "price": 3610,
+    "author": "Elena Marchetti",
+    "detail": "Geometry of Commutes is an original digital print on aluminium by Elena Marchetti, made in a bauhaus-inspired style. A clean, graphic composition that sits comfortably in contemporary interiors.",
+    "size": "30 x 40 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/modern-arts-4-1/800/1000",
+      "https://picsum.photos/seed/modern-arts-4-2/800/1000",
+      "https://picsum.photos/seed/modern-arts-4-3/800/1000",
+      "https://picsum.photos/seed/modern-arts-4-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/modern-arts-4-1/800/1000",
+    "country": "Italy",
+    "shipping": "$40",
+    "trustScore": "95%",
+    "category": [
+      "modern-arts"
+    ],
+    "likes": 2382,
+    "created_at": {
+      "$date": "2026-03-01T12:20:40.000Z"
+    }
+  },
+  {
+    "artId": "MOD-005",
+    "title": "Layered Signals",
+    "price": 5400,
+    "author": "Lucas Ferreira",
+    "detail": "Layered Signals is an original acrylic on canvas by Lucas Ferreira, made in a neo-geometric style. A clean, graphic composition that sits comfortably in contemporary interiors.",
+    "size": "30 x 40 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/modern-arts-5-1/800/1000",
+      "https://picsum.photos/seed/modern-arts-5-2/800/1000",
+      "https://picsum.photos/seed/modern-arts-5-3/800/1000",
+      "https://picsum.photos/seed/modern-arts-5-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/modern-arts-5-1/800/1000",
+    "country": "Brazil",
+    "shipping": "Included",
+    "trustScore": "93%",
+    "category": [
+      "modern-arts"
+    ],
+    "likes": 963,
+    "created_at": {
+      "$date": "2026-07-12T22:14:56.000Z"
+    }
+  },
+  {
+    "artId": "MOD-006",
+    "title": "Minimal Horizon II",
+    "price": 160,
+    "author": "Nadia Haddad",
+    "detail": "Minimal Horizon II is an original acrylic on canvas by Nadia Haddad, made in a bauhaus-inspired style. A clean, graphic composition that sits comfortably in contemporary interiors.",
+    "size": "16 x 20 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/modern-arts-6-1/800/1000",
+      "https://picsum.photos/seed/modern-arts-6-2/800/1000",
+      "https://picsum.photos/seed/modern-arts-6-3/800/1000",
+      "https://picsum.photos/seed/modern-arts-6-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/modern-arts-6-1/800/1000",
+    "country": "Lebanon",
+    "shipping": "Included",
+    "trustScore": "97%",
+    "category": [
+      "modern-arts"
+    ],
+    "likes": 1233,
+    "created_at": {
+      "$date": "2026-09-25T01:45:36.000Z"
+    }
+  },
+  {
+    "artId": "MOD-007",
+    "title": "Bauhaus Morning",
+    "price": 720,
+    "author": "Daniel Moreau",
+    "detail": "Bauhaus Morning is an original acrylic on canvas by Daniel Moreau, made in a bauhaus-inspired style. A clean, graphic composition that sits comfortably in contemporary interiors.",
+    "size": "12 x 16 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/modern-arts-7-1/800/1000",
+      "https://picsum.photos/seed/modern-arts-7-2/800/1000",
+      "https://picsum.photos/seed/modern-arts-7-3/800/1000",
+      "https://picsum.photos/seed/modern-arts-7-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/modern-arts-7-1/800/1000",
+    "country": "France",
+    "shipping": "$40",
+    "trustScore": "92%",
+    "category": [
+      "modern-arts"
+    ],
+    "likes": 1892,
+    "created_at": {
+      "$date": "2026-03-19T05:03:25.000Z"
+    }
+  },
+  {
+    "artId": "MOD-008",
+    "title": "Interface",
+    "price": 1600,
+    "author": "Isabella Rossi",
+    "detail": "Interface is an original mixed media collage by Isabella Rossi, made in a bauhaus-inspired style. A clean, graphic composition that sits comfortably in contemporary interiors.",
+    "size": "24 x 30 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/modern-arts-8-1/800/1000",
+      "https://picsum.photos/seed/modern-arts-8-2/800/1000",
+      "https://picsum.photos/seed/modern-arts-8-3/800/1000",
+      "https://picsum.photos/seed/modern-arts-8-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/modern-arts-8-1/800/1000",
+    "country": "Italy",
+    "shipping": "Included",
+    "trustScore": "100%",
+    "category": [
+      "modern-arts"
+    ],
+    "likes": 313,
+    "created_at": {
+      "$date": "2026-09-16T00:46:13.000Z"
+    }
+  },
+  {
+    "artId": "MOD-009",
+    "title": "Cut Paper City",
+    "price": 3730,
+    "author": "Mateo Silva",
+    "detail": "Cut Paper City is an original screenprint on paper by Mateo Silva, made in a neo-geometric style. A clean, graphic composition that sits comfortably in contemporary interiors.",
+    "size": "18 x 24 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/modern-arts-9-1/800/1000",
+      "https://picsum.photos/seed/modern-arts-9-2/800/1000",
+      "https://picsum.photos/seed/modern-arts-9-3/800/1000",
+      "https://picsum.photos/seed/modern-arts-9-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/modern-arts-9-1/800/1000",
+    "country": "Portugal",
+    "shipping": "$40",
+    "trustScore": "98%",
+    "category": [
+      "modern-arts"
+    ],
+    "likes": 666,
+    "created_at": {
+      "$date": "2026-07-17T14:02:41.000Z"
+    }
+  },
+  {
+    "artId": "MOD-010",
+    "title": "Shift Left",
+    "price": 6760,
+    "author": "Chloe Dubois",
+    "detail": "Shift Left is an original screenprint on paper by Chloe Dubois, made in a neo-geometric style. A clean, graphic composition that sits comfortably in contemporary interiors.",
+    "size": "36 x 48 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/modern-arts-10-1/800/1000",
+      "https://picsum.photos/seed/modern-arts-10-2/800/1000",
+      "https://picsum.photos/seed/modern-arts-10-3/800/1000",
+      "https://picsum.photos/seed/modern-arts-10-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/modern-arts-10-1/800/1000",
+    "country": "Canada",
+    "shipping": "Included",
+    "trustScore": "95%",
+    "category": [
+      "modern-arts"
+    ],
+    "likes": 1147,
+    "created_at": {
+      "$date": "2025-12-09T16:47:59.000Z"
+    }
+  },
+  {
+    "artId": "POR-001",
+    "title": "Woman with Folded Letter",
+    "price": 330,
+    "author": "Daniel Moreau",
+    "detail": "Woman with Folded Letter is an original acrylic on canvas by Daniel Moreau, made in a expressionism style. A quiet, observed portrait that focuses on expression, posture and light.",
+    "size": "36 x 48 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/portraits-1-1/800/1000",
+      "https://picsum.photos/seed/portraits-1-2/800/1000",
+      "https://picsum.photos/seed/portraits-1-3/800/1000",
+      "https://picsum.photos/seed/portraits-1-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/portraits-1-1/800/1000",
+    "country": "France",
+    "shipping": "Included",
+    "trustScore": "99%",
+    "category": [
+      "portraits",
+      "paintings"
+    ],
+    "likes": 2318,
+    "created_at": {
+      "$date": "2025-09-20T16:55:05.000Z"
+    }
+  },
+  {
+    "artId": "POR-002",
+    "title": "Boy at the Bus Stop",
+    "price": 820,
+    "author": "Isabella Rossi",
+    "detail": "Boy at the Bus Stop is an original charcoal and oil on paper by Isabella Rossi, made in a figurative style. A quiet, observed portrait that focuses on expression, posture and light.",
+    "size": "24 x 30 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/portraits-2-1/800/1000",
+      "https://picsum.photos/seed/portraits-2-2/800/1000",
+      "https://picsum.photos/seed/portraits-2-3/800/1000",
+      "https://picsum.photos/seed/portraits-2-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/portraits-2-1/800/1000",
+    "country": "Italy",
+    "shipping": "Included",
+    "trustScore": "92%",
+    "category": [
+      "portraits",
+      "paintings"
+    ],
+    "likes": 1190,
+    "created_at": {
+      "$date": "2025-12-15T04:49:29.000Z"
+    }
+  },
+  {
+    "artId": "POR-003",
+    "title": "The Baker's Daughter",
+    "price": 1340,
+    "author": "Mateo Silva",
+    "detail": "The Baker's Daughter is an original acrylic on canvas by Mateo Silva, made in a expressionism style. A quiet, observed portrait that focuses on expression, posture and light.",
+    "size": "12 x 16 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/portraits-3-1/800/1000",
+      "https://picsum.photos/seed/portraits-3-2/800/1000",
+      "https://picsum.photos/seed/portraits-3-3/800/1000",
+      "https://picsum.photos/seed/portraits-3-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/portraits-3-1/800/1000",
+    "country": "Portugal",
+    "shipping": "$40",
+    "trustScore": "99%",
+    "category": [
+      "portraits",
+      "paintings"
+    ],
+    "likes": 2338,
+    "created_at": {
+      "$date": "2026-04-26T14:32:22.000Z"
+    }
+  },
+  {
+    "artId": "POR-004",
+    "title": "Self-Portrait, Half Turned",
+    "price": 2230,
+    "author": "Chloe Dubois",
+    "detail": "Self-Portrait, Half Turned is an original oil on canvas by Chloe Dubois, made in a expressionism style. A quiet, observed portrait that focuses on expression, posture and light.",
+    "size": "40 x 60 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/portraits-4-1/800/1000",
+      "https://picsum.photos/seed/portraits-4-2/800/1000",
+      "https://picsum.photos/seed/portraits-4-3/800/1000",
+      "https://picsum.photos/seed/portraits-4-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/portraits-4-1/800/1000",
+    "country": "Canada",
+    "shipping": "Included",
+    "trustScore": "94%",
+    "category": [
+      "portraits",
+      "paintings"
+    ],
+    "likes": 720,
+    "created_at": {
+      "$date": "2026-01-28T04:36:25.000Z"
+    }
+  },
+  {
+    "artId": "POR-005",
+    "title": "Grandfather's Pipe",
+    "price": 9760,
+    "author": "Kenji Watanabe",
+    "detail": "Grandfather's Pipe is an original acrylic on canvas by Kenji Watanabe, made in a contemporary portraiture style. A quiet, observed portrait that focuses on expression, posture and light.",
+    "size": "30 x 40 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/portraits-5-1/800/1000",
+      "https://picsum.photos/seed/portraits-5-2/800/1000",
+      "https://picsum.photos/seed/portraits-5-3/800/1000",
+      "https://picsum.photos/seed/portraits-5-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/portraits-5-1/800/1000",
+    "country": "Japan",
+    "shipping": "Included",
+    "trustScore": "92%",
+    "category": [
+      "portraits",
+      "paintings"
+    ],
+    "likes": 1366,
+    "created_at": {
+      "$date": "2026-04-11T01:49:22.000Z"
+    }
+  },
+  {
+    "artId": "POR-006",
+    "title": "Girl in Yellow Scarf",
+    "price": 350,
+    "author": "Sofia Lindqvist",
+    "detail": "Girl in Yellow Scarf is an original oil on canvas by Sofia Lindqvist, made in a expressionism style. A quiet, observed portrait that focuses on expression, posture and light.",
+    "size": "24 x 36 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/portraits-6-1/800/1000",
+      "https://picsum.photos/seed/portraits-6-2/800/1000",
+      "https://picsum.photos/seed/portraits-6-3/800/1000",
+      "https://picsum.photos/seed/portraits-6-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/portraits-6-1/800/1000",
+    "country": "Sweden",
+    "shipping": "Included",
+    "trustScore": "99%",
+    "category": [
+      "portraits",
+      "paintings"
+    ],
+    "likes": 617,
+    "created_at": {
+      "$date": "2026-06-12T21:47:39.000Z"
+    }
+  },
+  {
+    "artId": "POR-007",
+    "title": "The Violin Teacher",
+    "price": 710,
+    "author": "Oliver Bennett",
+    "detail": "The Violin Teacher is an original charcoal and oil on paper by Oliver Bennett, made in a realism style. A quiet, observed portrait that focuses on expression, posture and light.",
+    "size": "24 x 30 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/portraits-7-1/800/1000",
+      "https://picsum.photos/seed/portraits-7-2/800/1000",
+      "https://picsum.photos/seed/portraits-7-3/800/1000",
+      "https://picsum.photos/seed/portraits-7-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/portraits-7-1/800/1000",
+    "country": "United Kingdom",
+    "shipping": "Included",
+    "trustScore": "97%",
+    "category": [
+      "portraits",
+      "paintings"
+    ],
+    "likes": 1975,
+    "created_at": {
+      "$date": "2026-01-06T16:32:03.000Z"
+    }
+  },
+  {
+    "artId": "POR-008",
+    "title": "Man by the Window",
+    "price": 1500,
+    "author": "Zainab Qureshi",
+    "detail": "Man by the Window is an original charcoal and oil on paper by Zainab Qureshi, made in a realism style. A quiet, observed portrait that focuses on expression, posture and light.",
+    "size": "40 x 60 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/portraits-8-1/800/1000",
+      "https://picsum.photos/seed/portraits-8-2/800/1000",
+      "https://picsum.photos/seed/portraits-8-3/800/1000",
+      "https://picsum.photos/seed/portraits-8-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/portraits-8-1/800/1000",
+    "country": "Pakistan",
+    "shipping": "Included",
+    "trustScore": "92%",
+    "category": [
+      "portraits",
+      "paintings"
+    ],
+    "likes": 381,
+    "created_at": {
+      "$date": "2025-12-19T16:59:31.000Z"
+    }
+  },
+  {
+    "artId": "POR-009",
+    "title": "Two Sisters, Evening",
+    "price": 3230,
+    "author": "Arjun Mehta",
+    "detail": "Two Sisters, Evening is an original acrylic on canvas by Arjun Mehta, made in a realism style. A quiet, observed portrait that focuses on expression, posture and light.",
+    "size": "40 x 60 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/portraits-9-1/800/1000",
+      "https://picsum.photos/seed/portraits-9-2/800/1000",
+      "https://picsum.photos/seed/portraits-9-3/800/1000",
+      "https://picsum.photos/seed/portraits-9-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/portraits-9-1/800/1000",
+    "country": "India",
+    "shipping": "Included",
+    "trustScore": "92%",
+    "category": [
+      "portraits",
+      "paintings"
+    ],
+    "likes": 499,
+    "created_at": {
+      "$date": "2025-12-03T21:15:37.000Z"
+    }
+  },
+  {
+    "artId": "POR-010",
+    "title": "Elder with Red Shawl",
+    "price": 5140,
+    "author": "Layla Rahman",
+    "detail": "Elder with Red Shawl is an original acrylic on canvas by Layla Rahman, made in a contemporary portraiture style. A quiet, observed portrait that focuses on expression, posture and light.",
+    "size": "36 x 48 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/portraits-10-1/800/1000",
+      "https://picsum.photos/seed/portraits-10-2/800/1000",
+      "https://picsum.photos/seed/portraits-10-3/800/1000",
+      "https://picsum.photos/seed/portraits-10-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/portraits-10-1/800/1000",
+    "country": "Bangladesh",
+    "shipping": "Included",
+    "trustScore": "94%",
+    "category": [
+      "portraits",
+      "paintings"
+    ],
+    "likes": 2392,
+    "created_at": {
+      "$date": "2026-03-30T08:55:49.000Z"
+    }
+  },
+  {
+    "artId": "FLW-001",
+    "title": "Peonies in a Blue Jar",
+    "price": 210,
+    "author": "Oliver Bennett",
+    "detail": "Peonies in a Blue Jar is an original acrylic on canvas by Oliver Bennett, made in a realism style. A fresh floral study with soft light and a lively, natural colour range.",
+    "size": "16 x 20 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/flowers-1-1/800/1000",
+      "https://picsum.photos/seed/flowers-1-2/800/1000",
+      "https://picsum.photos/seed/flowers-1-3/800/1000",
+      "https://picsum.photos/seed/flowers-1-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/flowers-1-1/800/1000",
+    "country": "United Kingdom",
+    "shipping": "Included",
+    "trustScore": "92%",
+    "category": [
+      "flowers",
+      "paintings"
+    ],
+    "likes": 301,
+    "created_at": {
+      "$date": "2026-08-05T11:15:47.000Z"
+    }
+  },
+  {
+    "artId": "FLW-002",
+    "title": "Wild Poppies at Noon",
+    "price": 660,
+    "author": "Zainab Qureshi",
+    "detail": "Wild Poppies at Noon is an original watercolour on paper by Zainab Qureshi, made in a botanical style. A fresh floral study with soft light and a lively, natural colour range.",
+    "size": "18 x 24 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/flowers-2-1/800/1000",
+      "https://picsum.photos/seed/flowers-2-2/800/1000",
+      "https://picsum.photos/seed/flowers-2-3/800/1000",
+      "https://picsum.photos/seed/flowers-2-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/flowers-2-1/800/1000",
+    "country": "Pakistan",
+    "shipping": "$40",
+    "trustScore": "93%",
+    "category": [
+      "flowers",
+      "paintings"
+    ],
+    "likes": 2313,
+    "created_at": {
+      "$date": "2026-05-24T02:03:52.000Z"
+    }
+  },
+  {
+    "artId": "FLW-003",
+    "title": "Sunflowers Leaning Home",
+    "price": 1670,
+    "author": "Arjun Mehta",
+    "detail": "Sunflowers Leaning Home is an original oil on canvas by Arjun Mehta, made in a impressionism style. A fresh floral study with soft light and a lively, natural colour range.",
+    "size": "24 x 30 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/flowers-3-1/800/1000",
+      "https://picsum.photos/seed/flowers-3-2/800/1000",
+      "https://picsum.photos/seed/flowers-3-3/800/1000",
+      "https://picsum.photos/seed/flowers-3-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/flowers-3-1/800/1000",
+    "country": "India",
+    "shipping": "$40",
+    "trustScore": "99%",
+    "category": [
+      "flowers",
+      "paintings"
+    ],
+    "likes": 902,
+    "created_at": {
+      "$date": "2026-06-19T19:44:01.000Z"
+    }
+  },
+  {
+    "artId": "FLW-004",
+    "title": "Lilies After Rain",
+    "price": 2750,
+    "author": "Layla Rahman",
+    "detail": "Lilies After Rain is an original oil on canvas by Layla Rahman, made in a botanical style. A fresh floral study with soft light and a lively, natural colour range.",
+    "size": "16 x 20 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/flowers-4-1/800/1000",
+      "https://picsum.photos/seed/flowers-4-2/800/1000",
+      "https://picsum.photos/seed/flowers-4-3/800/1000",
+      "https://picsum.photos/seed/flowers-4-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/flowers-4-1/800/1000",
+    "country": "Bangladesh",
+    "shipping": "Included",
+    "trustScore": "96%",
+    "category": [
+      "flowers",
+      "paintings"
+    ],
+    "likes": 1725,
+    "created_at": {
+      "$date": "2025-12-08T08:00:23.000Z"
+    }
+  },
+  {
+    "artId": "FLW-005",
+    "title": "Dahlia Study in Rust",
+    "price": 9990,
+    "author": "Samuel Adeyemi",
+    "detail": "Dahlia Study in Rust is an original acrylic on canvas by Samuel Adeyemi, made in a still life style. A fresh floral study with soft light and a lively, natural colour range.",
+    "size": "30 x 40 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/flowers-5-1/800/1000",
+      "https://picsum.photos/seed/flowers-5-2/800/1000",
+      "https://picsum.photos/seed/flowers-5-3/800/1000",
+      "https://picsum.photos/seed/flowers-5-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/flowers-5-1/800/1000",
+    "country": "Nigeria",
+    "shipping": "Included",
+    "trustScore": "98%",
+    "category": [
+      "flowers",
+      "paintings"
+    ],
+    "likes": 2225,
+    "created_at": {
+      "$date": "2025-09-30T21:10:30.000Z"
+    }
+  },
+  {
+    "artId": "FLW-006",
+    "title": "Marigold Garden",
+    "price": 220,
+    "author": "Amara Okafor",
+    "detail": "Marigold Garden is an original acrylic on canvas by Amara Okafor, made in a realism style. A fresh floral study with soft light and a lively, natural colour range.",
+    "size": "16 x 20 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/flowers-6-1/800/1000",
+      "https://picsum.photos/seed/flowers-6-2/800/1000",
+      "https://picsum.photos/seed/flowers-6-3/800/1000",
+      "https://picsum.photos/seed/flowers-6-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/flowers-6-1/800/1000",
+    "country": "Nigeria",
+    "shipping": "Included",
+    "trustScore": "94%",
+    "category": [
+      "flowers",
+      "paintings"
+    ],
+    "likes": 1977,
+    "created_at": {
+      "$date": "2025-12-19T11:51:26.000Z"
+    }
+  },
+  {
+    "artId": "FLW-007",
+    "title": "Jasmine at the Gate",
+    "price": 540,
+    "author": "Rafael Ortega",
+    "detail": "Jasmine at the Gate is an original oil on canvas by Rafael Ortega, made in a realism style. A fresh floral study with soft light and a lively, natural colour range.",
+    "size": "12 x 16 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/flowers-7-1/800/1000",
+      "https://picsum.photos/seed/flowers-7-2/800/1000",
+      "https://picsum.photos/seed/flowers-7-3/800/1000",
+      "https://picsum.photos/seed/flowers-7-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/flowers-7-1/800/1000",
+    "country": "Spain",
+    "shipping": "$40",
+    "trustScore": "98%",
+    "category": [
+      "flowers",
+      "paintings"
+    ],
+    "likes": 740,
+    "created_at": {
+      "$date": "2026-05-03T14:09:34.000Z"
+    }
+  },
+  {
+    "artId": "FLW-008",
+    "title": "Tulips, Morning Table",
+    "price": 1350,
+    "author": "Mei Lin Zhao",
+    "detail": "Tulips, Morning Table is an original watercolour on paper by Mei Lin Zhao, made in a impressionism style. A fresh floral study with soft light and a lively, natural colour range.",
+    "size": "30 x 40 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/flowers-8-1/800/1000",
+      "https://picsum.photos/seed/flowers-8-2/800/1000",
+      "https://picsum.photos/seed/flowers-8-3/800/1000",
+      "https://picsum.photos/seed/flowers-8-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/flowers-8-1/800/1000",
+    "country": "China",
+    "shipping": "Included",
+    "trustScore": "96%",
+    "category": [
+      "flowers",
+      "paintings"
+    ],
+    "likes": 1359,
+    "created_at": {
+      "$date": "2026-03-28T04:09:31.000Z"
+    }
+  },
+  {
+    "artId": "FLW-009",
+    "title": "Lavender Rows",
+    "price": 3290,
+    "author": "Tomas Novak",
+    "detail": "Lavender Rows is an original acrylic on canvas by Tomas Novak, made in a impressionism style. A fresh floral study with soft light and a lively, natural colour range.",
+    "size": "40 x 60 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/flowers-9-1/800/1000",
+      "https://picsum.photos/seed/flowers-9-2/800/1000",
+      "https://picsum.photos/seed/flowers-9-3/800/1000",
+      "https://picsum.photos/seed/flowers-9-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/flowers-9-1/800/1000",
+    "country": "Czech Republic",
+    "shipping": "$40",
+    "trustScore": "98%",
+    "category": [
+      "flowers",
+      "paintings"
+    ],
+    "likes": 60,
+    "created_at": {
+      "$date": "2026-05-22T09:35:25.000Z"
+    }
+  },
+  {
+    "artId": "FLW-010",
+    "title": "Cherry Blossom Drift",
+    "price": 8110,
+    "author": "Hannah Fischer",
+    "detail": "Cherry Blossom Drift is an original watercolour on paper by Hannah Fischer, made in a botanical style. A fresh floral study with soft light and a lively, natural colour range.",
+    "size": "24 x 36 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/flowers-10-1/800/1000",
+      "https://picsum.photos/seed/flowers-10-2/800/1000",
+      "https://picsum.photos/seed/flowers-10-3/800/1000",
+      "https://picsum.photos/seed/flowers-10-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/flowers-10-1/800/1000",
+    "country": "Germany",
+    "shipping": "$40",
+    "trustScore": "98%",
+    "category": [
+      "flowers",
+      "paintings"
+    ],
+    "likes": 1457,
+    "created_at": {
+      "$date": "2026-08-20T04:10:39.000Z"
+    }
+  },
+  {
+    "artId": "SEA-001",
+    "title": "Grey Swell at Dawn",
+    "price": 300,
+    "author": "Daniel Moreau",
+    "detail": "Grey Swell at Dawn is an original oil on canvas by Daniel Moreau, made in a contemporary realism style. A moving seascape with convincing water, sky and a sense of open air.",
+    "size": "36 x 48 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/seascapes-1-1/800/1000",
+      "https://picsum.photos/seed/seascapes-1-2/800/1000",
+      "https://picsum.photos/seed/seascapes-1-3/800/1000",
+      "https://picsum.photos/seed/seascapes-1-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/seascapes-1-1/800/1000",
+    "country": "France",
+    "shipping": "Included",
+    "trustScore": "98%",
+    "category": [
+      "seascapes",
+      "paintings"
+    ],
+    "likes": 787,
+    "created_at": {
+      "$date": "2026-02-17T10:42:41.000Z"
+    }
+  },
+  {
+    "artId": "SEA-002",
+    "title": "Harbor of Small Boats",
+    "price": 990,
+    "author": "Isabella Rossi",
+    "detail": "Harbor of Small Boats is an original oil on panel by Isabella Rossi, made in a contemporary realism style. A moving seascape with convincing water, sky and a sense of open air.",
+    "size": "40 x 60 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/seascapes-2-1/800/1000",
+      "https://picsum.photos/seed/seascapes-2-2/800/1000",
+      "https://picsum.photos/seed/seascapes-2-3/800/1000",
+      "https://picsum.photos/seed/seascapes-2-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/seascapes-2-1/800/1000",
+    "country": "Italy",
+    "shipping": "$40",
+    "trustScore": "100%",
+    "category": [
+      "seascapes",
+      "paintings"
+    ],
+    "likes": 1011,
+    "created_at": {
+      "$date": "2026-04-06T08:20:09.000Z"
+    }
+  },
+  {
+    "artId": "SEA-003",
+    "title": "Rolling Surf, Copper Sky",
+    "price": 1230,
+    "author": "Mateo Silva",
+    "detail": "Rolling Surf, Copper Sky is an original oil on canvas by Mateo Silva, made in a contemporary realism style. A moving seascape with convincing water, sky and a sense of open air.",
+    "size": "40 x 60 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/seascapes-3-1/800/1000",
+      "https://picsum.photos/seed/seascapes-3-2/800/1000",
+      "https://picsum.photos/seed/seascapes-3-3/800/1000",
+      "https://picsum.photos/seed/seascapes-3-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/seascapes-3-1/800/1000",
+    "country": "Portugal",
+    "shipping": "$40",
+    "trustScore": "95%",
+    "category": [
+      "seascapes",
+      "paintings"
+    ],
+    "likes": 1948,
+    "created_at": {
+      "$date": "2026-10-09T12:33:01.000Z"
+    }
+  },
+  {
+    "artId": "SEA-004",
+    "title": "Lighthouse in Fog",
+    "price": 3830,
+    "author": "Chloe Dubois",
+    "detail": "Lighthouse in Fog is an original oil on panel by Chloe Dubois, made in a romanticism style. A moving seascape with convincing water, sky and a sense of open air.",
+    "size": "24 x 30 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/seascapes-4-1/800/1000",
+      "https://picsum.photos/seed/seascapes-4-2/800/1000",
+      "https://picsum.photos/seed/seascapes-4-3/800/1000",
+      "https://picsum.photos/seed/seascapes-4-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/seascapes-4-1/800/1000",
+    "country": "Canada",
+    "shipping": "Included",
+    "trustScore": "92%",
+    "category": [
+      "seascapes",
+      "paintings"
+    ],
+    "likes": 711,
+    "created_at": {
+      "$date": "2026-03-13T03:29:20.000Z"
+    }
+  },
+  {
+    "artId": "SEA-005",
+    "title": "Tide Pools at Noon",
+    "price": 6440,
+    "author": "Kenji Watanabe",
+    "detail": "Tide Pools at Noon is an original oil on panel by Kenji Watanabe, made in a marine art style. A moving seascape with convincing water, sky and a sense of open air.",
+    "size": "18 x 24 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/seascapes-5-1/800/1000",
+      "https://picsum.photos/seed/seascapes-5-2/800/1000",
+      "https://picsum.photos/seed/seascapes-5-3/800/1000",
+      "https://picsum.photos/seed/seascapes-5-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/seascapes-5-1/800/1000",
+    "country": "Japan",
+    "shipping": "$40",
+    "trustScore": "94%",
+    "category": [
+      "seascapes",
+      "paintings"
+    ],
+    "likes": 2349,
+    "created_at": {
+      "$date": "2026-05-20T18:00:02.000Z"
+    }
+  },
+  {
+    "artId": "SEA-006",
+    "title": "Evening Calm, Open Water",
+    "price": 280,
+    "author": "Sofia Lindqvist",
+    "detail": "Evening Calm, Open Water is an original oil on canvas by Sofia Lindqvist, made in a impressionism style. A moving seascape with convincing water, sky and a sense of open air.",
+    "size": "24 x 36 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/seascapes-6-1/800/1000",
+      "https://picsum.photos/seed/seascapes-6-2/800/1000",
+      "https://picsum.photos/seed/seascapes-6-3/800/1000",
+      "https://picsum.photos/seed/seascapes-6-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/seascapes-6-1/800/1000",
+    "country": "Sweden",
+    "shipping": "Included",
+    "trustScore": "100%",
+    "category": [
+      "seascapes",
+      "paintings"
+    ],
+    "likes": 2281,
+    "created_at": {
+      "$date": "2025-10-24T06:20:36.000Z"
+    }
+  },
+  {
+    "artId": "SEA-007",
+    "title": "Storm Breaking Over the Bay",
+    "price": 950,
+    "author": "Oliver Bennett",
+    "detail": "Storm Breaking Over the Bay is an original oil on canvas by Oliver Bennett, made in a romanticism style. A moving seascape with convincing water, sky and a sense of open air.",
+    "size": "16 x 20 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/seascapes-7-1/800/1000",
+      "https://picsum.photos/seed/seascapes-7-2/800/1000",
+      "https://picsum.photos/seed/seascapes-7-3/800/1000",
+      "https://picsum.photos/seed/seascapes-7-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/seascapes-7-1/800/1000",
+    "country": "United Kingdom",
+    "shipping": "Included",
+    "trustScore": "93%",
+    "category": [
+      "seascapes",
+      "paintings"
+    ],
+    "likes": 2252,
+    "created_at": {
+      "$date": "2026-05-28T04:17:47.000Z"
+    }
+  },
+  {
+    "artId": "SEA-008",
+    "title": "Sailboats at Anchor",
+    "price": 1660,
+    "author": "Zainab Qureshi",
+    "detail": "Sailboats at Anchor is an original oil on panel by Zainab Qureshi, made in a marine art style. A moving seascape with convincing water, sky and a sense of open air.",
+    "size": "12 x 16 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/seascapes-8-1/800/1000",
+      "https://picsum.photos/seed/seascapes-8-2/800/1000",
+      "https://picsum.photos/seed/seascapes-8-3/800/1000",
+      "https://picsum.photos/seed/seascapes-8-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/seascapes-8-1/800/1000",
+    "country": "Pakistan",
+    "shipping": "Included",
+    "trustScore": "93%",
+    "category": [
+      "seascapes",
+      "paintings"
+    ],
+    "likes": 885,
+    "created_at": {
+      "$date": "2026-04-26T05:19:02.000Z"
+    }
+  },
+  {
+    "artId": "SEA-009",
+    "title": "The Long Shoreline",
+    "price": 2520,
+    "author": "Arjun Mehta",
+    "detail": "The Long Shoreline is an original acrylic on canvas by Arjun Mehta, made in a marine art style. A moving seascape with convincing water, sky and a sense of open air.",
+    "size": "16 x 20 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/seascapes-9-1/800/1000",
+      "https://picsum.photos/seed/seascapes-9-2/800/1000",
+      "https://picsum.photos/seed/seascapes-9-3/800/1000",
+      "https://picsum.photos/seed/seascapes-9-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/seascapes-9-1/800/1000",
+    "country": "India",
+    "shipping": "Included",
+    "trustScore": "98%",
+    "category": [
+      "seascapes",
+      "paintings"
+    ],
+    "likes": 1846,
+    "created_at": {
+      "$date": "2026-06-12T11:43:44.000Z"
+    }
+  },
+  {
+    "artId": "SEA-010",
+    "title": "Midnight Waves",
+    "price": 7720,
+    "author": "Layla Rahman",
+    "detail": "Midnight Waves is an original oil on canvas by Layla Rahman, made in a marine art style. A moving seascape with convincing water, sky and a sense of open air.",
+    "size": "30 x 40 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/seascapes-10-1/800/1000",
+      "https://picsum.photos/seed/seascapes-10-2/800/1000",
+      "https://picsum.photos/seed/seascapes-10-3/800/1000",
+      "https://picsum.photos/seed/seascapes-10-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/seascapes-10-1/800/1000",
+    "country": "Bangladesh",
+    "shipping": "Included",
+    "trustScore": "98%",
+    "category": [
+      "seascapes",
+      "paintings"
+    ],
+    "likes": 1863,
+    "created_at": {
+      "$date": "2026-02-18T17:24:04.000Z"
+    }
+  },
+  {
+    "artId": "MNO-001",
+    "title": "Black Sun",
+    "price": 250,
+    "author": "Zainab Qureshi",
+    "detail": "Black Sun is an original graphite on panel by Zainab Qureshi, made in a tonal abstraction style. A restrained black, white and grey work built entirely on tone and contrast.",
+    "size": "40 x 60 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/monochrome-1-1/800/1000",
+      "https://picsum.photos/seed/monochrome-1-2/800/1000",
+      "https://picsum.photos/seed/monochrome-1-3/800/1000",
+      "https://picsum.photos/seed/monochrome-1-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/monochrome-1-1/800/1000",
+    "country": "Pakistan",
+    "shipping": "$40",
+    "trustScore": "100%",
+    "category": [
+      "monochrome"
+    ],
+    "likes": 133,
+    "created_at": {
+      "$date": "2026-06-05T13:06:30.000Z"
+    }
+  },
+  {
+    "artId": "MNO-002",
+    "title": "White on White Study",
+    "price": 620,
+    "author": "Arjun Mehta",
+    "detail": "White on White Study is an original graphite on panel by Arjun Mehta, made in a noir style. A restrained black, white and grey work built entirely on tone and contrast.",
+    "size": "40 x 60 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/monochrome-2-1/800/1000",
+      "https://picsum.photos/seed/monochrome-2-2/800/1000",
+      "https://picsum.photos/seed/monochrome-2-3/800/1000",
+      "https://picsum.photos/seed/monochrome-2-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/monochrome-2-1/800/1000",
+    "country": "India",
+    "shipping": "Included",
+    "trustScore": "93%",
+    "category": [
+      "monochrome"
+    ],
+    "likes": 1841,
+    "created_at": {
+      "$date": "2025-12-08T12:02:28.000Z"
+    }
+  },
+  {
+    "artId": "MNO-003",
+    "title": "Charcoal Tide",
+    "price": 1470,
+    "author": "Layla Rahman",
+    "detail": "Charcoal Tide is an original charcoal on paper by Layla Rahman, made in a noir style. A restrained black, white and grey work built entirely on tone and contrast.",
+    "size": "12 x 16 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/monochrome-3-1/800/1000",
+      "https://picsum.photos/seed/monochrome-3-2/800/1000",
+      "https://picsum.photos/seed/monochrome-3-3/800/1000",
+      "https://picsum.photos/seed/monochrome-3-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/monochrome-3-1/800/1000",
+    "country": "Bangladesh",
+    "shipping": "$40",
+    "trustScore": "95%",
+    "category": [
+      "monochrome"
+    ],
+    "likes": 720,
+    "created_at": {
+      "$date": "2026-05-17T08:59:53.000Z"
+    }
+  },
+  {
+    "artId": "MNO-004",
+    "title": "Ink Cloud",
+    "price": 3100,
+    "author": "Samuel Adeyemi",
+    "detail": "Ink Cloud is an original ink on canvas by Samuel Adeyemi, made in a contemporary style. A restrained black, white and grey work built entirely on tone and contrast.",
+    "size": "36 x 48 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/monochrome-4-1/800/1000",
+      "https://picsum.photos/seed/monochrome-4-2/800/1000",
+      "https://picsum.photos/seed/monochrome-4-3/800/1000",
+      "https://picsum.photos/seed/monochrome-4-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/monochrome-4-1/800/1000",
+    "country": "Nigeria",
+    "shipping": "Included",
+    "trustScore": "99%",
+    "category": [
+      "monochrome"
+    ],
+    "likes": 1004,
+    "created_at": {
+      "$date": "2026-03-12T07:48:51.000Z"
+    }
+  },
+  {
+    "artId": "MNO-005",
+    "title": "Silver Forest",
+    "price": 7800,
+    "author": "Amara Okafor",
+    "detail": "Silver Forest is an original graphite on panel by Amara Okafor, made in a minimalism style. A restrained black, white and grey work built entirely on tone and contrast.",
+    "size": "36 x 48 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/monochrome-5-1/800/1000",
+      "https://picsum.photos/seed/monochrome-5-2/800/1000",
+      "https://picsum.photos/seed/monochrome-5-3/800/1000",
+      "https://picsum.photos/seed/monochrome-5-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/monochrome-5-1/800/1000",
+    "country": "Nigeria",
+    "shipping": "Included",
+    "trustScore": "99%",
+    "category": [
+      "monochrome"
+    ],
+    "likes": 925,
+    "created_at": {
+      "$date": "2026-08-10T13:06:02.000Z"
+    }
+  },
+  {
+    "artId": "MNO-006",
+    "title": "Shadow Play No. 2",
+    "price": 220,
+    "author": "Rafael Ortega",
+    "detail": "Shadow Play No. 2 is an original acrylic on canvas by Rafael Ortega, made in a tonal abstraction style. A restrained black, white and grey work built entirely on tone and contrast.",
+    "size": "30 x 40 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/monochrome-6-1/800/1000",
+      "https://picsum.photos/seed/monochrome-6-2/800/1000",
+      "https://picsum.photos/seed/monochrome-6-3/800/1000",
+      "https://picsum.photos/seed/monochrome-6-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/monochrome-6-1/800/1000",
+    "country": "Spain",
+    "shipping": "Included",
+    "trustScore": "98%",
+    "category": [
+      "monochrome"
+    ],
+    "likes": 464,
+    "created_at": {
+      "$date": "2026-06-04T18:06:34.000Z"
+    }
+  },
+  {
+    "artId": "MNO-007",
+    "title": "Grey Corridor",
+    "price": 610,
+    "author": "Mei Lin Zhao",
+    "detail": "Grey Corridor is an original charcoal on paper by Mei Lin Zhao, made in a contemporary style. A restrained black, white and grey work built entirely on tone and contrast.",
+    "size": "24 x 30 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/monochrome-7-1/800/1000",
+      "https://picsum.photos/seed/monochrome-7-2/800/1000",
+      "https://picsum.photos/seed/monochrome-7-3/800/1000",
+      "https://picsum.photos/seed/monochrome-7-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/monochrome-7-1/800/1000",
+    "country": "China",
+    "shipping": "Included",
+    "trustScore": "94%",
+    "category": [
+      "monochrome"
+    ],
+    "likes": 179,
+    "created_at": {
+      "$date": "2026-01-09T04:45:20.000Z"
+    }
+  },
+  {
+    "artId": "MNO-008",
+    "title": "Ash and Bone",
+    "price": 1520,
+    "author": "Tomas Novak",
+    "detail": "Ash and Bone is an original graphite on panel by Tomas Novak, made in a tonal abstraction style. A restrained black, white and grey work built entirely on tone and contrast.",
+    "size": "36 x 48 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/monochrome-8-1/800/1000",
+      "https://picsum.photos/seed/monochrome-8-2/800/1000",
+      "https://picsum.photos/seed/monochrome-8-3/800/1000",
+      "https://picsum.photos/seed/monochrome-8-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/monochrome-8-1/800/1000",
+    "country": "Czech Republic",
+    "shipping": "Included",
+    "trustScore": "95%",
+    "category": [
+      "monochrome"
+    ],
+    "likes": 2322,
+    "created_at": {
+      "$date": "2025-09-19T03:46:02.000Z"
+    }
+  },
+  {
+    "artId": "MNO-009",
+    "title": "Noir Harbor",
+    "price": 4250,
+    "author": "Hannah Fischer",
+    "detail": "Noir Harbor is an original acrylic on canvas by Hannah Fischer, made in a contemporary style. A restrained black, white and grey work built entirely on tone and contrast.",
+    "size": "16 x 20 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/monochrome-9-1/800/1000",
+      "https://picsum.photos/seed/monochrome-9-2/800/1000",
+      "https://picsum.photos/seed/monochrome-9-3/800/1000",
+      "https://picsum.photos/seed/monochrome-9-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/monochrome-9-1/800/1000",
+    "country": "Germany",
+    "shipping": "Included",
+    "trustScore": "97%",
+    "category": [
+      "monochrome"
+    ],
+    "likes": 945,
+    "created_at": {
+      "$date": "2025-10-22T10:36:28.000Z"
+    }
+  },
+  {
+    "artId": "MNO-010",
+    "title": "Quiet Static",
+    "price": 9210,
+    "author": "Noah Andersen",
+    "detail": "Quiet Static is an original ink on canvas by Noah Andersen, made in a tonal abstraction style. A restrained black, white and grey work built entirely on tone and contrast.",
+    "size": "12 x 16 in",
+    "quantity": 1,
+    "image": [
+      "https://picsum.photos/seed/monochrome-10-1/800/1000",
+      "https://picsum.photos/seed/monochrome-10-2/800/1000",
+      "https://picsum.photos/seed/monochrome-10-3/800/1000",
+      "https://picsum.photos/seed/monochrome-10-4/800/1000"
+    ],
+    "mainImage": "https://picsum.photos/seed/monochrome-10-1/800/1000",
+    "country": "Denmark",
+    "shipping": "$40",
+    "trustScore": "98%",
+    "category": [
+      "monochrome"
+    ],
+    "likes": 1882,
+    "created_at": {
+      "$date": "2026-02-21T18:02:07.000Z"
+    }
+  }
+]

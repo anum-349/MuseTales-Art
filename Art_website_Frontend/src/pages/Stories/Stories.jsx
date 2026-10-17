@@ -90,32 +90,32 @@ export default function Stories() {
             id: 1,
             name: "Abstracts",
             src: "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501024/aboutBanner_sr1u7i.webp",
-            link: "/Abstracts"
+            link: "/category/Abstracts"
         }, {
             id: 2,
             name: "Sculptures",
             src: "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501387/Sculpture5_z3cdij.jpg",
-            link: "/Sculptures"
+            link: "/category/Sculptures"
         }, {
             id: 3,
             name: "Pop Art",
             src: "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501384/popart_duerlp.jpg",
-            link: "/Pop Art"
+            link: "/category/Pop Art"
         }, {
             id: 4,
             name: "Portraits",
             src: "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501033/AboutPortrait_ti08hh.jpg",
-            link: "/Portraits"
+            link: "/category/Portraits"
         }, {
             id: 5,
             name: "Landscapes",
             src: "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501339/landscape_vpsgev.jpg",
-            link: "/Landscapes"
+            link: "/category/Landscapes"
         }, {
             id: 6,
-            name: "Fine Art Prints",
+            name: "Photographs",
             src: "https://res.cloudinary.com/drwcrhwdq/image/upload/v1759501192/fineart_wzfvzp.jpg",
-            link: "/Fine Art Prints"
+            link: "/category/photography"
         },
     ]
 
@@ -131,7 +131,7 @@ export default function Stories() {
         }, {
             id: 3,
             name: "Trending Artists",
-            link: "/stories//emerging-artist"
+            link: "/stories/emerging-artist"
         }, {
             id: 4,
             name: "The Other Art Fair",

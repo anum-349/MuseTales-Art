@@ -1,0 +1,266 @@
+[
+  {
+    "name": "Ayesha K.",
+    "verification": "Verified",
+    "comment": "Arrived exactly as pictured",
+    "detail": "The colours matched the listing, and the packaging was careful. It looks great in our living room.",
+    "rating": "5",
+    "days": 11,
+    "created_at": {
+      "$date": "2026-08-17T10:19:51.000Z"
+    }
+  },
+  {
+    "name": "Daniel M.",
+    "verification": "Verified",
+    "comment": "Beautiful work, slow courier",
+    "detail": "The piece itself is lovely, but the courier took a few days longer than quoted. The seller kept me updated.",
+    "rating": "4",
+    "days": 11,
+    "created_at": {
+      "$date": "2026-09-13T16:51:51.000Z"
+    }
+  },
+  {
+    "name": "Carmen A.",
+    "verification": "Verified",
+    "comment": "Better in person",
+    "detail": "Photos don't show the texture. Seeing the layers in daylight was a real surprise.",
+    "rating": "5",
+    "days": 8,
+    "created_at": {
+      "$date": "2026-08-04T22:05:49.000Z"
+    }
+  },
+  {
+    "name": "Hamza R.",
+    "verification": "Verified",
+    "comment": "Great communication",
+    "detail": "The artist answered my questions about framing within a day and sent extra photos before shipping.",
+    "rating": "5",
+    "days": 5,
+    "created_at": {
+      "$date": "2026-07-22T08:16:00.000Z"
+    }
+  },
+  {
+    "name": "Emily B.",
+    "verification": "Verified",
+    "comment": "Well packed",
+    "detail": "Wrapped in archival paper and a rigid box. Not a scratch on it.",
+    "rating": "5",
+    "days": 26,
+    "created_at": {
+      "$date": "2026-09-24T19:19:58.000Z"
+    }
+  },
+  {
+    "name": "Jonas L.",
+    "verification": "Verified",
+    "comment": "Slightly smaller than expected",
+    "detail": "Lovely painting, but I misjudged the size from the listing. Check the dimensions carefully.",
+    "rating": "4",
+    "days": 7,
+    "created_at": {
+      "$date": "2026-06-23T10:08:42.000Z"
+    }
+  },
+  {
+    "name": "Maya F.",
+    "verification": "Verified",
+    "comment": "Certificate included",
+    "detail": "Signed on the back with a certificate of authenticity, as promised. Good for the price.",
+    "rating": "5",
+    "days": 14,
+    "created_at": {
+      "$date": "2026-06-19T20:11:00.000Z"
+    }
+  },
+  {
+    "name": "Liam H.",
+    "verification": "Verified",
+    "comment": "Smooth return process",
+    "detail": "The first piece didn't suit our wall, and the return was easy. Refund arrived within a week.",
+    "rating": "4",
+    "days": 2,
+    "created_at": {
+      "$date": "2026-09-30T14:19:47.000Z"
+    }
+  },
+  {
+    "name": "Grace N.",
+    "verification": "Verified",
+    "comment": "A gift that landed well",
+    "detail": "Bought as an anniversary gift and it was a hit. Delivery was on time.",
+    "rating": "5",
+    "days": 15,
+    "created_at": {
+      "$date": "2026-08-19T11:44:48.000Z"
+    }
+  },
+  {
+    "name": "Farhan S.",
+    "verification": "Verified",
+    "comment": "Good value",
+    "detail": "Original work at this price is rare. Happy with the purchase overall.",
+    "rating": "4",
+    "days": 2,
+    "created_at": {
+      "$date": "2026-06-27T22:14:19.000Z"
+    }
+  },
+  {
+    "name": "Irene C.",
+    "verification": "Verified",
+    "comment": "Customs delay",
+    "detail": "The artwork is great, but customs held it for a few days. Worth knowing for international orders.",
+    "rating": "4",
+    "days": 29,
+    "created_at": {
+      "$date": "2026-07-05T22:14:09.000Z"
+    }
+  },
+  {
+    "name": "Nikolai P.",
+    "verification": "Verified",
+    "comment": "Would buy again",
+    "detail": "Second purchase from the platform and the process was just as easy as the first.",
+    "rating": "5",
+    "days": 2,
+    "created_at": {
+      "$date": "2026-08-04T05:23:42.000Z"
+    }
+  },
+  {
+    "name": "Olivia K.",
+    "verification": "Verified",
+    "comment": "Arrived exactly as pictured",
+    "detail": "The colours matched the listing, and the packaging was careful. It looks great in our living room.",
+    "rating": "5",
+    "days": 2,
+    "created_at": {
+      "$date": "2026-10-06T10:24:00.000Z"
+    }
+  },
+  {
+    "name": "Bilal A.",
+    "verification": "Verified",
+    "comment": "Beautiful work, slow courier",
+    "detail": "The piece itself is lovely, but the courier took a few days longer than quoted. The seller kept me updated.",
+    "rating": "4",
+    "days": 29,
+    "created_at": {
+      "$date": "2026-07-27T06:37:04.000Z"
+    }
+  },
+  {
+    "name": "Karina D.",
+    "verification": "Verified",
+    "comment": "Better in person",
+    "detail": "Photos don't show the texture. Seeing the layers in daylight was a real surprise.",
+    "rating": "5",
+    "days": 21,
+    "created_at": {
+      "$date": "2026-06-20T03:19:34.000Z"
+    }
+  },
+  {
+    "name": "Tomas W.",
+    "verification": "Verified",
+    "comment": "Great communication",
+    "detail": "The artist answered my questions about framing within a day and sent extra photos before shipping.",
+    "rating": "5",
+    "days": 3,
+    "created_at": {
+      "$date": "2026-08-12T19:48:14.000Z"
+    }
+  },
+  {
+    "name": "Sara J.",
+    "verification": "Verified",
+    "comment": "Well packed",
+    "detail": "Wrapped in archival paper and a rigid box. Not a scratch on it.",
+    "rating": "5",
+    "days": 13,
+    "created_at": {
+      "$date": "2026-08-28T15:32:41.000Z"
+    }
+  },
+  {
+    "name": "Omar Q.",
+    "verification": "Verified",
+    "comment": "Slightly smaller than expected",
+    "detail": "Lovely painting, but I misjudged the size from the listing. Check the dimensions carefully.",
+    "rating": "4",
+    "days": 26,
+    "created_at": {
+      "$date": "2026-08-12T09:48:23.000Z"
+    }
+  },
+  {
+    "name": "Lena V.",
+    "verification": "Verified",
+    "comment": "Certificate included",
+    "detail": "Signed on the back with a certificate of authenticity, as promised. Good for the price.",
+    "rating": "5",
+    "days": 13,
+    "created_at": {
+      "$date": "2026-08-20T06:56:34.000Z"
+    }
+  },
+  {
+    "name": "Peter G.",
+    "verification": "Verified",
+    "comment": "Smooth return process",
+    "detail": "The first piece didn't suit our wall, and the return was easy. Refund arrived within a week.",
+    "rating": "4",
+    "days": 7,
+    "created_at": {
+      "$date": "2026-09-29T22:06:18.000Z"
+    }
+  },
+  {
+    "name": "Nadia Z.",
+    "verification": "Verified",
+    "comment": "A gift that landed well",
+    "detail": "Bought as an anniversary gift and it was a hit. Delivery was on time.",
+    "rating": "5",
+    "days": 15,
+    "created_at": {
+      "$date": "2026-08-20T16:44:15.000Z"
+    }
+  },
+  {
+    "name": "Henry T.",
+    "verification": "Verified",
+    "comment": "Good value",
+    "detail": "Original work at this price is rare. Happy with the purchase overall.",
+    "rating": "4",
+    "days": 13,
+    "created_at": {
+      "$date": "2026-08-29T15:32:51.000Z"
+    }
+  },
+  {
+    "name": "Yuki S.",
+    "verification": "Verified",
+    "comment": "Customs delay",
+    "detail": "The artwork is great, but customs held it for a few days. Worth knowing for international orders.",
+    "rating": "4",
+    "days": 17,
+    "created_at": {
+      "$date": "2026-06-19T12:02:26.000Z"
+    }
+  },
+  {
+    "name": "Rosa M.",
+    "verification": "Verified",
+    "comment": "Would buy again",
+    "detail": "Second purchase from the platform and the process was just as easy as the first.",
+    "rating": "5",
+    "days": 20,
+    "created_at": {
+      "$date": "2026-09-16T14:22:22.000Z"
+    }
+  }
+]

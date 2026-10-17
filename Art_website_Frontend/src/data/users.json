@@ -1,0 +1,192 @@
+[
+  {
+    "_id": {
+      "$oid": "670000000000000000001000"
+    },
+    "firstName": "Ayesha",
+    "lastName": "Okoye",
+    "email": "ayesha.okoye1@example.com",
+    "provider": "manual",
+    "createdAt": {
+      "$date": "2026-02-04T00:43:51.000Z"
+    },
+    "password": "$2b$10$BksWiKKMJzH9TYSM7UE/Ied5SB34Y4MLupBBHPy0vWAB7RZAl.S3W"
+  },
+  {
+    "_id": {
+      "$oid": "670000000000000000001001"
+    },
+    "firstName": "Bilal",
+    "lastName": "Petrov",
+    "email": "bilal.petrov2@example.com",
+    "provider": "manual",
+    "createdAt": {
+      "$date": "2026-09-18T18:38:04.000Z"
+    },
+    "password": "$2b$10$BksWiKKMJzH9TYSM7UE/Ied5SB34Y4MLupBBHPy0vWAB7RZAl.S3W"
+  },
+  {
+    "_id": {
+      "$oid": "670000000000000000001002"
+    },
+    "firstName": "Carmen",
+    "lastName": "Raza",
+    "email": "carmen.raza3@example.com",
+    "provider": "manual",
+    "createdAt": {
+      "$date": "2026-06-08T19:42:16.000Z"
+    },
+    "password": "$2b$10$BksWiKKMJzH9TYSM7UE/Ied5SB34Y4MLupBBHPy0vWAB7RZAl.S3W"
+  },
+  {
+    "_id": {
+      "$oid": "670000000000000000001003"
+    },
+    "firstName": "David",
+    "lastName": "Khan",
+    "email": "david.khan4@example.com",
+    "provider": "manual",
+    "createdAt": {
+      "$date": "2026-09-16T03:39:24.000Z"
+    },
+    "password": "$2b$10$BksWiKKMJzH9TYSM7UE/Ied5SB34Y4MLupBBHPy0vWAB7RZAl.S3W"
+  },
+  {
+    "_id": {
+      "$oid": "670000000000000000001004"
+    },
+    "firstName": "Emily",
+    "lastName": "Brandt",
+    "email": "emily.brandt5@example.com",
+    "provider": "manual",
+    "createdAt": {
+      "$date": "2026-01-04T12:25:00.000Z"
+    },
+    "password": "$2b$10$BksWiKKMJzH9TYSM7UE/Ied5SB34Y4MLupBBHPy0vWAB7RZAl.S3W"
+  },
+  {
+    "_id": {
+      "$oid": "670000000000000000001005"
+    },
+    "firstName": "Farhan",
+    "lastName": "Hughes",
+    "email": "farhan.hughes6@example.com",
+    "provider": "manual",
+    "createdAt": {
+      "$date": "2026-04-09T22:40:59.000Z"
+    },
+    "password": "$2b$10$BksWiKKMJzH9TYSM7UE/Ied5SB34Y4MLupBBHPy0vWAB7RZAl.S3W"
+  },
+  {
+    "_id": {
+      "$oid": "670000000000000000001006"
+    },
+    "firstName": "Grace",
+    "lastName": "Fontaine",
+    "email": "grace.fontaine7@example.com",
+    "provider": "manual",
+    "createdAt": {
+      "$date": "2026-01-27T03:22:17.000Z"
+    },
+    "password": "$2b$10$BksWiKKMJzH9TYSM7UE/Ied5SB34Y4MLupBBHPy0vWAB7RZAl.S3W"
+  },
+  {
+    "_id": {
+      "$oid": "670000000000000000001007"
+    },
+    "firstName": "Hamza",
+    "lastName": "Mitchell",
+    "email": "hamza.mitchell8@example.com",
+    "provider": "manual",
+    "createdAt": {
+      "$date": "2026-01-31T21:21:41.000Z"
+    },
+    "password": "$2b$10$BksWiKKMJzH9TYSM7UE/Ied5SB34Y4MLupBBHPy0vWAB7RZAl.S3W"
+  },
+  {
+    "_id": {
+      "$oid": "670000000000000000001008"
+    },
+    "firstName": "Irene",
+    "lastName": "Siddiqui",
+    "email": "irene.siddiqui9@example.com",
+    "provider": "manual",
+    "createdAt": {
+      "$date": "2026-09-10T22:29:00.000Z"
+    },
+    "password": "$2b$10$BksWiKKMJzH9TYSM7UE/Ied5SB34Y4MLupBBHPy0vWAB7RZAl.S3W"
+  },
+  {
+    "_id": {
+      "$oid": "670000000000000000001009"
+    },
+    "firstName": "Jonas",
+    "lastName": "Lindgren",
+    "email": "jonas.lindgren10@example.com",
+    "provider": "manual",
+    "createdAt": {
+      "$date": "2026-01-28T01:42:59.000Z"
+    },
+    "password": "$2b$10$BksWiKKMJzH9TYSM7UE/Ied5SB34Y4MLupBBHPy0vWAB7RZAl.S3W"
+  },
+  {
+    "_id": {
+      "$oid": "67000000000000000000100a"
+    },
+    "firstName": "Karina",
+    "lastName": "Kowalski",
+    "email": "karina.kowalski11@example.com",
+    "provider": "google",
+    "createdAt": {
+      "$date": "2026-07-20T07:00:23.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67000000000000000000100b"
+    },
+    "firstName": "Liam",
+    "lastName": "Alvarez",
+    "email": "liam.alvarez12@example.com",
+    "provider": "google",
+    "createdAt": {
+      "$date": "2026-07-27T09:17:41.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67000000000000000000100c"
+    },
+    "firstName": "Maya",
+    "lastName": "Nakamura",
+    "email": "maya.nakamura13@example.com",
+    "provider": "google",
+    "createdAt": {
+      "$date": "2025-12-28T04:49:45.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67000000000000000000100d"
+    },
+    "firstName": "Nikolai",
+    "lastName": "Costa",
+    "email": "nikolai.costa14@example.com",
+    "provider": "google",
+    "createdAt": {
+      "$date": "2026-08-12T14:34:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67000000000000000000100e"
+    },
+    "firstName": "Olivia",
+    "lastName": "Ahmed",
+    "email": "olivia.ahmed15@example.com",
+    "provider": "google",
+    "createdAt": {
+      "$date": "2026-06-20T05:52:03.000Z"
+    }
+  }
+]

@@ -1,0 +1,1052 @@
+[
+  {
+    "name": "Daniel Moreau",
+    "country": "France",
+    "about": "Daniel Moreau is a painter based in France. Their work explores light, material and everyday scenes, and is collected by private buyers in several countries. They have shown in group and solo exhibitions since 2014.",
+    "profileImage": "https://picsum.photos/seed/daniel-moreau-profile/400/400",
+    "images": [
+      "https://picsum.photos/seed/daniel-moreau-work-1/800/1000",
+      "https://picsum.photos/seed/daniel-moreau-work-2/800/1000",
+      "https://picsum.photos/seed/daniel-moreau-work-3/800/1000",
+      "https://picsum.photos/seed/daniel-moreau-work-4/800/1000"
+    ],
+    "thumbnail": "https://picsum.photos/seed/daniel-moreau-thumb/300/300",
+    "recognization": [
+      "Gallery Residency Award 2019",
+      "Studio Fellowship 2017"
+    ],
+    "joining": 2014,
+    "role": "Painter",
+    "followers": 21883,
+    "exhibitions": [
+      {
+        "_id": {
+          "$oid": "67000000000000000000100f"
+        },
+        "year": 2023,
+        "title": "Small Works, Big Rooms",
+        "organization": "Common Ground Museum",
+        "location": "Stockholm, Sweden",
+        "date": "3 Jan - 26 Feb 2023"
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001010"
+        },
+        "year": 2023,
+        "title": "Quiet Surfaces",
+        "organization": "The Ochre Room",
+        "location": "Lisbon, Portugal",
+        "date": "2 Apr - 15 Oct 2023"
+      }
+    ],
+    "created_at": {
+      "$date": "2026-04-25T05:59:18.000Z"
+    }
+  },
+  {
+    "name": "Isabella Rossi",
+    "country": "Italy",
+    "about": "Isabella Rossi is a painter based in Italy. Their work explores light, material and everyday scenes, and is collected by private buyers in several countries. They have shown in group and solo exhibitions since 2019.",
+    "profileImage": "https://picsum.photos/seed/isabella-rossi-profile/400/400",
+    "images": [
+      "https://picsum.photos/seed/isabella-rossi-work-1/800/1000",
+      "https://picsum.photos/seed/isabella-rossi-work-2/800/1000",
+      "https://picsum.photos/seed/isabella-rossi-work-3/800/1000",
+      "https://picsum.photos/seed/isabella-rossi-work-4/800/1000"
+    ],
+    "thumbnail": "https://picsum.photos/seed/isabella-rossi-thumb/300/300",
+    "recognization": [
+      "Emerging Artist Prize 2020",
+      "Emerging Artist Prize 2017"
+    ],
+    "joining": 2019,
+    "role": "Painter",
+    "followers": 14435,
+    "exhibitions": [
+      {
+        "_id": {
+          "$oid": "670000000000000000001011"
+        },
+        "year": 2020,
+        "title": "Small Works, Big Rooms",
+        "organization": "Northlight Art Space",
+        "location": "Madrid, Spain",
+        "date": "2 Feb - 23 Oct 2020"
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001012"
+        },
+        "year": 2024,
+        "title": "Open Studio Selections",
+        "organization": "Foundry Arts Centre",
+        "location": "Dhaka, Bangladesh",
+        "date": "12 Jun - 23 Jan 2024"
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001013"
+        },
+        "year": 2020,
+        "title": "Material Memory",
+        "organization": "Northlight Art Space",
+        "location": "Mumbai, India",
+        "date": "12 May - 23 Jan 2020"
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001014"
+        },
+        "year": 2024,
+        "title": "Material Memory",
+        "organization": "Blue Door Gallery",
+        "location": "Lahore, Pakistan",
+        "date": "7 Nov - 13 Apr 2024"
+      }
+    ],
+    "created_at": {
+      "$date": "2025-06-24T19:45:18.000Z"
+    }
+  },
+  {
+    "name": "Mateo Silva",
+    "country": "Portugal",
+    "about": "Mateo Silva is a painter based in Portugal. Their work explores light, material and everyday scenes, and is collected by private buyers in several countries. They have shown in group and solo exhibitions since 2021.",
+    "profileImage": "https://picsum.photos/seed/mateo-silva-profile/400/400",
+    "images": [
+      "https://picsum.photos/seed/mateo-silva-work-1/800/1000",
+      "https://picsum.photos/seed/mateo-silva-work-2/800/1000",
+      "https://picsum.photos/seed/mateo-silva-work-3/800/1000",
+      "https://picsum.photos/seed/mateo-silva-work-4/800/1000"
+    ],
+    "thumbnail": "https://picsum.photos/seed/mateo-silva-thumb/300/300",
+    "recognization": [
+      "Young Collectors' Pick 2020",
+      "Critics' Choice Mention 2022"
+    ],
+    "joining": 2021,
+    "role": "Painter",
+    "followers": 33711,
+    "exhibitions": [
+      {
+        "_id": {
+          "$oid": "670000000000000000001015"
+        },
+        "year": 2024,
+        "title": "Field Notes",
+        "organization": "Meridian Contemporary",
+        "location": "Copenhagen, Denmark",
+        "date": "11 Mar - 22 Feb 2024"
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001016"
+        },
+        "year": 2021,
+        "title": "Open Studio Selections",
+        "organization": "Common Ground Museum",
+        "location": "Lagos, Nigeria",
+        "date": "12 Jun - 22 Oct 2021"
+      }
+    ],
+    "created_at": {
+      "$date": "2026-03-28T13:23:44.000Z"
+    }
+  },
+  {
+    "name": "Chloe Dubois",
+    "country": "Canada",
+    "about": "Chloe Dubois is a painter based in Canada. Their work explores light, material and everyday scenes, and is collected by private buyers in several countries. They have shown in group and solo exhibitions since 2014.",
+    "profileImage": "https://picsum.photos/seed/chloe-dubois-profile/400/400",
+    "images": [
+      "https://picsum.photos/seed/chloe-dubois-work-1/800/1000",
+      "https://picsum.photos/seed/chloe-dubois-work-2/800/1000",
+      "https://picsum.photos/seed/chloe-dubois-work-3/800/1000",
+      "https://picsum.photos/seed/chloe-dubois-work-4/800/1000"
+    ],
+    "thumbnail": "https://picsum.photos/seed/chloe-dubois-thumb/300/300",
+    "recognization": [
+      "Studio Fellowship 2021",
+      "Regional Arts Council Grant 2019"
+    ],
+    "joining": 2014,
+    "role": "Painter",
+    "followers": 3456,
+    "exhibitions": [
+      {
+        "_id": {
+          "$oid": "670000000000000000001017"
+        },
+        "year": 2020,
+        "title": "After the Rain",
+        "organization": "Northlight Art Space",
+        "location": "Prague, Czech Republic",
+        "date": "4 Mar - 24 Jan 2020"
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001018"
+        },
+        "year": 2025,
+        "title": "Colour and Weight",
+        "organization": "Common Ground Museum",
+        "location": "Milan, Italy",
+        "date": "9 Feb - 28 Jun 2025"
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001019"
+        },
+        "year": 2017,
+        "title": "Quiet Surfaces",
+        "organization": "Meridian Contemporary",
+        "location": "Prague, Czech Republic",
+        "date": "2 Sep - 22 Jan 2017"
+      },
+      {
+        "_id": {
+          "$oid": "67000000000000000000101a"
+        },
+        "year": 2022,
+        "title": "After the Rain",
+        "organization": "Foundry Arts Centre",
+        "location": "London, United Kingdom",
+        "date": "3 Oct - 16 Nov 2022"
+      }
+    ],
+    "created_at": {
+      "$date": "2026-05-21T05:15:24.000Z"
+    }
+  },
+  {
+    "name": "Kenji Watanabe",
+    "country": "Japan",
+    "about": "Kenji Watanabe is a painter based in Japan. Their work explores light, material and everyday scenes, and is collected by private buyers in several countries. They have shown in group and solo exhibitions since 2015.",
+    "profileImage": "https://picsum.photos/seed/kenji-watanabe-profile/400/400",
+    "images": [
+      "https://picsum.photos/seed/kenji-watanabe-work-1/800/1000",
+      "https://picsum.photos/seed/kenji-watanabe-work-2/800/1000",
+      "https://picsum.photos/seed/kenji-watanabe-work-3/800/1000",
+      "https://picsum.photos/seed/kenji-watanabe-work-4/800/1000"
+    ],
+    "thumbnail": "https://picsum.photos/seed/kenji-watanabe-thumb/300/300",
+    "recognization": [
+      "Studio Fellowship 2023",
+      "Critics' Choice Mention 2021"
+    ],
+    "joining": 2015,
+    "role": "Painter",
+    "followers": 294,
+    "exhibitions": [
+      {
+        "_id": {
+          "$oid": "67000000000000000000101b"
+        },
+        "year": 2020,
+        "title": "Colour and Weight",
+        "organization": "Atelier Seventeen",
+        "location": "Lisbon, Portugal",
+        "date": "11 Jan - 20 Jun 2020"
+      },
+      {
+        "_id": {
+          "$oid": "67000000000000000000101c"
+        },
+        "year": 2015,
+        "title": "Colour and Weight",
+        "organization": "Meridian Contemporary",
+        "location": "Shanghai, China",
+        "date": "4 Feb - 20 Apr 2015"
+      }
+    ],
+    "created_at": {
+      "$date": "2026-04-18T09:37:25.000Z"
+    }
+  },
+  {
+    "name": "Sofia Lindqvist",
+    "country": "Sweden",
+    "about": "Sofia Lindqvist is a painter based in Sweden. Their work explores light, material and everyday scenes, and is collected by private buyers in several countries. They have shown in group and solo exhibitions since 2014.",
+    "profileImage": "https://picsum.photos/seed/sofia-lindqvist-profile/400/400",
+    "images": [
+      "https://picsum.photos/seed/sofia-lindqvist-work-1/800/1000",
+      "https://picsum.photos/seed/sofia-lindqvist-work-2/800/1000",
+      "https://picsum.photos/seed/sofia-lindqvist-work-3/800/1000",
+      "https://picsum.photos/seed/sofia-lindqvist-work-4/800/1000"
+    ],
+    "thumbnail": "https://picsum.photos/seed/sofia-lindqvist-thumb/300/300",
+    "recognization": [
+      "Critics' Choice Mention 2025",
+      "Regional Arts Council Grant 2022"
+    ],
+    "joining": 2014,
+    "role": "Painter",
+    "followers": 20182,
+    "exhibitions": [
+      {
+        "_id": {
+          "$oid": "67000000000000000000101d"
+        },
+        "year": 2018,
+        "title": "New Voices",
+        "organization": "Northlight Art Space",
+        "location": "Stockholm, Sweden",
+        "date": "6 May - 23 Jun 2018"
+      },
+      {
+        "_id": {
+          "$oid": "67000000000000000000101e"
+        },
+        "year": 2018,
+        "title": "Between Seasons",
+        "organization": "Foundry Arts Centre",
+        "location": "Toronto, Canada",
+        "date": "9 Sep - 15 Feb 2018"
+      },
+      {
+        "_id": {
+          "$oid": "67000000000000000000101f"
+        },
+        "year": 2020,
+        "title": "Light, Slowly",
+        "organization": "Foundry Arts Centre",
+        "location": "Lahore, Pakistan",
+        "date": "2 Oct - 25 Nov 2020"
+      }
+    ],
+    "created_at": {
+      "$date": "2025-10-11T08:57:07.000Z"
+    }
+  },
+  {
+    "name": "Oliver Bennett",
+    "country": "United Kingdom",
+    "about": "Oliver Bennett is a painter based in United Kingdom. Their work explores light, material and everyday scenes, and is collected by private buyers in several countries. They have shown in group and solo exhibitions since 2022.",
+    "profileImage": "https://picsum.photos/seed/oliver-bennett-profile/400/400",
+    "images": [
+      "https://picsum.photos/seed/oliver-bennett-work-1/800/1000",
+      "https://picsum.photos/seed/oliver-bennett-work-2/800/1000",
+      "https://picsum.photos/seed/oliver-bennett-work-3/800/1000",
+      "https://picsum.photos/seed/oliver-bennett-work-4/800/1000"
+    ],
+    "thumbnail": "https://picsum.photos/seed/oliver-bennett-thumb/300/300",
+    "recognization": [
+      "Gallery Residency Award 2019",
+      "Emerging Artist Prize 2017"
+    ],
+    "joining": 2022,
+    "role": "Painter",
+    "followers": 34451,
+    "exhibitions": [
+      {
+        "_id": {
+          "$oid": "670000000000000000001020"
+        },
+        "year": 2025,
+        "title": "Open Studio Selections",
+        "organization": "Meridian Contemporary",
+        "location": "Stockholm, Sweden",
+        "date": "1 May - 13 Apr 2025"
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001021"
+        },
+        "year": 2023,
+        "title": "After the Rain",
+        "organization": "Harbor Lane Gallery",
+        "location": "Sao Paulo, Brazil",
+        "date": "1 May - 16 Sep 2023"
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001022"
+        },
+        "year": 2022,
+        "title": "Small Works, Big Rooms",
+        "organization": "Atelier Seventeen",
+        "location": "Toronto, Canada",
+        "date": "3 Jan - 17 Jun 2022"
+      }
+    ],
+    "created_at": {
+      "$date": "2026-07-05T11:38:47.000Z"
+    }
+  },
+  {
+    "name": "Zainab Qureshi",
+    "country": "Pakistan",
+    "about": "Zainab Qureshi is a painter based in Pakistan. Their work explores light, material and everyday scenes, and is collected by private buyers in several countries. They have shown in group and solo exhibitions since 2014.",
+    "profileImage": "https://picsum.photos/seed/zainab-qureshi-profile/400/400",
+    "images": [
+      "https://picsum.photos/seed/zainab-qureshi-work-1/800/1000",
+      "https://picsum.photos/seed/zainab-qureshi-work-2/800/1000",
+      "https://picsum.photos/seed/zainab-qureshi-work-3/800/1000",
+      "https://picsum.photos/seed/zainab-qureshi-work-4/800/1000"
+    ],
+    "thumbnail": "https://picsum.photos/seed/zainab-qureshi-thumb/300/300",
+    "recognization": [
+      "Gallery Residency Award 2018",
+      "Regional Arts Council Grant 2020"
+    ],
+    "joining": 2014,
+    "role": "Painter",
+    "followers": 40964,
+    "exhibitions": [
+      {
+        "_id": {
+          "$oid": "670000000000000000001023"
+        },
+        "year": 2014,
+        "title": "Material Memory",
+        "organization": "The Ochre Room",
+        "location": "Berlin, Germany",
+        "date": "9 Nov - 28 Feb 2014"
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001024"
+        },
+        "year": 2020,
+        "title": "Light, Slowly",
+        "organization": "Foundry Arts Centre",
+        "location": "Milan, Italy",
+        "date": "7 Jan - 20 Apr 2020"
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001025"
+        },
+        "year": 2024,
+        "title": "Light, Slowly",
+        "organization": "Common Ground Museum",
+        "location": "Lyon, France",
+        "date": "2 Oct - 23 Jun 2024"
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001026"
+        },
+        "year": 2024,
+        "title": "Material Memory",
+        "organization": "Harbor Lane Gallery",
+        "location": "Kyoto, Japan",
+        "date": "5 Apr - 20 Feb 2024"
+      }
+    ],
+    "created_at": {
+      "$date": "2025-11-14T02:00:54.000Z"
+    }
+  },
+  {
+    "name": "Arjun Mehta",
+    "country": "India",
+    "about": "Arjun Mehta is a painter based in India. Their work explores light, material and everyday scenes, and is collected by private buyers in several countries. They have shown in group and solo exhibitions since 2014.",
+    "profileImage": "https://picsum.photos/seed/arjun-mehta-profile/400/400",
+    "images": [
+      "https://picsum.photos/seed/arjun-mehta-work-1/800/1000",
+      "https://picsum.photos/seed/arjun-mehta-work-2/800/1000",
+      "https://picsum.photos/seed/arjun-mehta-work-3/800/1000",
+      "https://picsum.photos/seed/arjun-mehta-work-4/800/1000"
+    ],
+    "thumbnail": "https://picsum.photos/seed/arjun-mehta-thumb/300/300",
+    "recognization": [
+      "Critics' Choice Mention 2018",
+      "Young Collectors' Pick 2023"
+    ],
+    "joining": 2014,
+    "role": "Painter",
+    "followers": 38097,
+    "exhibitions": [
+      {
+        "_id": {
+          "$oid": "670000000000000000001027"
+        },
+        "year": 2023,
+        "title": "Open Studio Selections",
+        "organization": "Meridian Contemporary",
+        "location": "Berlin, Germany",
+        "date": "9 Jun - 13 May 2023"
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001028"
+        },
+        "year": 2025,
+        "title": "New Voices",
+        "organization": "Common Ground Museum",
+        "location": "Sao Paulo, Brazil",
+        "date": "9 Oct - 15 Sep 2025"
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001029"
+        },
+        "year": 2015,
+        "title": "After the Rain",
+        "organization": "Northlight Art Space",
+        "location": "Berlin, Germany",
+        "date": "2 Jun - 22 Apr 2015"
+      }
+    ],
+    "created_at": {
+      "$date": "2026-03-11T04:59:56.000Z"
+    }
+  },
+  {
+    "name": "Layla Rahman",
+    "country": "Bangladesh",
+    "about": "Layla Rahman is a painter based in Bangladesh. Their work explores light, material and everyday scenes, and is collected by private buyers in several countries. They have shown in group and solo exhibitions since 2015.",
+    "profileImage": "https://picsum.photos/seed/layla-rahman-profile/400/400",
+    "images": [
+      "https://picsum.photos/seed/layla-rahman-work-1/800/1000",
+      "https://picsum.photos/seed/layla-rahman-work-2/800/1000",
+      "https://picsum.photos/seed/layla-rahman-work-3/800/1000",
+      "https://picsum.photos/seed/layla-rahman-work-4/800/1000"
+    ],
+    "thumbnail": "https://picsum.photos/seed/layla-rahman-thumb/300/300",
+    "recognization": [
+      "Regional Arts Council Grant 2023",
+      "Young Collectors' Pick 2025"
+    ],
+    "joining": 2015,
+    "role": "Painter",
+    "followers": 25418,
+    "exhibitions": [
+      {
+        "_id": {
+          "$oid": "67000000000000000000102a"
+        },
+        "year": 2023,
+        "title": "Small Works, Big Rooms",
+        "organization": "Blue Door Gallery",
+        "location": "Copenhagen, Denmark",
+        "date": "10 Apr - 19 Feb 2023"
+      },
+      {
+        "_id": {
+          "$oid": "67000000000000000000102b"
+        },
+        "year": 2025,
+        "title": "After the Rain",
+        "organization": "The Ochre Room",
+        "location": "Lahore, Pakistan",
+        "date": "6 May - 26 Apr 2025"
+      },
+      {
+        "_id": {
+          "$oid": "67000000000000000000102c"
+        },
+        "year": 2025,
+        "title": "Field Notes",
+        "organization": "Foundry Arts Centre",
+        "location": "Mumbai, India",
+        "date": "10 Nov - 28 Mar 2025"
+      }
+    ],
+    "created_at": {
+      "$date": "2025-07-02T11:28:14.000Z"
+    }
+  },
+  {
+    "name": "Tomas Novak",
+    "country": "Czech Republic",
+    "about": "Tomas Novak is a photographer based in Czech Republic. Their work explores light, material and everyday scenes, and is collected by private buyers in several countries. They have shown in group and solo exhibitions since 2021.",
+    "profileImage": "https://picsum.photos/seed/tomas-novak-profile/400/400",
+    "images": [
+      "https://picsum.photos/seed/tomas-novak-work-1/800/1000",
+      "https://picsum.photos/seed/tomas-novak-work-2/800/1000",
+      "https://picsum.photos/seed/tomas-novak-work-3/800/1000",
+      "https://picsum.photos/seed/tomas-novak-work-4/800/1000"
+    ],
+    "thumbnail": "https://picsum.photos/seed/tomas-novak-thumb/300/300",
+    "recognization": [
+      "Regional Arts Council Grant 2018",
+      "Young Collectors' Pick 2024"
+    ],
+    "joining": 2021,
+    "role": "Photographer",
+    "followers": 45361,
+    "exhibitions": [
+      {
+        "_id": {
+          "$oid": "67000000000000000000102d"
+        },
+        "year": 2021,
+        "title": "Colour and Weight",
+        "organization": "Harbor Lane Gallery",
+        "location": "Dhaka, Bangladesh",
+        "date": "10 Nov - 23 Apr 2021"
+      },
+      {
+        "_id": {
+          "$oid": "67000000000000000000102e"
+        },
+        "year": 2024,
+        "title": "Small Works, Big Rooms",
+        "organization": "Common Ground Museum",
+        "location": "Lahore, Pakistan",
+        "date": "7 Mar - 16 Sep 2024"
+      }
+    ],
+    "created_at": {
+      "$date": "2026-07-10T16:51:02.000Z"
+    }
+  },
+  {
+    "name": "Hannah Fischer",
+    "country": "Germany",
+    "about": "Hannah Fischer is a photographer based in Germany. Their work explores light, material and everyday scenes, and is collected by private buyers in several countries. They have shown in group and solo exhibitions since 2023.",
+    "profileImage": "https://picsum.photos/seed/hannah-fischer-profile/400/400",
+    "images": [
+      "https://picsum.photos/seed/hannah-fischer-work-1/800/1000",
+      "https://picsum.photos/seed/hannah-fischer-work-2/800/1000",
+      "https://picsum.photos/seed/hannah-fischer-work-3/800/1000",
+      "https://picsum.photos/seed/hannah-fischer-work-4/800/1000"
+    ],
+    "thumbnail": "https://picsum.photos/seed/hannah-fischer-thumb/300/300",
+    "recognization": [
+      "Emerging Artist Prize 2018",
+      "Studio Fellowship 2024"
+    ],
+    "joining": 2023,
+    "role": "Photographer",
+    "followers": 40096,
+    "exhibitions": [
+      {
+        "_id": {
+          "$oid": "67000000000000000000102f"
+        },
+        "year": 2025,
+        "title": "Between Seasons",
+        "organization": "Atelier Seventeen",
+        "location": "Prague, Czech Republic",
+        "date": "12 Nov - 18 May 2025"
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001030"
+        },
+        "year": 2023,
+        "title": "Light, Slowly",
+        "organization": "The Ochre Room",
+        "location": "London, United Kingdom",
+        "date": "1 Oct - 17 Jun 2023"
+      }
+    ],
+    "created_at": {
+      "$date": "2026-05-16T11:32:21.000Z"
+    }
+  },
+  {
+    "name": "Noah Andersen",
+    "country": "Denmark",
+    "about": "Noah Andersen is a photographer based in Denmark. Their work explores light, material and everyday scenes, and is collected by private buyers in several countries. They have shown in group and solo exhibitions since 2021.",
+    "profileImage": "https://picsum.photos/seed/noah-andersen-profile/400/400",
+    "images": [
+      "https://picsum.photos/seed/noah-andersen-work-1/800/1000",
+      "https://picsum.photos/seed/noah-andersen-work-2/800/1000",
+      "https://picsum.photos/seed/noah-andersen-work-3/800/1000",
+      "https://picsum.photos/seed/noah-andersen-work-4/800/1000"
+    ],
+    "thumbnail": "https://picsum.photos/seed/noah-andersen-thumb/300/300",
+    "recognization": [
+      "Critics' Choice Mention 2022",
+      "Regional Arts Council Grant 2023"
+    ],
+    "joining": 2021,
+    "role": "Photographer",
+    "followers": 33405,
+    "exhibitions": [
+      {
+        "_id": {
+          "$oid": "670000000000000000001031"
+        },
+        "year": 2022,
+        "title": "Light, Slowly",
+        "organization": "Atelier Seventeen",
+        "location": "Mumbai, India",
+        "date": "12 Mar - 22 Feb 2022"
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001032"
+        },
+        "year": 2025,
+        "title": "Material Memory",
+        "organization": "Northlight Art Space",
+        "location": "Berlin, Germany",
+        "date": "3 Nov - 28 Feb 2025"
+      }
+    ],
+    "created_at": {
+      "$date": "2026-05-22T05:29:04.000Z"
+    }
+  },
+  {
+    "name": "Elena Marchetti",
+    "country": "Italy",
+    "about": "Elena Marchetti is a photographer based in Italy. Their work explores light, material and everyday scenes, and is collected by private buyers in several countries. They have shown in group and solo exhibitions since 2023.",
+    "profileImage": "https://picsum.photos/seed/elena-marchetti-profile/400/400",
+    "images": [
+      "https://picsum.photos/seed/elena-marchetti-work-1/800/1000",
+      "https://picsum.photos/seed/elena-marchetti-work-2/800/1000",
+      "https://picsum.photos/seed/elena-marchetti-work-3/800/1000",
+      "https://picsum.photos/seed/elena-marchetti-work-4/800/1000"
+    ],
+    "thumbnail": "https://picsum.photos/seed/elena-marchetti-thumb/300/300",
+    "recognization": [
+      "Young Collectors' Pick 2021",
+      "Critics' Choice Mention 2025"
+    ],
+    "joining": 2023,
+    "role": "Photographer",
+    "followers": 2355,
+    "exhibitions": [
+      {
+        "_id": {
+          "$oid": "670000000000000000001033"
+        },
+        "year": 2024,
+        "title": "Open Studio Selections",
+        "organization": "Blue Door Gallery",
+        "location": "Lagos, Nigeria",
+        "date": "1 Nov - 22 Apr 2024"
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001034"
+        },
+        "year": 2023,
+        "title": "New Voices",
+        "organization": "Atelier Seventeen",
+        "location": "Kyoto, Japan",
+        "date": "7 Sep - 24 Feb 2023"
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001035"
+        },
+        "year": 2025,
+        "title": "After the Rain",
+        "organization": "Atelier Seventeen",
+        "location": "Dhaka, Bangladesh",
+        "date": "7 Nov - 26 Jun 2025"
+      }
+    ],
+    "created_at": {
+      "$date": "2026-03-16T04:58:05.000Z"
+    }
+  },
+  {
+    "name": "Lucas Ferreira",
+    "country": "Brazil",
+    "about": "Lucas Ferreira is a photographer based in Brazil. Their work explores light, material and everyday scenes, and is collected by private buyers in several countries. They have shown in group and solo exhibitions since 2014.",
+    "profileImage": "https://picsum.photos/seed/lucas-ferreira-profile/400/400",
+    "images": [
+      "https://picsum.photos/seed/lucas-ferreira-work-1/800/1000",
+      "https://picsum.photos/seed/lucas-ferreira-work-2/800/1000",
+      "https://picsum.photos/seed/lucas-ferreira-work-3/800/1000",
+      "https://picsum.photos/seed/lucas-ferreira-work-4/800/1000"
+    ],
+    "thumbnail": "https://picsum.photos/seed/lucas-ferreira-thumb/300/300",
+    "recognization": [
+      "Studio Fellowship 2020",
+      "Critics' Choice Mention 2022"
+    ],
+    "joining": 2014,
+    "role": "Photographer",
+    "followers": 44731,
+    "exhibitions": [
+      {
+        "_id": {
+          "$oid": "670000000000000000001036"
+        },
+        "year": 2019,
+        "title": "Open Studio Selections",
+        "organization": "Harbor Lane Gallery",
+        "location": "Lyon, France",
+        "date": "6 Mar - 19 Oct 2019"
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001037"
+        },
+        "year": 2018,
+        "title": "After the Rain",
+        "organization": "Foundry Arts Centre",
+        "location": "Beirut, Lebanon",
+        "date": "8 May - 14 Nov 2018"
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001038"
+        },
+        "year": 2020,
+        "title": "Field Notes",
+        "organization": "Harbor Lane Gallery",
+        "location": "Prague, Czech Republic",
+        "date": "7 Jun - 14 May 2020"
+      }
+    ],
+    "created_at": {
+      "$date": "2026-08-31T11:16:19.000Z"
+    }
+  },
+  {
+    "name": "Nadia Haddad",
+    "country": "Lebanon",
+    "about": "Nadia Haddad is a photographer based in Lebanon. Their work explores light, material and everyday scenes, and is collected by private buyers in several countries. They have shown in group and solo exhibitions since 2019.",
+    "profileImage": "https://picsum.photos/seed/nadia-haddad-profile/400/400",
+    "images": [
+      "https://picsum.photos/seed/nadia-haddad-work-1/800/1000",
+      "https://picsum.photos/seed/nadia-haddad-work-2/800/1000",
+      "https://picsum.photos/seed/nadia-haddad-work-3/800/1000",
+      "https://picsum.photos/seed/nadia-haddad-work-4/800/1000"
+    ],
+    "thumbnail": "https://picsum.photos/seed/nadia-haddad-thumb/300/300",
+    "recognization": [
+      "Critics' Choice Mention 2016",
+      "Emerging Artist Prize 2023"
+    ],
+    "joining": 2019,
+    "role": "Photographer",
+    "followers": 23021,
+    "exhibitions": [
+      {
+        "_id": {
+          "$oid": "670000000000000000001039"
+        },
+        "year": 2024,
+        "title": "Between Seasons",
+        "organization": "Meridian Contemporary",
+        "location": "Toronto, Canada",
+        "date": "8 Sep - 16 Feb 2024"
+      },
+      {
+        "_id": {
+          "$oid": "67000000000000000000103a"
+        },
+        "year": 2025,
+        "title": "After the Rain",
+        "organization": "Foundry Arts Centre",
+        "location": "Milan, Italy",
+        "date": "6 Jun - 15 Apr 2025"
+      },
+      {
+        "_id": {
+          "$oid": "67000000000000000000103b"
+        },
+        "year": 2019,
+        "title": "Open Studio Selections",
+        "organization": "Harbor Lane Gallery",
+        "location": "Copenhagen, Denmark",
+        "date": "6 Jan - 26 Jun 2019"
+      }
+    ],
+    "created_at": {
+      "$date": "2025-11-29T21:27:41.000Z"
+    }
+  },
+  {
+    "name": "Samuel Adeyemi",
+    "country": "Nigeria",
+    "about": "Samuel Adeyemi is a sculptor based in Nigeria. Their work explores light, material and everyday scenes, and is collected by private buyers in several countries. They have shown in group and solo exhibitions since 2015.",
+    "profileImage": "https://picsum.photos/seed/samuel-adeyemi-profile/400/400",
+    "images": [
+      "https://picsum.photos/seed/samuel-adeyemi-work-1/800/1000",
+      "https://picsum.photos/seed/samuel-adeyemi-work-2/800/1000",
+      "https://picsum.photos/seed/samuel-adeyemi-work-3/800/1000",
+      "https://picsum.photos/seed/samuel-adeyemi-work-4/800/1000"
+    ],
+    "thumbnail": "https://picsum.photos/seed/samuel-adeyemi-thumb/300/300",
+    "recognization": [
+      "Studio Fellowship 2019",
+      "Gallery Residency Award 2023"
+    ],
+    "joining": 2015,
+    "role": "Sculptor",
+    "followers": 34960,
+    "exhibitions": [
+      {
+        "_id": {
+          "$oid": "67000000000000000000103c"
+        },
+        "year": 2024,
+        "title": "Field Notes",
+        "organization": "Atelier Seventeen",
+        "location": "Madrid, Spain",
+        "date": "3 Mar - 17 Jan 2024"
+      },
+      {
+        "_id": {
+          "$oid": "67000000000000000000103d"
+        },
+        "year": 2017,
+        "title": "Colour and Weight",
+        "organization": "Blue Door Gallery",
+        "location": "Prague, Czech Republic",
+        "date": "6 Sep - 20 Apr 2017"
+      },
+      {
+        "_id": {
+          "$oid": "67000000000000000000103e"
+        },
+        "year": 2025,
+        "title": "Quiet Surfaces",
+        "organization": "Blue Door Gallery",
+        "location": "Dhaka, Bangladesh",
+        "date": "6 Jan - 18 Apr 2025"
+      }
+    ],
+    "created_at": {
+      "$date": "2025-08-19T13:08:34.000Z"
+    }
+  },
+  {
+    "name": "Amara Okafor",
+    "country": "Nigeria",
+    "about": "Amara Okafor is a sculptor based in Nigeria. Their work explores light, material and everyday scenes, and is collected by private buyers in several countries. They have shown in group and solo exhibitions since 2022.",
+    "profileImage": "https://picsum.photos/seed/amara-okafor-profile/400/400",
+    "images": [
+      "https://picsum.photos/seed/amara-okafor-work-1/800/1000",
+      "https://picsum.photos/seed/amara-okafor-work-2/800/1000",
+      "https://picsum.photos/seed/amara-okafor-work-3/800/1000",
+      "https://picsum.photos/seed/amara-okafor-work-4/800/1000"
+    ],
+    "thumbnail": "https://picsum.photos/seed/amara-okafor-thumb/300/300",
+    "recognization": [
+      "Critics' Choice Mention 2018",
+      "Critics' Choice Mention 2019"
+    ],
+    "joining": 2022,
+    "role": "Sculptor",
+    "followers": 27451,
+    "exhibitions": [
+      {
+        "_id": {
+          "$oid": "67000000000000000000103f"
+        },
+        "year": 2024,
+        "title": "Open Studio Selections",
+        "organization": "Atelier Seventeen",
+        "location": "Dhaka, Bangladesh",
+        "date": "2 Feb - 14 Mar 2024"
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001040"
+        },
+        "year": 2025,
+        "title": "Field Notes",
+        "organization": "Atelier Seventeen",
+        "location": "Milan, Italy",
+        "date": "4 Feb - 15 Apr 2025"
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001041"
+        },
+        "year": 2023,
+        "title": "Material Memory",
+        "organization": "Northlight Art Space",
+        "location": "Toronto, Canada",
+        "date": "6 Apr - 27 Jun 2023"
+      }
+    ],
+    "created_at": {
+      "$date": "2026-08-31T10:08:30.000Z"
+    }
+  },
+  {
+    "name": "Rafael Ortega",
+    "country": "Spain",
+    "about": "Rafael Ortega is a sculptor based in Spain. Their work explores light, material and everyday scenes, and is collected by private buyers in several countries. They have shown in group and solo exhibitions since 2015.",
+    "profileImage": "https://picsum.photos/seed/rafael-ortega-profile/400/400",
+    "images": [
+      "https://picsum.photos/seed/rafael-ortega-work-1/800/1000",
+      "https://picsum.photos/seed/rafael-ortega-work-2/800/1000",
+      "https://picsum.photos/seed/rafael-ortega-work-3/800/1000",
+      "https://picsum.photos/seed/rafael-ortega-work-4/800/1000"
+    ],
+    "thumbnail": "https://picsum.photos/seed/rafael-ortega-thumb/300/300",
+    "recognization": [
+      "Young Collectors' Pick 2018",
+      "Critics' Choice Mention 2019"
+    ],
+    "joining": 2015,
+    "role": "Sculptor",
+    "followers": 47761,
+    "exhibitions": [
+      {
+        "_id": {
+          "$oid": "670000000000000000001042"
+        },
+        "year": 2022,
+        "title": "Field Notes",
+        "organization": "Atelier Seventeen",
+        "location": "Lahore, Pakistan",
+        "date": "12 Jun - 23 May 2022"
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001043"
+        },
+        "year": 2016,
+        "title": "After the Rain",
+        "organization": "Common Ground Museum",
+        "location": "Sao Paulo, Brazil",
+        "date": "8 Oct - 15 May 2016"
+      }
+    ],
+    "created_at": {
+      "$date": "2026-05-24T17:27:10.000Z"
+    }
+  },
+  {
+    "name": "Mei Lin Zhao",
+    "country": "China",
+    "about": "Mei Lin Zhao is a sculptor based in China. Their work explores light, material and everyday scenes, and is collected by private buyers in several countries. They have shown in group and solo exhibitions since 2015.",
+    "profileImage": "https://picsum.photos/seed/mei-lin-zhao-profile/400/400",
+    "images": [
+      "https://picsum.photos/seed/mei-lin-zhao-work-1/800/1000",
+      "https://picsum.photos/seed/mei-lin-zhao-work-2/800/1000",
+      "https://picsum.photos/seed/mei-lin-zhao-work-3/800/1000",
+      "https://picsum.photos/seed/mei-lin-zhao-work-4/800/1000"
+    ],
+    "thumbnail": "https://picsum.photos/seed/mei-lin-zhao-thumb/300/300",
+    "recognization": [
+      "Gallery Residency Award 2019",
+      "Critics' Choice Mention 2022"
+    ],
+    "joining": 2015,
+    "role": "Sculptor",
+    "followers": 12284,
+    "exhibitions": [
+      {
+        "_id": {
+          "$oid": "670000000000000000001044"
+        },
+        "year": 2023,
+        "title": "Field Notes",
+        "organization": "Harbor Lane Gallery",
+        "location": "Milan, Italy",
+        "date": "2 Sep - 16 May 2023"
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001045"
+        },
+        "year": 2017,
+        "title": "Open Studio Selections",
+        "organization": "Meridian Contemporary",
+        "location": "Sao Paulo, Brazil",
+        "date": "6 Oct - 14 Sep 2017"
+      }
+    ],
+    "created_at": {
+      "$date": "2025-06-05T23:59:02.000Z"
+    }
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Ayesha Khan",
+    "email": "ayesha.khan.a11y1@example.com",
+    "message": "The product images have no alt text, which makes browsing hard with a screen reader.",
+    "createdAt": {
+      "$date": "2026-09-09T18:44:26.000Z"
+    }
+  },
+  {
+    "name": "Daniel Mitchell",
+    "email": "daniel.mitchell.a11y2@example.com",
+    "message": "Text on the category pages is low contrast against the cream background.",
+    "createdAt": {
+      "$date": "2026-08-22T04:40:53.000Z"
+    }
+  },
+  {
+    "name": "Carmen Alvarez",
+    "email": "carmen.alvarez.a11y3@example.com",
+    "message": "I can't reach the cart button using only the keyboard.",
+    "createdAt": {
+      "$date": "2026-09-18T11:17:15.000Z"
+    }
+  },
+  {
+    "name": "Hamza Raza",
+    "email": "hamza.raza.a11y4@example.com",
+    "message": "Please add captions to the artist interview videos.",
+    "createdAt": {
+      "$date": "2026-08-29T06:51:05.000Z"
+    }
+  },
+  {
+    "name": "Emily Brandt",
+    "email": "emily.brandt.a11y5@example.com",
+    "message": "The font is too small on mobile and doesn't scale with browser settings.",
+    "createdAt": {
+      "$date": "2026-10-09T02:59:14.000Z"
+    }
+  },
+  {
+    "name": "Jonas Lindgren",
+    "email": "jonas.lindgren.a11y6@example.com",
+    "message": "The image carousel moves too fast and can't be paused.",
+    "createdAt": {
+      "$date": "2026-08-11T06:09:40.000Z"
+    }
+  },
+  {
+    "name": "Maya Fontaine",
+    "email": "maya.fontaine.a11y7@example.com",
+    "message": "Form errors on checkout are shown only in red with no text.",
+    "createdAt": {
+      "$date": "2026-08-17T08:22:39.000Z"
+    }
+  },
+  {
+    "name": "Liam Hughes",
+    "email": "liam.hughes.a11y8@example.com",
+    "message": "Please add a skip-to-content link for keyboard users.",
+    "createdAt": {
+      "$date": "2026-09-07T13:17:57.000Z"
+    }
+  }
+]

@@ -1,0 +1,299 @@
+[
+  {
+    "userType": "I am an Artist",
+    "email": "irene.fontaine.studio1@example.org",
+    "subject": "Account / Profile Settings: Change payout email",
+    "description": "Hello, I need help with \"change payout email\". I have already tried again after refreshing the page. Please let me know what else you need from me.",
+    "attachment": [
+      "https://picsum.photos/seed/support-artist-0/800/600"
+    ],
+    "created_at": {
+      "$date": "2026-10-13T04:03:07.000Z"
+    },
+    "reason": "Account / Profile Settings",
+    "subReason": "Change payout email",
+    "gallery": "Fontaine Studio Gallery",
+    "artId": "ABS-001"
+  },
+  {
+    "userType": "I am an Artist",
+    "email": "nikolai.okoye.studio2@example.org",
+    "subject": "Uploading Artworks: Image upload fails",
+    "description": "Hello, I need help with \"image upload fails\". I have already tried again after refreshing the page. Please let me know what else you need from me.",
+    "attachment": [
+      "https://picsum.photos/seed/support-artist-1/800/600"
+    ],
+    "created_at": {
+      "$date": "2026-09-06T07:34:51.000Z"
+    },
+    "reason": "Uploading Artworks",
+    "subReason": "Image upload fails",
+    "gallery": "Okoye Studio Gallery",
+    "artId": "ACR-008"
+  },
+  {
+    "userType": "I am an Artist",
+    "email": "david.hughes.studio3@example.org",
+    "subject": "Sales & Payments: Fee question",
+    "description": "Hello, I need help with \"fee question\". I have already tried again after refreshing the page. Please let me know what else you need from me.",
+    "attachment": [
+      "https://picsum.photos/seed/support-artist-2/800/600"
+    ],
+    "created_at": {
+      "$date": "2026-10-07T17:05:11.000Z"
+    },
+    "reason": "Sales & Payments",
+    "subReason": "Fee question",
+    "gallery": "Hughes Studio Gallery",
+    "artId": "MNO-007"
+  },
+  {
+    "userType": "I am an Artist",
+    "email": "jonas.siddiqui.studio4@example.org",
+    "subject": "Shipping & Delivery: Courier pickup",
+    "description": "Hello, I need help with \"courier pickup\". I have already tried again after refreshing the page. Please let me know what else you need from me.",
+    "attachment": [],
+    "created_at": {
+      "$date": "2026-09-24T14:03:04.000Z"
+    },
+    "reason": "Shipping & Delivery",
+    "subReason": "Courier pickup",
+    "gallery": "Siddiqui Studio Gallery",
+    "artId": "LND-002"
+  },
+  {
+    "userType": "I am an Artist",
+    "email": "karina.ahmed.studio5@example.org",
+    "subject": "Technical Issues: Dashboard error",
+    "description": "Hello, I need help with \"dashboard error\". I have already tried again after refreshing the page. Please let me know what else you need from me.",
+    "attachment": [],
+    "created_at": {
+      "$date": "2026-09-21T01:04:04.000Z"
+    },
+    "reason": "Technical Issues",
+    "subReason": "Dashboard error",
+    "gallery": "Ahmed Studio Gallery",
+    "artId": "SEA-004"
+  },
+  {
+    "userType": "I am an Artist",
+    "email": "olivia.siddiqui.studio6@example.org",
+    "subject": "Other: General question",
+    "description": "Hello, I need help with \"general question\". I have already tried again after refreshing the page. Please let me know what else you need from me.",
+    "attachment": [],
+    "created_at": {
+      "$date": "2026-09-08T10:31:17.000Z"
+    },
+    "reason": "Other",
+    "subReason": "General question",
+    "gallery": "Siddiqui Studio Gallery"
+  },
+  {
+    "userType": "I am an Artist",
+    "email": "david.costa.studio7@example.org",
+    "subject": "Account / Profile Settings: Change profile photo",
+    "description": "Hello, I need help with \"change profile photo\". I have already tried again after refreshing the page. Please let me know what else you need from me.",
+    "attachment": [],
+    "created_at": {
+      "$date": "2026-08-19T16:25:34.000Z"
+    },
+    "reason": "Account / Profile Settings",
+    "subReason": "Change profile photo",
+    "gallery": "Costa Studio Gallery"
+  },
+  {
+    "userType": "I am an Artist",
+    "email": "emily.khan.studio8@example.org",
+    "subject": "Uploading Artworks: Edit a listing",
+    "description": "Hello, I need help with \"edit a listing\". I have already tried again after refreshing the page. Please let me know what else you need from me.",
+    "attachment": [
+      "https://picsum.photos/seed/support-artist-7/800/600"
+    ],
+    "created_at": {
+      "$date": "2026-09-20T02:39:27.000Z"
+    },
+    "reason": "Uploading Artworks",
+    "subReason": "Edit a listing",
+    "gallery": "Khan Studio Gallery"
+  },
+  {
+    "userType": "I am an Artist",
+    "email": "liam.siddiqui.studio9@example.org",
+    "subject": "Sales & Payments: Payment not received",
+    "description": "Hello, I need help with \"payment not received\". I have already tried again after refreshing the page. Please let me know what else you need from me.",
+    "attachment": [],
+    "created_at": {
+      "$date": "2026-09-25T02:04:30.000Z"
+    },
+    "reason": "Sales & Payments",
+    "subReason": "Payment not received",
+    "gallery": "Siddiqui Studio Gallery"
+  },
+  {
+    "userType": "I am an Artist",
+    "email": "irene.lindgren.studio10@example.org",
+    "subject": "Shipping & Delivery: Lost parcel",
+    "description": "Hello, I need help with \"lost parcel\". I have already tried again after refreshing the page. Please let me know what else you need from me.",
+    "attachment": [],
+    "created_at": {
+      "$date": "2026-10-05T11:34:48.000Z"
+    },
+    "reason": "Shipping & Delivery",
+    "subReason": "Lost parcel",
+    "gallery": "Lindgren Studio Gallery"
+  },
+  {
+    "userType": "I am a Buyer",
+    "email": "david.petrov1@example.com",
+    "subject": "Orders: Wrong item received",
+    "description": "Hi, I'd like some help with \"wrong item received\". My order number is below. Thanks for your time.",
+    "attachment": [],
+    "created_at": {
+      "$date": "2026-09-21T02:28:36.000Z"
+    },
+    "reason": "Orders",
+    "subReason": "Wrong item received",
+    "buyerCountry": "India",
+    "fullName": "David Petrov",
+    "orderNumber": "ORD-69087"
+  },
+  {
+    "userType": "I am a Buyer",
+    "email": "emily.hughes2@example.com",
+    "subject": "Billing: Invoice request",
+    "description": "Hi, I'd like some help with \"invoice request\". My order number is below. Thanks for your time.",
+    "attachment": [],
+    "created_at": {
+      "$date": "2026-09-06T12:05:52.000Z"
+    },
+    "reason": "Billing",
+    "subReason": "Invoice request",
+    "buyerCountry": "Canada",
+    "fullName": "Emily Hughes",
+    "orderNumber": "ORD-51176"
+  },
+  {
+    "userType": "I am a Buyer",
+    "email": "farhan.lindgren3@example.com",
+    "subject": "Delivery: Delivery delayed",
+    "description": "Hi, I'd like some help with \"delivery delayed\". My order number is below. Thanks for your time.",
+    "attachment": [
+      "https://picsum.photos/seed/support-buyer-2/800/600"
+    ],
+    "created_at": {
+      "$date": "2026-09-02T21:07:21.000Z"
+    },
+    "reason": "Delivery",
+    "subReason": "Delivery delayed",
+    "buyerCountry": "United Kingdom",
+    "fullName": "Farhan Lindgren",
+    "orderNumber": "ORD-11050"
+  },
+  {
+    "userType": "I am a Buyer",
+    "email": "grace.costa4@example.com",
+    "subject": "Returns & Refunds: Refund not received",
+    "description": "Hi, I'd like some help with \"refund not received\". My order number is below. Thanks for your time.",
+    "attachment": [],
+    "created_at": {
+      "$date": "2026-09-25T00:52:38.000Z"
+    },
+    "reason": "Returns & Refunds",
+    "subReason": "Refund not received",
+    "buyerCountry": "China",
+    "fullName": "Grace Costa",
+    "orderNumber": "ORD-27241"
+  },
+  {
+    "userType": "I am a Buyer",
+    "email": "hamza.raza5@example.com",
+    "subject": "Account Help: Reset password",
+    "description": "Hi, I'd like some help with \"reset password\". My order number is below. Thanks for your time.",
+    "attachment": [],
+    "created_at": {
+      "$date": "2026-08-24T05:37:41.000Z"
+    },
+    "reason": "Account Help",
+    "subReason": "Reset password",
+    "buyerCountry": "Spain",
+    "fullName": "Hamza Raza",
+    "orderNumber": "ORD-40248"
+  },
+  {
+    "userType": "I am a Buyer",
+    "email": "irene.fontaine6@example.com",
+    "subject": "Other: General question",
+    "description": "Hi, I'd like some help with \"general question\". My order number is below. Thanks for your time.",
+    "attachment": [],
+    "created_at": {
+      "$date": "2026-09-07T15:22:16.000Z"
+    },
+    "reason": "Other",
+    "subReason": "General question",
+    "buyerCountry": "Germany",
+    "fullName": "Irene Fontaine",
+    "orderNumber": "ORD-28371"
+  },
+  {
+    "userType": "I am a Buyer",
+    "email": "jonas.kowalski7@example.com",
+    "subject": "Orders: Item damaged",
+    "description": "Hi, I'd like some help with \"item damaged\". My order number is below. Thanks for your time.",
+    "attachment": [],
+    "created_at": {
+      "$date": "2026-09-09T13:21:59.000Z"
+    },
+    "reason": "Orders",
+    "subReason": "Item damaged",
+    "buyerCountry": "Sweden",
+    "fullName": "Jonas Kowalski",
+    "orderNumber": "ORD-16970"
+  },
+  {
+    "userType": "I am a Buyer",
+    "email": "karina.ahmed8@example.com",
+    "subject": "Billing: Invoice request",
+    "description": "Hi, I'd like some help with \"invoice request\". My order number is below. Thanks for your time.",
+    "attachment": [],
+    "created_at": {
+      "$date": "2026-08-27T14:29:17.000Z"
+    },
+    "reason": "Billing",
+    "subReason": "Invoice request",
+    "buyerCountry": "Lebanon",
+    "fullName": "Karina Ahmed",
+    "orderNumber": "ORD-40930"
+  },
+  {
+    "userType": "I am a Buyer",
+    "email": "liam.khan9@example.com",
+    "subject": "Delivery: Delivery delayed",
+    "description": "Hi, I'd like some help with \"delivery delayed\". My order number is below. Thanks for your time.",
+    "attachment": [],
+    "created_at": {
+      "$date": "2026-09-07T01:31:23.000Z"
+    },
+    "reason": "Delivery",
+    "subReason": "Delivery delayed",
+    "buyerCountry": "Brazil",
+    "fullName": "Liam Khan",
+    "orderNumber": "ORD-93924"
+  },
+  {
+    "userType": "I am a Buyer",
+    "email": "maya.mitchell10@example.com",
+    "subject": "Returns & Refunds: Refund not received",
+    "description": "Hi, I'd like some help with \"refund not received\". My order number is below. Thanks for your time.",
+    "attachment": [
+      "https://picsum.photos/seed/support-buyer-9/800/600"
+    ],
+    "created_at": {
+      "$date": "2026-08-22T19:44:14.000Z"
+    },
+    "reason": "Returns & Refunds",
+    "subReason": "Refund not received",
+    "buyerCountry": "France",
+    "fullName": "Maya Mitchell",
+    "orderNumber": "ORD-17245"
+  }
+]

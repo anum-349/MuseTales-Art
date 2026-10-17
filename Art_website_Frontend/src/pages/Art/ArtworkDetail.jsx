@@ -305,27 +305,27 @@ export default function ArtworkDetail() {
                                         className="m-5 gap-2">
                                         <div className="grid grid-cols-[300px,auto]">
                                             <b className="font-semibold mr-[130px]">Delivery Cost:</b>
-                                            <p> {artDetail.shippingAndReturns.cost}</p>
+                                            <p> {artDetail?.shippingAndReturns?.cost}</p>
                                         </div>
                                         <div className="grid grid-cols-[300px,auto]">
                                             <b className="font-semibold mr-[128px]">Delivery Time:</b>
-                                            <p> {artDetail.shippingAndReturns.time}</p>
+                                            <p> {artDetail?.shippingAndReturns?.time}</p>
                                         </div>
                                         <div className="grid grid-cols-[300px,auto]">
                                             <b className="font-semibold mr-[130px]">Returns:</b>
-                                            <p> {artDetail.shippingAndReturns.returns}</p>
+                                            <p> {artDetail?.shippingAndReturns?.returns}</p>
                                         </div>
                                         <div className="grid grid-cols-[300px,auto]">
                                             <b className="font-semibold mr-[130px]">Handling:</b>
-                                            <p> {artDetail.shippingAndReturns.handling}</p>
+                                            <p> {artDetail?.shippingAndReturns?.handling}</p>
                                         </div>
                                         <div className="grid grid-cols-[300px,auto]">
                                             <b className="font-semibold mr-[130px]">Ships From:</b>
-                                            <p> {artDetail.shippingAndReturns.shipsFrom}</p>
+                                            <p> {artDetail?.shippingAndReturns?.shipsFrom}</p>
                                         </div>
                                         <div className="grid grid-cols-[300px,auto]">
                                             <b className="font-semibold mr-[130px]">Customs:</b>
-                                            <p> {artDetail.shippingAndReturns.customs}</p>
+                                            <p> {artDetail?.shippingAndReturns?.customs}</p>
                                         </div>
                                     </div>)
                                         : null : categoryType === 'Artist Story' ?

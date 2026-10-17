@@ -1,0 +1,194 @@
+[
+  {
+    "title": "Colour That Holds a Room",
+    "images": [
+      "https://picsum.photos/seed/paintings-1-1/800/1000",
+      "https://picsum.photos/seed/paintings-2-1/800/1000",
+      "https://picsum.photos/seed/paintings-3-1/800/1000",
+      "https://picsum.photos/seed/paintings-4-1/800/1000"
+    ],
+    "profile": "https://picsum.photos/seed/marguerite-delacroix-profile/400/400",
+    "curatorName": "Marguerite Delacroix",
+    "role": "Senior Curator",
+    "category": "paintings",
+    "created_at": {
+      "$date": "2026-06-25T19:53:48.000Z"
+    }
+  },
+  {
+    "title": "Seeing Cities Slowly",
+    "images": [
+      "https://picsum.photos/seed/photography-1-1/800/1000",
+      "https://picsum.photos/seed/photography-2-1/800/1000",
+      "https://picsum.photos/seed/photography-3-1/800/1000",
+      "https://picsum.photos/seed/photography-4-1/800/1000"
+    ],
+    "profile": "https://picsum.photos/seed/tobias-reinholt-profile/400/400",
+    "curatorName": "Tobias Reinholt",
+    "role": "Photography Editor",
+    "category": "photography",
+    "created_at": {
+      "$date": "2026-05-10T19:57:06.000Z"
+    }
+  },
+  {
+    "title": "Form You Can Walk Around",
+    "images": [
+      "https://picsum.photos/seed/sculptures-1-1/800/1000",
+      "https://picsum.photos/seed/sculptures-2-1/800/1000",
+      "https://picsum.photos/seed/sculptures-3-1/800/1000",
+      "https://picsum.photos/seed/sculptures-4-1/800/1000"
+    ],
+    "profile": "https://picsum.photos/seed/adaeze-nwosu-profile/400/400",
+    "curatorName": "Adaeze Nwosu",
+    "role": "Guest Curator",
+    "category": "sculptures",
+    "created_at": {
+      "$date": "2026-05-26T09:08:39.000Z"
+    }
+  },
+  {
+    "title": "The Honest Line",
+    "images": [
+      "https://picsum.photos/seed/drawings-1-1/800/1000",
+      "https://picsum.photos/seed/drawings-2-1/800/1000",
+      "https://picsum.photos/seed/drawings-3-1/800/1000",
+      "https://picsum.photos/seed/drawings-4-1/800/1000"
+    ],
+    "profile": "https://picsum.photos/seed/hiroshi-tanabe-profile/400/400",
+    "curatorName": "Hiroshi Tanabe",
+    "role": "Works on Paper Specialist",
+    "category": "drawings",
+    "created_at": {
+      "$date": "2026-05-31T21:16:28.000Z"
+    }
+  },
+  {
+    "title": "Surfaces Worth Touching",
+    "images": [
+      "https://picsum.photos/seed/textures-1-1/800/1000",
+      "https://picsum.photos/seed/textures-2-1/800/1000",
+      "https://picsum.photos/seed/textures-3-1/800/1000",
+      "https://picsum.photos/seed/textures-4-1/800/1000"
+    ],
+    "profile": "https://picsum.photos/seed/camila-duarte-profile/400/400",
+    "curatorName": "Camila Duarte",
+    "role": "Associate Curator",
+    "category": "textures",
+    "created_at": {
+      "$date": "2026-04-17T05:50:58.000Z"
+    }
+  },
+  {
+    "title": "Depth in Oil",
+    "images": [
+      "https://picsum.photos/seed/oil-paintings-1-1/800/1000",
+      "https://picsum.photos/seed/oil-paintings-2-1/800/1000",
+      "https://picsum.photos/seed/oil-paintings-3-1/800/1000",
+      "https://picsum.photos/seed/oil-paintings-4-1/800/1000"
+    ],
+    "profile": "https://picsum.photos/seed/leonard-whitfield-profile/400/400",
+    "curatorName": "Leonard Whitfield",
+    "role": "Senior Curator",
+    "category": "oil-paintings",
+    "created_at": {
+      "$date": "2026-04-11T23:43:46.000Z"
+    }
+  },
+  {
+    "title": "Feeling Without Subject",
+    "images": [
+      "https://picsum.photos/seed/abstracts-1-1/800/1000",
+      "https://picsum.photos/seed/abstracts-2-1/800/1000",
+      "https://picsum.photos/seed/abstracts-3-1/800/1000",
+      "https://picsum.photos/seed/abstracts-4-1/800/1000"
+    ],
+    "profile": "https://picsum.photos/seed/priya-venkataraman-profile/400/400",
+    "curatorName": "Priya Venkataraman",
+    "role": "Contemporary Art Curator",
+    "category": "abstracts",
+    "created_at": {
+      "$date": "2026-08-10T02:40:20.000Z"
+    }
+  },
+  {
+    "title": "Open Country",
+    "images": [
+      "https://picsum.photos/seed/landscapes-1-1/800/1000",
+      "https://picsum.photos/seed/landscapes-2-1/800/1000",
+      "https://picsum.photos/seed/landscapes-3-1/800/1000",
+      "https://picsum.photos/seed/landscapes-4-1/800/1000"
+    ],
+    "profile": "https://picsum.photos/seed/gunnar-halvorsen-profile/400/400",
+    "curatorName": "Gunnar Halvorsen",
+    "role": "Guest Curator",
+    "category": "landscapes",
+    "created_at": {
+      "$date": "2026-09-15T23:16:35.000Z"
+    }
+  },
+  {
+    "title": "Bold and Fast-Drying",
+    "images": [
+      "https://picsum.photos/seed/acrylic-paintings-1-1/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-2-1/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-3-1/800/1000",
+      "https://picsum.photos/seed/acrylic-paintings-4-1/800/1000"
+    ],
+    "profile": "https://picsum.photos/seed/sofia-marchetti-profile/400/400",
+    "curatorName": "Sofia Marchetti",
+    "role": "Associate Curator",
+    "category": "acrylic-paintings",
+    "created_at": {
+      "$date": "2026-05-24T09:14:24.000Z"
+    }
+  },
+  {
+    "title": "Geometry for Modern Homes",
+    "images": [
+      "https://picsum.photos/seed/modern-arts-1-1/800/1000",
+      "https://picsum.photos/seed/modern-arts-2-1/800/1000",
+      "https://picsum.photos/seed/modern-arts-3-1/800/1000",
+      "https://picsum.photos/seed/modern-arts-4-1/800/1000"
+    ],
+    "profile": "https://picsum.photos/seed/elias-brandt-profile/400/400",
+    "curatorName": "Elias Brandt",
+    "role": "Design Curator",
+    "category": "modern-arts",
+    "created_at": {
+      "$date": "2026-05-17T15:14:12.000Z"
+    }
+  },
+  {
+    "title": "Faces Worth a Second Look",
+    "images": [
+      "https://picsum.photos/seed/portraits-1-1/800/1000",
+      "https://picsum.photos/seed/portraits-2-1/800/1000",
+      "https://picsum.photos/seed/portraits-3-1/800/1000",
+      "https://picsum.photos/seed/portraits-4-1/800/1000"
+    ],
+    "profile": "https://picsum.photos/seed/noor-al-rashid-profile/400/400",
+    "curatorName": "Noor Al-Rashid",
+    "role": "Senior Curator",
+    "category": "portraits",
+    "created_at": {
+      "$date": "2026-07-13T18:09:27.000Z"
+    }
+  },
+  {
+    "title": "Edge of the Water",
+    "images": [
+      "https://picsum.photos/seed/seascapes-1-1/800/1000",
+      "https://picsum.photos/seed/seascapes-2-1/800/1000",
+      "https://picsum.photos/seed/seascapes-3-1/800/1000",
+      "https://picsum.photos/seed/seascapes-4-1/800/1000"
+    ],
+    "profile": "https://picsum.photos/seed/mariana-costa-profile/400/400",
+    "curatorName": "Mariana Costa",
+    "role": "Guest Curator",
+    "category": "seascapes",
+    "created_at": {
+      "$date": "2026-08-08T11:43:24.000Z"
+    }
+  }
+]

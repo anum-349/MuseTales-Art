@@ -1,0 +1,237 @@
+[
+  {
+    "userId": "670000000000000000001000",
+    "items": [
+      {
+        "_id": {
+          "$oid": "670000000000000000001046"
+        },
+        "name": "Boy at the Bus Stop",
+        "image": "https://picsum.photos/seed/portraits-2-1/800/1000",
+        "category": "portraits",
+        "author": "Isabella Rossi",
+        "shipping": "Included",
+        "delivery": 6,
+        "price": 820,
+        "created_at": {
+          "$date": "2026-10-11T18:02:28.000Z"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001047"
+        },
+        "name": "Concrete Poetry No. 3",
+        "image": "https://picsum.photos/seed/modern-arts-3-1/800/1000",
+        "category": "modern-arts",
+        "author": "Noah Andersen",
+        "shipping": "Included",
+        "delivery": 8,
+        "price": 1850,
+        "created_at": {
+          "$date": "2026-09-28T02:15:49.000Z"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001048"
+        },
+        "name": "Quiet Monolith",
+        "image": "https://picsum.photos/seed/sculptures-7-1/800/1000",
+        "category": "sculptures",
+        "author": "Mei Lin Zhao",
+        "shipping": "Included",
+        "delivery": 10,
+        "price": 750,
+        "created_at": {
+          "$date": "2026-10-01T03:24:57.000Z"
+        }
+      }
+    ]
+  },
+  {
+    "userId": "670000000000000000001001",
+    "items": [
+      {
+        "_id": {
+          "$oid": "670000000000000000001049"
+        },
+        "name": "Linen and Lime",
+        "image": "https://picsum.photos/seed/textures-3-1/800/1000",
+        "category": "textures",
+        "author": "Hannah Fischer",
+        "shipping": "Included",
+        "delivery": 7,
+        "price": 1760,
+        "created_at": {
+          "$date": "2026-09-28T17:28:15.000Z"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "67000000000000000000104a"
+        },
+        "name": "Neon Rain, Empty Street",
+        "image": "https://picsum.photos/seed/photography-2-1/800/1000",
+        "category": "photography",
+        "author": "Hannah Fischer",
+        "shipping": "Included",
+        "delivery": 11,
+        "price": 950,
+        "created_at": {
+          "$date": "2026-10-07T13:14:52.000Z"
+        }
+      }
+    ]
+  },
+  {
+    "userId": "670000000000000000001002",
+    "items": [
+      {
+        "_id": {
+          "$oid": "67000000000000000000104b"
+        },
+        "name": "Ash and Bone",
+        "image": "https://picsum.photos/seed/monochrome-8-1/800/1000",
+        "category": "monochrome",
+        "author": "Tomas Novak",
+        "shipping": "Included",
+        "delivery": 6,
+        "price": 1520,
+        "created_at": {
+          "$date": "2026-10-01T21:38:12.000Z"
+        }
+      }
+    ]
+  },
+  {
+    "userId": "670000000000000000001003",
+    "items": [
+      {
+        "_id": {
+          "$oid": "67000000000000000000104c"
+        },
+        "name": "Shift Left",
+        "image": "https://picsum.photos/seed/modern-arts-10-1/800/1000",
+        "category": "modern-arts",
+        "author": "Chloe Dubois",
+        "shipping": "Included",
+        "delivery": 13,
+        "price": 6760,
+        "created_at": {
+          "$date": "2026-10-07T07:58:15.000Z"
+        }
+      }
+    ]
+  },
+  {
+    "userId": "670000000000000000001004",
+    "items": [
+      {
+        "_id": {
+          "$oid": "67000000000000000000104d"
+        },
+        "name": "Blue Collapse",
+        "image": "https://picsum.photos/seed/abstracts-9-1/800/1000",
+        "category": "abstracts",
+        "author": "Arjun Mehta",
+        "shipping": "Included",
+        "delivery": 14,
+        "price": 2380,
+        "created_at": {
+          "$date": "2026-10-07T22:00:42.000Z"
+        }
+      }
+    ]
+  },
+  {
+    "userId": "670000000000000000001005",
+    "items": [
+      {
+        "_id": {
+          "$oid": "67000000000000000000104e"
+        },
+        "name": "Bauhaus Morning",
+        "image": "https://picsum.photos/seed/modern-arts-7-1/800/1000",
+        "category": "modern-arts",
+        "author": "Daniel Moreau",
+        "shipping": "$40",
+        "delivery": 13,
+        "price": 720,
+        "created_at": {
+          "$date": "2026-09-29T08:50:53.000Z"
+        }
+      }
+    ]
+  },
+  {
+    "userId": "670000000000000000001006",
+    "items": [
+      {
+        "_id": {
+          "$oid": "67000000000000000000104f"
+        },
+        "name": "Lattice No. 4",
+        "image": "https://picsum.photos/seed/sculptures-2-1/800/1000",
+        "category": "sculptures",
+        "author": "Arjun Mehta",
+        "shipping": "$40",
+        "delivery": 13,
+        "price": 720,
+        "created_at": {
+          "$date": "2026-10-06T05:53:43.000Z"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001050"
+        },
+        "name": "Sailboats at Anchor",
+        "image": "https://picsum.photos/seed/seascapes-8-1/800/1000",
+        "category": "seascapes",
+        "author": "Zainab Qureshi",
+        "shipping": "Included",
+        "delivery": 5,
+        "price": 1660,
+        "created_at": {
+          "$date": "2026-10-02T06:51:35.000Z"
+        }
+      }
+    ]
+  },
+  {
+    "userId": "670000000000000000001007",
+    "items": [
+      {
+        "_id": {
+          "$oid": "670000000000000000001051"
+        },
+        "name": "Sandstorm Layers",
+        "image": "https://picsum.photos/seed/textures-2-1/800/1000",
+        "category": "textures",
+        "author": "Tomas Novak",
+        "shipping": "Included",
+        "delivery": 13,
+        "price": 640,
+        "created_at": {
+          "$date": "2026-09-27T16:16:17.000Z"
+        }
+      },
+      {
+        "_id": {
+          "$oid": "670000000000000000001052"
+        },
+        "name": "Storm Breaking Over the Bay",
+        "image": "https://picsum.photos/seed/seascapes-7-1/800/1000",
+        "category": "seascapes",
+        "author": "Oliver Bennett",
+        "shipping": "Included",
+        "delivery": 11,
+        "price": 950,
+        "created_at": {
+          "$date": "2026-10-08T15:32:18.000Z"
+        }
+      }
+    ]
+  }
+]
